@@ -1,0 +1,17 @@
+{
+    "type": "dualtachi:dualtachi_s",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 15.0,
+                "impact": 1.0,
+            "max_strikes": 5.0,
+            "speed_bonus":0.7
+        },
+        "two_hand": {
+            "armor_negation": 18.0,
+                "impact": 1.0,
+            "max_strikes": 8.0,
+            "speed_bonus":0.7
+        }
+    }
+ }

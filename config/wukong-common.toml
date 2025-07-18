@@ -1,0 +1,20 @@
+#给第一个进游戏的玩家玩法说明。
+get_guild_book = false
+#自定义普攻间隔判定时间（原版太长了！）
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+basic_attack_time_interval = 16.0
+#切手技判定时间
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+derive_check_time = 30.0
+#蓄力时每tick增加的棍势（影响棍势消耗速度！）
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+charging_speed = 1.2
+#棍花每tick耐力消耗
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+staff_flower_stamina_consume = 0.1
+#立棍和戳棍切手技每tick耐力消耗
+#Range: 4.9E-324 ~ 1.7976931348623157E308
+derive_stamina_consume = 2.0
+#可被棍花格挡的实体
+"可被棍花格挡的实体" = ["minecraft:arrow"]
+

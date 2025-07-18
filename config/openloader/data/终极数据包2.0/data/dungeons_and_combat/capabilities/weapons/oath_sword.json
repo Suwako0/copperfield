@@ -1,0 +1,26 @@
+{
+    "type": "test:oath_sword",
+	"attributes": {
+		"common": {
+			"armor_negation": 10,
+  			"impact": 1.1,
+			"max_strikes": 5,
+                        "damage_bonus":5.0,
+			"speed_bonus": 1.0
+		},
+		"ochs": {
+			"armor_negation": 10,
+  			"impact": 1.1,
+			"max_strikes": 5,
+                        "damage_bonus":5.0,
+			"speed_bonus": 0.5
+		},
+		"two_hand": {
+			"armor_negation": 15,
+  			"impact": 1,
+			"max_strikes": 5,
+                        "damage_bonus":0.0,
+			"speed_bonus": 0.5
+		}
+	}
+}

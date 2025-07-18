@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "daa",
+    "dba",
+    "cdd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "b": {
+      "item": "soulslikeuniverse:mace"
+    },
+    "c": {
+      "item": "minecraft:blaze_rod"
+    },
+    "d": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:marikahammer",
+    "count": 1
+  }
+}

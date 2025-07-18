@@ -1,0 +1,67 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.5,
+      0.5,
+      1.5
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "wom:biped/living/torment_berserk_idle",
+      "run": "wom:biped/living/solar_run",
+      "block": "indestructible:guard/guard_greatsword",
+      "walk": "efds:biped/living/greatsword_dual_walk"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "styles": {
+    "default": "two_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_greatsword"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "two_hand": [
+      "wom:biped/combat/antitheus_auto_1",
+      "wom:biped/combat/antitheus_auto_2",
+      "wom:biped/combat/antitheus_auto_3",
+      "wom:biped/combat/ruine_auto_3",
+      "cdmoveset:biped/new/katana/skill/fatal_draw_dash",
+      "wom:biped/combat/torment_auto_4",
+      "wom:biped/combat/antitheus_auto_1",
+      "wom:biped/combat/antitheus_auto_2",
+      "wom:biped/combat/antitheus_auto_3",
+      "wom:biped/combat/ruine_auto_3",
+      "cdmoveset:biped/new/katana/skill/fatal_draw_dash",
+      "wom:biped/combat/torment_auto_4",
+      "wom:biped/combat/ruine_auto_4",
+      "wukong:biped/smash/smash_heavy3",
+      "wukong:biped/pillar/charged_heavy4",
+
+        "wukong:biped/greatsage/heavy/sweep_jab_style",
+      "cdmoveset:biped/new/yamato/skill/yamato_rising_star_end"
+    ]
+  },
+  "category": "s_greatsword",
+  "innate_skills": {
+    "two_hand":  "cdmoveset:greeat_tachiskill"
+  },
+  "usable_in_offhand": false
+}

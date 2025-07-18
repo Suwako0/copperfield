@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " dc",
+    "bcd"
+  ],
+  "key": {
+    "a": {
+      "item": "soulslikeuniverse:longsword"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "minecraft:quartz"
+    },
+    "d": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:dragonslayeraxe",
+    "count": 1
+  }
+}

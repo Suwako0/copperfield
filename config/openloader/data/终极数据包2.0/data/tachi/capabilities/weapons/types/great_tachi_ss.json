@@ -1,0 +1,62 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      1.2,
+      1.2,
+      1.8
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.5
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/hold_greatsword",
+      "run": "cdmoveset:biped/new/dual_greatsword/living/hold_greatsword",
+      "block": "indestructible:guard/guard_greatsword",
+      "walk": "cdmoveset:biped/new/dual_greatsword/living/hold_greatsword"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "styles": {
+    "default": "two_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "tachi"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "two_hand": [
+      "cdmoveset:biped/new/dual_tachi/great_tachi_auto1",
+      "cdmoveset:biped/new/dual_tachi/great_tachi_auto2",
+      "wom:biped/combat/solar_auto_4",
+      "cdmoveset:biped/new/katana/skill/fatal_draw",
+      "wom:biped/combat/katana_auto_3",
+      "wom:biped/combat/ruine_auto_4",
+      "wom:biped/combat/torment_charged_attack_2",
+      "falchionmoveset:biped/falchion/falchion_backward",
+      "cdmoveset:biped/new/dual_tachi/great_tachi_auto4",
+      "wom:biped/combat/ruine_auto_4",
+
+      "wom:biped/skill/katana_fatal_draw_dash",
+      "wukong:biped/smash/smash_heavy4"
+    ]
+  },
+  "category": "tachi",
+  "innate_skills": {
+    "two_hand":  "cdmoveset:greeat_tachiskill"
+  },
+  "usable_in_offhand": false
+}

@@ -1,0 +1,95 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.8,
+      0.8,
+      1.2
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.5
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_idle",
+      "run": "wom:biped/living/solar_obscuridad_run",
+      "block": "indestructible:guard/guard_dualsword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/katana_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "epicfight:biped/skill/guard_sword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "katana"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+"mount": [
+      "cdmoveset:biped/new/sword/sword_onehand_auto_3"
+    ],
+    "two_hand": [
+      "epicacg:biped/sao_dual_sword/sao_dual_sword_auto1",
+      "epicacg:biped/sao_dual_sword/sao_dual_sword_auto2",
+      "epicfight:biped/combat/sword_dual_auto2",
+      "epicfight:biped/combat/sword_dual_auto1",
+      "epicfight:biped/combat/longsword_auto2",
+      "epicacg:biped/sao_dual_sword/sao_dual_sword_auto4",
+      "epicfight:biped/combat/sword_dual_dash",
+
+      "epicacg:biped/sao_dual_sword/sao_dual_sword_dash",
+      "epicfight:biped/combat/dagger_dual_airslash"
+    ],
+    "one_hand": [
+      "cdmoveset:biped/new/longsword/longsword_twohand_auto_3",
+      "cdmoveset:biped/new/longsword/longsword_twohand_auto_4",
+      "cdmoveset:biped/new/longsword/longsword_twohand_auto_1",
+      "cdmoveset:biped/new/yamato/yamato_auto2",
+      "epicfight:biped/combat/tachi_auto2",
+      "epicfight:biped/combat/tachi_auto1",
+
+      "cdmoveset:biped/new/yamato/skill/yamato_judgement_cut_just",
+      "epicfight:biped/combat/tachi_auto3"
+    ]
+  },
+ "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "katana"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "katana"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "tachi",
+  "innate_skills": {
+    "two_hand": "efds:spinning_death",
+    "one_hand":  "epicfight:rushing_tempo"
+  },
+  "usable_in_offhand": true
+}

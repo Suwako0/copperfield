@@ -1,0 +1,11 @@
+ {
+    "type": "staff:staff3",
+    "attributes": {
+        "common": {
+            "armor_negation": 0,
+  			"impact": 1.0,
+            "max_strikes": 3,
+            "speed_bonus":0.5
+        }
+    }
+ }

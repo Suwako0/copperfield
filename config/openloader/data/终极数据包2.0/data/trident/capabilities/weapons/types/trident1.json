@@ -1,0 +1,98 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.6,
+      0.6,
+      1.5
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "epicfight:biped/living/hold_dual",
+      "run": "wom:biped/living/solar_obscuridad_run",
+      "block": "wom:biped/skill/agony_guard",
+      "walk": "epicfight:biped/living/walk_spear"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/agony_idle",
+      "run": "epicfight:biped/living/run_spear",
+      "aim": "epicfight:biped/combat/javelin_aim_mid",
+      "walk": "epicfight:biped/living/walk_spear"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "trident"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+ "mount": [
+      "wom:biped/combat/agony_clawstrike",
+      "cdmoveset:biped/new/blade_rush_finisher"
+    ],
+    "two_hand": [
+      "wom:biped/combat/agony_auto_1",
+      "wom:biped/combat/herrscher_auto_3",
+      "wom:biped/skill/herrscher_trane",
+      "wom:biped/skill/gezets_auto_2",
+      "wom:biped/skill/gezets_auto_3",
+      "cdmoveset:biped/new/blade_rush_finisher",
+      "cdmoveset:biped/new/sword/d_blade_slash",
+      "refm:biped/skill/guard_rapier_parry_ocean",
+
+      "cdmoveset:biped/new/dual_tachi/dual_tachi_dash",
+      "wom:biped/combat/agony_airslash"
+    ],
+    "one_hand": [
+      "epicfight:biped/combat/mob_spear_twohand2",
+      "epicfight:biped/combat/mob_spear_twohand1",
+      "wom:biped/combat/agony_counter",
+      "refm:biped/skill/rapier_backflip_second",
+      "cdmoveset:biped/new/spear_slash",
+      "refm:biped/skill/guard_rapier_parry_ocean",
+      "refm:biped/skill/guard_rapier_parry_ocean",
+
+      "refm:biped/combat/rapier_dash_ocean",
+      "refm:biped/combat/rapier_airslash_ocean"
+    ]
+  },
+ "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "trident"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "trident"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "trident",
+  "innate_skills": {
+    "two_hand": "epicfight:wrathful_lighting",
+    "one_hand": "epicfight:wrathful_lighting"
+  },
+  "usable_in_offhand": true
+}

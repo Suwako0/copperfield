@@ -1,0 +1,61 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.7,
+      0.7,
+      0.7
+    ],
+    "center": [
+      0.0,
+      0.0,
+      0.3
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blunt_hard",
+  "livingmotion_modifier": {
+    "one_hand": {
+      "idle": "wom:biped/living/moonless_idle",
+      "run": "wom:biped/living/moonless_run",
+      "aim": "epicfight:biped/combat/javelin_aim_mid",
+      "walk": "wom:biped/living/moonless_walk"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "one_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "moonless"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "one_hand": [
+      "wom:biped/combat/moonless_auto_1_verso",
+      "wom:biped/skill/strong_punch",
+      "wom:biped/combat/solar_obscuridad_auto_2",
+      "epicfight:biped/skill/relentless_combo",
+      "wom:biped/combat/moonless_auto_2_verso",
+      "wom:biped/combat/moonless_auto_3_verso",
+      "wom:biped/combat/moonless_fullmoon",
+      "wom:biped/combat/moonless_auto_3",
+      "wom:biped/combat/moonless_auto_2_verso",
+
+      "wom:biped/combat/moonless_rewinder",
+      "wom:biped/combat/moonless_fullmoon"
+    ]
+  },
+  "category": "moonless",
+  "innate_skills": {
+    "one_hand": "efds:spinning_death"
+  },
+  "usable_in_offhand": false
+}

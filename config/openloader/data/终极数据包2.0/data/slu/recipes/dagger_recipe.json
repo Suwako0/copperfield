@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dagger",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "aba",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "slu:hollow_soul"
+    },
+    "b": {
+      "item": "minecraft:cobblestone"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slu:dagger",
+    "count": 1
+  }
+}

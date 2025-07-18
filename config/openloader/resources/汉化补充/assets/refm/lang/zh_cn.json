@@ -1,0 +1,20 @@
+{
+    "epicfight.weapon_category.rapier": "刺剑",
+    "epicfight.weapon_category.ender_rapier": "末影刺剑",
+    "epicfight.weapon_category.ocean_rapier": "海王刺剑",
+    "epicfight.weapon_category.wither_rapier": "凋零刺剑",
+    "epicfight.weapon_category.amethyst_rapier": "紫水晶刺剑",
+
+    "item.refm.iron_rapier": "铁刺剑",
+    "item.refm.gold_rapier": "金刺剑",
+    "item.refm.diamond_rapier": "钻石刺剑",
+    "item.refm.netherite_rapier": "下界合金刺剑",
+    "item.refm.enderite_rapier": "末影刺剑",
+    "item.refm.oceanite_rapier": "海王刺剑",
+    "item.refm.witherite_rapier": "凋零刺剑",
+    "item.refm.end_upgrade": "末影升级模板",
+    "item.refm.wither_upgrade": "凋零升级模板",
+    "item.refm.ocean_upgrade": "海洋升级模板",
+
+    "creativetab.rapiers_tab": "刺剑"
+}

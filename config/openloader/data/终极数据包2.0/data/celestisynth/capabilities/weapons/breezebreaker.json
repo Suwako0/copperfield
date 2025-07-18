@@ -1,0 +1,11 @@
+{
+    "type": "epicfight:breezebreaker",
+    "attributes": {
+        "common": {
+            "armor_negation":16,
+                "impact": 1.0,
+            "max_strikes": 8,
+            "speed_bonus": 0
+        }
+    }
+ }

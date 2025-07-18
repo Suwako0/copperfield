@@ -1,0 +1,57 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.5,
+      0.8,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "one_hand": {
+      "idle": "efds:biped/living/axe_dual_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "epicfight:biped/skill/guard_sword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "one_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "hoe"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "one_hand": [
+      "epicfight:biped/combat/dagger_dual_auto1",
+      "epicfight:biped/combat/dagger_dual_auto3",
+      "epicfight:biped/combat/sword_dash",
+      "epicfight:biped/combat/dagger_dual_auto3",
+      "epicfight:biped/combat/dagger_dual_auto4",
+
+      "epicfight:biped/combat/axe_dash",
+      "epicfight:biped/combat/axe_airslash"
+    ]
+  },
+  "category": "hoe",
+  "innate_skills": {
+    "one_hand": "cdmoveset:spearslash"
+  },
+  "usable_in_offhand": false
+}

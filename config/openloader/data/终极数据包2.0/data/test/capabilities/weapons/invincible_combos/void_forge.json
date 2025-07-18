@@ -1,0 +1,657 @@
+ {
+  // 注册的id，要跟第一个文件夹同名，到时候在武器里要填的就是mod_id:name一定注意别忘记注册
+  "mod_id": "test",
+  // 注册的name，要跟json文件同名，到时候在武器里要填的就是mod_id:name一定注意别忘记注册
+  "name": "void_forge",
+  "consumption": 100,
+  "max_stacks": 1,
+  // 是否在屏幕上画技能图标。若为true则请将贴图放至assets/${mod_id}/textures/gui/skills/${name}
+  "drawSkillIcon": true,
+  // 连段数据
+  "combos": [
+    {
+      // 按键编号，备选有KEY_1, KEY_2, KEY_3, KEY_4, KEY_1_2, KEY_1_3, KEY_1_4, KEY_2_3, KEY_2_4, KEY_3_4; KEY_1_2代表KEY_1和KEY_2同时按下
+      // A
+      "key": "KEY_1",
+      "condition_animations": [
+        {
+          "priority": 7,
+          "impact_multiplier": 3.0,
+          "stun_type": "LONG",
+          "speed_multiplier": 0.7,
+          "conditions": [
+            {
+              "predicate": "invincible:jumping" // 跳跃状态下才能使用
+            }
+          ],
+          "animation": "wom:biped/skill/torment_berserk_airslam",
+          "time_command_list": [ // 指令
+           {
+              "time": 0.4,
+              "command": "summon cataclysm:flame_strike ^ ^ ^6.0",
+              "execute_at_target": false
+            },
+           {
+              "time": 0.5,
+              "command": "effect give @s minecraft:slowness 2 3",
+              "execute_at_target": false
+            }
+          ],
+          "hit_command_list": [
+            {
+              "command": "",
+              "execute_at_target": true
+            }
+          ],
+          "combos": [
+                  {
+                 "key": "KEY_3",
+                  // 跳跃攻击接重击
+                  "impact_multiplier": 0.5,
+                  "stun_type": "LONG",
+                  "cooldown": 500,
+                  "can_be_interrupt": true,
+                  "animation": "wom:biped/skill/solar_auto_4_polvora",
+                  "time_command_list": [ // 指令
+                        {
+                          "time": 0.2,
+  	   	      	  "command": "effect give @s minecraft:resistance 3 255",
+                          "execute_at_target": false
+                        },
+                    {
+                      "time": 0.1,
+                      "command": "summon cataclysm:flame_strike ^ ^ ^5.5",
+                      "execute_at_target": false
+                    },
+                    {
+                      "time": 0.2,
+                      "command": "summon cataclysm:void_howitzer ^ ^ ^5.5",
+                      "execute_at_target": false
+                    }
+                  ]
+                }
+              ],
+          "can_be_interrupt": true
+        },
+        {
+          "priority": 3,
+          "impact_multiplier": 3.0,
+          "stun_type": "LONG",
+          "conditions": [
+            {
+              "predicate": "invincible:sprinting" // 冲刺状态下才能使用
+            }
+          ],
+          "animation": "wom:biped/combat/torment_dash",
+          "speed_multiplier": 1.0,
+          "can_be_interrupt": true,
+          "time_command_list": [ // 指令
+            {
+              "time": 0.3,
+              "command": "",
+              "execute_at_target": false
+            },
+            {
+              "time": 0.4,
+              "command": "",
+              "execute_at_target": false
+            }
+          ],
+          "hit_command_list": [
+            {
+              "command": "",
+              "execute_at_target": true
+            }
+          ],
+          "combos": [
+            {
+              // 冲刺攻击接重击
+              "impact_multiplier": 0.5,
+              "stun_type": "LONG",
+              "key": "KEY_3",
+              "can_be_interrupt": true,
+              "animation": "wom:biped/combat/torment_charged_attack_2",
+         "time_command_list": [ // 指令
+           {
+              "time": 0.3,
+              "command": "summon cataclysm:flame_strike ^ ^ ^3.0",
+              "execute_at_target": false
+            },
+           {
+              "time": 0.3,
+              "command": "summon cataclysm:flame_strike ^ ^ ^4.0",
+              "execute_at_target": false
+            },
+           {
+              "time": 0.3,
+              "command": "summon cataclysm:flame_strike ^ ^ ^5.0",
+              "execute_at_target": false
+            },
+           {
+              "time": 0.3,
+              "command": "summon cataclysm:flame_strike ^ ^ ^6.0",
+              "execute_at_target": false
+            },
+           {
+              "time": 0.5,
+              "command": "summon cataclysm:flame_strike ^ ^ ^7.0",
+              "execute_at_target": false
+            },
+                        {
+                          "time": 0.3,
+                          "command": "effect give @s minecraft:resistance 3 255",
+                          "execute_at_target": false
+                        },
+                        {
+                          "time": 0.2,
+                          "command": "effect give @s minecraft:slowness 4 3",
+                          "execute_at_target": false
+                        },
+                        {
+                          "time": 0.19,	
+  	   	      	  "command": "",
+                          "execute_at_target": false
+                }
+              ]
+            }
+          ]
+        },
+        { // A
+          "priority": 0,
+          "impact_multiplier": 1.0,
+          "stun_type": "LONG",
+          "animation": "wom:biped/combat/ruine_auto_1",
+          "time_command_list": [ // 指令
+           {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            },
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            }
+          ]
+        }
+      ],
+      "combos": [
+        {
+          // AA
+          "key": "KEY_1",
+          "impact_multiplier": 1.0,
+          "stun_type": "LONG",
+          "animation": "wom:biped/combat/solar_auto_1",
+          "can_be_interrupt": true,
+          "time_command_list": [ // 指令
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            }
+          ],
+          "combos": [
+            {
+              // AAA
+              "impact_multiplier": 0.5,
+              "stun_type": "LONG",
+              "key": "KEY_1",
+              "can_be_interrupt": true,
+              "animation": "wom:biped/combat/solar_auto_2",
+              "time_command_list": [ // 指令
+                {
+                  "time": 0.1,
+                  "command": "",
+                  "execute_at_target": false
+                }
+              ],
+              "combos": [
+                {
+                  // AAAA
+                  "impact_multiplier": 0.5,
+                  "stun_type": "FALL",
+                  "key": "KEY_1",
+                  "animation": "wom:biped/combat/solar_auto_3",
+                  "can_be_interrupt": true,
+                  "time_command_list": [ // 指令
+                    {
+                      "time": 0.1,
+                      "command": "",
+                      "execute_at_target": false
+                    }
+                  ],
+              "combos": [
+                {
+                  // AAAAA
+                  "impact_multiplier": 0.5,
+                  "stun_type": "FALL",
+                  "key": "KEY_1",
+                  "animation": "wom:biped/combat/solar_auto_4",
+                  "can_be_interrupt": true,
+                  "time_command_list": [ // 指令
+                    {
+                      "time": 0.1,
+                      "command": "",
+                      "execute_at_target": false
+                    }
+                  ],
+                  "combos": [
+                    {
+                      // AAAAAD
+                      "impact_multiplier": 0.5,
+                      "stun_type": "FALL",
+                      "key": "KEY_4",
+                      "can_be_interrupt": true,
+                      "animation": "wom:biped/combat/torment_auto_4",
+                      "time_command_list": [ // 指令
+                        {
+                          "time": 0.6,
+                          "command": "summon cataclysm:abyss_blast_portal ^ ^1.5 ^2.5",
+                          "execute_at_target": false
+                        },
+                        {
+                          "time":0.8 ,
+                          "command": "execute as @e[type=cataclysm:abyss_blast_portal] at @s run tp @e[type=!cataclysm:abyss_blast_portal,type=!minecraft:player,distance=..10] ^ ^ ^0.1",
+                          "execute_at_target": false
+                        },
+                        {
+                          "time":1.1 ,
+                          "command": "execute as @e[type=cataclysm:abyss_blast_portal] at @s run tp @e[type=!cataclysm:abyss_blast_portal,type=!minecraft:player,distance=..10] ^ ^ ^0.1",
+                          "execute_at_target": false
+                        },
+                        {
+                          "time":1.3 ,
+                          "command": "execute as @e[type=cataclysm:abyss_blast_portal] at @s run tp @e[type=!cataclysm:abyss_blast_portal,type=!minecraft:player,distance=..10] ^ ^ ^0.1",
+                          "execute_at_target": false
+                        },
+                        {
+                          "time":1.5 ,
+                          "command": "execute as @e[type=cataclysm:abyss_blast_portal] at @s run tp @e[type=!cataclysm:abyss_blast_portal,type=!minecraft:player,distance=..10] ^ ^ ^0.1",
+                          "execute_at_target": false
+                        },
+                        {
+                          "time":1.6 ,
+                          "command": "execute as @e[type=cataclysm:abyss_blast_portal] at @s run effect give @e[type=!minecraft:player,distance=..10] minecraft:wither 5 1",
+                          "execute_at_target": false
+                        },
+                    {
+                      "time": 1.3,
+                      "command": "summon cataclysm:flame_strike ^ ^ ^3.5",
+                      "execute_at_target": false
+                    },
+                    {
+                      "time": 1.8,
+                      "command": "summon cataclysm:flame_strike ^ ^ ^3.5",
+                      "execute_at_target": false
+                    },
+                        {
+                          "time":2.3 ,
+                          "command": "execute as @e[type=cataclysm:abyss_blast_portal] at @s run effect give @e[type=!minecraft:player,distance=..10] minecraft:wither 5 1",
+                          "execute_at_target": false
+                        },
+                    {
+                      "time": 2.3,
+                      "command": "summon cataclysm:flame_strike ^ ^ ^3.5",
+                      "execute_at_target": false
+                    },
+                        {
+                          "time": 0.2,
+  	   	      	  "command": "cast @s irons_spellbooks:stomp 5",
+                          "execute_at_target": false
+                        }
+                      ],
+              "hit_command_list": [
+                {
+                  "command": "",
+                  "execute_at_target": true
+                        }
+                       ]
+                      }
+                     ]
+                    }
+                  ]
+                },
+               {
+                  // AAAC
+                  "key": "KEY_3",
+                  "impact_multiplier": 7.0,
+                  "stun_type": "LONG",
+                  "animation": "wom:biped/skill/solar_auto_2_polvora",
+                  "can_be_interrupt": true,
+                  "time_command_list": [ // 指令
+                    {
+                      "time": 0.1,
+                      "command": "cast @s irons_spellbooks:stomp 5",
+                      "execute_at_target": false
+                    },
+                    {
+                      "time": 0.2,
+                      "command": "summon cataclysm:flare_bomb ^ ^ ^3.5",
+                      "execute_at_target": false
+                    }
+                  ],
+                  "set_phase": 1
+                }
+              ]
+            },
+           {
+              // AAC
+              "key": "KEY_3",
+              "impact_multiplier": 7.0,
+              "stun_type": "LONG",
+              "can_be_interrupt": true,
+              "animation": "wom:biped/skill/solar_auto_1_polvora",
+              "time_command_list": [ // 指令
+                {
+                  "time": 0.5,
+                  "command": "cast @s irons_spellbooks:wither_skull 5",
+                  "execute_at_target": false
+                },
+                {
+                  "time": 0.1,
+                  "command": "",
+                  "execute_at_target": false
+                }
+              ],
+              "hit_command_list": [
+                {
+                  "command": "",
+                  "execute_at_target": true
+                }
+              ],
+              "set_phase": 2
+            }
+          ]
+        },
+        {
+          // AC
+          "key": "KEY_3",
+          "impact_multiplier": 7.0,
+          "stun_type": "LONG",
+          "animation": "wom:biped/combat/ruine_auto_3",
+          "can_be_interrupt": true,
+          "time_command_list": [ // 指令
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            },
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            }
+          ],
+          "set_phase": 1
+        }
+      ]
+    },
+    {
+      // C
+      "key": "KEY_3",
+      // 多重触发条件，一个键在不同的条件下可触发不同动画
+      // 对于每一个元素，你也可以使用speed_multiplier和各个事件之类的参数
+      "condition_animations": [
+        {
+          "priority": 2,
+          "speed_multiplier": 1.3,
+          "conditions": [
+            {
+              // 冲刺状态下才能使用
+              "predicate": "invincible:sprinting"
+            }
+          ],
+          "animation": "wom:biped/combat/herrscher_befreiung",
+          "combos": [
+            {
+              // CC
+              "key": "KEY_3",
+              "animation": "wom:biped/skill/torment_berserk_dash",
+              "combos": [
+                {
+                  // CCC
+                  "key": "KEY_3",
+                  "animation": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "priority": 1,
+          "conditions": [
+            {
+              // 跳跃则播此动作
+              "predicate": "invincible:jumping"
+            }
+          ],
+          "animation": ""
+        },
+        {
+          "priority": 0,
+          // 默认则播以下动作
+          "animation": "wom:biped/combat/herrscher_befreiung",
+          "time_command_list": [ // 特效
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            },
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            }
+          ]
+        }
+      ],
+      "combos": [
+        {
+          // CC
+          "key": "KEY_3",
+          "animation": "",
+          "time_command_list": [ // 指令
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            },
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            }
+          ],
+          "combos": [
+            {
+              // CCC
+              "key": "KEY_3",
+              "animation": "",
+              "time_command_list": [ // 指令
+                {
+                  "time": 0.1,
+                  "command": "",
+                  "execute_at_target": false
+                },
+                {
+                  "time": 0.1,
+                  "command": "",
+                  "execute_at_target": false
+                }
+              ],
+              "combos": [
+                {
+                  // CCCC
+                  "key": "KEY_3",
+                  "animation": "",
+                  "time_command_list": [ // 指令
+                    {
+                      "time": 0.1,
+                      "command": "",
+                      "execute_at_target": false
+                    },
+                    {
+                      "time": 0.1,
+                      "command": "",
+                      "execute_at_target": false
+                    }
+                  ],
+                  "combos": [
+                    {
+                      // CCCCC
+                      "key": "KEY_3",
+                      "animation": "",
+                      "time_command_list": [ // 指令
+                    {
+                          "time": 0.1,
+                          "command": "",
+                          "execute_at_target": false
+                        }
+                      ],
+                      "hit_command_list": [
+                        {
+                          "command": "",
+                          "execute_at_target": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      // D
+      "key": "KEY_4",
+      "animation": "wom:biped/skill/solar_brasero",
+      "combos": [
+        {
+          // DD
+          "key": "KEY_4",
+          "animation": "wom:biped/skill/solar_brasero_infierno",
+          "can_be_interrupt": true,
+          "damage_multiplier": {
+            // 共有"adder", "multiplier"和"setter"可选。字面意思
+            "multiplier": 1.5
+          },
+          "time_command_list": [ // 指令
+                        {
+                          "time": 1.0,
+                          "command": "summon cataclysm:void_howitzer ^ ^1 ^",
+                          "execute_at_target": false
+                        },
+                        {
+                          "time": 0.2,
+                          "command": "effect give @s minecraft:resistance 8 255",
+                          "execute_at_target": false
+                        },
+           {
+              "time": 0.11,
+              "command": "cast @s irons_spellbooks:stomp 5",
+              "execute_at_target": false
+            }
+          ],
+          "hit_command_list": [
+            {
+              "command": "",
+              "execute_at_target": true
+            }
+          ]
+        },
+        {
+          // DC
+          "key": "KEY_3",
+          "impact_multiplier": 1.0,
+          "speed_multiplier": 0.5,
+          "stun_type": "LONG",
+          "animation": "wom:biped/skill/agony_rising_eagle",
+          "damage_multiplier": {
+          "setter": 2.5
+          },
+          "can_be_interrupt": true,
+          "time_command_list": [ // 指令
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+              }
+           ],
+           "combos": [
+            {
+            // DCC
+           "key": "KEY_3",
+           "impact_multiplier": 1.0,
+          "speed_multiplier": 0.5,
+           "stun_type": "LONG",
+          "animation": "wom:biped/skill/agony_sky_dive_x",
+          // 使用后进入冷却，单位是tick
+           "cooldown": 500,
+           "damage_multiplier": {
+           "multiplier": 2.0
+           },
+          "can_be_interrupt": true,
+          "time_command_list": [ // 指令
+                        {
+                          "time": 0.3,
+                          "command": "summon cataclysm:void_howitzer ^ ^ ^3.5",
+                          "execute_at_target": false
+                        },
+                        {
+                          "time": 0.2,
+                          "command": "effect give @s minecraft:resistance 3 255",
+                          "execute_at_target": false
+                        },
+           {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            }
+          ],
+          "hit_command_list": [
+            {
+              "command": "",
+              "execute_at_target": true
+            }
+            ]
+            }
+            ]
+            }
+            ]
+    },
+    {
+      // A+C
+      "key": "KEY_1_3",
+      "impact_multiplier": 3.0,
+      "stun_type": "LONG",
+      "animation": "wom:biped/skill/agony_sky_dive_x",
+      // 表示本动画不进行充能
+      "not_charge": true,
+      // 使用后进入冷却，单位是tick
+      "conditions": [
+        {
+          // 能量层数判断，满一层才能释放
+          "predicate": "invincible:stack_count",
+          "min": 1.0,
+          "max": 1.0
+        }
+      ],
+      "time_command_list": [ // 指令
+        {
+          "time": 0.2,
+          "command": "/invincible consumeStack 1",
+          "execute_at_target": false
+        }
+      ]
+    }
+  ],
+  "damage_multiplier": {
+    // 共有"adder", "multiplier"和"setter"可选。字面意思
+    "multiplier": 20.0
+  },
+  "stun_type": "FALL",
+  "can_be_interrupt": true
+}

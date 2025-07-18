@@ -1,0 +1,111 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.8,
+      0.8,
+      1.2
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.5
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_idle",
+      "run": "wom:biped/living/solar_obscuridad_run",
+      "block": "indestructible:guard/guard_dualsword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/katana_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "epicfight:biped/skill/guard_sword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "katana"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+"mount": [
+      "cdmoveset:biped/new/sword/sword_onehand_auto_3"
+    ],
+    "two_hand": [
+      "cdmoveset:biped/new/dagger/dagger_dual_auto1",
+      "epicfight:biped/combat/sword_dual_auto2",
+      "epicfight:biped/combat/sword_dual_auto3",
+      "wom:biped/combat/solar_obscuridad_auto_2",
+      "cdmoveset:biped/new/sword/d_blade_slash",
+      "wom:biped/combat/solar_obscuridad_auto_2",
+      "cdmoveset:biped/new/sword/d_blade_slash",
+      "wom:biped/combat/solar_obscuridad_auto_2",
+      "epicacg:biped/sao_dual_sword/sao_dual_sword_auto4",
+      "epicacg:biped/sao_dual_sword/sao_dual_sword_auto6",
+      "wom:biped/combat/moonless_auto_2_verso",
+      "wom:biped/combat/solar_obscuridad_auto_2",
+      "wom:biped/combat/moonless_auto_3_verso",
+      "wom:biped/skill/agony_rising_eagle",
+      "wom:biped/combat/agony_airslash",
+
+      "wom:biped/combat/torment_charged_attack_2",
+      "cdmoveset:biped/new/yamato/skill/yamato_rising_star_end"
+    ],
+    "one_hand": [
+      "cdmoveset:biped/new/longsword/longsword_twohand_auto_3",
+      "cdmoveset:biped/new/longsword/longsword_twohand_auto_4",
+      "cdmoveset:biped/new/longsword/longsword_twohand_auto_1",
+      "cdmoveset:biped/new/yamato/skill/yamato_counter_1",
+      "epicfight:biped/skill/rushing_tempo3",
+      "cdmoveset:biped/new/yamato/yamato_auto2",
+      "cdmoveset:biped/new/yamato/yamato_auto3",
+      "cdmoveset:biped/new/katana/skill/fatal_draw",
+      "wom:biped/combat/katana_auto_3",
+      "epicfight:biped/skill/rushing_tempo1",
+      "cdmoveset:biped/new/lethal_slicing_once",
+      "wom:biped/combat/ruine_auto_4",
+      "cdmoveset:biped/new/dual_tachi/danger_dash2",
+      "wom:biped/skill/katana_gesshoku",
+
+      "wom:biped/skill/katana_fatal_draw_dash",
+      "wom:biped/combat/katana_tsukuyomi"
+    ]
+  },
+ "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "katana"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "katana"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "tachi",
+  "innate_skills": {
+    "two_hand": "efds:spinning_death",
+    "one_hand":  "wom:sakura_state"
+  },
+  "usable_in_offhand": true
+}

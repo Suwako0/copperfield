@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:blackstone"
+    },
+    "b": {
+      "item": "soulslikeuniverse:morgottcursedsword"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:margitwand",
+    "count": 1
+  }
+}

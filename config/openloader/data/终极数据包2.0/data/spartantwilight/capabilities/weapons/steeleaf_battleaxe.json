@@ -1,0 +1,17 @@
+{
+    "type": "hammer:dualhammer",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 6.5,
+                "impact": 1.0,
+            "max_strikes": 3.8,
+            "speed_bonus":0.4
+        },
+        "two_hand": {
+            "armor_negation": 6.5,
+                "impact": 1.0,
+            "max_strikes": 4.5,
+            "speed_bonus":0.4
+        }
+    }
+ }

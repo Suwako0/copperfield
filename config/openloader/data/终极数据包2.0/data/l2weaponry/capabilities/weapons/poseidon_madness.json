@@ -1,0 +1,17 @@
+{
+    "type": "trident:trident3",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 6.0,
+                "impact": 1.0,
+            "max_strikes": 4.0,
+            "speed_bonus":0.8
+        },
+        "two_hand": {
+            "armor_negation": 6.0,
+                "impact": 1.0,
+            "max_strikes": 4.0,
+            "speed_bonus":0.8
+        }
+    }
+ }

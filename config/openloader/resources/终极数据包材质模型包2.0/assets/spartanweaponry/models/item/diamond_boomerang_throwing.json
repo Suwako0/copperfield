@@ -1,0 +1,7 @@
+{
+  "parent": "spartanweaponry:item/base/boomerang_throwing",
+  "textures": {
+    "layer0": "spartanweaponry:item/diamond_boomerang",
+    "layer1": "spartanweaponry:item/diamond_boomerang_layer"
+  }
+}

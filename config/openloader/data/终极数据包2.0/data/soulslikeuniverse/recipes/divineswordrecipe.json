@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    "bcb",
+    "aa "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "b": {
+      "item": "minecraft:quartz"
+    },
+    "c": {
+      "item": "soulslikeuniverse:longsword"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:divinesword",
+    "count": 1
+  }
+}

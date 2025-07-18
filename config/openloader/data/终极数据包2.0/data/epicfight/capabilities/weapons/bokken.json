@@ -1,0 +1,11 @@
+{
+    "type": "sheath:sheath",
+    "attributes": {
+        "common": {
+            "armor_negation":1,
+                "impact": 0.1,
+            "max_strikes": 1,
+            "speed_bonus": 0
+        }
+    }
+ }

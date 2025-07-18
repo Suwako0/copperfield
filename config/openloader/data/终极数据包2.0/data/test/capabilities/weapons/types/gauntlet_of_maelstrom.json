@@ -1,0 +1,69 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.5
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blunt_hard",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "wom:biped/living/katana_idle",
+      "run": "wom:biped/living/solar_obscuridad_run",
+      "walk": "epicfight:biped/living/walk_longsword"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/katana_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "enderblaster"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh_small",
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "enderblaster"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "two_hand": [
+      "wom:biped/combat/enderblaster_twohand_auto_1",
+
+      "wom:biped/combat/enderblaster_twohand_dash",
+      "cdmoveset:biped/new/dual_greatsword/skill/greatsword_dual_earthquake"
+    ],
+    "one_hand": [
+      "wom:biped/skill/enderblaster_onehand_shoot",
+
+      "wom:biped/skill/enderblaster_onehand_shoot_dash",
+      "wom:biped/combat/enderblaster_twohand_tishnaw"
+    ]
+  },
+  "category": "enderblaster",
+  "innate_skills": {
+    "two_hand": "test:gauntlet_of_maelstrom",
+    "one_hand": "test:gauntlet_of_maelstrom"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ba",
+    "abb",
+    "ca "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:coal"
+    },
+    "c": {
+      "item": "soulslikeuniverse:longsword"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:charredsilversword",
+    "count": 1
+  }
+}

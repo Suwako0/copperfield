@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "cab",
+    "aca",
+    "dac"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:nether_wart"
+    },
+    "b": {
+      "item": "minecraft:obsidian"
+    },
+    "c": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "d": {
+      "item": "soulslikeuniverse:longsword"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:berserkgreatsword",
+    "count": 1
+  }
+}

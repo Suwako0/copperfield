@@ -1,0 +1,1984 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4875D82603EEC7E5"
+	group: "78E3ADEACB1DC1EF"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "fruitsdelight:peach"
+	}
+	id: "4875D82603EEC7E5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "477EF91BFEF816D7"
+			subtitle: "果园乐事增加了关于水果的乐事内容。"
+			tasks: [{
+				id: "3FFA0C55DB9C0801"
+				title: "果园乐事"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["477EF91BFEF816D7"]
+			id: "51E207286724EC26"
+			tasks: [{
+				id: "09DF0A3E8CE8A8AB"
+				title: "作物"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "6028966A9E74E33E"
+			tasks: [{
+				id: "1FA1C386BF91FC83"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:wild_pineapple"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			id: "2655A0D777513A89"
+			tasks: [{
+				id: "02A81231D17A599C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:hamimelon"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "3F5B5D42E1212422"
+			tasks: [{
+				id: "70A0D51679329664"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:lemon_seeds"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "7C1B200A6E6612BA"
+			tasks: [{
+				id: "0F84A2A654F602DC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:blueberry_bush"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["477EF91BFEF816D7"]
+			id: "3012E4B94D2DDBAB"
+			tasks: [{
+				id: "712FAB9F0811A7F2"
+				title: "食物"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3012E4B94D2DDBAB"]
+			id: "691D321B20F4932F"
+			tasks: [{
+				id: "0DC089B9B42F5B80"
+				title: "果蔬"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3012E4B94D2DDBAB"]
+			id: "1235C8D06C6DC6DC"
+			tasks: [{
+				id: "1017A54BF937D133"
+				title: "果蔬制品"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3012E4B94D2DDBAB"]
+			id: "1AF92881F9602C80"
+			tasks: [{
+				id: "5817E15551A4FEDB"
+				title: "果冻"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["477EF91BFEF816D7"]
+			id: "1E1CBCEF97F98167"
+			tasks: [{
+				id: "1732C21CF9B4C25C"
+				title: "饮品"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["477EF91BFEF816D7"]
+			id: "062FE81F54D849E8"
+			tasks: [{
+				id: "62A04FE77F78554E"
+				title: "植物"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "3B65C761BBA9FCB5"
+			tasks: [{
+				id: "6F99A78053B5109D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:peach"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			id: "1A868BB4D84AFB53"
+			tasks: [{
+				id: "0EFF9261ED05BDA8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:pear"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "7ABE16F41939C2CF"
+			tasks: [{
+				id: "11878ADF6492B831"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:pineapple"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			id: "4C3E97408E73FD2A"
+			tasks: [{
+				id: "0822F4AF58337CEC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:mangosteen"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			id: "02BF95CFB2452845"
+			tasks: [{
+				id: "67B74BDD1DD20E39"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:persimmon"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			id: "1CD2A55EECCD56B5"
+			tasks: [{
+				id: "7C58AABADB4E39CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:hawberry"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			id: "63DABB4D3B984929"
+			tasks: [{
+				id: "0C225623C4AF6607"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:mango"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			id: "58B40FEF71B3F312"
+			tasks: [{
+				id: "41E4B308047800C2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:lychee"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			id: "65E7EABB09EEED00"
+			tasks: [{
+				id: "6C0CF5877E04EF83"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:blueberry"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			id: "7A5B16EC3DF4D8EA"
+			tasks: [{
+				id: "20DF9B26B99AF12A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:orange"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			id: "3DD7FBCEA10C590F"
+			tasks: [{
+				id: "4AE5560C940BB8DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:cranberry"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			id: "4C8420DC1B4632FF"
+			tasks: [{
+				id: "7B03F6A6DFFF7C96"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:lemon"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			id: "01F41FBF0AFFC3A8"
+			tasks: [{
+				id: "04A7132C582E21BD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:bayberry"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			id: "4842B376D0B1340B"
+			tasks: [{
+				id: "0EEB8B74F752C382"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:fig"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			id: "4AD763D879355DBE"
+			tasks: [{
+				id: "48498DD8D1ABF935"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:kiwi"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			id: "7567A6F9658D558C"
+			tasks: [{
+				id: "3B66CD532F1C3C2A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:durian"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			id: "01FC2FC0C1C46057"
+			tasks: [{
+				id: "3ED5B7745ACE99BD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:mangosteen_cake"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "61161C24CBAB0098"
+			tasks: [{
+				id: "2DEB0986FB9319D6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:jelly_bread"
+					tag: {
+						JellyEffectRoot: ["APPLE"]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "22B53FDF18D9587D"
+			tasks: [{
+				id: "53ED035D73EA3994"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:pineapple_slice"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "7E3C9D768FE75498"
+			tasks: [{
+				id: "1BD145F431A021DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:lemon_slice"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "3AA8040651B741B2"
+			tasks: [{
+				id: "5F429F0F426754E7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:cranberry_muffin"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "2C504A8ED63501A9"
+			tasks: [{
+				id: "25347A48815A5F19"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:bowl_of_pineapple_fried_rice"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "41CACB55D390DF0F"
+			tasks: [{
+				id: "7C257FB5D84F3B2B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:lemon_cookie"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "4875D23A7AB7A4C2"
+			tasks: [{
+				id: "312B08CF8F29A33E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:orange_marinated_pork"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "2058956AA05AB651"
+			tasks: [{
+				id: "0BA756714B81160B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:hawberry_stick"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "70F46E24E4C2CC8B"
+			tasks: [{
+				id: "044EB9338FCEBBD0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:lychee_chicken"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "16ABFD2CD90D0682"
+			tasks: [{
+				id: "1CBB8158A6925933"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:blueberry_muffin"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "36D74067C0D66A24"
+			tasks: [{
+				id: "4DBD9090288FE744"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:pear_with_rock_sugar"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "7A4795ACCB842CCD"
+			tasks: [{
+				id: "03B2291D05672A5C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:hawberry_sheet"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "63B79B6EF79BDB0C"
+			tasks: [{
+				id: "62FD8DFF7FCA7C41"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:persimmon_cookie"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			id: "034381B9961D235A"
+			tasks: [{
+				id: "5B040CBEA9AD8A91"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:orange_slice"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "5E0E08DE01CC020E"
+			tasks: [{
+				id: "5FD6A4D95DFD2E63"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:baked_pear"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			id: "2035F6B23241FA87"
+			tasks: [{
+				id: "3749B3DEF572D12F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:dried_persimmon"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			id: "5AE40A829CA99E98"
+			tasks: [{
+				id: "0B914F56A2EB7A14"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:hamimelon_shaved_ice"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			id: "2A700E3FC915837A"
+			tasks: [{
+				id: "6A99A2E6A4FDF58B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:pineapple_pie"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "64C2E2379130C14D"
+			tasks: [{
+				id: "7BDB9AAE790F2CEE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:orange_chicken"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			id: "16B2B44499239CA0"
+			tasks: [{
+				id: "717752BC1F2658B7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:mango_salad"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			id: "3E26859F5A221D1D"
+			tasks: [{
+				id: "626171638C475C9B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:hamimelon_slice"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			id: "59DD04FEF91CDE6F"
+			tasks: [{
+				id: "4F81A97FB9E3FFF1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:pineapple_marinated_pork"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			id: "72DA80C7AB1C5BE6"
+			tasks: [{
+				id: "02B9C683A53248E4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:cranberry_cookie"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			id: "2A11F572C7501B6F"
+			tasks: [{
+				id: "24FCE3704BC52AFA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:hawberry_roll"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			id: "1BE54B67B63D24E6"
+			tasks: [{
+				id: "77F430AC6908BD51"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:hamimelon_popsicle"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			id: "32AB805F037A5811"
+			tasks: [{
+				id: "67FA23FC4919D433"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:lemon_tart"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			id: "2464328E1524AB06"
+			tasks: [{
+				id: "2E8195D3A8398EB4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:blueberry_custard"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			id: "0123C13878CD17D3"
+			tasks: [{
+				id: "4671EE31BDDF77A8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:bayberry_cookie"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			id: "4766B35874C3473E"
+			tasks: [{
+				id: "066C7B39B2EFC8D4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:fig_chicken_stew"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			id: "69A3AC7774B7042D"
+			tasks: [{
+				id: "60833B2A98F63108"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:fig_pudding"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "7B0DC20C48748EAE"
+			tasks: [{
+				id: "629F37961747EFE3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:fig_tart"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			id: "589963F529C5D806"
+			tasks: [{
+				id: "1D5A77C67D911518"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:kiwi_popsicle"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			id: "5C7B5A8F24D5EE12"
+			tasks: [{
+				id: "209F81FA091EA4D7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:durian_flesh"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			id: "7AAEACD865BD4A27"
+			tasks: [{
+				id: "767B9C960CA067B1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:baked_durian"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			id: "64BFA38C9465B544"
+			tasks: [{
+				id: "21F014D2CF32AA86"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:durian_pie"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			id: "1B07B52C9F34D08F"
+			tasks: [{
+				id: "3EDCFEFEDE3F01D1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:apple_jello"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "27A367EDF38CCD1B"
+			tasks: [{
+				id: "271F964A56F55B93"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:blueberry_jello"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "7E22FE124B66DFC7"
+			tasks: [{
+				id: "4EA003072F2294F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:glowberry_jello"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "703EDD330560D44C"
+			tasks: [{
+				id: "173092C2FAC7B3E6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:hamimelon_jello"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "09528E1EB4291B80"
+			tasks: [{
+				id: "0FB12A972FBC682E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:melon_jello"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "175F9D1DFDAFB766"
+			tasks: [{
+				id: "525EE18056500C9A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:hawberry_jello"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "4148DC93DDCB076B"
+			tasks: [{
+				id: "6DACD4303A841C95"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:lychee_jello"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "0AEDDDFDD65EA1BD"
+			tasks: [{
+				id: "569ECB93A170FD3C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:mango_jello"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "17EA0AA247FD67FB"
+			tasks: [{
+				id: "13F2E926BE2DAD77"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:orange_jello"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "50F08C9C2BC65B92"
+			tasks: [{
+				id: "2829CD5D8DEF5C00"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:peach_jello"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "7F69B3CBF81EF4F7"
+			tasks: [{
+				id: "23E8005C03B9E3AA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:pear_jello"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			id: "7D40393A8C278556"
+			tasks: [{
+				id: "17FE89C6FCE73017"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:persimmon_jello"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			id: "2E6580B714523A6B"
+			tasks: [{
+				id: "06DD8CA2A061D1D2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:pineapple_jello"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			id: "688F2FF6E29A3838"
+			tasks: [{
+				id: "6116A7E06F6C32CD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:lemon_jello"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			id: "5273CE9A23B0E35E"
+			tasks: [{
+				id: "5FF7E3ECCBBFC178"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:cranberry_jello"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			id: "29C4DDB7A0F847F1"
+			tasks: [{
+				id: "49851942A70127D2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:mangosteen_jello"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			id: "5EAE3761A2A9F381"
+			tasks: [{
+				id: "3C5A037A7C6F5128"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:sweetberry_jello"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			id: "785AB1D8BC3545BD"
+			tasks: [{
+				id: "4340D0C285503ABD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:chorus_jello"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			id: "4676126350104FAC"
+			tasks: [{
+				id: "265A0FE31C2ABF3D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:bayberry_jello"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "24DF5748A357E3B0"
+			tasks: [{
+				id: "2A0172521DC0B378"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:kiwi_jello"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "5F964CD9D22D1D23"
+			tasks: [{
+				id: "0A400E461B12AA42"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:fig_jello"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			id: "0F61BF8508494B4C"
+			tasks: [{
+				id: "5982DE1174631D17"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:durian_jello"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "55F3C8CCC526F3B4"
+			tasks: [{
+				id: "3B32098555670D32"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:lemon_juice"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "46E499D7F02016BF"
+			tasks: [{
+				id: "7B0F326FDE484315"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:lychee_cherry_tea"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "7CC1E5D66912BF7C"
+			tasks: [{
+				id: "36933167A0958EFA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:hamimelon_juice"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "4398041CEDFE4AB2"
+			tasks: [{
+				id: "3D953150DB52B97C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:orange_juice"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "34BD277BF153AA77"
+			tasks: [{
+				id: "0B91B66CF3C9DA19"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:hawberry_tea"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "20D4B4B833057ABC"
+			tasks: [{
+				id: "72B0FAAFD4F19D12"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:mango_tea"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "195B106EFAD24FF1"
+			tasks: [{
+				id: "0068E3087551D5C1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:peach_tea"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "65DD114FFC0A3B88"
+			tasks: [{
+				id: "04585B8A247D19E8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:pear_juice"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "01FD7FA9A58A8F36"
+			tasks: [{
+				id: "1E6B75CFAE2BBC3A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:bellini_cocktail"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "11F89A27B8E5BA6B"
+			tasks: [{
+				id: "36ECF1553AD488DC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:mango_milkshake"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "60F7B1B20FD5258F"
+			tasks: [{
+				id: "658DBDEC37CCB17C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:mangosteen_tea"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			id: "4A064BE254CB9589"
+			tasks: [{
+				id: "131F3D83B392BD16"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:bayberry_soup"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "0842396140B5A7F8"
+			tasks: [{
+				id: "1A0AC804686400BE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:kiwi_juice"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "6DB243491494E950"
+			tasks: [{
+				id: "66D0A904FE6E818C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:apple_sapling"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			id: "7D7C89E3797E3397"
+			tasks: [{
+				id: "67E2155BC3833603"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:peach_sapling"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			id: "6B404EDF6471E7D6"
+			tasks: [{
+				id: "43E277C3C61D4680"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:pear_sapling"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "70A49003F3F4D48D"
+			tasks: [{
+				id: "2DFC81C635138CB6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:persimmon_sapling"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "6320AF4C85D230D3"
+			tasks: [{
+				id: "6C6053D86F320102"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:mangosteen_sapling"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "08BA27EF3C95FB52"
+			tasks: [{
+				id: "67F2532E5F899DE0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:mango_sapling"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			id: "6CA8ED9D79F2BD5C"
+			tasks: [{
+				id: "3D2FDA9343122E61"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:lychee_sapling"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			id: "743B57449FF6996E"
+			tasks: [{
+				id: "36939545AF49CD10"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:hawberry_sapling"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			id: "59BA3C2B21315245"
+			tasks: [{
+				id: "7D40ECE532CB25CE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:orange_sapling"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			id: "169560D80DB93C23"
+			tasks: [{
+				id: "685AFB06188C23A0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:bayberry_sapling"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "708605BB40B6C31D"
+			tasks: [{
+				id: "64D5D5F8547171B6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:fig_sapling"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			id: "778E281B907882DD"
+			tasks: [{
+				id: "1FC9840D08BC4E08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:kiwi_sapling"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			id: "1342F91136F292E5"
+			tasks: [{
+				id: "04E83521C1CC7756"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:durian_sapling"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+	]
+	title: "果园乐事"
+}

@@ -1,0 +1,78 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.6
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.1
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "epicfight:biped/living/hold_dual",
+      "run": "wom:biped/living/solar_obscuridad_run",
+      "block": "indestructible:guard/guard_dualsword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    },
+    "one_hand": {
+      "idle": "efds:biped/living/axe_dual_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "epicfight:biped/skill/guard_sword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "hoe"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh_small",
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "hoe"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "two_hand": [
+      "cdmoveset:biped/new/dagger/dagger_dual_auto1",
+      "cdmoveset:biped/new/dagger/dagger_dual_auto2",
+      "cdmoveset:biped/new/dagger/dagger_dual_auto3",
+      "cdmoveset:biped/new/dagger/dagger_dual_auto4",
+      "cdmoveset:biped/new/dagger/skill/blade_rush_second",
+      "wom:biped/combat/enderblaster_twohand_tishnaw"
+    ],
+    "one_hand": [
+      "epicfight:biped/combat/dagger_auto2",                 
+      "epicfight:biped/combat/dagger_auto1",
+      "wom:biped/skill/herrscher_trane",
+      "cdmoveset:biped/new/dagger/dagger_dual_auto2",
+      "cdmoveset:biped/new/dagger/dagger_dual_auto3",
+      "wom:biped/skill/herrscher_trane",
+
+      "epicfight:biped/combat/axe_dash",
+      "epicfight:biped/combat/dagger_airslash"
+    ]
+  },
+  "category": "hoe",
+  "innate_skills": {
+    "two_hand": "epicfight:blade_rush",
+    "one_hand": "cdmoveset:spearslash"
+  }
+}

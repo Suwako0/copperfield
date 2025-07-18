@@ -1,0 +1,85 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.7
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.35
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "epicfight:biped/living/hold_dual",
+      "run": "wom:biped/living/solar_obscuridad_run",
+      "block": "indestructible:guard/guard_dualsword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    },
+    "one_hand": {
+      "idle": "efds:biped/living/axe_dual_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "epicfight:biped/skill/guard_sword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "axe"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+    "two_hand": [
+      "epicfight:biped/combat/dagger_dual_auto1",
+      "epicfight:biped/combat/dagger_dual_auto2",
+      "epicfight:biped/combat/dagger_dual_auto4",
+      "wom:biped/skill/herrscher_trane",
+      "cdmoveset:biped/new/dagger/skill/blade_rush_second",
+      "efds:biped/skill/spinning_death",
+      "wom:biped/combat/herrscher_verdammnis",
+
+      "efds:biped/skill/spinning_death",
+      "cdmoveset:biped/new/dual_greatsword/skill/greatsword_dual_earthquake"
+    ],
+    "one_hand": [
+      "cdmoveset:biped/new/sword/sword_onehand_auto_1",
+      "cdmoveset:biped/new/sword/sword_onehand_auto_2",
+      "wom:biped/combat/herrscher_auto_3",
+      "cdmoveset:biped/new/dagger/skill/blade_rush_second",
+      "wom:biped/combat/ruine_chatiment",
+      "wom:biped/combat/katana_auto_2",
+      "wom:biped/skill/herrscher_trane",
+      "wom:biped/combat/herrscher_verdammnis",
+
+      "epicfight:biped/combat/axe_dash",
+      "epicfight:biped/skill/the_guillotine"
+    ]
+  },
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "axe"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "axe",
+  "innate_skills": {
+    "two_hand": "epicfight:blade_rush",
+    "one_hand": "cdmoveset:sword_slash"
+  },
+  "usable_in_offhand": true
+}

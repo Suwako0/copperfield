@@ -1,0 +1,104 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.7
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.35
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "wom:biped/living/agony_idle",
+      "run": "wom:biped/living/solar_obscuridad_run",
+      "block": "indestructible:guard/guard_dualsword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/agony_idle",
+      "run": "epicfight:biped/living/run_spear",
+      "block": "wom:biped/skill/agony_guard",
+      "walk": "epicfight:biped/living/walk_spear"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "agony"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+ "mount": [
+      "wom:biped/combat/agony_auto_4",
+      "wom:biped/combat/agony_auto_4",
+      "wom:biped/combat/ruine_auto_4"
+    ],
+    "two_hand": [
+      "wom:biped/combat/solar_obscuridad_auto_1",
+      "cdmoveset:biped/new/blade_rush_finisher",
+      "efds:biped/combat/spear_dual_auto_4",
+      "wom:biped/skill/herrscher_trane",
+      "wom:biped/skill/gezets_auto_2",
+      "wom:biped/skill/gezets_auto_3",
+      "efds:biped/skill/spinning_death",
+      "wom:biped/combat/herrscher_auto_1",
+      "wom:biped/combat/herrscher_auto_2",
+      "cdmoveset:biped/new/dual_tachi/dual_tachi_dash",
+      "wom:biped/skill/agony_sky_dive",
+
+      "refm:biped/combat/rapier_dash_ocean",
+      "wom:biped/combat/agony_airslash"
+    ],
+    "one_hand": [
+      "wom:biped/combat/agony_auto_1",
+      "wom:biped/combat/agony_counter",
+      "wom:biped/combat/solar_obscuridad_auto_2", 
+      "wom:biped/combat/antitheus_auto_2",
+      "wom:biped/combat/agony_auto_4",
+      "cdmoveset:biped/new/spear_slash",
+      "wom:biped/combat/agony_auto_4",
+      "wom:biped/skill/agony_rising_eagle",
+      "wom:biped/skill/agony_sky_dive",
+
+      "wom:biped/combat/agony_clawstrike",
+      "wom:biped/combat/agony_airslash"
+    ]
+  },
+ "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "agony"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "agony"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "agony",
+  "innate_skills": {
+    "two_hand": "epicfight:wrathful_lighting",
+    "one_hand": "wom:agony_plunge"
+  },
+  "usable_in_offhand": true
+}

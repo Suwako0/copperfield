@@ -1,0 +1,17 @@
+{
+    "type": "dagger:dagger4",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 5.5,
+                "impact": 1.0,
+            "max_strikes": 4.8,
+            "speed_bonus":0.9
+        },
+        "two_hand": {
+            "armor_negation": 5.5,
+                "impact": 1.0,
+            "max_strikes": 5.5,
+            "speed_bonus":0.9
+        }
+    }
+ }

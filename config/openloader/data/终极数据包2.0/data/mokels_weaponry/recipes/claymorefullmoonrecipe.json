@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_",
+  "template": {
+    "item": "mokels_weaponry:moon_weapon_talisman"
+  },
+  "base": {
+    "item": "mokels_weaponry:sword_jadeblade"
+  },
+  "addition": {
+    "item": "mokels_weaponry:glaive_night_sword"
+  },
+  "result": {
+    "item": "mokels_weaponry:claymore_fullmoon"
+  }
+}

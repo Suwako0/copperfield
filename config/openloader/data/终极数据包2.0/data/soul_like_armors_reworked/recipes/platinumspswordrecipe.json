@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+ "pattern": [
+    "aaa",
+    " ca",
+    "b a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:quartz"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "soul_like_armors_reworked:ornsteinspsword"
+    }
+  },
+  "result": {
+    "item": "soul_like_armors_reworked:platinumspsword",
+    "count": 1
+  }
+}

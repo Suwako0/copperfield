@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ba",
+    " bb",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "soulslikeuniverse:longsword"
+    },
+    "b": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:longinusspear",
+    "count": 1
+  }
+}

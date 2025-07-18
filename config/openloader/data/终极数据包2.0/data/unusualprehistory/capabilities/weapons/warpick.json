@@ -1,0 +1,19 @@
+{
+    "type": "sickle:sickle3",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 3.0,
+                "impact": 1.0,
+            "max_strikes": 3.0,
+            "damage_bonus":2.0,
+            "speed_bonus":1.0
+        },
+        "two_hand": {
+            "armor_negation": 3.0,
+                "impact": 1.0,
+            "max_strikes": 3.0,
+            "damage_bonus":2.0,
+            "speed_bonus":1.0
+        }
+    }
+ }

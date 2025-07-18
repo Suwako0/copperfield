@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    "cba",
+    "ac "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "b": {
+      "item": "soul_like_armors_reworked:longsword"
+    },
+    "c": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "soul_like_armors_reworked:sawblade",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "staff:staff3",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 10,
+                "impact": 1.0,
+            "max_strikes": 4,
+            "speed_bonus": 1.0
+        }
+    }
+ }

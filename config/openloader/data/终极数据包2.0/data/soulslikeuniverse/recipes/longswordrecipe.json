@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "soulslikeuniverse:giantsoul"
+  },
+  "base": {
+    "item": "minecraft:diamond_sword"
+  },
+  "addition": {
+    "item": "soulslikeuniverse:spellstone"
+  },
+  "result": {
+    "item": "soulslikeuniverse:longsword"
+  }
+}

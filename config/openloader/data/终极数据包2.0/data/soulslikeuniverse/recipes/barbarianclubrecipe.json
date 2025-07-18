@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    "aaa",
+    "ba "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:oak_log"
+    },
+    "b": {
+      "item": "soulslikeuniverse:longsword"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:barbarianclub",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "dba",
+    "cd "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald"
+    },
+    "b": {
+      "item": "minecraft:diamond_sword"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "d": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "soul_like_armors_reworked:soldiertrident",
+    "count": 1
+  }
+}

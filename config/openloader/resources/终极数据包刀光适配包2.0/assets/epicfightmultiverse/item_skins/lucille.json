@@ -1,0 +1,11 @@
+{
+    "trail": {
+    	"color": [192, 0, 7],
+    	"begin_pos": [0.0, -0.15, -0.35],
+    	"end_pos": [0.0, -0.05, -1.7],
+    	"lifetime": 10,
+		"interpolations": 7,
+    	"texture_path": "epicfight:textures/particle/s/death.png",
+    	"particle_type": "epicfight:swing_trail"
+    }
+}

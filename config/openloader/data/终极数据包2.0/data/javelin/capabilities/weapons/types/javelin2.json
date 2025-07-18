@@ -1,0 +1,68 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.6,
+      0.6,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "epicfight:biped/living/hold_spear",
+      "run": "epicfight:biped/living/run_spear",
+      "aim": "epicfight:biped/combat/javelin_aim_mid",
+      "walk": "epicfight:biped/living/walk_spear"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+"mount": [
+      "cdmoveset:biped/new/spear/spear_onehand_auto"
+    ],
+    "two_hand": [
+      "epicfight:biped/combat/spear_dash",
+      "epicfight:biped/combat/spear_twohand_auto1",
+      "epicfight:biped/combat/longsword_liechtenauer_auto3",
+      "epicfight:biped/combat/mob_spear_twohand3",
+      "cdmoveset:biped/new/spear_slash",
+      "cdmoveset:biped/new/blade_rush_finisher",
+      "wom:biped/combat/staff_kingkong"
+    ]
+  },
+  "styles": {
+    "default": "two_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "gs_spear"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "gs_spear"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "gs_spear",
+  "innate_skills": {
+    "two_hand": "epicfight:grasping_spire"
+  },
+  "usable_in_offhand": false
+}

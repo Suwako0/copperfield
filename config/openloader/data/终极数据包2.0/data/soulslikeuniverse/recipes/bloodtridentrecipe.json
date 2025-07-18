@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ca",
+    " bc",
+    "c  "
+  ],
+  "key": {
+    "a": {
+      "item": "soulslikeuniverse:oniblade"
+    },
+    "b": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "c": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:bloodtrident",
+    "count": 1
+  }
+}

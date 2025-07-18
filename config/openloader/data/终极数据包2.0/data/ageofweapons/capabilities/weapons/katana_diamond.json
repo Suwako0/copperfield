@@ -1,0 +1,17 @@
+{
+    "type": "uchigatana:uchigatana2",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 3.0,
+                "impact": 1.0,
+            "max_strikes": 2.0,
+            "speed_bonus":0
+        },
+        "two_hand": {
+            "armor_negation": 1.0,
+                "impact": 1.0,
+            "max_strikes": 2.0,
+            "speed_bonus":0
+        }
+    }
+ }

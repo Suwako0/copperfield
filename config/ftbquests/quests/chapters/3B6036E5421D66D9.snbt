@@ -1,0 +1,1599 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3B6036E5421D66D9"
+	group: ""
+	icon: "botania:orange_mystical_flower"
+	id: "3B6036E5421D66D9"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			height: 3.0d
+			hover: ["科波菲尔 导师"]
+			image: "minecraft:textures/painting/bust.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.5d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["65D8635816E764A2"]
+			description: ["神秘花是植物魔法大多数配方的必备材料(产能/功能花、符文等、魔力发射器等)"]
+			id: "133E47C30DB8475C"
+			rewards: [
+				{
+					id: "01C912DA196A042F"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C1B0EE426FE7989"
+					table_id: 4399410514014879203L
+					type: "random"
+				}
+				{
+					id: "1BF6F3AAB35AB329"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "04DC65DF50F67A89"
+					item: "fruitsdelight:pineapple_pie"
+					type: "item"
+				}
+			]
+			subtitle: "你可以在各地找到不同颜色的神秘花，尽可能多的收集它们，以便后续材料制作"
+			tasks: [{
+				id: "0D8890052470F849"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "神秘魔法之花"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75516C192B444173"]
+			id: "02B3F7B9518B7F4E"
+			rewards: [
+				{
+					count: 2
+					id: "13DCA209F5E6CCC6"
+					item: "fruitsdelight:melon_jello"
+					type: "item"
+				}
+				{
+					id: "3A64C8F263DBEB0E"
+					item: "quark:golden_carrot_crate"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "向花药台中注水，然后根据配方放入各个材料，用一颗种子激活，即可制作出各种魔法花朵"
+			tasks: [
+				{
+					id: "1E5A806305AECBE8"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+				{
+					id: "37F6BCAFC235CFC0"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "制作花药台"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["02B3F7B9518B7F4E"]
+			description: [
+				"如果你认为这种方式过于繁琐难以实现自动化，也可以使用机械动力的机械手手持白雏菊来转化活石或活木"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2DDA64B0502E99DF\" } }"
+			]
+			id: "717A46BF3DB92E80"
+			rewards: [{
+				id: "6EF4BE468DA585C3"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "放置白雏菊，将原木/石头放置在白雏菊周围一周（以白雏菊为中心3x3）空间内，等待一段时间即可转化成活木/活石，它们是后续合成一些魔法/工业物品的重要材料"
+			tasks: [{
+				id: "05D3D93868A426B7"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			title: "白雏菊转化"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["78C919A60FE8DB18"]
+			description: [
+				"除了整合仓库存储外，该存储终端结合存储线缆等可以与机械动力结合实现自动化，你可以在完成该任务后开始着手发展植物魔法与机械动力。"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"182799D1595B63B8\" } }"
+				""
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2BC99BB9ED6AC68D\" } }"
+			]
+			id: "206AFDBF3592720B"
+			rewards: [
+				{
+					id: "368E6E608DCD6895"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "gag:hearthstone"
+						tag: {
+							Damage: 0
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "431AC5917091F417"
+					item: "quark:shiba_spawn_egg"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "44D4271BDCC2D772"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "383F4E02CB41EEDC"
+					item: "sereneseasons:calendar"
+					type: "item"
+				}
+				{
+					id: "3B29FBD3F04458C1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "使用简易存储的终端连接任意容器可以使存储物品更加便捷（使用炉石可以返回你记录的床的位置，甚至可以跨越维度，如果你的炉石损坏或遗失，可以用符文祭坛再合成一个）"
+			tasks: [
+				{
+					id: "1CDE1A631E17DE2C"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+				{
+					id: "31FAB9864A67800D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "toms_storage:ts.inventory_connector"
+					}
+					type: "item"
+				}
+			]
+			title: "建立基地"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B91CDDAA4449CF3"]
+			description: [
+				"完成该任务可在3把初始武器中选择一把领取，让你在早期生存探险中更加顺利!史诗战斗详细请见"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"43ACD70113D89917\" } }"
+			]
+			id: "3D42F7BF585D19E2"
+			rewards: [
+				{
+					id: "4D31EA62D85642E4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "24805A909B8D7B04"
+					item: "dummmmmmy:target_dummy"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4667FA855B2664A0"
+					table_id: 6607892094432195307L
+					type: "choice"
+				}
+			]
+			subtitle: "本整合包添加了[史诗战斗]模组，帮助你更好的打怪，同时野外也会刷新更强力的怪物（神化BOSS），(按[默认是Y键]来切换战斗和非战斗状态，你在战斗状态中无法挖掘方块，推荐史诗战斗状态切换为第三人称视角)，制作DPS傀儡召唤器可以更好的测试武器DPS，当然，你也可以使用训练人偶"
+			tasks: [{
+				id: "4FF2B1271C502391"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "kubejs:zombie_summoner"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "史诗般的战斗"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C1387D1E8B452D9"]
+			id: "37F70DAD57DABA65"
+			rewards: [
+				{
+					count: 5
+					id: "22EC137B535E5D99"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3DADA5B95F789EB4"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "42C452B0A861BF72"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			subtitle: "所有的产能装置和目标装置之间都需要用这些齿轮、传动杆或齿轮箱连接才能工作"
+			tasks: [
+				{
+					id: "58F42545BED6D652"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "5B94A673D6C7CC93"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "齿轮上的宇宙"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37F70DAD57DABA65"]
+			id: "04E3E13DDDB106E8"
+			rewards: [{
+				count: 5
+				id: "39101D778590BDDE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:cogwheel"
+				}
+				type: "item"
+			}]
+			subtitle: "制作一个提供应力来源的机械，用水车作为初始应力源或许不错，将其至于流动水源以提供应力，连接传动杆、齿轮或者齿轮箱等以将动力传至其他使用应力的机械"
+			tasks: [{
+				id: "573478B6D86E1C7F"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "清洁能源"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04E3E13DDDB106E8"]
+			id: "6A20D31631C6AC60"
+			rewards: [{
+				count: 5
+				id: "0CE45DF58BEB93BD"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "制作动力辊压机，用于压制诸多材料"
+			tasks: [
+				{
+					id: "11BE73B9CFFC6865"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "0BFC0EB34C1D0877"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "4A278665626194C7"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "动力辊压"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6A20D31631C6AC60"]
+			description: ["本整合包内置一些蓝图，可以直接打印使用"]
+			id: "61BADE8F298BA7CF"
+			rewards: [
+				{
+					count: 5
+					id: "233984B849B0072E"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2FC7A65B7DBDBE3F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+				{
+					id: "0A2D8E1A1601D3DA"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "使用蓝图加农炮可以很方便的打印出一些预设好的蓝图结构，或是打印空置域..."
+			tasks: [
+				{
+					id: "703355F825E5185A"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "2448F42B22C10141"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "40AC334F63C872A0"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+			]
+			title: "蓝图打印"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["75516C192B444173"]
+			id: "50AAC94EE6F74594"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F9A69A6D1AA4222"
+					table_id: 4399410514014879203L
+					type: "random"
+				}
+				{
+					id: "1085C8C8309E2613"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:black_lotus"
+					}
+					type: "item"
+				}
+				{
+					id: "78837843C6623847"
+					item: "botania:overgrowth_seed"
+					type: "item"
+				}
+			]
+			subtitle: "要产生魔力，首先你需要制作能产生魔力的花朵，火红莲或许是作为初始产能花的不错选择。将火红莲放置好后，用森林法杖将其绑定至一个魔力发射器，再将魔力发射器绑定至一个魔力池，这样一个简单的产能装置就完成了。将燃料丢弃在火红莲附近他就会开始产出魔力，然后传给魔力发射器，再由魔力发射器传输到魔力池中存储"
+			tasks: [
+				{
+					id: "70866EAC48B8E050"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "74EE3C35D889C89A"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					id: "1B37E067B9590BB3"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+			]
+			title: "魔力的产生"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["133E47C30DB8475C"]
+			description: [
+				"本模块仅介绍植物魔法的入门，更详细的介绍请参考任务书植物魔法页签"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"182799D1595B63B8\" } }"
+			]
+			id: "75516C192B444173"
+			rewards: [
+				{
+					id: "75BC1F03F144FABE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B96792DD5608BD6"
+					table_id: 4399410514014879203L
+					type: "random"
+				}
+			]
+			subtitle: "所有有关植物魔法的知识，都能在这本辞典中找到！（后续你需要制作精灵传送门来升级辞典以解锁更高级的知识）,类似于机械动力的思考,物品栏中有植物魔法辞典时,长按Ctrl以查看某个植物魔法道具的具体描述"
+			tasks: [{
+				id: "3B90528E1C3FC07B"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			title: "植物魔法知识汇总"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50AAC94EE6F74594"]
+			id: "1D59C9D6F2087722"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DECBF0CDC380854"
+					table_id: 4399410514014879203L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "4240E0EC3DAD9BEA"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "1B9932C4F10D0113"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			subtitle: "使用火花是另一种传递魔力的方式，需要将一个火花至于魔力池上方，另一个火花置于可接受魔力的物体上方如魔力池/功能花，详情可见植物魔法辞典（推荐使用火花！），使用染料对火花进行染色，可以区分不同火花的链路使不同颜色火花互不干扰"
+			tasks: [{
+				count: 2L
+				id: "486AA49AFE4DB0A1"
+				item: { Count: 2, id: "botania:spark" }
+				type: "item"
+			}]
+			title: "Spark⭐"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["高级Farmer必备"]
+			id: "63792916B62C602C"
+			rewards: [
+				{
+					id: "18DF34DF744321D9"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6EDF0B59BCD32BAC"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			subtitle: "将小麦/胡萝卜等至于饲料槽中，就可以自动喂食动物，你的牧场可能需要它"
+			tasks: [{
+				id: "6F34FDD68C2799FE"
+				item: "quark:feeding_trough"
+				type: "item"
+			}]
+			title: "自动喂食"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50AAC94EE6F74594"]
+			description: ["如果你完全没有接触过植物魔法可以尝试一下这种魔力运输方式,但是我更推荐使用火花"]
+			id: "00A8D6D2E0312B2B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21EF5699903267CF"
+					table_id: 4399410514014879203L
+					type: "random"
+				}
+				{
+					id: "43DE29660BD867EB"
+					item: "botania:black_lotus"
+					type: "item"
+				}
+			]
+			subtitle: "另一种传输魔力的方式是使用魔力池矿车，使用魔力池矿车连接魔力泵，一边是输入，另一边一边是输出，但是这种魔力传输方式的魔力损耗很大！"
+			tasks: [
+				{
+					id: "1E75F88FB2198505"
+					item: "botania:pool_minecart"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3CC729A0E72E4D10"
+					item: "botania:pump"
+					type: "item"
+				}
+			]
+			title: "轨道上的魔力"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FFCBCF7BB10A202"]
+			id: "3AF0694C77AD4B22"
+			rewards: [
+				{
+					id: "7D04558BF77E88B4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "69A9D9DE25A34084"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			subtitle: "神秘花需求量太大？给翡翠苋提供一些魔力他就会让周围的草地长出魔力花，再用沙漏定时激活红石魔力发射器使魔力脉冲激活狂野之鼓，就能把这些神秘花打落，然后再进行收集！"
+			tasks: [
+				{
+					id: "49695C96B704F26A"
+					item: "botania:jaded_amaranthus"
+					type: "item"
+				}
+				{
+					id: "1551CD94F90F99D7"
+					item: "botania:drum_wild"
+					type: "item"
+				}
+				{
+					id: "547378460D750DBD"
+					item: "botania:hourglass"
+					type: "item"
+				}
+			]
+			title: "神秘花农场"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50AAC94EE6F74594"]
+			id: "0FFCBCF7BB10A202"
+			rewards: [
+				{
+					id: "5F34AA1E15E2726A"
+					item: {
+						Count: 1
+						id: "gag:escape_rope"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "34901447AF19B68B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:livingrock"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "05E340EFB1FFDF1C"
+					item: "botania:black_lotus"
+					type: "item"
+				}
+			]
+			subtitle: "制作一个符文祭坛，提供一些魔力来合成各种符文"
+			tasks: [{
+				id: "0260B882C87CFF95"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FFCBCF7BB10A202"]
+			id: "4545CBBAD72F33D1"
+			rewards: [
+				{
+					id: "7AAB6D14E1492770"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "771788A63ACABC85"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "6DE6D531415DC76A"
+					item: "botania:diluted_pool"
+					type: "item"
+				}
+			]
+			subtitle: "给田园康乃馨提供极少量的魔力，就能帮你催熟农田！"
+			tasks: [{
+				id: "3846ACEDDCAF1ADE"
+				item: "botania:agricarnation"
+				type: "item"
+			}]
+			title: "适度生长"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2342C91695A44B4F"]
+			id: "78C919A60FE8DB18"
+			rewards: [
+				{
+					count: 16
+					id: "093BA03837A1DB84"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "07467AAB23CB4D32"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3BFFBA838D555DEA"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			subtitle: "有一些物资需要前往下界获取，如抓烈焰人放到燃烧室，以及荧石、下界石英等"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "3EA3F9CC607B052C"
+				type: "dimension"
+			}]
+			title: "前往下界"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["206AFDBF3592720B"]
+			description: [
+				""
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4811E4C47C56BACF\" } }"
+			]
+			id: "6CA6908D5BE7CBEE"
+			rewards: [
+				{
+					count: 6
+					id: "7F1B9AEA448FB0E1"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "34F70FDBAEDC1A19"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "apotheosis:hellshelf"
+					}
+					type: "item"
+				}
+				{
+					id: "2D35349A700A800C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "apotheosis:seashelf"
+					}
+					type: "item"
+				}
+				{
+					id: "3206027331CB6D07"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "apotheosis:knowledge"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "神化模组添加了更多附魔魔咒以及更多类型的强力附魔能力书架。顺便提一下，青金石可以用植物魔法魔力灌注量产"
+			tasks: [
+				{
+					id: "3BB5D8DED0655F23"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					id: "544B8D05835BCD6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:grindstone"
+					}
+					type: "item"
+				}
+			]
+			title: "附魔"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6A20D31631C6AC60"]
+			id: "783EC72900AEBC2E"
+			rewards: [{
+				id: "0F9BDDF4F0AF420F"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			subtitle: "制作一个空白模板，然后将空白模板合成为各种背包升级模板，能为你的背包添加更多样化的功能，例如自动喂食、堆叠上限提高、磁铁等，同时通过升级背包本身可提高背包容量以及升级模板槽位数量"
+			tasks: [{
+				id: "0E558C002241C50E"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "背包升级！"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6A20D31631C6AC60"]
+			id: "62FDF54FA499C381"
+			rewards: [{
+				count: 5
+				id: "12A64DB6CFF8E53D"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "接入动力源，如传动杆，就可以利用压缩空气给背包充能，然后你就可以背上背包喷气飞行！"
+			tasks: [{
+				id: "0D271CA54CAB8012"
+				item: {
+					Count: 1
+					id: "create_jetpack:jetpack"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["04E3E13DDDB106E8"]
+			id: "32E23C58572BAB5A"
+			rewards: [{
+				count: 5
+				id: "24783A571CB95846"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "安全作业！佩工程护目镜以查看每个机械装置实时应力产生、消耗情况以及其他各项细节参数！"
+			tasks: [{
+				id: "1E22781DF8846368"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "工程师护目镜"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"【腾讯文档】对整合包有任何建议/BUG反馈请在以下文档中提出:"
+				"https://docs.qq.com/sheet/DZEZZb0JvSUtIRGV0?tab=BB08J2"
+				"该整合包并不是一个快节奏的整合包，前期需要大量的时间发育和建造，请耐心游玩"
+			]
+			icon: "minecraft:soul_lantern"
+			id: "5CC9A87BC0327FDE"
+			rewards: [
+				{
+					count: 3
+					id: "238759A9D1536F09"
+					item: "fruitsdelight:pineapple_pie"
+					type: "item"
+				}
+				{
+					id: "47935345617EC531"
+					item: "kubejs:student_ring"
+					type: "item"
+				}
+			]
+			subtitle: "该整合包主要以科技和冒险为主，在游戏的前期探索和发展植物魔法/机械动力产线以准备后续更强大的挑战。在中后期可以挑战BOSS/秘境合成强力的武器装备，制作宝石附魔等强化你的武器装备，来挑战更强大的BOSS"
+			tasks: [{
+				id: "67E010C9AF4F2E0C"
+				title: "整合包介绍"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FA13E430699E5CD"]
+			description: ["哈基龙哈气了"]
+			id: "7D660F3234ED258E"
+			rewards: [
+				{
+					count: 5
+					id: "67B5879E73B15A8C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "532486A6ABF3236D"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1603DDE3B1174CDC"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					id: "617FAB9B7A2A5061"
+					item: "apotheosis:endshelf"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5D171805A5C46266"
+					item: "ends_delight:raw_dragon_meat"
+					type: "item"
+				}
+			]
+			subtitle: "击杀末影龙，前往末地获取更多资源"
+			tasks: [{
+				id: "15B72BAEC00436B8"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "结束了?"
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5CC9A87BC0327FDE"]
+			description: ["本章节主要为整合包前期游玩提供引导，在中后期你可以根据任务书其他切页自由游玩发育，最终击败BOSS"]
+			id: "36A3CFAE530C901E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CFE73E1FC1CB4B4"
+				table_id: 2229298228123324324L
+				type: "random"
+			}]
+			subtitle: "有人能拒绝开局看见树不砍？"
+			tasks: [{
+				id: "7FB90EDEDB6B0CFC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "要致富，先撸树"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["36A3CFAE530C901E"]
+			id: "65D8635816E764A2"
+			rewards: [
+				{
+					id: "5550B62FC73C469C"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2930BD75AF71760B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "38482CA08D70655B"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "1DEFC25F0733A12A"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			title: "Work,Work"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65D8635816E764A2"]
+			description: [
+				"本模块仅介绍机械动力的入门，更详细的介绍请参考任务书机械动力页签"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2BC99BB9ED6AC68D\" } }"
+			]
+			id: "6C1387D1E8B452D9"
+			rewards: [{
+				count: 10
+				id: "5C9263F98B375424"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "神之手的力量是绝对的"
+			tasks: [{
+				id: "241AD009266C4057"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			title: "机↑械↓动力↑起始"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65D8635816E764A2"]
+			id: "0B91CDDAA4449CF3"
+			rewards: [
+				{
+					count: 3
+					id: "13393496645BFF71"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "290C93450864D8D7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fruitsdelight:pineapple_pie"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "前期挖掘高级矿物的必备"
+			tasks: [{
+				id: "45F181168266780A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "铁器时代"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D42F7BF585D19E2"]
+			id: "2342C91695A44B4F"
+			rewards: [
+				{
+					count: 3
+					id: "46476580337829AE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "49D16720D879CC6C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fruitsdelight:pineapple_pie"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "25AA3C007D8A4A3F"
+					item: "fruitsdelight:lemon_juice"
+					type: "item"
+				}
+			]
+			subtitle: "你已经学会怎么玩这个游戏了，现在去挑战末影龙吧！（doge"
+			tasks: [{
+				id: "2CE30F75959EA124"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "这是什么！钻石！"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["206AFDBF3592720B"]
+			description: [
+				"可以使用结构指南针来快速寻找要塞位置,无需使用末影之眼寻找"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"39C4B4A3D081227F\" } }"
+			]
+			id: "0FA13E430699E5CD"
+			rewards: [
+				{
+					id: "0064BFC0DB8EE6EC"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:infinity"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A290BF2E1815C62"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "真要去的话，请收下这个！"
+			tasks: [{
+				id: "542817EDAD4E7977"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "不会真想现在去挑战末影龙吧？"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			description: ["{image:kubejs:textures/tsk/tsk4.png width:200 height:100 align:center}"]
+			id: "16F7DAF49E51CD2E"
+			rewards: [
+				{
+					id: "09FEE643ECFADD58"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:mana_diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "4D8645EC37F2AC6C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "1E8E13322B8159C6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:black_lotus"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "将魔力转化为机械动力的应力。建议魔力富裕且缺乏应力玩家使用"
+			tasks: [
+				{
+					id: "5F037A8A3C5BAEC6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mechanicalbotania:mana_motor"
+					}
+					type: "item"
+				}
+				{
+					id: "3DF70ED0A57D59EC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mechanicalbotania:spinerette"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D42F7BF585D19E2"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "wom:satsujin"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "269A10F4C46A8699"
+			rewards: [
+				{
+					count: 2
+					id: "74B5F70FA2BF1B69"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "587D3DD732551213"
+					type: "xp"
+					xp: 666
+				}
+				{
+					id: "28C4FCEAABA492F9"
+					item: "ends_delight:smoked_dragon_leg"
+					type: "item"
+				}
+			]
+			subtitle: "本整合包所有武器均已适配史诗战斗，使用@空白的空_(Bilibili)大佬所制作的史诗战斗数据包2.0，在此基础上有一定调整和修改"
+			tasks: [{
+				id: "34869A8DDCA57B16"
+				title: "特别鸣谢"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["206AFDBF3592720B"]
+			id: "7D5ECDFA7536887C"
+			rewards: [{
+				id: "6DE98F4754C39FB2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "storagedrawers:obsidian_storage_upgrade"
+				}
+				type: "item"
+			}]
+			subtitle: "考虑到许多玩家习惯使用抽屉存储物品，故本整合包也加入了抽屉可供选用"
+			tasks: [{
+				id: "021C0318C40C7982"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:full_drawers"
+					}
+				}
+				type: "item"
+			}]
+			title: "抽屉存储"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["206AFDBF3592720B"]
+			id: "5F3F95930FC74F34"
+			rewards: [
+				{
+					id: "27E6364D444A80A6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43BA53DA33D8253D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "合成终端用于替代存储终端，相较于存储终端，合成终端添加了一个3x3工作台合成模块，可以使用终端中的物品来直接合成，十分方便"
+			tasks: [{
+				id: "5781A1BF4AEA3638"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "toms_storage:ts.crafting_terminal"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"沉梦之人：召唤并击杀盖亚2"
+				"蒸汽充沛：让蒸汽锅炉以最高效率运行"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "kubejs:botanicreator_ring"
+			}
+			id: "42522E462BC98DEC"
+			rewards: [{
+				id: "2AA318D823ADF7E1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "kubejs:botanicreator_ring"
+				}
+				type: "item"
+			}]
+			subtitle: "你已经成为了一名合格的植物机械师"
+			tasks: [
+				{
+					advancement: "botania:challenge/gaia_guardian_hardmode"
+					criterion: ""
+					id: "6329A9B2540891E6"
+					type: "advancement"
+				}
+				{
+					advancement: "create:steam_engine_maxed"
+					criterion: ""
+					id: "2FB7353115BBC5AA"
+					type: "advancement"
+				}
+			]
+			title: "齿轮与花"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D42F7BF585D19E2"]
+			description: [
+				"更多有关魔宠的知识请查看任务书铁魔法页签的魔宠部分"
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"30877B6009261802\" } }"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "kubejs:random_pet_bag"
+			}
+			id: "7E1A142512582631"
+			rewards: [
+				{
+					count: 32
+					id: "3BAB23AE0DA3F1A5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:arcane_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "713A963EDCD6125D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alshanex_familiars:familiar_tome"
+					}
+					type: "item"
+				}
+				{
+					id: "49B3D62099627D5C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:random_pet_bag"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "赠送一只陪伴你冒险和战斗的魔宠。召唤出来后使用奥术源质来驯服它，使用魔宠手册来收纳它"
+			tasks: [{
+				id: "2775CAF1AFF0EEE4"
+				type: "checkmark"
+			}]
+			title: "魔宠"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CC9A87BC0327FDE"]
+			description: [
+				"v0.9.5"
+				"1.修复部分神化BOSS导致的崩溃"
+				"2.部分模组更新，移除齿轮与麦穗"
+				"3.任务书优化"
+				"4.凝矿兰不再能产出奥术残骸"
+			]
+			icon: "botania:animated_torch"
+			id: "66360AE777260DAF"
+			subtitle: "当前:V0.9.5 Beta"
+			tasks: [{
+				id: "791CD92AA6197EA8"
+				title: "更新日志"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0FFCBCF7BB10A202"]
+			id: "6469E68722FCABC2"
+			rewards: [
+				{
+					id: "52F91B5CC60B6C50"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "61735006A4AF2AEE"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "增生之种是一种可以让产能花高效率工作的神奇物品，右击草方块使其变为蕴魔土，然后在上面放置产能花"
+			tasks: [{
+				id: "37CC2BBAC99C927A"
+				item: "botania:overgrowth_seed"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78C919A60FE8DB18"]
+			description: ["这凋灵还会镭射眼的吗"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "7C7D16F459578833"
+			rewards: [
+				{
+					id: "4E8B760FC72B456F"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "00AB35A7DDD3D20C"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "0A2BEB4201017032"
+					item: "apotheosis:infused_hellshelf"
+					type: "item"
+				}
+			]
+			subtitle: "击杀凋灵以获取下界之星"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "4568D1A045CB252D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "旅途之始"
+}

@@ -1,0 +1,11 @@
+{
+    "type": "guandao:guandao4",
+    "attributes": {
+        "common": {
+            "armor_negation":8,
+                "impact": 1.0,
+            "max_strikes": 5,
+            "speed_bonus": 0.1
+        }
+    }
+ }

@@ -1,0 +1,12 @@
+{
+    "type": "bow:bow2",
+    "attributes": {
+        "common": {
+            "armor_negation":3,
+                "impact": 1,
+            "max_strikes": 3,
+            "damage_bonus": 15.0,
+            "speed_bonus": -1.2
+        }
+    }
+ }

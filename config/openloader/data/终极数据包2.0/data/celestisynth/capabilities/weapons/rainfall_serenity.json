@@ -1,0 +1,12 @@
+{
+    "type": "epicfight:rainfall_serenity",
+    "attributes": {
+        "common": {
+            "armor_negation":8,
+                "impact": 1.0,
+            "max_strikes": 8,
+            "damage_bonus": 8.0,
+            "speed_bonus": -2
+        }
+    }
+ }

@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "copperfield_structures:pet_house_hunter",
+      "weight": 2
+    },
+    {
+      "structure": "copperfield_structures:botanicreate_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 98321721,
+    "spacing": 40,
+    "separation": 20,
+    "type": "minecraft:random_spread"
+  }
+}

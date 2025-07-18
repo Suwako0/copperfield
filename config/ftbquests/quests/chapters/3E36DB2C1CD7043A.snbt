@@ -1,0 +1,1096 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3E36DB2C1CD7043A"
+	group: "5960C5DF941F3C42"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "botania:lexicon"
+	}
+	id: "3E36DB2C1CD7043A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["182799D1595B63B8"]
+			id: "5A8615CA4CE89B74"
+			rewards: [
+				{
+					count: 3
+					id: "059AA018EC3D74EF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:slime_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "0B2A8608CD70B8C3"
+					item: "botania:rune_water"
+					type: "item"
+				}
+			]
+			subtitle: "不同的魔力透镜可以帮你提供不同的功能。建议给魔力发射器上透镜提供更多输入输出。透镜可以复合，用粘液球将两个不同功能的透镜粘在一起。"
+			tasks: [{
+				id: "6B0A9D13263814E9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:lens_normal"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A8615CA4CE89B74"]
+			id: "3BD5D51C748EED4D"
+			rewards: [
+				{
+					id: "5F95CCEFB0122158"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:spark_upgrade_dominant"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "50FFD45A15FC4272"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:overgrowth_seed"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "一个制作泰拉钢的设备，必须用火花或盖亚魔力发射器供给魔力，制作一个泰拉钢需要半池的魔力(500000mana)。制作时如果拿出物品，会导致魔力流失。"
+			tasks: [{
+				id: "13C7BBA123B73464"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:terra_plate"
+				}
+				type: "item"
+			}]
+			title: "炼钢"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BD5D51C748EED4D"]
+			id: "0E1108B2189D4319"
+			rewards: [{
+				id: "3FE392E565963D46"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "泰拉凝聚板结构用来制作泰拉钢锭。首先需要用四个青金石块和五个活石摆成棋盘状，再在中间的活石上放上泰拉凝聚板"
+			tasks: [{
+				id: "24632382ACBE299C"
+				title: "泰拉凝聚板"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			id: "113230AF52E13651"
+			rewards: [{
+				id: "2BCBE5FC6824BBE7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:crystal_bow"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:infinity"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:power"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:flame"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "精灵不喜欢吃面包，但我喜欢hhh"
+			tasks: [{
+				advancement: "botania:challenge/alf_portal_bread"
+				criterion: ""
+				id: "197F09C883158DAD"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["06A2915724D09FF3"]
+			id: "1183536751D05314"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "139FA05769019978"
+					table_id: 4399410514014879203L
+					type: "random"
+				}
+				{
+					id: "654182DDCF58E495"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:dragonstone"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "更高级的魔力发射器"
+			tasks: [{
+				id: "74D8C0EEC47B4883"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:elven_spreader"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3BD5D51C748EED4D"]
+			id: "0740DF0FCC341852"
+			rewards: [
+				{
+					count: 2
+					id: "111F415B9CA28A25"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:life_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "757DE59F92EF508C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "63A9533B5D47F770"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:overgrowth_seed"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "盖亚为植物魔法的祭坛召唤BOSS，击败盖亚可以获得丰富的植物魔法资源以及随机遗物饰品；使用盖亚祭坛进行召唤，用 泰拉钢锭 对仪式所用的信标 Shift + 右键即可召唤盖亚 I "
+			tasks: [{
+				advancement: "botania:main/gaia_guardian_kill"
+				criterion: ""
+				id: "66A433210EF99560"
+				type: "advancement"
+			}]
+			title: "击败盖亚Ⅰ"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0740DF0FCC341852"]
+			id: "142C330687E51994"
+			rewards: [
+				{
+					count: 2
+					id: "10191CDD02A24524"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:life_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1C74E00546E7C713"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:gaia_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "11889AF0A87F80E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:overgrowth_seed"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "盖亚2是更为强力的BOSS，击败后获得的奖励也更为丰富；使用盖亚祭坛进行召唤，用 盖亚魂锭 对仪式所用的信标 Shift + 右键即可召唤盖亚 II "
+			tasks: [{
+				advancement: "botania:challenge/gaia_guardian_hardmode"
+				criterion: ""
+				id: "6DBD7F5BF12790F9"
+				type: "advancement"
+			}]
+			title: "击败盖亚Ⅱ"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3BD5D51C748EED4D"]
+			id: "3DF5F45DC3BA41C7"
+			rewards: [
+				{
+					id: "491F8685363D5252"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:spark_upgrade_recessive"
+					}
+					type: "item"
+				}
+				{
+					id: "537C9DF48F1DEDC2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mythicbotany:alfsteel_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56171C18D7FE95C5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mythicbotany:mana_infuser"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DF5F45DC3BA41C7"]
+			description: ["搭建完成后，需要在注魔板（方块）上方放置火花，在这个火花网络中，需要一个有且能够输出魔力的设备并为上方火花添加扩散升级或为注魔板（方块）上方火花添加聚集升级，否则无法工作。"]
+			id: "4F086B7F5D4D209C"
+			rewards: [{
+				id: "0E2D4DB1FE72C2EA"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "使用5个微光石，4个金块和一个注魔板搭建，此多方块结构可以制作泰拉钢锭或精灵钢锭。"
+			tasks: [{
+				id: "5C305E713FD72B60"
+				title: "精灵凝聚板"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["54F58BAD4215711C"]
+			description: ["探索该维度，可以获取大部分于精灵交易可以获取的物品"]
+			id: "6583798AECC26B42"
+			rewards: [
+				{
+					id: "00FF072157D8225B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mythicbotany:midgard_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "00E9571DE752DDD6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mythicbotany:joetunheim_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "3D4A22115C4FEB34"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mythicbotany:muspelheim_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "5E43596CE57B4748"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mythicbotany:niflheim_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "413B1A433A54B1B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mythicbotany:nidavellir_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "56D0F48315B60114"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mythicbotany:helheim_rune"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "克瓦希尔之血所酿的酒才能够弥补精灵传送门链接微弱的缺点，使玩家有进入精灵们居住的世界——亚尔夫海姆的可能。"
+			tasks: [{
+				dimension: "mythicbotany:alfheim"
+				id: "60DBCA534A36D01D"
+				type: "dimension"
+			}]
+			title: "到达亚尔夫海姆"
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4F3DD7CC4C4E44DF"]
+			id: "54F58BAD4215711C"
+			rewards: [
+				{
+					id: "3987BB3796B8EB57"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mythicbotany:asgard_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "285DCCD598D7B701"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mythicbotany:vanaheim_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "315EEB9A25E293D6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mythicbotany:alfheim_rune"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "玩家喝下诗之蜜酒后，允许通过精灵传送门进入精灵国度。如果玩家不小心破坏了精灵国度的传送门，可以通过修补框架并扔入一块龙石。然后耐心等待它消失，传送门将会再次打开。"
+			tasks: [{
+				id: "00827551B3D3621B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mythicbotany:kvasir_mead"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F086B7F5D4D209C"]
+			description: [
+				"配方详情请查询植物图鉴"
+				""
+				"符文决定了我的路。"
+			]
+			id: "4F3DD7CC4C4E44DF"
+			rewards: [{
+				id: "22ED381E4190B63F"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "为了开启符文仪式，玩家首先要饮用密米尔之泉的泉水来汲取知识。随后将若干符文支架围绕1个大师符文支架摆成特定形状，然后在符文支架和大师符文支架上放上对应的符文。只要相对距离正确，符文的位置可以随意旋转。符文摆放完成后将合成材料丢在仪式范围内，再使用森林法杖右击大师符文支架即可开始合成。符文仪式合成消耗的魔力能且只能来自于玩家身上的魔力之戒/高级魔力之戒/终极魔力之戒。"
+			tasks: [{
+				id: "62FB455EE40AED22"
+				title: "符文仪式"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6583798AECC26B42"
+				"142C330687E51994"
+			]
+			id: "280D32B04F161D44"
+			rewards: [
+				{
+					id: "79BCA0D9750639BD"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "2B43BCB1AFE3E731"
+					item: "kubejs:gem_origin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3453FE85E11D3642"
+				title: "你已经是一个合格的植物魔法师了"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			id: "182799D1595B63B8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A02DA493441FB58"
+					table_id: 4399410514014879203L
+					type: "random"
+				}
+				{
+					id: "4910F6D861769B50"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 5
+					id: "738EB4FEBE9FC991"
+					item: "botania:livingwood_twig"
+					type: "item"
+				}
+			]
+			subtitle: "建议在完成主线的植物魔法基础部分后，开始此部分任务，这部分为植物魔法主流程的后半介绍"
+			tasks: [{
+				id: "6A301B81C89AE62F"
+				title: "植物魔法进阶"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0740DF0FCC341852"]
+			id: "36D94B06592E34F6"
+			rewards: [
+				{
+					id: "7F086436485C22BE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:lens_speed"
+					}
+					type: "item"
+				}
+				{
+					id: "102EFA74EE9FABC9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:lens_power"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "最顶级的魔力发射器"
+			tasks: [{
+				id: "4A390DC4C300F85E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:gaia_spreader"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0740DF0FCC341852"]
+			id: "0DB1B2C053E93FD7"
+			rewards: [{
+				id: "1C574B39D430F986"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:blacker_lotus"
+				}
+				type: "item"
+			}]
+			subtitle: "大容量的魔力池，适合做魔力缓存池"
+			tasks: [{
+				id: "32756AF9E4BA9AB1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:fabulous_pool"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["182799D1595B63B8"]
+			id: "6C368C4AED975F24"
+			rewards: [
+				{
+					count: 2
+					id: "47D3ED44EA22CBD0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:mana_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "529946639BC3849F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:mana_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "01642F85BF287537"
+					item: {
+						Count: 1
+						id: "botania:manaweave_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75E24DD05D7A303D"
+					item: {
+						Count: 1
+						id: "botania:manaweave_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57185E5739F0634C"
+					item: {
+						Count: 1
+						id: "botania:manaweave_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DA7FDA74822BE5F"
+					item: {
+						Count: 1
+						id: "botania:manaweave_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "可以从魔力池吸收并存储魔力/释放魔力至魔力池中，放在背包中会消耗少量魔力为身上所有的植物魔法装备/工具/武器修补耐久"
+			tasks: [{
+				id: "658D1358F9FCD387"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["182799D1595B63B8"]
+			description: ["将植物魔法辞典丢到精灵门中以换取完整版辞典"]
+			id: "06A2915724D09FF3"
+			rewards: [
+				{
+					count: 2
+					id: "142279998DF9A3E1"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2B6D9491FC807A6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:dragonstone"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "制作开启精灵门所需相关方块，解锁精灵学魔法！详情见植物魔法辞典"
+			tasks: [
+				{
+					count: 2L
+					id: "074D5C53F14BF11D"
+					item: { Count: 2, id: "botania:natura_pylon" }
+					type: "item"
+				}
+				{
+					id: "53E36FAEFD7C2C87"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4E77789D906C1746"
+					item: { Count: 8, id: "botania:livingwood_log" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "665E3EB17FFA48B5"
+					item: "botania:glimmering_livingwood_log"
+					type: "item"
+				}
+			]
+			title: "精灵学！"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6583798AECC26B42"]
+			id: "64E3D7A850827705"
+			rewards: [
+				{
+					count: 2
+					id: "1DEE34EAB6B67D29"
+					item: "apotheosis:sigil_of_socketing"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2640D176DF0B82B6"
+					item: "mythicbotany:alfsteel_ingot"
+					type: "item"
+				}
+				{
+					id: "3D3EE599ED5939DC"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "botania:dreamwood_twig"
+				id: "501E5B55719D63CF"
+				structure: "copperfield_structures:corrupt_holy_spring"
+				type: "structure"
+			}]
+			title: "到达腐化圣泉"
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6583798AECC26B42"]
+			id: "288955EC579E48D5"
+			rewards: [
+				{
+					count: 2
+					id: "2FE9BCBA0560B400"
+					item: "apotheosis:sigil_of_socketing"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "53DE634995A34587"
+					item: "mythicbotany:alfsteel_ingot"
+					type: "item"
+				}
+				{
+					id: "6CEA1C793DF1DEBF"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "botania:dreamwood_twig"
+				id: "53729F86AC477CB1"
+				structure: "copperfield_structures:alfheim_tree_house"
+				type: "structure"
+			}]
+			title: "到达精灵树屋"
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["64E3D7A850827705"]
+			id: "1B92F9E7CEABE4F7"
+			subtitle: "在腐化圣泉中收集机械融合站"
+			tasks: [{
+				id: "7E2FECA841449D49"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6C368C4AED975F24"]
+			id: "603FB1A34DBE9857"
+			rewards: [
+				{
+					id: "71DF4E76CEADBC22"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "770B3A5915231AE6"
+					item: "botania:black_lotus"
+					type: "item"
+				}
+			]
+			subtitle: "和魔力石板作用一致，但是可以放置在戒指栏位"
+			tasks: [{
+				id: "7F46832BD45E98B3"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["603FB1A34DBE9857"]
+			id: "3A105B2FE101B36F"
+			rewards: [
+				{
+					id: "540F65A6448D086A"
+					item: "kubejs:terrasteel_sheet"
+					type: "item"
+				}
+				{
+					id: "34E94192816B0EEC"
+					item: "botania:blacker_lotus"
+					type: "item"
+				}
+			]
+			subtitle: "存储更多的魔力"
+			tasks: [{
+				id: "65EEC86A0C1A558F"
+				item: "botania:mana_ring_greater"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3A105B2FE101B36F"]
+			id: "20B5B6349DC2FC23"
+			rewards: [
+				{
+					id: "28ED35CF58AAFC1C"
+					item: "mythicbotany:alfsteel_ingot"
+					type: "item"
+				}
+				{
+					id: "74A4F470A2595496"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "78BF111C3AF42340"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+			]
+			subtitle: "存储更多的魔力"
+			tasks: [{
+				id: "58F73D1AE91B1964"
+				item: "mythicbotany:mana_ring_greatest"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["182799D1595B63B8"]
+			id: "3A06D6B6EE5C7F8F"
+			rewards: [
+				{
+					count: 3
+					id: "17CD808DF4F49BDF"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "71125F2A6DF04526"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "光环之戒是一种穿戴后可以让你身上所有魔力容器(魔力石板/魔力戒指)缓慢回复魔力的神奇戒指"
+			tasks: [{
+				id: "37C49E79D2461B81"
+				item: "botania:aura_ring"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3A06D6B6EE5C7F8F"]
+			id: "185E88B0A6D6A8E5"
+			rewards: [
+				{
+					id: "7146DC77E997742C"
+					item: "kubejs:terrasteel_sheet"
+					type: "item"
+				}
+				{
+					id: "31DCD05E6B5B8264"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "一种更强的光环戒指"
+			tasks: [{
+				id: "358B455C3B97AB5B"
+				item: "botania:aura_ring_greater"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["185E88B0A6D6A8E5"]
+			id: "1C9890B2DA310BF1"
+			rewards: [
+				{
+					id: "0E6F8DF3DF700F96"
+					item: "mythicbotany:alfsteel_ingot"
+					type: "item"
+				}
+				{
+					id: "3668AB987BD585F1"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "一种更强的光环戒指"
+			tasks: [{
+				id: "6B2D4E9C06725B65"
+				item: "mythicbotany:aura_ring_greatest"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06A2915724D09FF3"]
+			description: ["凝矿兰消耗大量魔力，可以考虑使用大规模火红莲矩阵/炽玫瑰/启命英/自动化热爆花供能，上述可能都需要使用机械动力配合"]
+			id: "60B96BD0677B4CB6"
+			rewards: [
+				{
+					id: "2F57BF50E7DCF17A"
+					item: "botania:blacker_lotus"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "074CC2C9D06CE6B6"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			subtitle: "自动化凝矿兰几乎是中期必做的装置，可以产出钻石等高级矿物，但是耗魔量极大，本整合包内置了一个凝矿装置蓝图，可以考虑直接打印(只包含产出部分，需要外接魔力)"
+			tasks: [{
+				id: "0920693323B5FD05"
+				item: "botania:floating_orechid"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+	]
+	title: "植物魔法"
+}

@@ -1,0 +1,3617 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "54AA4E7B0A333DA4"
+	group: "78E3ADEACB1DC1EF"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "youkaishomecoming:spell_reimu"
+	}
+	id: "54AA4E7B0A333DA4"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "youkaishomecoming:suwako_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "380B4C15A1B54D8C"
+			rewards: [{
+				id: "588D148634979DB7"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "妖怪们的归家是农夫乐事的一个附属模组，主要加入了车万相关的作物食物，同时，通过制作并实用某些食物可以增加饰品栏槽位"
+			tasks: [{
+				id: "0526E9C8129AC541"
+				title: "妖怪们的归家"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["380B4C15A1B54D8C"]
+			id: "4F3428C5E070A138"
+			tasks: [{
+				id: "04F87E689D823BFC"
+				title: "材料"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["380B4C15A1B54D8C"]
+			id: "2ECF5BBB04F720B7"
+			tasks: [{
+				id: "6CB63D5660E52AE6"
+				title: "厨具"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["380B4C15A1B54D8C"]
+			id: "740DF4ED6C3F1EFB"
+			tasks: [{
+				id: "0AF57A0A415F500A"
+				title: "食物"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["380B4C15A1B54D8C"]
+			id: "59E78A2F4E889372"
+			tasks: [{
+				id: "071182392673CAC3"
+				title: "饮品"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["380B4C15A1B54D8C"]
+			id: "5089C3BE8EC410E4"
+			subtitle: "持有符卡可以进行弹幕攻击"
+			tasks: [{
+				id: "009EF47489EFBF73"
+				title: "符卡"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["380B4C15A1B54D8C"]
+			id: "5F449D2BCFC0D10F"
+			subtitle: "请使用符卡对战"
+			tasks: [{
+				id: "59CE15F31074B74E"
+				title: "生物"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "68DF7F79C96988B9"
+			tasks: [{
+				id: "12B2851FEDDFF4F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:clay_saucer"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "7C0EB7CF090485B3"
+			tasks: [{
+				id: "4FE0BE55886122AB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:stripped_mandrake_root"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "3C7ABC130A0B4B6B"
+			tasks: [{
+				id: "125BDAE15321DEB4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:can"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "07E3705B3485F4C5"
+			tasks: [{
+				id: "36E8F61F583391F4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:frozen_frog_cold"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "587AACBD0BADE9B8"
+			tasks: [{
+				id: "4C73C27ED4089B1E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:fairy_ice_crystal"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "54726C0CDD7F5371"
+			tasks: [{
+				id: "6BAC6CB9B15250D4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:mayonnaise_bottle"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "692D360E9B73EDDD"
+			tasks: [{
+				id: "54D7D84B2FDF53D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:sake_bottle"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			id: "50FE65B5FF233FFA"
+			tasks: [{
+				id: "160FA12C5E968215"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:saucer"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "068C863214DB50FF"
+			tasks: [{
+				id: "72BC71816A7BA97B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:pods"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "18A16301790CB7DD"
+			tasks: [{
+				id: "53711064CB8FBD42"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:coffee_berries"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			id: "50CB64658D9282FE"
+			tasks: [{
+				id: "2FB5447B28541BE2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:coffee_beans"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "2B2DF194E82FB362"
+			tasks: [{
+				id: "7C7BD6C435BBA0E5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:coffee_powder"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "63A3CB2C002463E0"
+			tasks: [{
+				id: "2FF899842DA628AB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:soy_sauce_bottle"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "50CAA05613F67A9E"
+			tasks: [{
+				id: "5AA0FB409ABD7150"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:butter"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "5BD540620E3FE3F1"
+			tasks: [{
+				id: "380EFABD9C6D03C9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:bowl_of_cream"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "29F98C7174225081"
+			tasks: [{
+				id: "124978F7E3830712"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:udumbara_flower"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "6A4094A0C235AD87"
+			tasks: [{
+				id: "6C6F004118194EED"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:mandrake_root"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "64BD62A4DD43D853"
+			tasks: [{
+				id: "23CD0715A4E6B9A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tea_leaves"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "695801429287257A"
+			tasks: [{
+				id: "1B51BC6FCF3CA0CD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:green_tea_leaves"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "377440FD3C867BE3"
+			tasks: [{
+				id: "1D699BEA7F1FC49C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:oolong_tea_leaves"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			id: "5AF8D8B8FC8F2622"
+			tasks: [{
+				id: "7608925C4008E818"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:black_tea_leaves"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			id: "02E5D334DC0A5EA5"
+			tasks: [{
+				id: "1D0E1F9576AD4678"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:white_tea_leaves"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			id: "7E91240CD7928509"
+			tasks: [{
+				id: "26C1DDEA2EE7511D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:matcha"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "0A694DBCC39389C6"
+			tasks: [{
+				id: "0D0EE5CDC8D5CC39"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:blood_bottle"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "532263974E766590"
+			tasks: [{
+				id: "77B2AD3412CF241E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:moka_pot"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			id: "19436401BEA940F4"
+			tasks: [{
+				id: "33B488AA12622A85"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:kettle"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "1FEF14848FC694F6"
+			tasks: [{
+				id: "5E834094BC6FA5E2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:drying_rack"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			id: "73ED39CE214AF220"
+			tasks: [{
+				id: "2A2235C5B47B4E09"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:fermentation_tank"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			id: "3993D0997344FD44"
+			tasks: [{
+				id: "32DBCB388FDCD783"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:steamer_rack"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "799668ADC16B7FE4"
+			tasks: [{
+				id: "31B73755AB67153B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:steamer_pot"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			id: "2A45A84E09425AC2"
+			tasks: [{
+				id: "67BCFFF3A871BE4D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:copper_tank"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			id: "484ECC8A09D7F973"
+			tasks: [{
+				id: "0C5605CCF26AC172"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:copper_faucet"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			id: "07CACF17EB8497F0"
+			tasks: [{
+				id: "0046F673DCFAB5AE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:cuisine_board"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			id: "1F7B9226EDEB07E6"
+			tasks: [{
+				id: "3BCFB3E56B6B6E54"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:flesh"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			id: "5F453843143D7144"
+			tasks: [{
+				id: "535C226A54DE2374"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:cooked_flesh"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			id: "007DC41AD9C55A4D"
+			tasks: [{
+				id: "355CD89E1E2C3147"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:flesh_slice"
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -4.5d
+		}
+		{
+			id: "04024CAC06B368F0"
+			tasks: [{
+				id: "7234B6BCA3BB8C03"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:cooked_flesh_slice"
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.5d
+		}
+		{
+			id: "46E741835D89792B"
+			tasks: [{
+				id: "64B5420EA67A6984"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:fairy_candy"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "74317572A94B82B9"
+			tasks: [{
+				id: "37C05DB44048161F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:canned_flesh"
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			id: "32BFBE0739F4217D"
+			tasks: [{
+				id: "3728B6053F5CEA7A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:roasted_lamprey"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "60EE18DD7AC4649A"
+			tasks: [{
+				id: "1A6B3C2D09C44B29"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:raw_tuna"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "78CBD09580242298"
+			tasks: [{
+				id: "309491DAA5B5D2B7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:seared_tuna"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "6DAF88CEEF1CBD61"
+			tasks: [{
+				id: "1799084D74C66691"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:raw_tuna_slice"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "484F55ADFB5D9D4E"
+			tasks: [{
+				id: "1B76E8D09AA87646"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:seared_tuna_slice"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "50C04E0BC2446936"
+			tasks: [{
+				id: "4C0F10E32D64A8FD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:kabayaki"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "09A90EF472D9C61A"
+			tasks: [{
+				id: "424030660BA16A7A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:imitation_crab"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "4EAF34F32CCCC24E"
+			tasks: [{
+				id: "0D2FCA1321C46E1F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tamagoyaki"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "3638C0B27ACF494D"
+			tasks: [{
+				id: "7607BAD8DFE8C223"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tamagoyaki_slice"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "3CAB32B68C134B01"
+			tasks: [{
+				id: "708B0026D3EBD6B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:nattou"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "56D762567F31F18A"
+			tasks: [{
+				id: "71DAE12386827ABE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:mantou"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "68AC7B2879355611"
+			tasks: [{
+				id: "6644CDA9BD94F8AD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:higi_chocolate"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "060B210D40AF61B8"
+			tasks: [{
+				id: "00D722CBF2BB6B08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:higi_doughnut"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "5EF4C7CE68E6D7D5"
+			tasks: [{
+				id: "1D0007DCBEC2FB55"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:raw_lamprey"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "3A7D65BDF9CB8A53"
+			tasks: [{
+				id: "1B79055C79B3813C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:raw_lamprey_fillet"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "2F9A4EA2DB163694"
+			tasks: [{
+				id: "79D153EF5BF98BD1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:roasted_lamprey_fillet"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			id: "4D17B56DC2631DB4"
+			tasks: [{
+				id: "12C360E0C74BCC5F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:cooked_mandrake_root"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "3E53E34B8EAB86D8"
+			tasks: [{
+				id: "3F1E4829941D7E82"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:miso_soup"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			id: "0212766D722DAB24"
+			tasks: [{
+				id: "615F8D66FC6309F6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:poor_god_soup"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "28D978BF7BB0DC1D"
+			tasks: [{
+				id: "67FDAD8536447E05"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:grilled_eel_over_rice"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "59C667F0ADB0F8A5"
+			tasks: [{
+				id: "5F583A0AF958DF58"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:sweet_ormosia_mochi_mixed_boiled"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "5950756B79964416"
+			tasks: [{
+				id: "1779266AEA3D6ADD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:shirayuki"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "16EC3C1BA1C08C17"
+			tasks: [{
+				id: "2CBDA2F124537EF4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:higan_soup"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "0C2E09BDA988AC48"
+			tasks: [{
+				id: "67407EF1D33F26C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:power_soup"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "56D875AF9F6D31E0"
+			tasks: [{
+				id: "044CF98515A2E258"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:longevity_noodles"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "2457465B4F4E1B04"
+			tasks: [{
+				id: "76C46201B0E4634F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:avgolemono"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "14E2A01D2CAC2631"
+			tasks: [{
+				id: "1DBBC43C4A5CCA85"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:mushroom_soup"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "3DB7CE6EA6D7A210"
+			tasks: [{
+				id: "662E9C7CC273B250"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:apaki"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "78289CAFBB4B1BCC"
+			tasks: [{
+				id: "6BF74F46634D118C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:bowl_of_flesh_feast"
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.5d
+		}
+		{
+			id: "5A391F520C94D977"
+			tasks: [{
+				id: "28F21F3CE4593C92"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tuscan_salmon"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "7198B193263688BD"
+			tasks: [{
+				id: "0019280FC8034008"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:roe"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			id: "6828961AAD0F8E4C"
+			tasks: [{
+				id: "0D9985D24AF42E65"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:blazing_red_curry"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "08910012DC275174"
+			tasks: [{
+				id: "02E0773CC912AD60"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:lamprey_skewer"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			id: "21333AA3A4AB4063"
+			tasks: [{
+				id: "01D5F0955F174095"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:assorted_dango"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "78596A3ED7C1A40E"
+			tasks: [{
+				id: "69084C3BFB0A5078"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:mitarashi_dango"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "6DEF9A906D20A74F"
+			tasks: [{
+				id: "71379BCB4BBB6A64"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:kinako_dango"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			id: "08AECD396F1F4B25"
+			tasks: [{
+				id: "1B283F3467DA4BFE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:candy_apple"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			id: "728A0E0C1FCAA9DF"
+			tasks: [{
+				id: "0DF8271E471C9CDF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:big_popsicle"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			id: "58524E625357DCC9"
+			tasks: [{
+				id: "3D295070173301CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:milk_popsicle"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			id: "248F40A163DEEDC2"
+			tasks: [{
+				id: "6EF9FB250B48B8DA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:shaved_ice_over_rice"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "3546B43C397CD193"
+			tasks: [{
+				id: "2BC7386F2722EB2E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tofu"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			id: "6E2A1A3AB270E746"
+			tasks: [{
+				id: "0FF32E3984F1A8D9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:oily_bean_curd"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			id: "484CB30EBF1E63F5"
+			tasks: [{
+				id: "1BC7A514D1BE1797"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:yakumo_inari"
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			id: "26AC7EB74B5F0F1A"
+			tasks: [{
+				id: "6596575B0B4838E5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:flesh_dumplings"
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -4.5d
+		}
+		{
+			id: "723CED944CDB9E19"
+			tasks: [{
+				id: "2EE3A28F50AEE505"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:bun"
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "47AA91DE95A924CA"
+			tasks: [{
+				id: "59F99A4C3DA2A4F8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:oyaki"
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			id: "5BF030C9DEED40E4"
+			tasks: [{
+				id: "5993EC35044B725F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tutu_congee"
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			id: "44023C869D94E4A6"
+			tasks: [{
+				id: "0809DA3076078E3E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:steamed_egg_in_bamboo"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			id: "18BA5ECAC5038A35"
+			tasks: [{
+				id: "11B71358D2BD3ABC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:onigili"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			id: "50DC49113BA8B674"
+			tasks: [{
+				id: "450AEFCE84C8B0DD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:koishi_mousse"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "278076D390F67841"
+			tasks: [{
+				id: "5D36F098FC07BB7E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:mochi"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			id: "1941C982F707EF99"
+			tasks: [{
+				id: "73CB43BBC761CAB5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:coffee_mochi"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "67D66A37FBA9FFF1"
+			tasks: [{
+				id: "63B4CE0E3CDB3EF9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:matcha_mochi"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			id: "40265017C9A9A764"
+			tasks: [{
+				id: "0F767B427EE1D23F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:sakura_mochi"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			id: "5F0079525DA56C06"
+			tasks: [{
+				id: "65F25A297D8EC72A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tsukimi_dango"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			id: "3EFC8BF6048B8962"
+			tasks: [{
+				id: "6B32B1673E46F9BD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:yashouma_dango"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			id: "3C60E32ED3EFFA33"
+			tasks: [{
+				id: "5B4615443813F3B0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:senbei"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			id: "50CFACB4CE8F14E3"
+			tasks: [{
+				id: "7E744F188A78DC71"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:sekibankiyaki"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			id: "5166C418C8D4733D"
+			tasks: [{
+				id: "7C559D0DB41DE0D6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:pork_rice_ball"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			id: "5211B65AC413924E"
+			tasks: [{
+				id: "2EAA3420722C9232"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:lions_head"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			id: "239FFE2219F9CF91"
+			tasks: [{
+				id: "3CC7D26896C7C833"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:mapo_tofu"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			id: "20BD5786BC61A3AE"
+			tasks: [{
+				id: "6542E872346110E2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:udumbara_cake"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			id: "79BBFAEB6106E58A"
+			tasks: [{
+				id: "11B6764DDA1FE4C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:bowl_of_heart_throbbing_surprise"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			id: "6E18979F9B705AC4"
+			tasks: [{
+				id: "743AC24A17A5D786"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:red_velvet_cake_slice"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.0d
+		}
+		{
+			id: "1C7F26F80C4EE7D0"
+			tasks: [{
+				id: "313D708A7E199E4D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tarte_lune_slice"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			id: "1163EA2A85D79C1E"
+			tasks: [{
+				id: "062E08BA9F5DAEEB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:rainbow_futomaki"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			id: "64BAA1E5700B8351"
+			tasks: [{
+				id: "251FDCBD93EEA047"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:rainbow_futomaki_slice"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			id: "76C0713851ED1817"
+			tasks: [{
+				id: "4B04C8B10B81757C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:salmon_futomaki"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			id: "257DEE21E3803D5E"
+			tasks: [{
+				id: "110883A942D504F6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:salmon_futomaki_slice"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			id: "36ED4FCE1D955BE8"
+			tasks: [{
+				id: "70527108CCCACC43"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:shinnko_maki"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			id: "01177AF81F9B9343"
+			tasks: [{
+				id: "5EA6CF1A1B050135"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:shinnko_maki_slice"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			id: "5B1447FE33DD4668"
+			tasks: [{
+				id: "56382E56DBD6054E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tekka_maki"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			id: "048F1C302FDF9073"
+			tasks: [{
+				id: "785AE8C738F53B93"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tekka_maki_slice"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["380B4C15A1B54D8C"]
+			id: "02B1091559DA5FC2"
+			rewards: [{
+				id: "409011A06A644A89"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "食用铁火加州卷可以增加1个项链栏位,最多为5"
+			tasks: [{
+				id: "04E9DEDCC89F58B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:volcano_roll"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			id: "3350C4BF4091D51A"
+			tasks: [{
+				id: "1240A5F029E98679"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:volcano_roll_slice"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			id: "5389EC3D20B6D04E"
+			tasks: [{
+				id: "56229FEE922D9D2B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:egg_futomaki"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			id: "5C0A49CF2AEC1E0F"
+			tasks: [{
+				id: "1524AB6DA100A22B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:egg_futomaki_slice"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			id: "7757FD647771E3F4"
+			tasks: [{
+				id: "30DB854520070C43"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:seagrass_gunkan"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			id: "28E1038E90347739"
+			tasks: [{
+				id: "0AFF42A822897FC7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:egg_nigiri"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.0d
+		}
+		{
+			id: "3C969D67147C68CC"
+			tasks: [{
+				id: "611DD18038EA38F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:lorelei_nigiri"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			id: "1AABA72445EBFA7C"
+			tasks: [{
+				id: "32FD7A2D3B07B07B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tuna_nigiri"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			id: "0186E46C5290615B"
+			tasks: [{
+				id: "3FF408B72FCC5FFE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:otoro_nigiri"
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			id: "4C2E20CC6A77BF9D"
+			tasks: [{
+				id: "7FC3B2EABAC99413"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:flesh_roll"
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: -4.5d
+		}
+		{
+			id: "1FDA97313E457695"
+			tasks: [{
+				id: "1F673AD1F74E81B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tobiko_gunkan"
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.0d
+		}
+		{
+			id: "056DD1B930847E1E"
+			tasks: [{
+				id: "7A2A602FF5867D12"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:dried_fish"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "2C8A9E919DBED958"
+			tasks: [{
+				id: "03A022408F2818D9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:pastitsio"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "43B35E4E914885AF"
+			tasks: [{
+				id: "4D9E3F5B8DF5EE6C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tofu_burger"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "2C34EF0804A3D3EE"
+			tasks: [{
+				id: "22581A9523AF0F69"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:bamboo_mizuyokan"
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			id: "7181E8F909F4D395"
+			tasks: [{
+				id: "08FDF88DA7512AA5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:blood_curd"
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			id: "64801FD9AEF6F473"
+			tasks: [{
+				id: "33D9043B4E898111"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:stinky_tofu"
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			id: "0FEC00C691D8EE30"
+			tasks: [{
+				id: "21387E074FA0C241"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:scholar_ginkgo"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "5CC0F41B9CB071D8"
+			tasks: [{
+				id: "5970816E4C1DF410"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:imitation_bear_paw"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "3C3E75A5710BF238"
+			tasks: [{
+				id: "42215ECA6EFE08AD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:sauce_grilled_fish"
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["380B4C15A1B54D8C"]
+			id: "45E50F3774C5E65D"
+			rewards: [{
+				id: "3C5558E1824ABF4B"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "食用七色羊羹可以增加1格戒指栏位，最多为10"
+			tasks: [{
+				id: "2AD3EE4E9AF8D259"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:seven_colored_yokan"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			id: "2C285B88CF53F593"
+			tasks: [{
+				id: "7CD716A99B825AB9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tomato_sauce_cod"
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			id: "2B581F5C08FE8816"
+			tasks: [{
+				id: "58A9F64E51B150BD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:cold_tofu"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "614934B6998ABE91"
+			tasks: [{
+				id: "613AD0B05C6C7173"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:bloody_flesh"
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			id: "2195CC6E063F4915"
+			tasks: [{
+				id: "7A8E1A1B6C5423A8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:cumberland_loin"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "46E53702550CB2B6"
+			tasks: [{
+				id: "4A2F5561355A6C23"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:green_tea"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "588FFC8884453AD3"
+			tasks: [{
+				id: "0F74B39969FC8F4A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:white_tea"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "39B35A655DB6A23C"
+			tasks: [{
+				id: "35E04E38D2179968"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:black_tea"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "4D9CE6C7AE0E591A"
+			tasks: [{
+				id: "4F667CA1A0E7AD2B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:oolong_tea"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "71E28B17BE04F00A"
+			tasks: [{
+				id: "202D21049C7F9D87"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:cornflower_tea"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "3FABC323C10981A2"
+			tasks: [{
+				id: "3DF30061A4690259"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tea_mocha"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "03DDCC0B9B06B6A3"
+			tasks: [{
+				id: "704EB382F6E03398"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:saidi_tea"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "108FBBD92E719872"
+			tasks: [{
+				id: "77E70411B572F054"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:sakura_honey_tea"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "135AC31399C89FA4"
+			tasks: [{
+				id: "3C55336B7E147BE8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:genmai_tea"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "51BC61BA061EDFAD"
+			tasks: [{
+				id: "17547E780A7ECF22"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:scarlet_tea"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "5E368A5D817E87D6"
+			tasks: [{
+				id: "1128E6D3376CEB79"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:green_water"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "02A0D8BE8D186BA8"
+			tasks: [{
+				id: "45FE2B10227EC48A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:espresso"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "080AA00D6D71C753"
+			tasks: [{
+				id: "26F68FFB1399D0FB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:ristretto"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "41BDF1FF4BA01BDC"
+			tasks: [{
+				id: "2C259EDF1EC86C43"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:americano"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "5F473AC748582E37"
+			tasks: [{
+				id: "5FCC75B263F48B44"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:latte"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "78F4935E4F550D8D"
+			tasks: [{
+				id: "1BBBEF72035D7B1D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:cappuccino"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "19F5F18E3D0E1D8A"
+			tasks: [{
+				id: "05BBE65F3E5A3DB6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:macchiato"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "40E5B8A3E24B6391"
+			tasks: [{
+				id: "70CFF72EEB731941"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:con_panna"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "6997623CE40F332E"
+			tasks: [{
+				id: "43145D50BBB6C136"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:mocha"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "1756B493D243441F"
+			tasks: [{
+				id: "427D408FE7B6F2F0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:affogato"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "303ED6EDE97BC0EC"
+			tasks: [{
+				id: "4910DD80697175B4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:scarlet_mist"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "6EE8853E7D6031A9"
+			tasks: [{
+				id: "55D59701DEABBEAD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:wind_priestesses"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "0A6A13378D3DA288"
+			tasks: [{
+				id: "5A467DA6805FD37A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:mio"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "6B304151B3967AFE"
+			tasks: [{
+				id: "16F269FC875371D7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:mead"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			id: "239AA8110EDE9B58"
+			tasks: [{
+				id: "7B3F037B33CA09CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:sparrow_sake"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			id: "189B88D53297428C"
+			tasks: [{
+				id: "209582920CD042B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:moon_rocket"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "007D85FB76BA44DB"
+			tasks: [{
+				id: "42335D955D4A1707"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:kiku"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			id: "275965BD10B2F497"
+			tasks: [{
+				id: "19597FA44340822D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:hakutsuru"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			id: "0C91116DB6231ED6"
+			tasks: [{
+				id: "799488DA2EA28822"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:kappa_village"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			id: "1F63D90FB891FCDC"
+			tasks: [{
+				id: "0DDDF1F4AEDB8062"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:suigei"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			id: "6CADD4B27A315049"
+			tasks: [{
+				id: "6306F31393D2B960"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:daiginjo"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "52718070600769FE"
+			tasks: [{
+				id: "401ACA72D4CED85F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:dassai"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			id: "3F2797180E17041F"
+			tasks: [{
+				id: "61B137DA9046A1F4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:tengu_tango"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			id: "281269625AB47AE4"
+			tasks: [{
+				id: "3383F4EB28051214"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:full_moons_eve"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			id: "4F360A712F1A768A"
+			tasks: [{
+				id: "26659D2767D6C2E7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:spell_reimu"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			id: "6436F3B4EF367B27"
+			tasks: [{
+				id: "41F8D7EA74B7B596"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:spell_yukari_butterfly"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			id: "41C6E000D66B6074"
+			tasks: [{
+				id: "5455C8AE081902DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:spell_yukari_laser"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			id: "7685941350D2D972"
+			tasks: [{
+				id: "51BEC8FCBB8D7446"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:spell_sanae"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.5d
+		}
+		{
+			id: "357E951140B9332C"
+			tasks: [{
+				id: "46C4DF4E58A8A2B0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:spell_marisa"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			id: "295054849A930B58"
+			tasks: [{
+				id: "3FE68FD8481E79AD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:spell_mystia"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			id: "6CF8FA100CE41E56"
+			tasks: [{
+				id: "0871A077A0385E1C"
+				title: "更多符卡请自行探索！"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			id: "56A882D1CC1A7CC9"
+			tasks: [{
+				entity: "youkaishomecoming:cirno"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:cirno_spawn_egg"
+				}
+				id: "263C1B6F85893835"
+				title: "琪露诺"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "792E81F0D42DC1E8"
+			tasks: [{
+				entity: "youkaishomecoming:shrine_maiden"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:shrine_maiden_spawn_egg"
+				}
+				id: "30C20253A5ADA831"
+				title: "博丽灵梦"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "6050A7B21C943C29"
+			tasks: [{
+				entity: "youkaishomecoming:rumia"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:rumia_spawn_egg"
+				}
+				id: "599B794DBF0FB3D9"
+				title: "露米娅"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "4934789990F77160"
+			tasks: [{
+				id: "4AF924C71140555D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:red_grape_seeds"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			id: "5DAC2E9D4DDB1B59"
+			tasks: [{
+				id: "63F095431BFE8044"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:black_grape_seeds"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			id: "62A4B27C2486E8CF"
+			tasks: [{
+				id: "6E16AA2FA9C1328F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:white_grape_seeds"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			id: "0DD616BF4C1B6E64"
+			tasks: [{
+				id: "0E1B1465398081AF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:wild_red_grape"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			id: "368561E1A50BDCB0"
+			tasks: [{
+				id: "40ABFB66B8CE4CEF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:wild_white_grape"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			id: "7F7A114F38F58CE6"
+			tasks: [{
+				id: "7D57DC9E6035763B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:wild_black_grape"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			id: "20E4DA0C9A4D32BB"
+			tasks: [{
+				id: "5C6962B315307316"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:red_wine"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			id: "2FCF5765512375E6"
+			tasks: [{
+				id: "7884265C04341BA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:white_wine"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "09E64D164CD38100"
+			tasks: [{
+				id: "3B220893E14094A4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:burgundy"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			id: "52DBAEF3A8158EAC"
+			tasks: [{
+				id: "16782779306F7695"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:champagne"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			id: "4A94EB47A22234B1"
+			tasks: [{
+				id: "105124D06099D811"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:van_allen"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			id: "53803D211A5484AF"
+			tasks: [{
+				id: "4A147F96F553F6EE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:raisin"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "34CC9A9AE57F877B"
+			subtitle: "怪肉？村民肉！"
+			tasks: [{
+				id: "2F6DA8F55674A699"
+				title: "怪肉系列"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: -6.0d
+		}
+	]
+	title: "妖怪们的归家"
+}

@@ -1,0 +1,318 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6661789608C3D85F"
+	group: ""
+	icon: "minecraft:writable_book"
+	id: "6661789608C3D85F"
+	images: [
+		{
+			height: 1.0d
+			image: "simplyswords:item/iron_chakram"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/iron_chakram"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/iron_chakram"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/iron_chakram"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/iron_chakram"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/iron_chakram"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/iron_chakram"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/iron_chakram"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/iron_chakram"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/iron_chakram"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: -1.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["/give @p minecraft:written_book{title:\"异界启程\",author:\"佚名\",pages:[\"[{\\\"text\\\":\\\"你本是一个来自边缘小山村的孩子，无疑没有资格跟着大魔导师科波菲尔学习。但一次魔兽入侵摧毁了你所在的小村子，在危急关头，你体内的魔力突然爆发，将魔兽焚烧殆尽后昏厥。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"恰逢科波菲尔导师在林铎王国搜寻关于污秽教会滥用暗影魔法的线索，感受到巨大的魔力爆发波动，赶来查看将你救下。\\\\n看着无家可归的你，导师轻叹一声：\\\\n\\\\\\\"孩子，跟我走吧。”\\\\n从此，你成为了科波菲尔的关门弟子。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"自知无处可去的你日夜苦修，短短几年就成为导师的得力助手。你们穿梭在王国的阴影中，追查污秽教会的踪迹。\\\\n\\\\\\\"暗影魔法正在腐蚀大地”\\\\n导师的警告日夜萦绕在你心头。\\\\n\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"直到有一天，你和导师搜寻到了一处遗迹，还没等到你们进入遗迹，变看到身着污秽教会服饰的教徒从遗迹中四散奔逃，随后遗迹里爆发出了惊人的魔力，黑暗像一只无形的大手蔓延而来，你和导师随即展开魔法阵抵挡暗影入侵。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"暗影之力像一座大山般吞噬而来，随着你展开的魔法阵碎裂，暗影逐渐的吞噬着你的身躯，这时科波菲尔导师突然腾出了一只手，唤醒了手上的戒指法器，随着蓝色法阵的亮起。\\\\n“活下去”\\\\n导师话音刚落，你眼前一黑，便出现在了一个方块构成的世界。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\"]} 1"]
+			id: "51E5273DFA4D1175"
+			tasks: [{
+				id: "5FA57BF17392E454"
+				title: "开端"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			icon: "minecraft:writable_book"
+			id: "60FA650755EDD976"
+			invisible: true
+			rewards: [{
+				command: "/give @p minecraft:written_book{title:\"污秽教会档案01\",author:\"佚名\",pages:[\"[{\\\"text\\\":\\\"暗影魔法是世间最强大的魔法，根据导师给我的资料，这种魔法能带来无尽的痛苦，这正是我想要的，那些不懂得痛苦的人，该感受到痛苦了。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"暗影魔法能带来进化！凡俗的快乐舒适是灵魂的迷雾，都是低等的灵魂！世界已经被腐败的世界所感染，我们要的，就是通过暗影魔法来净化世界！\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\"]} 1"
+				icon: "minecraft:writable_book"
+				id: "7BFDBBAD22AB6CBD"
+				title: "教会档案01"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "legendary_monsters:defeat_cloud_golem"
+				criterion: ""
+				id: "71AF144DDA71B874"
+				type: "advancement"
+			}]
+			title: "污秽教会档案01"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			icon: "minecraft:writable_book"
+			id: "620A434D8EA9ECD4"
+			invisible: true
+			rewards: [{
+				command: "/give @p minecraft:written_book{title:\"导师笔记01\",author:\"科波菲尔\",pages:[\"[{\\\"text\\\":\\\"暗影魔法是我从未接触过的魔法，它就像脑子里纷乱不堪的点子一般凭空出现在世界上，它的出现是好是坏都不明确，得去研究研究这种魔法了。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"暗影魔法是我平生见到过最强大的魔法！如果能将其为人类所有，那将是一件颠覆性的进步。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\"]} 1"
+				icon: "minecraft:writable_book"
+				id: "188E3BDD6A4F3203"
+				title: "导师笔记01"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "irons_spellbooks:irons_spellbooks/make_inscription_table"
+				criterion: ""
+				id: "3B99E6F2CB833298"
+				type: "advancement"
+			}]
+			title: "导师笔记01"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			icon: "minecraft:writable_book"
+			id: "3BAD499F0541C0E7"
+			invisible: true
+			rewards: [{
+				command: "/give @p minecraft:written_book{title:\"污秽教会档案02\",author:\"佚名\",pages:[\"[{\\\"text\\\":\\\"我们发现了导师口中的暗影世界，那条龙的强大压迫的我无法喘息，果然没错，暗影魔法是这世间最强大的魔法，也只有这种魔法，才能净化世界！\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\"]} 1"
+				icon: "minecraft:writable_book"
+				id: "44BF818746355122"
+				title: "教会档案02"
+				type: "command"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "7D064835D0F0DBC7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "污秽教会档案02"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			icon: "minecraft:writable_book"
+			id: "0BAAFE5DA0394D03"
+			invisible: true
+			rewards: [{
+				command: "/give @p minecraft:written_book{title:\"导师笔记02\",author:\"科波菲尔\",pages:[\"[{\\\"text\\\":\\\"关于异界那条龙的研究告一段落了，那条龙可以完全掌握暗影之力，而将其驱赶至异界主岛的生物，好像也能够掌握暗影之力，并以此为基础造出了一种类似于守卫的武器，并以此将那条龙驱逐。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"暗影魔法的可控度太差了，控制不好就会引发剧烈的魔法暴走，那种痛苦已经不想有第二次感受了。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"这次的实验又失败了，暗影之力扩散还导致森林中的野兽遭受了巨大痛苦，引发了一波兽潮，兽潮发狂般的袭击了一个小山村。是我太贪图研究了，是我的责任。。。兽潮中居然还有幸存者，可能是上天给我了一个赎罪的机会吧。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\"]} 1"
+				icon: "minecraft:writable_book"
+				id: "62838AB9767074D2"
+				title: "导师笔记02"
+				type: "command"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:ender_guardian_spawn_egg"
+				id: "7A5DFC02F56BE4A1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "导师笔记02"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			icon: "minecraft:writable_book"
+			id: "2BD65D874E2AFD82"
+			invisible: true
+			rewards: [{
+				command: "/give @p minecraft:written_book{title:\"污秽教派档案03\",author:\"佚名\",pages:[\"[{\\\"text\\\":\\\"终于到传说中的精灵界了，遗迹中的记载果然没有错，通过仪式获得克瓦西尔之血，然后酿成蜜酒，最后传送到精灵界，就能避免失明的诅咒了。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"精灵也是一群低劣的灵魂，顽固不化，不懂得痛苦才是真谛，暗影才是净化世界的关键。圣泉将会代替我将精灵界净化！\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\"]} 1"
+				icon: "minecraft:writable_book"
+				id: "2BA59A220B0A93B4"
+				title: "教会档案03"
+				type: "command"
+			}]
+			tasks: [{
+				id: "14D0B2251EC4BD6A"
+				structure: "copperfield_structures:corrupt_holy_spring"
+				type: "structure"
+			}]
+			title: "污秽教派档案03"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			icon: "minecraft:writable_book"
+			id: "09EFA4F596031EB8"
+			invisible: true
+			rewards: [{
+				command: "/give @p minecraft:written_book{title:\"导师笔记03\",author:\"科波菲尔\",pages:[\"[{\\\"text\\\":\\\"关于另一个异界，好像存在一种类人生物，传送过去是一片漆黑，据上古资料记载，这里据说生活着一种名为精灵的生物，似乎有什么诅咒，使传送到达的人双目失明。书中提到有一种酒能够解除诅咒，但配方似乎失传了。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"最近出现了一个自称暗影教会的群体，我记得我没有将暗影魔法的使用方法教给别的人啊？知道暗影魔法的只有我的徒弟，但是他不是去南方寻找暗影遗迹去了吗？\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\"]} 1"
+				icon: "minecraft:writable_book"
+				id: "4D728793B4A3CAAC"
+				title: "导师笔记03"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0FF4AE902108E882"
+				item: "mythicbotany:kvasir_mead"
+				type: "item"
+			}]
+			title: "导师笔记03"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			icon: "minecraft:writable_book"
+			id: "260D22A2425FDE9C"
+			invisible: true
+			rewards: [{
+				command: "/give @p minecraft:written_book{title:\"污秽教会档案04\",author:\"佚名\",pages:[\"[{\\\"text\\\":\\\"找到暗影遗迹了，召唤暗影降临需要一个载体，如果导师能理解我的话，他将是最好的载体！太可惜了，现在只能由我来当这个载体了。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"多么完美的身躯，多么完美的力量，以后就叫夜巡者吧！\\\\n\\\\n\\\\n（血迹覆盖了后面的字迹）\\\",\\\"color\\\":\\\"dark_red\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\"]} 1"
+				icon: "minecraft:writable_book"
+				id: "1050A3F48D074A8F"
+				title: "教会档案04"
+				type: "command"
+			}]
+			tasks: [{
+				id: "62DF74CF3A7697AF"
+				item: "kubejs:final_key"
+				type: "item"
+			}]
+			title: "污秽教会档案04"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			icon: "minecraft:writable_book"
+			id: "40E4F40221B23D88"
+			invisible: true
+			rewards: [{
+				command: "/give @p minecraft:written_book{title:\"导师遗书\",author:\"科波菲尔\",pages:[\"[{\\\"text\\\":\\\"我的孩子，请好好活下去，不要再试图回来了，我也已经没有什么能够教你的了，你是我最好的弟子，不论是植物魔法还是机械结构，兵器战斗还是魔法对决，你都已经能够信手拈来。暗影之力入侵这个世界，也许是我咎由自取，也是我赎罪的时候了。好好在那个世界活下去吧。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\"]} 1"
+				icon: "minecraft:writable_book"
+				id: "09C0E862C0FE4479"
+				title: "导师遗书"
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "kubejs:the_past"
+				id: "1FED9276FBA930D7"
+				type: "dimension"
+			}]
+			title: "导师遗书"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51E5273DFA4D1175"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "traveloptics:stellothorn"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "traveloptics:shear_of_the_stars"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "6E63934762162C00"
+			rewards: [{
+				command: "/give @p minecraft:written_book{title:\"导师笔记04\",author:\"科波菲尔\",pages:[\"[{\\\"text\\\":\\\"暗影教会越来越猖狂了，难道真的是我那个不成器的徒弟？国王已经下令悬赏这个教会的成员了，并称其为污秽教会。这下事情不好办了。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"居然真的是他，这个逆徒，不，他已经不是我的徒弟了。。。我得把我的徒弟送走，不能再让这个孩子受到伤害了。\\\",\\\"color\\\":\\\"dark_red\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\"]} 1"
+				icon: "minecraft:writable_book"
+				id: "3F6F11FBA8E958D9"
+				title: "导师笔记04"
+				type: "command"
+			}]
+			tasks: [{
+				entity: "traveloptics:the_nightwarden"
+				icon: "traveloptics:the_nightwarden_spawn_egg"
+				id: "48AECF90ED8548DB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "一切都结束了"
+			x: 9.5d
+			y: -1.0d
+		}
+	]
+	title: "科波菲尔剧情碎片"
+}

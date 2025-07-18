@@ -1,0 +1,2883 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3E47197BB2D9A956"
+	group: "5C9773B2AEAF027D"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "simplyswords:awakened_lichblade"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3E47197BB2D9A956"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1462A55A1CB3F622"
+			subtitle: "alex的洞穴需要破译手稿找到地底小屋，然后获得破译洞穴石板得到地图。最后找到洞穴。"
+			tasks: [{
+				id: "1A937E7D13344A2F"
+				title: "Alex的洞穴"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1462A55A1CB3F622"]
+			id: "0893E61A875504E6"
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:telecore"
+				}
+				id: "6F302910F19F1D87"
+				title: "磁场洞穴"
+				type: "biome"
+			}]
+			x: -11.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1462A55A1CB3F622"]
+			id: "7B284DC070265787"
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:primitive_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "29D22D7BF4ADDEB9"
+				title: "原始洞穴"
+				type: "biome"
+			}]
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1462A55A1CB3F622"]
+			id: "2CDE62DB1D8BD9D6"
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:fissile_core"
+				}
+				id: "138EDF641DF7F6BA"
+				title: "毒化洞穴"
+				type: "biome"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1462A55A1CB3F622"]
+			id: "0DBA3551E647B85E"
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:abyssal_altar"
+				}
+				id: "6CDBD3D0459FECB2"
+				title: "渊海陷窟"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1462A55A1CB3F622"]
+			id: "5DFCC3B8E340636F"
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:desolate_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6A1AECC6AEB1A404"
+				title: "异寂空谷"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1462A55A1CB3F622"]
+			id: "5B87CF3286DEE811"
+			tasks: [{
+				biome: "alexscaves:candy_cavity"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:candy_cane"
+				}
+				id: "6F7FCFAD94FC6983"
+				title: "糖果龋洞"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0893E61A875504E6"]
+			id: "2CC1C6B9AD65075F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41F1D5979CB649D4"
+				table_id: 1852904084201451661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:boundroid"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_boundroid"
+				}
+				id: "4E08E5653B012754"
+				type: "kill"
+				value: 2L
+			}]
+			x: -12.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0893E61A875504E6"]
+			id: "20EC3C8D4302A44E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4285A1C9658A11CF"
+				table_id: 1852904084201451661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:teletor"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_teletor"
+				}
+				id: "401D3FE12367945F"
+				type: "kill"
+				value: 2L
+			}]
+			x: -12.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0893E61A875504E6"]
+			id: "2530586109899507"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3768A0BB6948A557"
+				table_id: 1852904084201451661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_magnetron"
+				}
+				id: "34B89FDE416569E9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0893E61A875504E6"]
+			id: "299F1A5A558D643A"
+			rewards: [{
+				count: 4
+				id: "0049F0926D4F984F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:polarity_armor_trim_smithing_template"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C90183A4E4A3B6B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:galena_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0893E61A875504E6"]
+			id: "370AF0A592DC9C2C"
+			rewards: [
+				{
+					count: 2
+					id: "7C32EB298BF389CD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:scarlet_neodymium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2AA17D395F2F7A59"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:azure_neodymium_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "645CCE7084C757A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0893E61A875504E6"]
+			id: "5ADA3152B4A3B904"
+			rewards: [{
+				count: 2
+				id: "32F8EF80DA5FB756"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:lightning_bottle"
+				}
+				type: "item"
+			}]
+			subtitle: "也会释放闪电链造成1点伤害并使周围的苦力怕变为闪电苦力怕，村民变成女巫。如果你想直接破坏或投射物击中特斯拉灯泡，它会释放更多闪电链，释放的闪电链过多会发生大爆炸"
+			tasks: [{
+				id: "44356E7D9B42F285"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:tesla_bulb"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0893E61A875504E6"]
+			id: "7CC38AEBFE837C45"
+			tasks: [{
+				id: "5B0BBF64365F6977"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:seeking_arrow"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7B284DC070265787"]
+			id: "41D5F34AD80AE864"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F6148185A7EF6A9"
+				table_id: 1852904084201451661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:vallumraptor"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_vallumraptor"
+				}
+				id: "56FE7BBB00CF7227"
+				type: "kill"
+				value: 2L
+			}]
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7B284DC070265787"]
+			id: "7D46CF1C5781FE8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02C932309660A33F"
+				table_id: 1852904084201451661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:grottoceratops"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_grottoceratops"
+				}
+				id: "1E670DC01E36F3BF"
+				type: "kill"
+				value: 2L
+			}]
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7B284DC070265787"]
+			id: "324DB4FF0DDDB9DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78DB388CEFD961E6"
+				table_id: 1852904084201451661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:tremorsaurus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_tremorsaurus"
+				}
+				id: "2A4A345587FD3DB3"
+				type: "kill"
+				value: 2L
+			}]
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7B284DC070265787"]
+			id: "3F9FD86C6E24595C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C4822847016D9F0"
+				table_id: 1852904084201451661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:relicheirus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_relicheirus"
+				}
+				id: "263600D6597244EF"
+				type: "kill"
+				value: 2L
+			}]
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7B284DC070265787"]
+			id: "5B3CC5F2A41B2B42"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "710E79BB390A97FF"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B78E9165FA0071D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:primitive_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7B284DC070265787"]
+			id: "79129DB15AFFFE26"
+			rewards: [{
+				id: "11751E09A42FCDC8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07D9B4CA1E14371D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:ominous_catalyst"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["79129DB15AFFFE26"]
+			id: "6888C1FB4B8A2C4E"
+			rewards: [{
+				count: 3
+				id: "468A7A9D0766B4C2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:tectonic_shard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_luxtructosaurus"
+				}
+				id: "01121056AC969290"
+				type: "kill"
+				value: 1L
+			}]
+			x: -13.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6888C1FB4B8A2C4E"]
+			id: "3B83BDEFC617AE48"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06999D91A5EF98B0"
+					table_id: 1448189378427347383L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E1C99A7E5B988FE"
+					table_id: 1852904084201451661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0390C1105B5DF61B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7B284DC070265787"]
+			id: "68150A13A66F5849"
+			rewards: [{
+				count: 3
+				id: "619BB5AC8F95D86C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:dinosaur_nugget"
+				}
+				type: "item"
+			}]
+			subtitle: "将它分别喂给两只已驯服的撼地龙，它们会交配并产下撼地龙蛋。"
+			tasks: [{
+				id: "4E9224E31235F4B7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:dinosaur_chop"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2CDE62DB1D8BD9D6"]
+			id: "550E2D53F2F83ED4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E6BE13EE160CBA1"
+				table_id: 1852904084201451661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_brainiac"
+				}
+				id: "38D0DD8DED897641"
+				type: "kill"
+				value: 2L
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2CDE62DB1D8BD9D6"]
+			id: "5EFC3E1822B5D09E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1E0B50679A7320ED"
+					table_id: 1448189378427347383L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06D1898C2D958A86"
+					table_id: 1852904084201451661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:nucleeper"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_nucleeper"
+				}
+				id: "04DB44673675D55A"
+				type: "kill"
+				value: 2L
+			}]
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2CDE62DB1D8BD9D6"]
+			id: "7A7D0A24FCE3FF68"
+			rewards: [{
+				count: 2
+				id: "7B74335C8BE0966D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:green_soylent"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "575D2F473C8CD9A2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:radgill"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7A7D0A24FCE3FF68"]
+			id: "44FFF035DD35CE45"
+			subtitle: "手持辐鳃鱼喂食射线猫有概率将其驯服。"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_raycat"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_raycat"
+				}
+				id: "3F9422DFA0A5C8E9"
+				type: "advancement"
+			}]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2CDE62DB1D8BD9D6"]
+			id: "0CA1FBEB61638D63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52EFE527484B0C70"
+				table_id: 1852904084201451661L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4F0E46D54783BDC5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:hazmat_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3534DAAEBB2F3C92"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BF1B4C24570EA4E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22801F6CE4872E37"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CDE62DB1D8BD9D6"]
+			id: "04F888C44A90D62A"
+			rewards: [{
+				count: 2
+				id: "2E29C9B0A35AC5B1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:polymer_plate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D2F1C297279C8F8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:uranium_rod"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CDE62DB1D8BD9D6"]
+			id: "23ACF7AEF7D69378"
+			rewards: [{
+				count: 2
+				id: "39E5DF698AA06E19"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:uranium_rod"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2071A84DDE620DCC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:raygun"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CDE62DB1D8BD9D6"]
+			id: "46840305093C8955"
+			rewards: [
+				{
+					count: 2
+					id: "3F0947C7B1B655FD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:uranium_rod"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B1BA963816118D1"
+					table_id: 1852904084201451661L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0EFC90FCDD15A808"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:nuclear_bomb"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6DEA326D08945BC9"]
+			description: [
+				"会破坏自身路过的所有方块，破坏力极强。注意！！！！！撼地斯拉的一切行动都会伴随着方块的破坏。请不要带回基地！！！！"
+				""
+				"自身免疫所有的爆炸和火焰伤害，并且免疫辐照效果和来自其它撼地斯拉的任何伤害。"
+				""
+				"撼地斯拉会游泳，它在水中的行动能力远远强于在陆地上的时候。"
+			]
+			id: "06D64ED4E6ABED97"
+			rewards: [
+				{
+					id: "797B49FA2ED7F2FC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:overgrowth_seed"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "185F6673BB0C2552"
+					table_id: 1448189378427347383L
+					type: "random"
+				}
+			]
+			subtitle: "在撼地斯拉蛋周围进行核爆，随后幼年撼地斯拉会在其中生成。撼地斯拉可以通过喂食废料桶来驯服，通常需要4-10个废料桶来驯服，保险起见，可以多准备一些废料桶。驯服后，玩家可以命令它游荡/停留/跟随。当然可以用拴绳牵住。"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/hatch_tremorzilla_egg"
+				criterion: ""
+				id: "70DA3D016A7EC4F4"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1462A55A1CB3F622"]
+			id: "6DEA326D08945BC9"
+			rewards: [{
+				count: 2
+				id: "34E80061BB217381"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:waste_drum"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DBF9B24BC19A565"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:tremorzilla_egg"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DBA3551E647B85E"]
+			id: "2115F8E2A8E0684B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67C5E3D6E964C955"
+				table_id: 1852904084201451661L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_hullbreaker"
+				}
+				id: "76FAF30A605F846B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0DBA3551E647B85E"]
+			description: ["玩家与深潜者交易时，会提高与整个深潜者族群的好感度，攻击或杀死深潜者则会降低与深潜者族群的好感度。荆棘伤害不影响好感度。好感度会影响深潜者对玩家的态度，初始为警惕，会与玩家保持距离，即使被玩家接近也会向玩家投掷墨水炸弹并远离玩家；最高为友好，会帮助玩家战斗；最低为敌对，会主动攻击玩家。可以通过窥愿珍珠查看当前深潜者族群对玩家的好感度。"]
+			id: "392910BA78D6671F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B37C75D877AAC5F"
+				table_id: 1852904084201451661L
+				type: "choice"
+			}]
+			subtitle: "深渊之底的居民，生活在渊海陷窟的深处，对外来者保持警惕。它们会与玩家通过渊海祭坛进行交易，玩家提供珍珠，深潜者们提供各种物品。"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/stalked_by_deep_one"
+				criterion: ""
+				id: "4C5357AE5E9D8AF9"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2115F8E2A8E0684B"]
+			id: "0FDACED5010111C6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "039B49F98757F182"
+					table_id: 1448189378427347383L
+					type: "random"
+				}
+				{
+					id: "02B7A72BDD5757C6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:magic_conch"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "173AA7E69810B0B1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:immortal_embryo"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0DBA3551E647B85E"]
+			id: "3E38A92295F78EB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FD071537CA51A0E"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58087B0640F35463"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:pearl"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0DBA3551E647B85E"]
+			id: "309C6B63884A827E"
+			rewards: [{
+				count: 5
+				id: "17368FA1A75B59CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:pearl"
+				}
+				type: "item"
+			}]
+			subtitle: "右键使用后可以随机召唤一大群深潜者为你战斗，一段时间后召唤的深潜者会消失。一般情况下，单次使用可以召唤出3只深潜者、2只深潜者骑士和1只深潜者法师。"
+			tasks: [{
+				id: "2076E22D5777F464"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:magic_conch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0DBA3551E647B85E"]
+			id: "3C2F7985E85AFD7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3797ABF0BCFD7A33"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			subtitle: "潜水套装同时穿戴全套不会有额外效果，但它的每一个部件都有其各自的作用：头盔可以在出水时提供40秒的水下呼吸，胸甲提供盔甲韧性，护腿可以加快玩家的游泳速度，靴子可以使玩家不受海底淤泥的减速影响。"
+			tasks: [
+				{
+					id: "37EEE8D725E43539"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2186ED36B286DDD8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "032ED2C10C798104"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F7E2B9A1F3F699D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0DBA3551E647B85E"]
+			id: "6C55C4A8BE90E194"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35AF743179A30285"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			subtitle: "需要20个铜块，一个奥秘核心（打碎船兽掉）和六个深海玻璃，放成一个3x3x3的结构获得。"
+			tasks: [{
+				id: "76E735C7828D0A67"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:submarine"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0DBA3551E647B85E"]
+			id: "0888CE818614E8CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D23E7D5AF69FE13"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5147AACAF1388644"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5DFCC3B8E340636F"]
+			id: "2D45671E997CD27C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5627610CB8105245"
+				table_id: 1852904084201451661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:underzealot"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_underzealot"
+				}
+				id: "096BF8F193181479"
+				type: "kill"
+				value: 2L
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5DFCC3B8E340636F"]
+			id: "2292CB627B6FCFDF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D971632BE0C7E9C"
+				table_id: 1852904084201451661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:watcher"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_watcher"
+				}
+				id: "3906FD6B8F2A67AF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5DFCC3B8E340636F"]
+			id: "7AAE657A31517761"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00F20C9CC3D53216"
+					table_id: 1852904084201451661L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79F15331364A80CF"
+					table_id: 1448189378427347383L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_forsaken"
+				}
+				id: "1E7CE9046A2B511E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5DFCC3B8E340636F"]
+			id: "460A830E992352D5"
+			rewards: [
+				{
+					id: "12DC81E3EA8F5F18"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06EAD7D18C99518F"
+					table_id: 1448189378427347383L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2B46E9356ED502A1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5DFCC3B8E340636F"]
+			id: "025DF6EA48B9E85C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FFF80DEE98BEB36"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			subtitle: "同时装备时，会出现一个充能进度条，同时会不断充能。当充能进度条蓄满时在黑暗处按下特殊能力键，可以使玩家进入10秒的黑暗化身状态。可通过食用暗染苹果延长黑暗化身状态的时间。"
+			tasks: [
+				{
+					id: "589D130074AD49ED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:hood_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "336B1EB537FAA2D2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:cloak_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5DFCC3B8E340636F"]
+			id: "00D077D5E5ECDF5F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F2E8F18E9058CB9"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			subtitle: "此物品攻击实体后右键可操纵实体，期间持续消耗耐久。被操控的实体会尝试前往玩家准星指向的位置，当它接近其他实体时会自动攻击。已经处在战斗状态下的实体不会尝试前往玩家准星位置。当视野内不能看到被控心图腾绑定的生物时，绑定会失效。"
+			tasks: [{
+				id: "17ADC91638ED9BF3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:totem_of_possession"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5DFCC3B8E340636F"]
+			id: "0BBE9386AC152769"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7ADD2A768F705565"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			subtitle: "类似摄像头，手持神秘宝石右键绑定窥探器，使用绑定的神秘宝石可调用窥探器的视角。（没啥用的玩意，笑）"
+			tasks: [{
+				id: "56D0CA800F206826"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:beholder"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5B87CF3286DEE811"]
+			id: "4D6727AD40E44BC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75AB5617A2D80EC0"
+				table_id: 1852904084201451661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:caniac"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_caniac"
+				}
+				id: "43A938F636EE47AC"
+				type: "kill"
+				value: 5L
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B87CF3286DEE811"]
+			id: "1193FF763AFE04E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07B7DEBBA5B68BB3"
+				table_id: 1852904084201451661L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:gumbeeper"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_gumbeeper"
+				}
+				id: "18F5B9C36B6041E2"
+				type: "kill"
+				value: 2L
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B87CF3286DEE811"]
+			id: "335ECA32F29A1118"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32F49337FF28C00E"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:gum_worm"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_gum_worm"
+				}
+				id: "10764C2775FD0C9A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B87CF3286DEE811"]
+			id: "5141A04FA8A4FFC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D2E9192E29E8966"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "alexscaves:licowitch"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_licowitch"
+				}
+				id: "3B2C91B30A601410"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5141A04FA8A4FFC8"]
+			id: "60CD4813B696695E"
+			subtitle: "算作稀有甜品，可以用于借姜饼人之手在姜饼桶中合成姜饼套装。"
+			tasks: [{
+				id: "18F04B0AB66196EF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:radiant_essence"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["335ECA32F29A1118"]
+			id: "0D90DD6AB7E82AF7"
+			subtitle: "击杀口香糖蠕虫掉落。可作为材料合成凤翅紫金冠。"
+			tasks: [{
+				id: "62EC1E3860982D1C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:sweet_tooth"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B87CF3286DEE811"]
+			description: [
+				"首先，准备一个绑定了生物群系的生物群系棒糖，将其丢入转换坩埚之中。"
+				""
+				"之后，转换坩埚会以投影的形式告诉玩家需求的物品，通常需要八个对应群系的普通物品和一个稀有物品。"
+				""
+				"以糖果龋洞为例，如果想将其他的生物群系转化为糖果龋洞，那么它会需求八个巧克力块和糖霜巧克力块作为普通物品，并在最后需求一个蛀牙作为稀有物品。"
+				""
+				"在向坩埚中投入所有需求的物品之后，转换坩埚会剧烈抖动并发出粒子特效（与要转化的群系的颜色一致），同时周围的一部分方块会被替换为目标生物群系的方块。随后伴随着一次仅视觉效果的爆炸，周围一部分区域的生物群系会被改变为目标生物群系。"
+				""
+				"注意事项："
+				""
+				"手持需求物品右击或是将其丢入坩埚之中都会被算作给转换坩埚提供物品。建议使用右键，因为给转换坩埚提供物品的过程中可能导致崩溃，如果用丢出物品的办法则可能导致一进入存档就崩溃。尤其是模组冲突的时候"
+				""
+				"（Bug）用右击的方式给转换坩埚提供生物群系棒糖不会使其消耗，但用丢入坩埚的方式就会消耗。"
+				""
+				"（Bug）转换坩埚只会记住玩家第一次给它提供的棒糖，之后无论你提供绑定了什么生物群系的生物群系棒糖，它都只会固执地尝试转换第一次提供的棒糖所绑定的生物群系。解决方法是挖掉转换坩埚重新放置。"
+				""
+				"转换坩埚的底部其实没有实际碰撞体积，掉落物可以直接从它的下方穿过去。"
+				""
+				"如果在中途破坏转换坩埚，那么再次放置时进度会归零。"
+				""
+				"转换坩埚的转化范围是不规则的，以转化糖果龋洞为例，下图平滑石头标注的范围为真正被判定为糖果龋洞的范围。"
+			]
+			id: "627105BB4A56CEFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58812A0E58E618AE"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			subtitle: "可用于转化生物群系。（可用于崩掉游戏）非必要情况下不建议使用。"
+			tasks: [{
+				id: "28F91DE10945E334"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:conversion_crucible"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B87CF3286DEE811"]
+			id: "6668CF7F70AA4A49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "582E43C680347C49"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "635E25381FCFFD7E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:gingerbread_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59A83898F3E4D724"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:gingerbread_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E45E0E6FFD0F498"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:gingerbread_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FED55BB8AAC304A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:gingerbread_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B87CF3286DEE811"]
+			id: "12388F7E8D6F59D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C2333FC0FF4FA22"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			subtitle: "在接收到红石信号时会从正面的位置召唤姜饼人，每隔0.5秒召唤一只，总共召唤5只，之后会进入15秒的冷却时间。召唤出的姜饼人不同于一般的姜饼人，两者的区别在于：它们会无差别攻击周围的所有生物，除了同一个糖果烤炉召唤出的姜饼人和拥有相同糖霜颜色的姜饼人。它们会捡起所有的掉落物，并将其存放在姜饼桶中。它们无法合成姜饼套装。"
+			tasks: [{
+				id: "22A3DDB6D9BBB066"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:confection_oven"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			id: "062C09960570F9A5"
+			subtitle: "灾变添加了极其强大的BOSS，这些BOSS会生成在其对应结构中，击败可获取制作强力武器装备或是法术卷轴的素材"
+			tasks: [{
+				id: "16544CDC239FCB1E"
+				title: "灾变"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["062C09960570F9A5"]
+			id: "49779047F88B4512"
+			tasks: [{
+				advancement: "cataclysm:find_ancient_factory"
+				criterion: ""
+				id: "74C165499405F6D9"
+				type: "advancement"
+			}]
+			title: "远古工厂"
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["49779047F88B4512"]
+			id: "51B92D9EF4F9CFBF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17BCC0343782AD79"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:the_harbinger_spawn_egg"
+				}
+				id: "72018CBB288CF963"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["51B92D9EF4F9CFBF"]
+			id: "6EFC8C68BD67FCA8"
+			tasks: [{
+				id: "02D83BFED56182D9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:witherite_block"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["062C09960570F9A5"]
+			id: "3AD8F09C9735AE46"
+			tasks: [{
+				advancement: "cataclysm:find_sunken_city"
+				criterion: ""
+				id: "4A591A4C7AEB1220"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3AD8F09C9735AE46"]
+			id: "6C4E94CBB104A5C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "789C1AFDEE1347F5"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:the_leviathan_spawn_egg"
+				}
+				id: "60331743FCF938C6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6C4E94CBB104A5C9"]
+			id: "5549B5D3572EDD33"
+			subtitle: "由利维坦与幼年利维坦掉落，放置在世界约十分钟后会破裂并孵出幼年利维坦。大圣套合成材料之一"
+			tasks: [{
+				id: "590A08D225D12A30"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:abyssal_egg"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["062C09960570F9A5"]
+			id: "200FAF265BC55BA3"
+			tasks: [{
+				advancement: "cataclysm:find_cursed_pyramid"
+				criterion: ""
+				id: "497738111ED13C25"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["200FAF265BC55BA3"]
+			id: "2ECEB8FC15CBF4B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43D2EA93143A81C0"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:ancient_remnant_spawn_egg"
+				}
+				id: "1E44A2F250BE9C9E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2ECEB8FC15CBF4B9"]
+			id: "25A8030CA6605697"
+			subtitle: "大圣套材料之一"
+			tasks: [{
+				id: "48B45E0C4CE78C06"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:ancient_metal_block"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["062C09960570F9A5"]
+			id: "3C40BD0EB02F5FAB"
+			tasks: [{
+				advancement: "cataclysm:find_frosted_prison"
+				criterion: ""
+				id: "075325206EEDB501"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3C40BD0EB02F5FAB"]
+			id: "3407C8708B3F9007"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "072BFEAB01435A8E"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:maledictus_spawn_egg"
+				}
+				id: "5F7C4C72A21929C6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3407C8708B3F9007"]
+			id: "613A0E5CE06AD1DA"
+			tasks: [{
+				id: "216A712326E3827D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:cursium_ingot"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["062C09960570F9A5"]
+			id: "2A16010827CC4ECF"
+			tasks: [{
+				advancement: "cataclysm:find_acropolis"
+				criterion: ""
+				id: "7C7863C38A81CE3E"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2A16010827CC4ECF"]
+			id: "7F04A8E55B0F3AF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "031D7508992732A8"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:scylla_spawn_egg"
+				}
+				id: "25027AB3CC474FCB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7F04A8E55B0F3AF7"]
+			id: "1485AD579E6010DF"
+			tasks: [{
+				id: "6E80683A799DA2E2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:essence_of_the_storm"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["062C09960570F9A5"]
+			id: "5A668B856438A66E"
+			tasks: [{
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
+				id: "5F3A93C5A71406E6"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5A668B856438A66E"]
+			id: "67451C4D34D97BF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1942A39E39DE0C79"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:netherite_monstrosity_spawn_egg"
+				}
+				id: "202DEC30089CB806"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["67451C4D34D97BF5"]
+			id: "05E64D4096025900"
+			tasks: [{
+				id: "0D5AEF50064C5F43"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["062C09960570F9A5"]
+			id: "61D487BE94472E2A"
+			tasks: [{
+				advancement: "cataclysm:find_burning_arena"
+				criterion: ""
+				id: "51B841914BAAC3C2"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["61D487BE94472E2A"]
+			id: "4344B43AA1685FAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7872D74E6706786A"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:ignis_spawn_egg"
+				}
+				id: "2E9086E24947DE25"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4344B43AA1685FAB"]
+			id: "413CFBFF62322A62"
+			tasks: [{
+				id: "3DE64FC9D8DA4132"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:ignitium_ingot"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["062C09960570F9A5"]
+			id: "285C6AA232E1CDA5"
+			tasks: [{
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "630E8F33993C5808"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["285C6AA232E1CDA5"]
+			id: "4859AB497F7005C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02201DA93D68EB88"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:ender_guardian_spawn_egg"
+				}
+				id: "44861B25B0F94FCE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4859AB497F7005C7"]
+			id: "0BF6DDA1680D236D"
+			tasks: [{
+				id: "35C2BE3D2ECD3EFB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:gauntlet_of_guard"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			id: "5923C0DC47A8CD48"
+			subtitle: "传奇BOSS分布于各个维度，是本整合包相对简单的BOSS"
+			tasks: [{
+				id: "3B36259EFC08E60E"
+				title: "传奇boss"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5923C0DC47A8CD48"]
+			id: "331042C4F6FE1EA2"
+			tasks: [{
+				id: "59D984F9EE5BB746"
+				title: "主世界"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5923C0DC47A8CD48"]
+			id: "01AF88FFD747C1EB"
+			tasks: [{
+				id: "59BE889D2D0326D6"
+				title: "下界"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5923C0DC47A8CD48"]
+			id: "1F31C2F1510A8742"
+			tasks: [{
+				id: "65147F80E78C9EDC"
+				title: "末地"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["331042C4F6FE1EA2"]
+			id: "0FD47F3BBEE1D231"
+			tasks: [{
+				advancement: "legendary_monsters:locate_abandoned_crypt"
+				criterion: ""
+				id: "6A4CFD886AE22077"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0FD47F3BBEE1D231"]
+			id: "66E39665A8C387B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39C7D18AC8096EA1"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:posessed_paladin_spawn_egg"
+				}
+				id: "2F6A5F3874589C4E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["331042C4F6FE1EA2"]
+			id: "4DFB74CB8AA64128"
+			tasks: [{
+				advancement: "legendary_monsters:locate_ancient_stronghold"
+				criterion: ""
+				id: "290DF9CB230B7037"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4DFB74CB8AA64128"]
+			id: "632A50EA7003EF55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "222287E3E9ACF43B"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:ancient_guardian"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:ancient_guardian_spawn_egg"
+				}
+				id: "0697ABBA9C00D1C9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["331042C4F6FE1EA2"]
+			id: "5189B6FFF38C0220"
+			tasks: [{
+				advancement: "legendary_monsters:locate_cloudy_temple"
+				criterion: ""
+				id: "61D4CF892143BBF5"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5189B6FFF38C0220"]
+			id: "72692E1B7D71E877"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "651AAB10E2296D33"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:cloud_golem_spawn_egg"
+				}
+				id: "4C12F5B591B81F78"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["331042C4F6FE1EA2"]
+			id: "6AB1030AA80E9753"
+			tasks: [{
+				advancement: "legendary_monsters:locate_frostbitten_temple"
+				criterion: ""
+				id: "214FDB415721CE46"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6AB1030AA80E9753"]
+			id: "72B28796CFA86C8B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "754C994998FED0FA"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:frostbitten_golem"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:frostbitten_golem_spawn_egg"
+				}
+				id: "5C4A778465DB1FEE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["331042C4F6FE1EA2"]
+			id: "47CE72DB71506252"
+			tasks: [{
+				advancement: "legendary_monsters:locate_mossy_temple"
+				criterion: ""
+				id: "642022A0A6FFFC98"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["47CE72DB71506252"]
+			id: "2E60DA6A7A9269B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37BDB6B36EB392D3"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:overgrown_colossus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:overgrown_colossus_spawn_egg"
+				}
+				id: "0708BB8209FAF1A3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["331042C4F6FE1EA2"]
+			id: "7A6D8323849FEA20"
+			tasks: [{
+				advancement: "legendary_monsters:locate_ruined_pyramid"
+				criterion: ""
+				id: "4F8480F04026B7C6"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A6D8323849FEA20"]
+			id: "406E899899CEE05A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02B2B73843731944"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:dune_sentinel"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:bomber_spawn_egg"
+				}
+				id: "0FFA2D1D2C9EB3F5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01AF88FFD747C1EB"]
+			id: "513FD82315FC6A48"
+			tasks: [{
+				advancement: "legendary_monsters:locate_lava_eater"
+				criterion: ""
+				id: "104C3E922A340D95"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["513FD82315FC6A48"]
+			id: "7E57D323E060C96B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F782F9081361F33"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:lava_eater"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:lava_eater_spawn_egg"
+				}
+				id: "053E9022E6FC1883"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["01AF88FFD747C1EB"]
+			id: "22AB0F3F0E6DC97B"
+			tasks: [{
+				advancement: "legendary_monsters:locate_skeletosaurus_nest"
+				criterion: ""
+				id: "564AE77A419E25C7"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22AB0F3F0E6DC97B"]
+			id: "793647E3E5BCB4D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A963F0C188C87F5"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:skeletosaurus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:skeletosaurus_spawn_egg"
+				}
+				id: "061B6EADEDF40CFE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["01AF88FFD747C1EB"]
+			id: "6542C232299D9D19"
+			tasks: [{
+				advancement: "legendary_monsters:locate_soul_fortress_remains"
+				criterion: ""
+				id: "1C32B7E789D0A9CF"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6542C232299D9D19"]
+			id: "20E7B21F0521FCBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4690EFAC1EDAA934"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:withered_abomination"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:withered_abomination_spawn_egg"
+				}
+				id: "54152447F7785AF4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F31C2F1510A8742"]
+			id: "52EA7C3602E55F4B"
+			tasks: [{
+				advancement: "legendary_monsters:locate_shulker_tower"
+				criterion: ""
+				id: "0DDD997112BD49E3"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52EA7C3602E55F4B"]
+			id: "29536B01D2A12891"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "409FE6AE6058B131"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:shulker_mimic"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:shulker_mimic_spawn_egg"
+				}
+				id: "62B0246888909F83"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F31C2F1510A8742"]
+			id: "5BA1A0B9336C5FB6"
+			tasks: [{
+				advancement: "legendary_monsters:locate_ancient_tower_remains"
+				criterion: ""
+				id: "580764F411470AEA"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5BA1A0B9336C5FB6"]
+			id: "640CC61F5CE02E62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FAED106BC184784"
+				table_id: 1448189378427347383L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:endersent"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "legendary_monsters:endersent_spawn_egg"
+				}
+				id: "74774C83F16BFB33"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			id: "43F51C6E3777AFBA"
+			subtitle: "如果你做好了一切准备，就去挑战最终boss吧。"
+			tasks: [{
+				id: "43A809CA5FF0511E"
+				title: "既是开始，又是结束。"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["43F51C6E3777AFBA"]
+			id: "4B7E8EFDDC860FED"
+			rewards: [{
+				id: "79D9F25B7507AE7E"
+				item: "traveloptics:excrucis"
+				type: "item"
+			}]
+			subtitle: "收集材料通过凝聚板合成，制作终焉之钥，利用终焉之钥打开出生点的任务屏障，拉下拉杆，迎接终焉。进入boss战后，世界将会被设定为永夜，击杀boss后才会恢复。"
+			tasks: [{
+				id: "1E4968A146CA318C"
+				item: "kubejs:final_key"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3460713AE7CF38EB"]
+			id: "3EAE266A231437F0"
+			subtitle: "结束了？应该是结束了。你已经无敌于世间，开始你的新征程吧。"
+			tasks: [{
+				id: "5A56836A977E536D"
+				title: "既是结束，又是开始。"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B7E8EFDDC860FED"]
+			description: [
+				"夜巡者有三个阶段，第一个阶段为普通阶段，第二个阶段免疫远程伤害，第三个阶段大幅减少近战攻击伤害。"
+				""
+				"夜寻者召唤的小怪请及时清理，小怪会给予夜巡者恢复效果，有时候小怪的输出会是攻略失败的关键因素。"
+				""
+				"夜巡者战斗时请尽量避免死亡，死亡会使夜巡者恢复血量。"
+			]
+			id: "3460713AE7CF38EB"
+			subtitle: "法术型首领 12+种连击攻击 2种终极攻击 需掌握其机制与闪避技巧的独特战斗机制"
+			tasks: [{
+				entity: "traveloptics:the_nightwarden_defeated"
+				icon: "traveloptics:the_nightwarden_spawn_egg"
+				id: "1C10731B17FC14F2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "击杀夜巡者"
+			x: -2.0d
+			y: 0.5d
+		}
+	]
+	title: "旅途"
+}

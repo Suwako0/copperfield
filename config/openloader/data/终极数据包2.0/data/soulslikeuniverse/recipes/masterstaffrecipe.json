@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ccc",
+    "cac",
+    "bcc"
+  ],
+  "key": {
+    "a": {
+      "item": "soulslikeuniverse:mace"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:masterstaff",
+    "count": 1
+  }
+}

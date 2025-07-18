@@ -1,0 +1,7 @@
+{
+  "parent": "ec_tf_plugin:custom/monkey_king_bar",
+  "textures": {
+    "15": "ec_tf_plugin:block/monkey_king_bar_3d_image_texture",
+    "particle": "ec_tf_plugin:item/monkkkkkkkkkkkkkkur"
+  }
+}

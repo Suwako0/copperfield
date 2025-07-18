@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "dad",
+    "dbd",
+    "dcd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:nether_wart"
+    },
+    "b": {
+      "item": "soulslikeuniverse:longsword"
+    },
+    "c": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "d": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:morgottcursedsword",
+    "count": 1
+  }
+}

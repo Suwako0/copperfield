@@ -1,0 +1,12 @@
+{
+    "type": "test:bulwark",
+    "attributes": {
+        "two_hand": {
+            "armor_negation": 0.0,
+                "impact": 1.0,
+            "max_strikes": 5,
+            "speed_bonus":-1.0,
+            "damage_bonus":4.5
+        }
+    }
+ }

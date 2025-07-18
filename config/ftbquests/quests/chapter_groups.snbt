@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "36AE75B89CB455C7", title: "功能" }
+		{ id: "5960C5DF941F3C42", title: "产线" }
+		{ id: "78E3ADEACB1DC1EF", title: "农业" }
+		{ id: "5C9773B2AEAF027D", title: "冒险" }
+	]
+}

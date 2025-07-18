@@ -1,0 +1,11 @@
+{
+    "type": "shield:shield",
+    "attributes": {
+        "common": {
+            "armor_negation":10,
+                "impact": 1.0,
+            "max_strikes": 8,
+            "speed_bonus": 0.6
+        }
+    }
+ }

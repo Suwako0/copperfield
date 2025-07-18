@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_",
+  "template": {
+    "item": "mokels_weaponry:bleeding_weapon_talisman"
+  },
+  "base": {
+    "item": "mokels_weaponry:katana_feather"
+  },
+  "addition": {
+    "item": "mokels_weaponry:katana_thorn"
+  },
+  "result": {
+    "item": "mokels_weaponry:sword_flow_of_the_bloodaltar"
+  }
+}

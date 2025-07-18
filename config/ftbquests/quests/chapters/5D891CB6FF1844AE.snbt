@@ -1,0 +1,2552 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5D891CB6FF1844AE"
+	group: "78E3ADEACB1DC1EF"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "farmersdelight:netherite_knife"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5D891CB6FF1844AE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "29048380C086621F"
+			rewards: [
+				{
+					id: "380790B1A0B057AD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "quark:seed_pouch"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4035DC932E8D6C5C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "7F57B76B752F87F6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:cherry_sapling"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "本整合包添加了农夫乐事及其一些附属模组：下界乐事、末地乐事、夸克乐事、海洋乐事、果园乐事，新增了一些作物以及基于它们的食品配方，同时添加了机械动力附属模组齿轮与麦穗，帮助你更好实现农场自动化，熟食为需要烹饪的，生食为可直接合成的。"
+			tasks: [{
+				id: "07680AAB0B073E1A"
+				title: "农夫乐事"
+				type: "checkmark"
+			}]
+			title: "火力种田王"
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29048380C086621F"]
+			description: [
+				""
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3651168280CBA74B\" } }"
+			]
+			id: "5AA909A69A1B8A87"
+			subtitle: "详见原版mc任务分区。"
+			tasks: [{
+				id: "052166BAF6A40F48"
+				title: "原版mc"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3B7DF2F59705666C"]
+			description: [
+				"砧板的使用方式："
+				""
+				"刀：加工食材。"
+				""
+				"镐：分解砖块、下界石英块、紫水晶块等。"
+				""
+				"斧：剥皮树木，分解木制物品。"
+				""
+				"锹：处理沙砾和粘土。"
+				""
+				"剪刀：分解皮革物品。"
+			]
+			id: "37A374B73DAF504C"
+			subtitle: "砧板是在切、捶、剁、砸东西时垫在下面的器物。"
+			tasks: [
+				{
+					id: "790DE6F5873D0999"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "farmersdelight:cutting_board"
+					}
+					type: "item"
+				}
+				{
+					id: "20301539CAF98E4C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "砧板和刀"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["34C79F335C99E5DA"]
+			id: "361D13A05E7A6738"
+			subtitle: "煎锅用于简单处理食物。主手拿着煎锅，副手拿着食物，按住右键稍微等一会，食物就熟了。当然，把他当成趁手的武器也未尝不可。“我一定会回来的！”"
+			tasks: [{
+				id: "4AC056B65FD390CD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["37A374B73DAF504C"]
+			id: "34C79F335C99E5DA"
+			subtitle: "将厨锅放在炉灶上能够为厨锅提供火源来做饭，炉灶不会被水和雨浇灭。同时可像营火一样烹饪食物，在上方无方块遮挡时可放入最多 6 个物品。可用水桶右键将其熄灭。熄灭后可以用打火石重新点燃。"
+			tasks: [{
+				id: "3C95057158DBB2D4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:stove"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["361D13A05E7A6738"]
+			id: "1A5D68E53507F5E8"
+			subtitle: "如果觉得简单的食物已经无法满足你了，那么就试试厨锅吧！"
+			tasks: [{
+				id: "58C3267B0D9FDBA7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cooking_pot"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["29048380C086621F"]
+			icon: "farmersdelight:bacon_and_eggs"
+			id: "200CC03F123B684F"
+			subtitle: "农夫乐事丰富了耕作与烹饪方面的内容，试问谁不想成为一个成功的famer呢"
+			tasks: [{
+				id: "29CD020942CDAAEB"
+				title: "农夫乐事"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["200CC03F123B684F"]
+			id: "2D7A60201AA2CA49"
+			tasks: [{
+				id: "4B36135CEBE44F3B"
+				title: "生食"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["200CC03F123B684F"]
+			id: "4B297DDE02235C32"
+			tasks: [{
+				id: "1E464C5A1B7B054A"
+				title: "熟食"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			id: "434543FA300D19D6"
+			tasks: [{
+				id: "26E584281E32763C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:fried_egg"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "245A7D5796238CB5"
+			tasks: [{
+				id: "5D3BEA07EB060544"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:minced_beef"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "13AF0ADC4C587720"
+			tasks: [{
+				id: "1D187C907B98862B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cod_slice"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "23AD5300ACC04D58"
+			tasks: [{
+				id: "1895535B02757D34"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:beef_patty"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "13B831A3A33E06E2"
+			tasks: [{
+				id: "26619C180BC47812"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cooked_cod_slice"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1AF091612AD25AE9"
+			tasks: [{
+				id: "374B788427D431CD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:salmon_slice"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "799AB3FEC9A0BD0C"
+			tasks: [{
+				id: "02B56B0931E5DAE6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cooked_salmon_slice"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "72DDB00149122C5F"
+			tasks: [{
+				id: "3019A37C3EA81BBC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:pie_crust"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			id: "186C8C93CEA66104"
+			tasks: [{
+				id: "42DA2D2A9DB97C27"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cake_slice"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "0B4EE2921324D1CC"
+			tasks: [{
+				id: "6125AFC5131E8414"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:sweet_berry_cookie"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "65DADB4258AB0C46"
+			tasks: [{
+				id: "2E1F18BA95CD650D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:honey_cookie"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "3E57C182CFBE47FA"
+			tasks: [{
+				id: "537313C91B10D1A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:mixed_salad"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "3D5AE254B18B5EED"
+			tasks: [{
+				id: "21F490886CC20D25"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:barbecue_stick"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "6F403BDA16DFD4C1"
+			tasks: [{
+				id: "08135D4F77E4F03D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:egg_sandwich"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "562044D61ECEBD5A"
+			tasks: [{
+				id: "15F24A7A98697DB7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:chicken_sandwich"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "6E1E87AD61C1C6B7"
+			tasks: [{
+				id: "0868E6B7F63A6532"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:hamburger"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "6A0CB88D7782F2BA"
+			tasks: [{
+				id: "360E2CAEAD4C6F08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:dumplings"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["200CC03F123B684F"]
+			id: "3B7DF2F59705666C"
+			tasks: [{
+				id: "6634857D1F643F34"
+				title: "厨具"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			id: "28187C2B0B0DEE90"
+			tasks: [{
+				id: "6EC1017A443A98EA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:stuffed_potato"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "2F2143C6E7D2E192"
+			tasks: [{
+				id: "20B74D94F5ECE9FD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:stuffed_pumpkin"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "35355D7A5E7C8E8E"
+			tasks: [{
+				id: "084FFE5731555C1A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cooked_rice"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "14714F52B9165A64"
+			tasks: [{
+				id: "53FD1D816653E402"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:beef_stew"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "509F9AD9788140A8"
+			tasks: [{
+				id: "7D620D91076EC513"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:chicken_soup"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "5F7520C4E0C6BC24"
+			tasks: [{
+				id: "47DB204C3EF9C88A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:vegetable_soup"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "2A8F96142FE2BA22"
+			tasks: [{
+				id: "3E85FB5FCBF7762B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:fish_stew"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "00542E5F0E70CB95"
+			tasks: [{
+				id: "30572B2C6582C1AF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:fried_rice"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "3FC10FF737FBBD09"
+			tasks: [{
+				id: "4FE626DC458F7D47"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:pumpkin_soup"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "743C6DC80237414C"
+			tasks: [{
+				id: "1A1D688BC1DE8808"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:baked_cod_stew"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "41421D14F845E526"
+			tasks: [{
+				id: "2045183D10770333"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:honey_glazed_ham"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "6D5C6C07E649F009"
+			tasks: [{
+				id: "1084156B3475EFC2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:pasta_with_meatballs"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "5B151A70F130B5F9"
+			tasks: [{
+				id: "094A50A58AD71C56"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:pasta_with_mutton_chop"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "2ABBA3012FD9A1C7"
+			tasks: [{
+				id: "64D2CBABD665B884"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:vegetable_noodles"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "5B7285546E27CCC7"
+			tasks: [{
+				id: "7B2463F9850B0F48"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:steak_and_potatoes"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "21899AED38C20F74"
+			tasks: [{
+				id: "1D61860D6D1391E7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:shepherds_pie"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "43AE882A5F5BA4A7"
+			tasks: [{
+				id: "42611E712B6C0FD0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:ratatouille"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "49756A1522DB8202"
+			tasks: [{
+				id: "7F2FF2C3C11A02C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:squid_ink_pasta"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "43D29DC75DD42C84"
+			tasks: [{
+				id: "7D83B5BD92D236CB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:grilled_salmon"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "71F1336EE3B6C448"
+			tasks: [{
+				id: "4A1F11C4D5494D98"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:apple_pie"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "251D988CC0DD6432"
+			tasks: [{
+				id: "2420CAE47FE7E1B4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:sweet_berry_cheesecake"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "33AE6235DAB10992"
+			tasks: [{
+				id: "3551FAAA9A7DD85E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:chocolate_pie"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "743E866AE1BE06BC"
+			tasks: [{
+				id: "5ABDD63810D1ABE6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cooked_chicken_cuts"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "4F0383AB13BD2BB8"
+			tasks: [{
+				id: "7DFF77DA81AA2AE8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:chicken_cuts"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "318E9A58D22C54BA"
+			tasks: [{
+				id: "3A44A07E62C563D1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:nether_salad"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "6113C79AEA60381B"
+			tasks: [{
+				id: "4642E3F7338F2392"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cooked_bacon"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "599158865901C8A4"
+			tasks: [{
+				id: "4189AD115D6D033A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:bacon"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "541360805FF7EA48"
+			tasks: [{
+				id: "0387DBD75B1F612D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:ham"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "54F7235632108240"
+			tasks: [{
+				id: "2588D0BB8B74C11E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:smoked_ham"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "71EDDBE28BD401A6"
+			tasks: [{
+				id: "2BFA02FEE296F76E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:melon_popsicle"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "702811C8E276AFC0"
+			tasks: [{
+				id: "7F52A32F5E41148F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:fruit_salad"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "4011508DEC3A34FA"
+			tasks: [{
+				id: "4AE1558449D2A6FC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:bacon_sandwich"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "69F366FA48B16F43"
+			tasks: [{
+				id: "3361B420D4E8F7FE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:roast_chicken"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "6719865EFF659FAD"
+			tasks: [{
+				id: "69D6168199110F43"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:mutton_chops"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "61A80633A3244EF2"
+			tasks: [{
+				id: "47BE80EA2F4C822A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cooked_mutton_chops"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "5536F46CB40A1A99"
+			tasks: [{
+				id: "6695BD4C20EE2EF4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:mutton_wrap"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "1D470CF02D9D9B96"
+			tasks: [{
+				id: "32217661B518710E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cabbage_rolls"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "4C82EEC0A107EAA0"
+			tasks: [{
+				id: "250CF822C625E38A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cabbage"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "786DC5905D6F6BD2"
+			tasks: [{
+				id: "53C50E50E4C697CB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cabbage_leaf"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "6A3FE93036E65D0E"
+			tasks: [{
+				id: "6B1CB81563372765"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:noodle_soup"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "496FDF7E89AF0EF9"
+			tasks: [{
+				id: "7310F9D65CEEC759"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:bacon_and_eggs"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "160B03907FBBD0A9"
+			tasks: [{
+				id: "23EE3ED9A2DBBC0E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:roasted_mutton_chops"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "477719820733068D"
+			tasks: [{
+				id: "4184ADBC4D4E03CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:salmon_roll"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "3C6E065F7B89D2A6"
+			tasks: [{
+				id: "6732E7699C923A0B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:cod_roll"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "751B513C733E9FBA"
+			tasks: [{
+				id: "48DDDD75A04DD36B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:kelp_roll"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "0EE3EABC4B8E754E"
+			tasks: [{
+				id: "182539B39CD7E251"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:bone_broth"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			id: "0D1D02A897773CD7"
+			tasks: [{
+				id: "73B9D58AF67182FC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:mushroom_rice"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "19C8B78C110743D0"
+			tasks: [{
+				id: "1AA974DA5DBD9D75"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:rice_roll_medley_block"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "36DFC85BBB56B116"
+			tasks: [{
+				id: "30CF529A604B7BA3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:hot_cocoa"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			id: "6F0294C984F062BE"
+			tasks: [{
+				id: "50DA891DCBC5E13D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:apple_cider"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "3805E7636CA2FF22"
+			tasks: [{
+				id: "61A0E52DEB480EF6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:melon_juice"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29048380C086621F"]
+			icon: "nethersdelight:stuffed_hoglin"
+			id: "53721D0748BD51CE"
+			tasks: [{
+				id: "75FF7BA01F10E7B5"
+				title: "下界乐事"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53721D0748BD51CE"]
+			id: "304A83D060D640A2"
+			tasks: [{
+				id: "78EDDD8834851DC8"
+				title: "生食"
+				type: "checkmark"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53721D0748BD51CE"]
+			id: "13A237C34988E93C"
+			tasks: [{
+				id: "29D32EE42FD0EA66"
+				title: "熟食"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			id: "61027D36414C52A6"
+			tasks: [{
+				id: "0425C31BB879FDF6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nethersdelight:hoglin_loin"
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			id: "0EE69838932B3456"
+			tasks: [{
+				id: "0FEF136068D3008A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nethersdelight:strider_slice"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			id: "73B6D9CE69302749"
+			tasks: [{
+				id: "2C51ED0F415811E9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nethersdelight:ground_strider"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			id: "4FC726EDC27F57F9"
+			tasks: [{
+				id: "1861D98C545613E4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nethersdelight:hoglin_sirloin"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			id: "6EECE3E46F3C80E8"
+			tasks: [{
+				id: "520577F2D1633D47"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nethersdelight:warped_moldy_meat"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "0FFF8722BBF2F331"
+			tasks: [{
+				id: "51E37F1D348362D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nethersdelight:grilled_strider"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			id: "042720FD53013BCB"
+			tasks: [{
+				id: "4255B0624A502327"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nethersdelight:strider_moss_stew"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "48B6C8038536E2E0"
+			tasks: [{
+				id: "4182B1BEC6D2E0B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nethersdelight:plate_of_stuffed_hoglin_roast"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			id: "0E5D8F2A9FB7D9C6"
+			tasks: [{
+				id: "6E29173E83BDAECC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nethersdelight:propelpearl"
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.0d
+		}
+		{
+			id: "556252FFB7BE2C84"
+			tasks: [{
+				id: "2BCF92E1FE8F2176"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nethersdelight:nether_skewer"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			id: "18FF49440E166666"
+			tasks: [{
+				id: "28D0072BC66A3EC2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "nethersdelight:magma_gelatin"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29048380C086621F"]
+			icon: "ends_delight:end_barbecue_stick"
+			id: "1B72F69BCDD0B90F"
+			tasks: [{
+				id: "7B42A898503C3B91"
+				title: "末地乐事"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1B72F69BCDD0B90F"]
+			id: "294D3AFD3D0C9DD0"
+			tasks: [{
+				id: "747FA36849B2DC97"
+				title: "生食"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1B72F69BCDD0B90F"]
+			id: "7C0FD92DA6747DFF"
+			tasks: [{
+				id: "237028C69E9769B7"
+				title: "熟食"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			id: "392C90E17BEA34F9"
+			tasks: [{
+				id: "7C4F4D6BDBDD7A0F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:chorus_fruit_milk_tea"
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.5d
+		}
+		{
+			id: "4377CD28FDD86185"
+			tasks: [{
+				id: "57632E382A5342CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:bubble_tea"
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			id: "05228A79754810C9"
+			tasks: [{
+				id: "46DB3C348D6249FD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:shulker_meat"
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -6.0d
+		}
+		{
+			id: "50C5B0650D9E88C7"
+			tasks: [{
+				id: "6224DB33CB61AD91"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:shulker_meat_slice"
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -5.0d
+		}
+		{
+			id: "4B7B8767200298DE"
+			tasks: [{
+				id: "1A6FFB379CA930DF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:stir_fried_shulker_meat"
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.5d
+		}
+		{
+			id: "121E4AC38E98F7C0"
+			tasks: [{
+				id: "33D03B300EB3AA1C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:fried_dragon_egg"
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.5d
+		}
+		{
+			id: "0A9AF101EFD7060D"
+			tasks: [{
+				id: "28A471D0345C7871"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:dragon_breath_soda"
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -1.5d
+		}
+		{
+			id: "6D1CC12321202936"
+			tasks: [{
+				id: "1DD4CCB1256CCC57"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:dragon_leg"
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.0d
+		}
+		{
+			id: "314344B2600BE74E"
+			tasks: [{
+				id: "1799C7D1B97F2658"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:smoked_dragon_leg"
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -0.5d
+		}
+		{
+			id: "73119D742250C86F"
+			tasks: [{
+				id: "5A4DD788F8AF379C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:chorus_fruit_wine"
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: 0.5d
+		}
+		{
+			id: "054991A427FAB3F7"
+			tasks: [{
+				id: "514D70876035F8A7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:chorus_fruit_popsicle"
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: 1.5d
+		}
+		{
+			id: "561048EEC187A8A2"
+			tasks: [{
+				id: "1F7676BB7C168E6F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:dragon_breath_and_chorus_soup"
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -1.5d
+		}
+		{
+			id: "160119B0D0041E1A"
+			tasks: [{
+				id: "4C3DAE5D1CE2D2F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:liquid_dragon_egg"
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -6.0d
+		}
+		{
+			id: "0ACA308F737B4F7D"
+			tasks: [{
+				id: "12A76CDD19E535D1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:raw_dragon_meat"
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -5.0d
+		}
+		{
+			id: "0EDFAADA1BB5FEBD"
+			tasks: [{
+				id: "330FFF8F51322757"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:end_barbecue_stick"
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -0.5d
+		}
+		{
+			id: "07F9F9932A0C4FA0"
+			tasks: [{
+				id: "1B226AE71E4E5500"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:chorus_flower_tea"
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: 0.5d
+		}
+		{
+			id: "29C307E8DF69C5FB"
+			tasks: [{
+				id: "398D5BD487E0EF25"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:roasted_shulker_meat"
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: 1.5d
+		}
+		{
+			id: "60AF3A017D298CE0"
+			tasks: [{
+				id: "097B108F27B7DF95"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:roasted_shulker_meat_slice"
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -1.5d
+		}
+		{
+			id: "3B771BF094610694"
+			tasks: [{
+				id: "1E778446655287F4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:roasted_dragon_meat"
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -0.5d
+		}
+		{
+			id: "3817891795CCB605"
+			tasks: [{
+				id: "2BFB1386E6951FB8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:raw_ender_mite_meat"
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -4.0d
+		}
+		{
+			id: "7234F38D3121307A"
+			tasks: [{
+				id: "4DFE52D302F08D00"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:chorus_fruit_pie"
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: 0.5d
+		}
+		{
+			id: "38099413D395EF34"
+			tasks: [{
+				id: "0CE1B89E9B46DEC8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:dragon_meat_stew"
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: 1.5d
+		}
+		{
+			id: "1F2BE95A3CD68354"
+			tasks: [{
+				id: "2CBF79CC2E1C60B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:steamed_dragon_egg"
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: -1.5d
+		}
+		{
+			id: "429441C7F14112E5"
+			tasks: [{
+				id: "0008C289F0405836"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:grilled_shulker"
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: -0.5d
+		}
+		{
+			id: "2DAC1D87AFCD2F04"
+			tasks: [{
+				id: "37D14CA816C799E2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:chorus_flower_pie"
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: 0.5d
+		}
+		{
+			id: "5D000CBE96F44D36"
+			tasks: [{
+				id: "1858CA619A13E807"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:end_mixed_salad"
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -6.0d
+		}
+		{
+			id: "3D6564F3568DEFFF"
+			tasks: [{
+				id: "58FB9F0167F1157C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:assorted_salad"
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -5.0d
+		}
+		{
+			id: "11E96DD5F31E736A"
+			tasks: [{
+				id: "5940282191F70955"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:dried_endermite_meat"
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: 1.5d
+		}
+		{
+			id: "1341FD3E3B9141DA"
+			tasks: [{
+				id: "15EF64DE1C634130"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:stuffed_rice_cake"
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -4.0d
+		}
+		{
+			id: "6955FF229709E453"
+			tasks: [{
+				id: "0BEE6B2AE457A4CE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:chorus_cookie"
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -6.0d
+		}
+		{
+			id: "749A56BBA50FED1F"
+			tasks: [{
+				id: "5B90B07E9C05811B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:ender_congee"
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -1.5d
+		}
+		{
+			id: "6DD19D08060088AD"
+			tasks: [{
+				id: "69A99D4019A350CD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:roasted_dragon_steak"
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -0.5d
+		}
+		{
+			id: "74B2C53C3363FE23"
+			tasks: [{
+				id: "70E515AFB237962A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:dragon_leg_with_sauce"
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: 0.5d
+		}
+		{
+			id: "273795FE5AEA7958"
+			tasks: [{
+				id: "3038B689666C17DA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:enderman_gristle"
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -5.0d
+		}
+		{
+			id: "66920C77B1370D78"
+			tasks: [{
+				id: "5FBA3B55327A2D14"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:chorus_sauce"
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: 1.5d
+		}
+		{
+			id: "4B1AC96BDAD8FBFE"
+			tasks: [{
+				id: "58B90F141510072D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:shulker_omelette"
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: -1.5d
+		}
+		{
+			id: "6275B918431BE946"
+			tasks: [{
+				id: "3E2CF3BEFBC32A01"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:shulker_omelette_mixture"
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -4.0d
+		}
+		{
+			id: "2F0D4F840BF71945"
+			tasks: [{
+				id: "02C031B10B2A92D7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:raw_ender_sausage"
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: -6.0d
+		}
+		{
+			id: "7CD8329E9CEB1374"
+			tasks: [{
+				id: "7EDF305F2705EED6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:ender_sausage"
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: -0.5d
+		}
+		{
+			id: "1F83529D5ED0BA9F"
+			tasks: [{
+				id: "2755A7EFE7022020"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:ender_bamboo_rice"
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: 0.5d
+		}
+		{
+			id: "56977B6ACDFEAB3B"
+			tasks: [{
+				id: "2A1A35D3D14A82E2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:shulker_soup"
+				}
+				type: "item"
+			}]
+			x: -22.0d
+			y: 1.5d
+		}
+		{
+			id: "4E9F4A0293478E2F"
+			tasks: [{
+				id: "4FF41572A3E13609"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:ender_noodle"
+				}
+				type: "item"
+			}]
+			x: -23.0d
+			y: -1.5d
+		}
+		{
+			id: "361694F89FF05821"
+			tasks: [{
+				id: "59DBC940C4D71FC7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ends_delight:enderman_gristle_stew"
+				}
+				type: "item"
+			}]
+			x: -23.0d
+			y: -0.5d
+		}
+		{
+			id: "0F28DEC012AB1423"
+			subtitle: "本整合包加入了生活调味料模组，可以通过吃不同的食物提升血量上限。在mc世界里大吃特吃吧！"
+			tasks: [{
+				id: "03FB7C35454CC848"
+				title: "生活调味料"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			id: "06F4F0806509629D"
+			subtitle: "本整合包加入了中央厨房，可以满足部分农夫乐事自动化。"
+			tasks: [{
+				id: "151FFBB7EDABB604"
+				title: "齿轮与麦穗和电气厨房"
+				type: "checkmark"
+			}]
+			title: "中央厨房"
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			id: "6EEE79AA39A5C386"
+			tasks: [{
+				id: "1FB9E1B98B199EBB"
+				item: "nethersdelight:stuffed_hoglin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+	]
+	title: "农夫乐事"
+}

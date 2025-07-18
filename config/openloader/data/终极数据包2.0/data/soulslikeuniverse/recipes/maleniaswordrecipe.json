@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "dba",
+    "cda"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:quartz"
+    },
+    "b": {
+      "item": "soulslikeuniverse:longsword"
+    },
+    "c": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "d": {
+      "item": "minecraft:spore_blossom"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:maleniasword",
+    "count": 1
+  }
+}

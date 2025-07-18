@@ -1,0 +1,41 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "soulsweapons:item/shadow_assassin_scythe"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [-85, -90, -54],
+      "translation": [-0.5, 6.0, -0.7],
+      "scale": [2.25, 2.25, 1.25]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [-40, 90, 0],
+      "translation": [-0.5, 6.0, -0.7],
+      "scale": [1.75, 1.75, 1]
+    },
+    "firstperson_righthand": {
+      "rotation": [-30, -90, 0],
+      "translation": [1.0, 3.0, 0.0],
+      "scale": [1.75, 1.75, 1]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-30, 90, 0],
+      "translation": [0, 3.0, 0.0],
+      "scale": [1.75, 1.75, 1]
+    },
+    "head": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 1, 6, 0],
+      "scale":[ 2, 2, 2 ]
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "bettercombat": 1
+      },
+      "model": "soulsweapons:item/shadow_assassin_scythe_bettercombat"
+    }
+  ]
+}

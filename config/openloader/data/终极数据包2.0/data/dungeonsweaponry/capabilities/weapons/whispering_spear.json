@@ -1,0 +1,17 @@
+{
+    "type": "agony:agony2",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 2.5,
+                "impact": 1.0,
+            "max_strikes": 3.0,
+            "speed_bonus":0.5
+        },
+        "two_hand": {
+            "armor_negation": 2.0,
+                "impact": 1.0,
+            "max_strikes": 3.0,
+            "speed_bonus":0.5
+        }
+    }
+ }

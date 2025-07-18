@@ -1,0 +1,695 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4AE59278149BF1AE"
+	group: "78E3ADEACB1DC1EF"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "farmersdelight:barbecue_stick"
+	}
+	id: "4AE59278149BF1AE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"386DF546E6B66602"
+				"7BB19B95D8F86B16"
+			]
+			id: "3651168280CBA74B"
+			rewards: [
+				{
+					id: "7252FAE1B04B13D6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "farmersdelight:netherite_knife"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "farmersdelight:backstabbing"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:sharpness"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "07204B9EC8B3AC4A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "MC自带的原版食物"
+			tasks: [{
+				id: "5D959DFD3AB7FDE4"
+				title: "原版食物"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			id: "493FF32BC1E1D90E"
+			tasks: [{
+				id: "2D0ECB1C9A20DE64"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			id: "0B914DF0A7852A9E"
+			tasks: [{
+				id: "7017F42C02416D67"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cake"
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			id: "1304B520567067EA"
+			tasks: [{
+				id: "7B24A3DD05204759"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:sweet_berries"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"493454E16169669F"
+				"722986D864694586"
+				"5B4AE9F5F9874C4A"
+				"4BC62B65DD131A26"
+				"2B2A79082E5028AB"
+				"26ADA16ABA0E3C92"
+				"747F546B6869A5AB"
+				"65678134F6ACBBFA"
+				"1C54845D9E521F5D"
+				"6E4AA86AB5ACD13C"
+				"0EA9E2A4866F8FEE"
+				"10350DB5A371EE31"
+				"493FF32BC1E1D90E"
+				"1304B520567067EA"
+				"072C0721BB52E7B8"
+			]
+			id: "386DF546E6B66602"
+			tasks: [{
+				id: "159495E1060A0090"
+				title: "生吃"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"473F0AED3A5FDA23"
+				"3F4EC4433C9B5130"
+				"4006EAB46E38E44F"
+				"3AD50BC8A7A94753"
+				"329D5D39B34F3B69"
+				"67002FD7CC2FC6EB"
+				"14CADF1F5BED6FC9"
+				"247DE88029E8A821"
+				"59ECCA71DC787672"
+				"0B179F5AECC0BC19"
+				"0B914DF0A7852A9E"
+				"5AC42446D0325621"
+				"5F5FA2D4EC680824"
+				"6C01E3FF703EA7E4"
+				"27262DFC4B5E5E02"
+				"3412F8CD44BE68B1"
+			]
+			id: "7BB19B95D8F86B16"
+			tasks: [{
+				id: "69DF2184D5D2C22A"
+				title: "熟食"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			id: "67002FD7CC2FC6EB"
+			tasks: [{
+				id: "72E18B9967B25111"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cooked_cod"
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -6.0d
+		}
+		{
+			id: "072C0721BB52E7B8"
+			tasks: [{
+				id: "05C927D56179BCA3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:pufferfish"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "26ADA16ABA0E3C92"
+			tasks: [{
+				id: "50ADFF9230F5C854"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cod"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "5F5FA2D4EC680824"
+			tasks: [{
+				id: "575D1BDAD870F8FE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:dried_kelp"
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			id: "27262DFC4B5E5E02"
+			tasks: [{
+				id: "783B71057A4B2905"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -3.0d
+		}
+		{
+			id: "473F0AED3A5FDA23"
+			tasks: [{
+				id: "06006EDC314F2F4E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:mushroom_stew"
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			id: "0B179F5AECC0BC19"
+			tasks: [{
+				id: "55EF991F8CEABB94"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:pumpkin_pie"
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -6.0d
+		}
+		{
+			id: "5AC42446D0325621"
+			tasks: [{
+				id: "7454E2FEB1ED2358"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -5.0d
+		}
+		{
+			id: "329D5D39B34F3B69"
+			tasks: [{
+				id: "498CE6E7D108D419"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cooked_salmon"
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -3.0d
+		}
+		{
+			id: "2B2A79082E5028AB"
+			tasks: [{
+				id: "1B2009D01BCBA84D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:salmon"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "747F546B6869A5AB"
+			tasks: [{
+				id: "0A1EC258AADA9F71"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:chicken"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			id: "722986D864694586"
+			tasks: [{
+				id: "53480FAB0A4CFD27"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:beef"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			id: "493454E16169669F"
+			tasks: [{
+				id: "36187E115D586EEF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:rabbit"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			id: "4BC62B65DD131A26"
+			tasks: [{
+				id: "55F080AEE8F5ACAF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:mutton"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			id: "5B4AE9F5F9874C4A"
+			tasks: [{
+				id: "17E46CCBAF8EC7D0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:porkchop"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "14CADF1F5BED6FC9"
+			tasks: [{
+				id: "4D5BF0A5DB5CD671"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cooked_chicken"
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -6.0d
+		}
+		{
+			id: "3412F8CD44BE68B1"
+			tasks: [{
+				id: "15E08A8049F3E018"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			id: "3F4EC4433C9B5130"
+			tasks: [{
+				id: "5CFAB5C3AEA26D13"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cooked_rabbit"
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.0d
+		}
+		{
+			id: "3AD50BC8A7A94753"
+			tasks: [{
+				id: "3FE290FC72DA335B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cooked_mutton"
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -4.0d
+		}
+		{
+			id: "4006EAB46E38E44F"
+			tasks: [{
+				id: "306908E800F1E11D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cooked_porkchop"
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.0d
+		}
+		{
+			id: "59ECCA71DC787672"
+			tasks: [{
+				id: "7D870F1131B11747"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:beetroot_soup"
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			id: "65678134F6ACBBFA"
+			tasks: [{
+				id: "5830C9F2A63AF581"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:beetroot"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "1C54845D9E521F5D"
+			tasks: [{
+				id: "6259B1FF73D640AA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:potato"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			id: "247DE88029E8A821"
+			tasks: [{
+				id: "00353A9A6A91AA43"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:baked_potato"
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			id: "6C01E3FF703EA7E4"
+			tasks: [{
+				id: "57152DF018D1E849"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:rabbit_stew"
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.0d
+		}
+		{
+			id: "6E4AA86AB5ACD13C"
+			tasks: [{
+				id: "5085A66C5A7F3F50"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:melon_slice"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "0EA9E2A4866F8FEE"
+			tasks: [{
+				id: "4DABC8F7594C5833"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:tropical_fish"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "10350DB5A371EE31"
+			tasks: [{
+				id: "5C3A545966D6DE24"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:chorus_fruit"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+	]
+	title: "原版食物"
+}

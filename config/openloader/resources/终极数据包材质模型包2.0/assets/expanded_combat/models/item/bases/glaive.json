@@ -1,0 +1,46 @@
+{
+	"credit": "Made by Userofbricks",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "#layer0",
+		"layer0": "expanded_combat:item_large/glaive/diamond"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 45],
+			"translation": [0, 5.75, 2],
+			"scale": [2.5, 2.5, 1.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -45],
+			"translation": [0, 5.75, 2],
+			"scale": [2.5, 2.5, 1.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 45],
+			"translation": [4, 4, 0],
+			"scale": [2, 2, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, -45],
+			"translation": [2, 4.75, 1],
+			"scale": [2, 2, 1]
+		},
+		"ground": {
+			"rotation": [0, 0, -21],
+			"scale": [0.75, 0.75, 0.375]
+		},
+		"gui": {
+			"scale": [0.9, 0.9, 1]
+		},
+		"head": {
+			"rotation": [-10, -30, -125],
+			"translation": [-2, -15, -3],
+			"scale": [2, 2, 1]
+		},
+		"fixed": {
+			"scale": [1, 1, 0.5]
+		}
+	}
+}

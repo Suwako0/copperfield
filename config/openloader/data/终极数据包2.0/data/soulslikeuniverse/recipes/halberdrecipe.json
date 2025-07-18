@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ca",
+    " bc",
+    "d  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond_sword"
+    },
+    "b": {
+      "item": "soulslikeuniverse:longsword"
+    },
+    "c": {
+      "item": "minecraft:diamond_axe"
+    },
+    "d": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:halberd",
+    "count": 1
+  }
+}

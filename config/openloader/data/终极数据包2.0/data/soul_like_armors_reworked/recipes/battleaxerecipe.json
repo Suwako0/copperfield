@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "dca",
+    "bd "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_nugget"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:diamond_axe"
+    },
+    "d": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "soul_like_armors_reworked:battleaxe",
+    "count": 1
+  }
+}

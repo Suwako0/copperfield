@@ -1,0 +1,80 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.6
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.1
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "epicfight:biped/living/hold_dual",
+      "run": "wom:biped/living/solar_obscuridad_run",
+      "block": "indestructible:guard/guard_dualsword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/ruine_boosted_idle",
+      "run": "wom:biped/living/staff_run",
+      "block": "wom:biped/skill/agony_guard",
+      "walk": "wom:biped/living/ruine_boosted_walk"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "longsword"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh_small",
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "longsword"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "two_hand": [
+      "wom:biped/combat/ruine_auto_1",  
+      "cdmoveset:biped/new/dagger/dagger_dual_auto2",
+      "cdmoveset:biped/new/dagger/dagger_dual_auto3",
+      "cdmoveset:biped/new/dagger/dagger_dual_auto4",
+      "epicfight:biped/combat/dagger_dual_auto4",
+      "wom:biped/combat/ruine_auto_2",  
+      "cdmoveset:biped/new/dagger/skill/blade_rush_second",
+      "wom:biped/combat/moonless_fullmoon"
+    ],
+    "one_hand": [
+      "epicfight:biped/combat/dagger_auto2", 
+      "wom:biped/combat/ruine_auto_1",
+      "wom:biped/combat/ruine_auto_2",
+      "cdmoveset:biped/new/dagger/dagger_dual_auto3",
+      "wom:biped/skill/herrscher_trane",
+      "wom:biped/combat/moonless_auto_3_verso",
+      "wom:biped/combat/moonless_auto_2_verso",
+      "wom:biped/combat/moonless_rewinder",
+      "wom:biped/combat/moonless_auto_3_verso"
+    ]
+  },
+  "category": "longsword",
+  "innate_skills": {
+    "two_hand": "epicfight:dancing_edge",
+    "one_hand": "wom:charybdis"
+  }
+}

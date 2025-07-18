@@ -1,0 +1,11 @@
+{
+    "type": "spear:spear6",
+    "attributes": {
+        "common": {
+            "armor_negation":10.0,
+                "impact": 1.0,
+            "max_strikes": 10,
+            "speed_bonus": 0.3
+        }
+    }
+ }

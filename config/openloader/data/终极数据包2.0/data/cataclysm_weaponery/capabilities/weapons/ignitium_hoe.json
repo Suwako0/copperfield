@@ -1,0 +1,17 @@
+{
+    "type": "hoe:dualhoe1",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 5.0,
+                "impact": 1.0,
+            "max_strikes": 3.0,
+            "speed_bonus":0.5
+        },
+        "two_hand": {
+            "armor_negation": 5.0,
+                "impact": 1.0,
+            "max_strikes": 3.0,
+            "speed_bonus":0.5
+        }
+    }
+ }

@@ -1,0 +1,17 @@
+{
+    "type": "axe:dualaxe1",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 5.8,
+                "impact": 5.8,
+            "max_strikes": 3.3,
+            "speed_bonus":1
+        },
+        "two_hand": {
+            "armor_negation": 5.8,
+                "impact": 5.8,
+            "max_strikes": 3.3,
+            "speed_bonus":1
+        }
+    }
+ }

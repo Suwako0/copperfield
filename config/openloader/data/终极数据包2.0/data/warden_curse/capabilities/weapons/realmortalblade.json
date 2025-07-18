@@ -1,0 +1,19 @@
+{
+    "type": "uchigatana:yamato_ss",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 6.0,
+                "impact": 1.0,
+            "max_strikes": 4.0,
+            "damage_bonus":3.5,
+            "speed_bonus":-1.0
+        },
+        "two_hand": {
+            "armor_negation": 6.0,
+                "impact": 1.0,
+            "max_strikes": 4.0,
+            "damage_bonus":3.5,
+            "speed_bonus":-1.0
+        }
+    }
+ }

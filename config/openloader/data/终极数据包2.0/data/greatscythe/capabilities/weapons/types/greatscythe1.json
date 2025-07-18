@@ -1,0 +1,58 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.8,
+      0.8,
+      1.3
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.3
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "one_hand": {
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_idle",
+      "run": "epicacg:biped/battle_scythe/living/battle_scythe_run",
+      "block": "wom:biped/skill/agony_guard",
+      "walk": "epicacg:biped/battle_scythe/living/battle_scythe_walk"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "one_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "greatsword"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "one_hand": [
+      "epicacg:biped/battle_scythe/battle_scythe_auto1",
+      "epicacg:biped/battle_scythe/battle_scythe_auto2",
+      "epicacg:biped/battle_scythe/battle_scythe_auto3",
+      "wom:biped/combat/antitheus_auto_1",
+      "wom:biped/combat/solar_auto_4",
+      "epicacg:biped/battle_scythe/battle_scythe_auto4",
+
+      "wom:biped/combat/solar_quemadura",
+      "wom:biped/combat/antitheus_agression"
+    ]
+  },
+  "category": "greatsword",
+  "innate_skills": {
+    "one_hand": "cdmoveset:wind_slash"
+  },
+  "usable_in_offhand": false
+}

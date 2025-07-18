@@ -1,0 +1,101 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.5,
+      0.5,
+      1.6
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.2
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "wom:biped/skill/herrscher_guard",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "wom:biped/skill/herrscher_guard",
+      "walk": "wom:biped/skill/herrscher_guard"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/solar_obscuridad_idle",
+      "run": "wom:biped/living/solar_obscuridad_run",
+      "block": "indestructible:guard/guard_greatsword",
+      "walk": "wom:biped/living/katana_walk"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "s_longsword"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+ "mount": [
+      "epicfight:biped/combat/sword_dual_auto1",
+      "epicfight:biped/combat/sword_auto2",
+      "cdmoveset:biped/new/sword/sword_onehand_auto_4"
+    ],
+    "two_hand": [
+      "wom:biped/skill/gezets_auto_2",
+      "wom:biped/combat/herrscher_auto_1",
+      "wom:biped/skill/gezets_auto_2",
+      "wom:biped/combat/solar_obscuridad_auto_2",
+       "wom:biped/combat/antitheus_auto_2",
+      "wom:biped/skill/gezets_auto_3",
+      "wom:biped/combat/solar_obscuridad_auto_2",
+
+      "wom:biped/skill/gezets_sprengkopf",
+      "wom:biped/combat/herrscher_ausrottung"
+    ],
+    "one_hand": [
+      "wom:biped/combat/solar_obscuridad_auto_1",
+      "wom:biped/combat/solar_obscuridad_auto_2",
+      "wom:biped/combat/solar_obscuridad_auto_3",
+      "wom:biped/combat/ruine_auto_3",
+       "wom:biped/combat/antitheus_auto_2",
+      "wom:biped/combat/solar_obscuridad_auto_2",
+      "wom:biped/combat/herrscher_auto_1",
+      "wom:biped/combat/herrscher_auto_2",
+      "wom:biped/combat/herrscher_auto_3",
+      "wom:biped/combat/ruine_chatiment",
+
+      "wom:biped/combat/herrscher_verdammnis",
+      "wom:biped/combat/solar_horno"
+    ]
+  },
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_longsword"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_longsword"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "longsword",
+  "innate_skills": {
+    "two_hand": "cdmoveset:guardparry",
+    "one_hand": "epicfight:dancing_edge"
+  },
+  "usable_in_offhand": false
+}

@@ -1,0 +1,17 @@
+{
+    "type": "sword:sword3",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 3.0,
+                "impact": 1.0,
+            "max_strikes": 3.0,
+            "speed_bonus":0
+        },
+        "two_hand": {
+            "armor_negation": 3.0,
+                "impact": 1.0,
+            "max_strikes": 3.0,
+            "speed_bonus":0
+        }
+    }
+ }

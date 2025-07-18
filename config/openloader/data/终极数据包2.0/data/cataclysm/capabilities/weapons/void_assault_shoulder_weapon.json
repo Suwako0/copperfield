@@ -1,0 +1,19 @@
+{
+	"type": "test:void_assault_shoulder_weapon",
+	"attributes": {
+		"one_hand": {
+			"armor_negation": 10,
+                "impact": 1.0,
+			"max_strikes": 5,
+                        "damage_bonus":8.0,
+			"speed_bonus": -1.8
+		},
+		"two_hand": {
+			"armor_negation": 15,
+                "impact": 1.0,
+			"max_strikes": 5,
+                        "damage_bonus":8.0,
+			"speed_bonus": -1.8
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+    "type": "tulwar:tulwar3",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 6.3,
+                "impact": 6.8,
+            "max_strikes": 2.3,
+            "speed_bonus":-4.35
+        },
+        "two_hand": {
+            "armor_negation": 6.3,
+                "impact":6.3,
+            "max_strikes": 2.3,
+            "speed_bonus":-4.35
+        }
+    }
+ }

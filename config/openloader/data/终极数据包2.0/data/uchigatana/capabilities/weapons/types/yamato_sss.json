@@ -1,0 +1,102 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.6,
+      0.6,
+      1.5
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "cdmoveset:biped/new/yamato/yamato_idle",
+      "run": "cdmoveset:biped/new/yamato/yamato_run",
+      "block": "cdmoveset:biped/new/yamato/yamato_guard",
+      "walk": "cdmoveset:biped/new/yamato/yamato_walk"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/katana_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "epicfight:biped/skill/guard_sword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "uchigatana"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+    "two_hand": [
+      "cdmoveset:biped/new/yamato/yamato_auto1",
+      "cdmoveset:biped/new/yamato/yamato_auto2",
+      "cdmoveset:biped/new/yamato/yamato_auto3",
+      "epicfight:biped/combat/uchigatana_sheath_dash",
+      "cdmoveset:biped/new/yamato/yamato_auto2",
+      "cdmoveset:biped/new/yamato/yamato_auto3",
+      "epicfight:biped/combat/uchigatana_sheath_dash",
+      "cdmoveset:biped/new/yamato/ex_yamato/yamato_auto3",
+      "cdmoveset:biped/new/yamato/ex_yamato/yamato_auto3",
+      "cdmoveset:biped/new/yamato/ex_yamato/yamato_auto3",
+      "cdmoveset:biped/new/yamato/ex_yamato/yamato_auto3",
+      "cdmoveset:biped/new/yamato/ex_yamato/yamato_auto3",
+      "cdmoveset:biped/new/yamato/ex_yamato/yamato_auto3",
+      "wom:biped/combat/katana_harusaki",
+      "wom:biped/combat/herrscher_ausrottung",
+      "wom:biped/combat/herrscher_ausrottung",
+        "epicacg:biped/dmc5_v_jc",
+      "cdmoveset:biped/new/yamato/skill/yamato_dawn",
+
+      "cdmoveset:biped/new/yamato/skill/yamato_strike2",
+      "cdmoveset:biped/new/yamato/skill/yamato_rising_star_end"
+
+    ],
+    "one_hand": [
+      "cdmoveset:biped/new/longsword/longsword_twohand_auto_1",
+      "cdmoveset:biped/new/longsword/longsword_twohand_auto_2",
+      "cdmoveset:biped/new/longsword/longsword_twohand_auto_3",
+      "epicfight:biped/combat/tachi_auto1",
+      "epicfight:biped/skill/rushing_tempo1",
+      "epicfight:biped/combat/tachi_auto2",
+      "epicfight:biped/skill/rushing_tempo2",
+      "epicfight:biped/combat/tachi_auto3",
+      "epicfight:biped/skill/rushing_tempo3",
+      "wom:biped/combat/herrscher_auto_3",
+       "epicfight:biped/combat/uchigatana_sheath_dash",
+      "cdmoveset:biped/new/tachi_slash",
+      "wom:biped/skill/katana_gesshoku",
+
+      "wom:biped/skill/katana_fatal_draw_dash",
+      "cdmoveset:biped/new/yamato/skill/yamato_dawn"
+    ]
+  },
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "uchigatana"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "yamato",
+  "innate_skills": {
+    "two_hand": "cdmoveset:yamatoskill",
+    "one_hand":  "wom:sakura_state"
+  },
+  "usable_in_offhand": true
+}

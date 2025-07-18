@@ -1,0 +1,11 @@
+{
+    "type": "glove:glove5",
+    "attributes": {
+        "common": {
+            "armor_negation":8,
+                "impact": 1.0,
+            "max_strikes": 6,
+            "speed_bonus": 1.3
+        }
+    }
+ }

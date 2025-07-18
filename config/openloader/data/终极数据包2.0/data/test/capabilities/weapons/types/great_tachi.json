@@ -1,0 +1,59 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      1.2,
+      1.2,
+      1.8
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.5
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/hold_greatsword",
+      "run": "cdmoveset:biped/new/dual_greatsword/living/hold_greatsword",
+      "block": "wom:biped/skill/solar_guard",
+      "walk": "cdmoveset:biped/new/dual_greatsword/living/hold_greatsword"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "styles": {
+    "default": "two_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_greatsword"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "two_hand": [
+      "cdmoveset:biped/new/dual_tachi/great_tachi_auto1",
+      "epicfight:biped/combat/mob_spear_twohand3",
+      "wom:biped/combat/solar_auto_4",
+      "cdmoveset:biped/new/katana/skill/fatal_draw",
+      "wom:biped/combat/katana_auto_3",
+      "cdmoveset:biped/new/dual_tachi/great_tachi_auto3",
+      "cdmoveset:biped/new/dual_tachi/great_tachi_auto4",
+
+      "cdmoveset:biped/new/katana/skill/fatal_draw_dash",
+      "cdmoveset:biped/new/dual_tachi/danger_dash2"
+    ]
+  },
+  "category": "s_greatsword",
+  "innate_skills": {
+    "two_hand": "test:great_tachi"
+  },
+  "usable_in_offhand": false
+}

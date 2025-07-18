@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ca",
+    "dbc",
+    "ad "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:quartz"
+    },
+    "b": {
+      "item": "soulslikeuniverse:longsword"
+    },
+    "c": {
+      "item": "minecraft:charcoal"
+    },
+    "d": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:gravelordsword",
+    "count": 1
+  }
+}

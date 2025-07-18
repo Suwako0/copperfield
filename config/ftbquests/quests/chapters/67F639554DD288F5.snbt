@@ -1,0 +1,983 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "67F639554DD288F5"
+	group: "5C9773B2AEAF027D"
+	icon: "kubejs:dungeons_key_undead_normal"
+	id: "67F639554DD288F5"
+	images: [{
+		height: 7.0d
+		image: "irons_spellbooks:textures/gui/spell_icons/flaming_strike.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: 4.5d
+		y: -1.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4C60877A2B6B3CE7"]
+			id: "66997B739192DE0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38B9252A53BE3082"
+				table_id: 2687148532487701686L
+				type: "random"
+			}]
+			subtitle: "试炼秘境分为普通/英雄/史诗三个难度，可用秘境兑币以在秘境商人处换取秘境钥匙，在成功完成一个秘境试炼后会掉落下一个难度的试炼钥石兑币，如果挑战失败则会掉落上一个难度的试炼秘境兑币，史诗难度的秘境兑币只能通过英雄难度试炼秘境通关奖励获得，普通/英雄难度的秘境兑币可以通过合成获得"
+			tasks: [{
+				id: "18983E6B64CF7CF7"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			title: "秘境商人"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "4C60877A2B6B3CE7"
+			rewards: [{
+				id: "709FAF733F9A57F2"
+				item: "kubejs:dungeons_hearthstone"
+				type: "item"
+			}]
+			subtitle: "试炼秘境是本整合包定制的一个维度，通过在该维度完成限时战斗挑战来获取丰厚的战利品，难度越高的试炼秘境奖励也更丰厚！可以用秘境炉石返回一个正在进行中的试炼秘境，如果你的秘境炉石遗失，你可以在秘境商人处购买一块新的"
+			tasks: [{
+				id: "19F2D72B723CBC70"
+				title: "无尽的试炼"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66997B739192DE0B"]
+			id: "1A512EE23FB17940"
+			rewards: [
+				{
+					count: 2
+					id: "670CD561AA13A7F4"
+					item: "fruitsdelight:lemon_tart"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3DB1CFFF4019BA0B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "获得一把秘境钥石后，右击进入该试炼秘境（注意：激活钥匙后全部玩家都会被传送至试炼秘境！）"
+			tasks: [{
+				id: "5A29E0459F7D1053"
+				title: "进入试炼秘境"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A512EE23FB17940"]
+			id: "0D2A553531E298A4"
+			rewards: [
+				{
+					count: 2
+					id: "080DDF14F862B6FF"
+					item: "fruitsdelight:lemon_tart"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "254438F06037D4CC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "通关完成英雄/史诗难度试炼秘境可以获取这些史诗武器（受制于技术限制，你可能还能在JER中看到这些武器掉落于一些战利品箱，但是其实际已不会再掉落）"
+			tasks: [{
+				id: "0E915045A724A35B"
+				title: "史诗武器"
+				type: "checkmark"
+			}]
+			title: "史诗武器秘境"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "242E98EA2CE97573"
+			rewards: [{
+				count: 20
+				id: "4AB3D74B35DC92BA"
+				item: "kubejs:dungeons_reward_coin"
+				type: "item"
+			}]
+			subtitle: "掉落于：通关残月高悬-英雄难度（5%）残月高悬-史诗难度（15%）"
+			tasks: [{
+				id: "677C7CE7DD42284C"
+				item: {
+					Count: 1
+					id: "wom:agony"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "38CADB17148A14D9"
+			rewards: [{
+				count: 20
+				id: "7A76FFCF5693E5EC"
+				item: "kubejs:dungeons_reward_coin"
+				type: "item"
+			}]
+			subtitle: "掉落于：通关残月高悬-英雄难度（5%）残月高悬-史诗难度（15%）"
+			tasks: [{
+				id: "4C5364A630006555"
+				item: {
+					Count: 1
+					id: "wom:herrscher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "64BEF8F834BEA42C"
+			rewards: [{
+				count: 20
+				id: "085A0A5B2477E524"
+				item: "kubejs:dungeons_reward_coin"
+				type: "item"
+			}]
+			subtitle: "掉落于：通关残月高悬-英雄难度（5%）残月高悬-史诗难度（15%）"
+			tasks: [{
+				id: "3E5A165665B3E7C2"
+				item: {
+					Count: 1
+					id: "wom:ruine"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "680CAE90759B7A45"
+			rewards: [{
+				count: 20
+				id: "3122858F1E62654F"
+				item: "kubejs:dungeons_reward_coin"
+				type: "item"
+			}]
+			subtitle: "掉落于：通关千丝之织-英雄难度（5%）千丝之织-史诗难度（15%）"
+			tasks: [{
+				id: "41E0E825CB5DC0F0"
+				item: {
+					Count: 1
+					id: "wom:tormented_mind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "7F61416E59459F67"
+			rewards: [{
+				count: 20
+				id: "34E117E95BEAF3DF"
+				item: "kubejs:dungeons_reward_coin"
+				type: "item"
+			}]
+			subtitle: "掉落于：通关千丝之织-英雄难度（5%）千丝之织-史诗难度（15%）"
+			tasks: [{
+				id: "39526F42BEE53B70"
+				item: {
+					Count: 1
+					id: "wom:gesetz"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "404EB2D2D61E8935"
+			rewards: [{
+				count: 20
+				id: "06D2C32A3D2B4211"
+				item: "kubejs:dungeons_reward_coin"
+				type: "item"
+			}]
+			subtitle: "掉落于：通关千丝之织-英雄难度（5%）千丝之织-史诗难度（15%）"
+			tasks: [{
+				id: "04259E41050831E8"
+				item: {
+					Count: 1
+					id: "wom:satsujin"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "2C3EB77018F06879"
+			rewards: [{
+				count: 20
+				id: "21AC7C86E8517F77"
+				item: "kubejs:dungeons_reward_coin"
+				type: "item"
+			}]
+			subtitle: "掉落于：通关天灾亡灵-英雄难度（5%）天灾亡灵-史诗难度（15%）"
+			tasks: [{
+				id: "567AF98014FB75E2"
+				item: {
+					Count: 1
+					id: "wom:ender_blaster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "3649834199EC1169"
+			rewards: [{
+				count: 20
+				id: "2EA79680B743FDB0"
+				item: "kubejs:dungeons_reward_coin"
+				type: "item"
+			}]
+			subtitle: "掉落于：通关天灾亡灵-英雄难度（5%）天灾亡灵-史诗难度（15%）"
+			tasks: [{
+				id: "7C21127B38B24A13"
+				item: {
+					Count: 1
+					id: "wom:moonless"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "06CB3409A138A335"
+			rewards: [{
+				count: 20
+				id: "644E8AFA5B330048"
+				item: "kubejs:dungeons_reward_coin"
+				type: "item"
+			}]
+			subtitle: "掉落于：通关天灾亡灵-英雄难度（5%）天灾亡灵-史诗难度（15%）"
+			tasks: [{
+				id: "4B1F78218440AE9F"
+				item: {
+					Count: 1
+					id: "wom:solar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			description: ["&o到最后，万物都将衰败...&r"]
+			id: "0A563A9D1CA0B258"
+			rewards: [
+				{
+					id: "223CE79EFD5E9786"
+					item: "kubejs:dungeons_reward_bag_mine"
+					type: "item"
+				}
+				{
+					id: "63572BA325B00391"
+					item: "kubejs:dungeons_reward_bag_upgrade_materail"
+					type: "item"
+				}
+				{
+					id: "6C5E5E9E87D40122"
+					item: "kubejs:dungeons_reward_bag_tech"
+					type: "item"
+				}
+			]
+			subtitle: "通关任意史诗难度试炼秘境，5%概率掉落合成部件「恶魔封印」，可合成撒旦"
+			tasks: [{
+				id: "17F2E9E569863735"
+				item: {
+					Count: 1
+					id: "wom:antitheus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A512EE23FB17940"]
+			description: ["不同于史诗武器秘境的钥石升级机制，列王之殇挑战只需要制作一个列王遗物，即可在小市场秘境商人处兑换任意的挑战钥匙"]
+			id: "50BE3A07B9D577A3"
+			rewards: [
+				{
+					id: "0E1E1DEB237789FC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "kubejs:boss_remains"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1C261A3E42257F75"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fruitsdelight:lemon_tart"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "在列王之殇挑战中，你可以直接进入试炼秘境挑战整合包里的一些BOSS，甚至部分BOSS只能在列王之殇中进行挑战，但是这里面的BOSS普遍很强大，比野外的更加强大，建议中/后期挑战，做好准备...在挑战成功后不仅可以获得BOSS本身的掉落物，还能获得大量经验、秘境兑币以及概率掉落稀有武器、符文石板"
+			tasks: [{
+				id: "5D27686F86527CC1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "kubejs:boss_remains"
+				}
+				type: "item"
+			}]
+			title: "列王之殇挑战"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["66997B739192DE0B"]
+			id: "69AC65C3A09CC4F6"
+			rewards: [{
+				id: "650EF16D541AD611"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "在秘境商人处兑换获取"
+			tasks: [{
+				id: "238DB8B3942A212B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "kubejs:custom_dungeons_ring"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50BE3A07B9D577A3"]
+			id: "2160E37BCEC0BA59"
+			rewards: [
+				{
+					id: "6A666C5AB3598396"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+				{
+					id: "0D61228152EA735C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:runefused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2326F620D5D8B576"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "可能掉落于任意列王之殇挑战"
+			tasks: [{
+				id: "1C561E70DEB5FD80"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:whisperwind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["50BE3A07B9D577A3"]
+			id: "1EDADEBCDBCDB613"
+			rewards: [
+				{
+					id: "184E2CDB5CDB72F3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+				{
+					id: "562F792E922D89B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:runefused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2CA1D32C184813A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "可能掉落于任意列王之殇挑战"
+			tasks: [{
+				id: "1CCB9C4D7A1E3560"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:soulrender"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["50BE3A07B9D577A3"]
+			id: "607550C1B070DEDE"
+			rewards: [
+				{
+					id: "38BE471F87D2F284"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+				{
+					id: "08FAF06E1B1B9D39"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:runefused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0572529E10C0B9E2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "可能掉落于任意列王之殇挑战"
+			tasks: [{
+				id: "262D023DA827EC0C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:enigma"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["50BE3A07B9D577A3"]
+			id: "0105178AD8301203"
+			rewards: [
+				{
+					id: "6EC9B7BA893717B9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+				{
+					id: "692AD26EFC762018"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:runefused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3906BB670B3B6BAB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "可能掉落于任意列王之殇挑战"
+			tasks: [{
+				id: "16B1B44AE8CE3907"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:twisted_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["50BE3A07B9D577A3"]
+			id: "2047DB25BE175A14"
+			rewards: [
+				{
+					id: "67D22B68FA6E8233"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+				{
+					id: "3586B11B63AE370E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:runefused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5EA81A4BE0BD8B5A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "可能掉落于任意列王之殇挑战"
+			tasks: [{
+				id: "002E9619A1A0D17C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:molten_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["50BE3A07B9D577A3"]
+			id: "3F59A86DE7D81418"
+			rewards: [
+				{
+					id: "5AC55E4BB32F5920"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+				{
+					id: "20D7B107F6E06F2F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:runefused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "04217D52F2F3FFBB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "可能掉落于任意列王之殇挑战"
+			tasks: [{
+				id: "0D0D31EF3B100B47"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:flamewind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["50BE3A07B9D577A3"]
+			id: "2501A530AC6FEDD3"
+			rewards: [
+				{
+					id: "4D92812359EFC850"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+				{
+					id: "0D303F1976306DCD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:runefused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3E6FC5E80E57C6DA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "在帝王之殇挑战中击败霜星获得，可最终升级为觉醒的巫妖巨剑"
+			tasks: [{
+				id: "26BF01C1B68D0CAB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:slumbering_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2501A530AC6FEDD3"]
+			id: "7736E10AF98CE4A9"
+			rewards: [
+				{
+					count: 2
+					id: "15713C46F23684E5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:wither_rose"
+					}
+					type: "item"
+				}
+				{
+					id: "169A67C7F42ED0BB"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "69BAE75ACAA8E38F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:waking_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7736E10AF98CE4A9"]
+			id: "761FCFC7ED73F675"
+			rewards: [{
+				id: "5602201807C82B5A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A69D4D972CD6330"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:awakened_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+	]
+	title: "试炼秘境"
+}

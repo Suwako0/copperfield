@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "caa",
+    "cba",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stonecutter"
+    },
+    "b": {
+      "item": "soulslikeuniverse:longsword"
+    },
+    "c": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:cogwheel",
+    "count": 1
+  }
+}

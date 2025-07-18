@@ -1,0 +1,17 @@
+{
+    "type": "hammer:hammer3",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 6.0,
+                "impact": 1.0,
+            "max_strikes": 5.0,
+            "speed_bonus":0.4
+        },
+        "two_hand": {
+            "armor_negation": 6.0,
+                "impact": 1.0,
+            "max_strikes": 5.0,
+            "speed_bonus":0.4
+        }
+    }
+ }

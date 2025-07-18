@@ -1,0 +1,17 @@
+{
+    "type": "wom:ruine",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 10.0,
+                "impact": 1.0,
+            "max_strikes": 7.0,
+            "speed_bonus":0
+        },
+        "two_hand": {
+            "armor_negation": 10.0,
+                "impact": 1.0,
+            "max_strikes": 8.0,
+            "speed_bonus":0
+        }
+    }
+ }

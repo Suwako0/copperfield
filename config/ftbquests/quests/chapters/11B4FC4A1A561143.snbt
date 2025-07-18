@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "11B4FC4A1A561143"
+	group: "36AE75B89CB455C7"
+	icon: {
+		Count: 1
+		id: "minecraft:netherite_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "11B4FC4A1A561143"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7D98B3F45464BBB3"
+			subtitle: "整合包添加了一些实用的小功能，方便你更好的进行探索"
+			tasks: [{
+				id: "73110F51189B101B"
+				title: "实用功能介绍"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D98B3F45464BBB3"]
+			id: "06F672CC7F9EB4D6"
+			subtitle: "这些捕捉笼可以帮你抓住生物并且可以再释放，如用于抓村民、动物等，其中基础笼子为一次性使用，而大师笼子可反复使用(蹲下后手持空笼子右键目标生物以捕捉生物，蹲下后手持生物笼子右键以释放生物)，由于本整合包对部分生物生命值有魔改，所以我们不推荐你用笼子捕捉BOSS生物，会出现意料之外的后果"
+			tasks: [
+				{
+					id: "5E811ABA89BA19BB"
+					item: {
+						Count: 1
+						id: "portablemobs:basic_capture_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7E19D7DE40C52E3F"
+					item: {
+						Count: 1
+						id: "portablemobs:master_capture_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "捕捉笼"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D98B3F45464BBB3"]
+			icon: "alexscaves:pure_darkness"
+			id: "0FD32F74AF17AA24"
+			subtitle: "添加了FreeCam模组，默认按F6键进入/离开灵魂出窍状态，在灵魂出窍状态相机会脱离和你人物的绑定，使用前后左右跳跃潜行移动键和控制鼠标可以自由移动相机观察周围"
+			tasks: [{
+				id: "28026FB646FCA88F"
+				title: "灵魂出窍"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D98B3F45464BBB3"]
+			icon: {
+				Count: 1
+				id: "botania:elementium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1E41B8C7612E08E8"
+			subtitle: "默认按~键进入连锁模式，此时再按住Shift键+鼠标滚轮上下滑动来切换连锁挖掘的模式"
+			tasks: [{
+				id: "07786732A4C8073D"
+				title: "连锁挖掘"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D98B3F45464BBB3"]
+			id: "39C4B4A3D081227F"
+			subtitle: "制作结构指南针，可以帮你快速查找你附近范围内某个目标结构"
+			tasks: [{
+				id: "3CF1C79FCAE0D511"
+				item: "structurecompass:structure_compass"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D98B3F45464BBB3"]
+			id: "12763F2DEAF2EE63"
+			subtitle: "制作自然指南针，可以帮助你快速查找你附近范围内的某个目标群系"
+			tasks: [{
+				id: "4E2BC7998B9C65DC"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D98B3F45464BBB3"]
+			id: "62318C32CC949B84"
+			subtitle: "这种工具可以让你快速移动至当前位置上方，如从矿洞中移动至上方地面"
+			tasks: [{
+				id: "72E9F498C917FB90"
+				item: {
+					Count: 1
+					id: "gag:escape_rope"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D98B3F45464BBB3"]
+			id: "07BDD3BD6E901066"
+			subtitle: "你可以在世界各地放置这些指路石来记录传送点，然后消耗一些经验在这些传送点之间进行点对点传送"
+			tasks: [{
+				id: "00F5702C4FA86CCF"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D98B3F45464BBB3"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botania:manaweave_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6DA1BF749EDA55D0"
+			subtitle: "打开物品栏后点击人物模型右下角图标可打开/关闭时装界面，在右下角装备时装盔甲后，将显示你穿着这套盔甲（可以直接隐藏所有盔甲），用于美化，实际盔甲数值属性和词缀是你本身穿戴盔，正好该整合包动作优化模组会导致部分盔甲显示失败，可以用时装盔甲幻化正常的装备来规避该问题"
+			tasks: [{
+				id: "421AE4284EF2B1C4"
+				title: "时装盔甲"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D98B3F45464BBB3"]
+			id: "439736E533AC11A3"
+			subtitle: "本整合包原创道具，使用后在玩家位置生成一只测试DPS用的监守者，只有召唤者击败该监守者才会统计DPS!"
+			tasks: [{
+				id: "52B3C5BBE185D3F5"
+				item: {
+					Count: 1
+					id: "kubejs:zombie_summoner"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D98B3F45464BBB3"]
+			id: "16B3F479DA6A0534"
+			subtitle: "搓个炉石吧~炉石能将你传送至你的重生点位置，十分方便!"
+			tasks: [{
+				id: "4D5B0830ED239449"
+				item: {
+					Count: 1
+					id: "gag:hearthstone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D98B3F45464BBB3"]
+			icon: "minecraft:totem_of_undying"
+			id: "3E42AAD885BB44D7"
+			subtitle: "死亡不掉落已默认开启"
+			tasks: [{
+				id: "7E56CA561DF6EBD2"
+				title: "死亡不掉落"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7D98B3F45464BBB3"]
+			id: "435CDFAC83D442BC"
+			subtitle: "物品栏打开后UI界面左上角\"我的队伍\"按钮，可以创建或邀请其他玩家加入队伍,这样的好处是小队中玩家可以在地图上互相查看具体位置,同时共享任务书进度"
+			tasks: [{
+				id: "0CB2B8FBF09A9D58"
+				title: "FTB队伍"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+	]
+	title: "实用小功能"
+}

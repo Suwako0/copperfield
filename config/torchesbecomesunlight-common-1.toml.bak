@@ -1,0 +1,122 @@
+
+[server]
+	spawnDemon = false
+
+	[server.mobs]
+
+		[server.mobs.gun_knight]
+			#If 'true' disable frontal attack
+			"nullify a frontal attack" = true
+			#Set damage limit percentage (based on max health)
+			#Range: 0.01 ~ 1.0
+			"damage limit percentage" = 0.1
+
+			[server.mobs.gun_knight.attribute_config]
+				#Regulate mob health by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Health multiplier" = 1.0
+				#Regulate mob attack damage by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Attack multiplier" = 1.0
+
+			[server.mobs.gun_knight.bossbar]
+				#Enable custom bossbar
+				"Enable or not" = true
+
+			#Regulate spawning structure
+			[server.mobs.gun_knight.structure_generation_config]
+				#Maximum height for generation placement. -65 to ignore
+				#Range: -65.0 ~ 256.0
+				height_max = 100.0
+				#Minimum height for generation placement. -65 to ignore
+				#Range: -65.0 ~ 256.0
+				height_min = 50.0
+
+			#Regulate mob spawning
+			[server.mobs.gun_knight.spawn_config]
+				#Regulate spawn rate, 0 to disable spawning
+				#Range: > 0
+				spawn_rate = 1
+
+		[server.mobs.patriot]
+			#If 'true' disable frontal attack
+			"nullify a frontal attack" = true
+			#Set damage limit percentage (based on max health)
+			#Range: 0.01 ~ 1.0
+			"damage limit percentage" = 0.1
+
+			[server.mobs.patriot.attribute_config]
+				#Regulate mob health by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Health multiplier" = 1.0
+				#Regulate mob attack damage by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Attack multiplier" = 1.0
+
+			[server.mobs.patriot.bossbar]
+				#Enable custom bossbar
+				"Enable or not" = true
+
+			#Regulate mob spawning
+			[server.mobs.patriot.spawn_config]
+				#Regulate spawn rate, 0 to disable spawning
+				#Range: > 0
+				spawn_rate = 1
+
+		[server.mobs.frost_nova]
+			#Set damage limit percentage (based on max health)
+			#Range: 0.01 ~ 1.0
+			"damage limit percentage" = 0.1
+
+			[server.mobs.frost_nova.attribute_config]
+				#Regulate mob health by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Health multiplier" = 1.0
+				#Regulate mob attack damage by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Attack multiplier" = 1.0
+
+			[server.mobs.frost_nova.bossbar]
+				#Enable custom bossbar
+				"Enable or not" = true
+
+			#Regulate mob spawning
+			[server.mobs.frost_nova.spawn_config]
+				#Regulate spawn rate, 0 to disable spawning
+				#Range: > 0
+				spawn_rate = 1
+
+		[server.mobs.pursuer]
+			#Set damage limit percentage (based on max health)
+			#Range: 0.01 ~ 1.0
+			"damage limit percentage" = 0.1
+
+			[server.mobs.pursuer.attribute_config]
+				#Regulate mob health by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Health multiplier" = 1.0
+				#Regulate mob attack damage by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Attack multiplier" = 1.0
+
+			[server.mobs.pursuer.bossbar]
+				#Enable custom bossbar
+				"Enable or not" = true
+
+			#Regulate mob spawning
+			[server.mobs.pursuer.spawn_config]
+				#Regulate spawn rate, 0 to disable spawning
+				#Range: > 0
+				spawn_rate = 1
+
+	[server.global_setting]
+		#Whether living can talk(experiment)
+		"Enable living can talk" = false
+
+		[server.global_setting.ursus_village]
+
+			#Controls for spawning structure/mob with world generation
+			[server.global_setting.ursus_village.generation_config]
+				#false causes disable generate
+				avoid_structures = false
+

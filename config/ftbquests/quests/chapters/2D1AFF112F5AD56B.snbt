@@ -1,0 +1,372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2D1AFF112F5AD56B"
+	group: "36AE75B89CB455C7"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "silence_s_defense_tower:healing_pylon_level4_p"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2D1AFF112F5AD56B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1FE8E5DAFE02286F"
+			rewards: [{
+				id: "4C0C58BEFE03236B"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "会有一些强大的灾厄村民来攻击你的基地，寂静防御塔提供了30多种模块化防御塔。通过击杀敌人升级强化。"
+			tasks: [{
+				id: "6104186104083039"
+				title: "Silence's Turrets"
+				type: "checkmark"
+			}]
+			title: "防御措施"
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FE8E5DAFE02286F"]
+			id: "1ED8F5BE4812A845"
+			rewards: [{
+				id: "26AD1C40F15469A4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silence_s_defense_tower:driving_core_1"
+				}
+				type: "item"
+			}]
+			subtitle: "利用原版工作台制作一个驱动核心，利用他制作第一个1级防御塔。"
+			tasks: [{
+				id: "2A55D126CA6D67C5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silence_s_defense_tower:driving_core_1"
+				}
+				type: "item"
+			}]
+			title: "第一个防御塔"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1ED8F5BE4812A845"]
+			id: "00D7D1B8F2B9F147"
+			rewards: [{
+				id: "60CEBD2A579F5690"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silence_s_defense_tower:counter_1"
+				}
+				type: "item"
+			}]
+			subtitle: "利用原版工作台制作一个计数器，放下防御塔，将计数器装入其中，这时此防御塔击杀生物时可以增加击杀数，击杀数是本模组的一个重要资源。本模组的核心升级台和研究台制作物品需要击杀数。"
+			tasks: [{
+				id: "4A54F6AF931DC36F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silence_s_defense_tower:counter_1"
+				}
+				type: "item"
+			}]
+			title: "收集击杀数"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00D7D1B8F2B9F147"]
+			id: "5F29665684EE85D7"
+			rewards: [{
+				id: "78CF2A7638E835B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silence_s_defense_tower:driving_core_1"
+				}
+				type: "item"
+			}]
+			subtitle: "核心升级台可以升级核心。"
+			tasks: [{
+				id: "7705641566CD0AFB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silence_s_defense_tower:core_upgrade_table"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F29665684EE85D7"]
+			id: "5DFB27C887D9ABE5"
+			rewards: [{
+				id: "58A2C3C7397DF32F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silence_s_defense_tower:driving_core_1"
+				}
+				type: "item"
+			}]
+			subtitle: "将计数器放入核心升级台，此时可以看到拥有的击杀数，将驱动核心 酸蚀核心或者下界核心放入核心升级台，此时可以看到升级要求的击杀数，放入对应核心的升级材料，点击界面对勾消耗材料和击杀数完成升级。"
+			tasks: [{
+				id: "73584AC28DBE983D"
+				title: "升级核心"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DFB27C887D9ABE5"]
+			id: "319517ACF603B768"
+			rewards: [{
+				id: "3017C5BA7267AEE9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silence_s_defense_tower:driving_core_1"
+				}
+				type: "item"
+			}]
+			subtitle: "利用升级完成的核心制造高级防御塔。"
+			tasks: [{
+				id: "23A35EBE8131295C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silence_s_defense_tower:driving_core_4"
+				}
+				type: "item"
+			}]
+			title: "制造高级防御塔"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FE8E5DAFE02286F"]
+			id: "2F666DE7E9165B94"
+			subtitle: "手持拆解锤对未受损的防御塔右键以拆解防御塔。"
+			tasks: [{
+				id: "17B5801209A0F538"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silence_s_defense_tower:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1FE8E5DAFE02286F"]
+			id: "7D4CE2FBEE3913E3"
+			rewards: [{
+				id: "307108FFF504BE9B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:gold_block"
+				}
+				type: "item"
+			}]
+			subtitle: "手持该物品对炮台右键以恢复其生命值，单次使用最多恢复6点生命值并消耗等量的耐久，冷却时间为2.5秒。可以对所有炮台使用。"
+			tasks: [{
+				id: "4C8433904B026C6B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silence_s_defense_tower:welding_torch_2"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1FE8E5DAFE02286F"]
+			id: "36D24DF35952A9E2"
+			rewards: [
+				{
+					count: 8
+					id: "2054730C3AB810A2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "374FDCEC0464DF5F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5ADFCEBFBB00F1C1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "用于修复防御塔的功能方块，根据防御塔的类型消耗铁锭、金锭或铜锭，目前仅支持4种燃料：煤炭、木炭、煤块和熔岩桶。"
+			tasks: [{
+				id: "681C85C243C89276"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "silence_s_defense_tower:maintenance_station0"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5F29665684EE85D7"]
+			id: "67D3AF31FF1199CF"
+			subtitle: "用于换取小道具的功能方块，点击按钮将运行一次。GUI左上角的储存栏：1钻石换取6硬币，1金锭换取2硬币，1个小道具可回收为1硬币。GUI中间的储存栏：消耗4硬币进行抽奖，随机获取1个小道具。"
+			tasks: [{
+				id: "4F642DAF140D2CFF"
+				item: "silence_s_defense_tower:vending_machine_1"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F29665684EE85D7"]
+			id: "1C6AE7BAAE6BC2DC"
+			subtitle: "用于换取小道具的功能方块，有3个交易项，最多连续交易3次后刷新全部交易项，也可以花费1绿宝石刷新。杂货铺是获取地狱塔道具的唯一途径，但其他类型最为珍贵的道具只能通过交易站获取。"
+			tasks: [{
+				id: "1A35A4FBD3DE7EB6"
+				item: "silence_s_defense_tower:variety_store"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5DFB27C887D9ABE5"]
+			id: "59856B1D32CD5A2B"
+			subtitle: "这是用于提升防御塔科技的功能方块，它还可以将小道具转化为精密元件。"
+			tasks: [{
+				id: "207FAE827F730613"
+				item: "silence_s_defense_tower:research_table"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["319517ACF603B768"]
+			id: "162F76269D11D133"
+			subtitle: "用于合成高阶护甲和高阶道具的功能方块。"
+			tasks: [{
+				id: "03664BD58DA41D9F"
+				item: "silence_s_defense_tower:laborartory"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+	]
+	title: "寂静防御塔"
+}

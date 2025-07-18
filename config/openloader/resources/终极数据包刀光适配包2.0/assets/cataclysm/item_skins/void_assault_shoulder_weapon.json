@@ -1,0 +1,11 @@
+{
+    "trail": {
+    	"color": [75, 0, 130],
+    	"begin_pos": [0.0, 0.0, 0.5],
+    	"end_pos": [0.0, 0.1, -1.3],
+    	"lifetime": 10,
+		"interpolations": 4,
+    	"texture_path": "wom:textures/particle/agony/weapon_trail/trail26.png",
+    	"particle_type": "epicfight:swing_trail"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "wom:ruine",
+    "attributes": {
+        "common": {
+            "armor_negation":8.0,
+                "impact": 1.0,
+            "max_strikes": 8,
+            "speed_bonus": 0.3
+        }
+    }
+ }

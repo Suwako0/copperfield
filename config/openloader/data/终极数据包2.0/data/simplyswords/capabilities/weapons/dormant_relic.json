@@ -1,0 +1,17 @@
+{
+    "type": "longsword:longsword6",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 7.0,
+                "impact": 1.0,
+            "max_strikes": 5.0,
+            "speed_bonus":0.2
+        },
+        "two_hand": {
+            "armor_negation": 7.0,
+                "impact": 1.0,
+            "max_strikes": 5.0,
+            "speed_bonus":0.2
+        }
+    }
+ }

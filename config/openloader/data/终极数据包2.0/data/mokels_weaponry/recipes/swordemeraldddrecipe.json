@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_",
+  "template": {
+    "item": "mokels_weaponry:natures_weapon_talisman"
+  },
+  "base": {
+    "item": "mokels_weaponry:mace_tree"
+  },
+  "addition": {
+    "item": "mokels_weaponry:macebone"
+  },
+  "result": {
+    "item": "mokels_weaponry:sword_emeralddd"
+  }
+}

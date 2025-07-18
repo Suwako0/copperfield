@@ -1,0 +1,76 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "center": [
+      -0.5,
+      0.0,
+      0.35
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "wom:biped/living/katana_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "efds:biped/living/greatsword_dual_guard",
+      "walk": "epicfight:biped/living/walk_longsword"
+    },
+    "one_hand": {
+      "idle": "efds:biped/living/spear_dual_guard",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "cdmoveset:biped/hit/guard_longsword",
+      "walk": "efds:biped/living/spear_dual_guard"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "s_longsword"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+    "two_hand": [
+      "wom:biped/skill/gezets_auto_1",
+      "wom:biped/skill/gezets_auto_2",
+      "wom:biped/combat/solar_obscuridad_auto_2",
+      "wom:biped/combat/herrscher_auto_3",
+      "wom:biped/skill/gezets_sprengkopf",
+      "efds:biped/combat/spear_dual_airslash"
+    ],
+    "one_hand": [
+      "cdmoveset:biped/new/sword/sword_onehand_auto_1",
+      "cdmoveset:biped/new/sword/sword_onehand_auto_2",
+      "epicfight:biped/combat/fist_dash",
+      "wom:biped/skill/gezets_auto_3",
+      "cdmoveset:biped/new/sword_slash",
+      "cdmoveset:biped/new/yamato/yamato_airslash"
+    ]
+  },
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_longsword"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "s_longsword",
+  "innate_skills": {
+    "two_hand": "cdmoveset:greatsword_dual_skill",
+    "one_hand": "cdmoveset:guardparry"
+  },
+  "usable_in_offhand": true
+}

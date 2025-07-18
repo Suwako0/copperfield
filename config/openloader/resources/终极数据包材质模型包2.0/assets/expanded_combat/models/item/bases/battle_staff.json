@@ -1,0 +1,39 @@
+{
+	"credit": "Made by Userofbricks",
+	"parent": "item/handheld",
+	"textures": {
+		"particle": "#layer0",
+		"layer0": "expanded_combat:item_large/battle_staff/diamond"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 45],
+			"translation": [0, -1.5, 1],
+			"scale": [3, 3, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -45],
+			"translation": [0, -1.5, 1],
+			"scale": [3, 3, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 50],
+			"translation": [1, 0, 0],
+			"scale": [2, 2, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, -50],
+			"translation": [1, 0, 0],
+			"scale": [2, 2, 1]
+		},
+		"head": {
+			"rotation": [0, -40, 45],
+			"translation": [0, -25.75, 0],
+			"scale": [2, 2, 1]
+		},
+		"fixed": {
+			"scale": [1, 1, 0.5]
+		}
+	}
+}

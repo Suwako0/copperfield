@@ -1,0 +1,67 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.7,
+      0.7,
+      1.6
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.4
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blunt_hard",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_idle",
+      "aim": "wom:biped/skill/solar_guard",
+      "run": "wom:biped/living/solar_run",
+      "walk": "epicfight:biped/living/walk_greatsword"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+ "styles": {
+    "default": "two_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "greatsword"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "greatsword"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+"mount": [
+       "wom:biped/combat/ruine_auto_1",
+      "epicacg:biped/battle_scythe/battle_scythe_dash"
+
+    ],
+    "two_hand": [
+      "wom:biped/combat/ruine_auto_1",
+
+      "wom:biped/skill/torment_berserk_dash",
+      "wom:biped/skill/torment_berserk_airslam"
+    ]
+  },
+  "category": "greatsword",
+  "innate_skills": {
+    	"two_hand": "test:soul_render"
+  },
+  "usable_in_offhand": false
+}

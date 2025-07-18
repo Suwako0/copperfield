@@ -1,0 +1,71 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.8,
+      0.8,
+      1.2
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.1
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blunt_hard",
+  "livingmotion_modifier": {
+    "one_hand": {
+      "idle": "efds:biped/living/axe_dual_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "epicfight:biped/skill/guard_sword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+ "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "one_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "greatsword"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "greatsword"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+"mount": [
+       "wom:biped/skill/agony_guard",
+       "cdmoveset:biped/new/sword/sword_onehand_auto_3"
+    ],
+    "one_hand": [
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_twohand_auto_3",
+      "wom:biped/combat/solar_auto_4",
+      "wom:biped/combat/herrscher_befreiung",
+      "wom:biped/combat/ruine_auto_2",
+      "wom:biped/combat/solar_auto_2",
+      "wom:biped/skill/solar_auto_2_polvora",
+
+      "wom:biped/combat/torment_charged_attack_1",
+      "wom:biped/skill/torment_berserk_airslam"
+    ]
+  },
+  "category": "greatsword",
+  "innate_skills": {
+    "one_hand": "epicfight:steel_whirlwind"
+  },
+  "usable_in_offhand": false
+}

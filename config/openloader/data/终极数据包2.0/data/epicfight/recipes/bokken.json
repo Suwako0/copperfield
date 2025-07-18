@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "aac",
+        "bbc",
+        "bbc"
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:iron_ingot"
+        },
+        "b": {
+            "item": "minecraft:leather"
+        },
+        "c": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+       "result":
+    {
+        "item" : "epicfight:bokken",
+        "count" : 1
+    }
+}

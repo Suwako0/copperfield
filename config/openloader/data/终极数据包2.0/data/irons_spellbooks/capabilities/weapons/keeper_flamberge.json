@@ -1,0 +1,11 @@
+{
+    "type": "longsword:longsword6",
+    "attributes": {
+        "common": {
+            "armor_negation": 7.0,
+                "impact": 1.0,
+            "max_strikes": 4,
+            "speed_bonus": 0.3
+        }
+    }
+ }

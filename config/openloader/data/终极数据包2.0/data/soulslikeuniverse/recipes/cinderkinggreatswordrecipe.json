@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " cc",
+    " ac",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "soulslikeuniverse:farrongreatsword"
+    },
+    "b": {
+      "item": "minecraft:blaze_rod"
+    },
+    "c": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:cinderkinggreatsword",
+    "count": 1
+  }
+}

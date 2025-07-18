@@ -1,0 +1,79 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.1
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blunt_hard",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "wom:biped/living/antitheus_ascended_idle",
+      "run": "wom:biped/living/antitheus_ascended_run",
+      "block": "indestructible:guard/guard_dualsword",
+      "walk": "wom:biped/living/antitheus_ascended_walk"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/antitheus_ascended_idle",
+      "run": "wom:biped/living/antitheus_ascended_run",
+      "block": "indestructible:guard/guard_dualsword",
+      "walk": "wom:biped/living/antitheus_ascended_walk"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "sanji"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "sanji"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "two_hand": [
+      "wom:biped/skill/antitheus_ascended_auto_1",
+      "wom:biped/skill/antitheus_ascended_auto_2",
+       "wom:biped/skill/antitheus_ascended_auto_3",
+       "wom:biped/skill/antitheus_ascended_auto_3",
+      "wom:biped/skill/agony_sky_dive_x",
+      "cdmoveset:biped/new/dual_greatsword/skill/greatsword_dual_earthquake",
+      "wom:biped/combat/enderblaster_twohand_tishnaw",
+      "wom:biped/combat/solar_obscuridad_dinamita"
+    ],
+    "one_hand": [
+      "wom:biped/skill/antitheus_ascended_auto_1",
+      "wom:biped/skill/antitheus_ascended_auto_2",
+       "wom:biped/skill/antitheus_ascended_auto_3",
+       "wom:biped/skill/antitheus_ascended_auto_3",
+      "wom:biped/skill/agony_sky_dive_x",
+      "cdmoveset:biped/new/dual_greatsword/skill/greatsword_dual_earthquake",
+      "wom:biped/combat/enderblaster_twohand_tishnaw",
+      "wom:biped/combat/solar_obscuridad_dinamita"
+    ]
+  },
+  "category": "sanji",
+  "innate_skills": {
+    "two_hand": "cdmoveset:greatsword_dual_skill",
+    "one_hand": "cdmoveset:greatsword_dual_skill"
+  }
+}

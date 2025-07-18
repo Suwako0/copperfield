@@ -1,0 +1,19 @@
+{
+	"type": "test:gauntlet_of_bulwark",
+	"attributes": {
+		"one_hand": {
+			"armor_negation": 2,
+                "impact": 1.0,
+			"max_strikes": 3,
+                        "damage_bonus":-3.0,
+			"speed_bonus":0.5
+		},
+		"two_hand": {
+			"armor_negation": 2,
+                "impact": 1.0,
+			"max_strikes": 3,
+                        "damage_bonus":-3.0,
+			"speed_bonus":0.5
+		}
+	}
+}

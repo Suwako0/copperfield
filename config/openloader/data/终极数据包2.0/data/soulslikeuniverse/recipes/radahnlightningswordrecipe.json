@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "soulslikeuniverse:radahnsword"
+    },
+    "b": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:radahnlightningsword",
+    "count": 1
+  }
+}

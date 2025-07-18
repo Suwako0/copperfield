@@ -1,0 +1,74 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.6,
+      0.6,
+      1.5
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.3
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "epicfight:biped/living/hold_spear",
+      "run": "epicfight:biped/living/run_spear",
+      "block": "wom:biped/skill/ruine_block",
+      "walk": "epicfight:biped/living/walk_spear"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+   "styles": {
+    "default": "two_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "greatsword"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "greatsword"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+"mount": [
+       "wom:biped/combat/solar_auto_1",
+       "wom:biped/combat/ruine_auto_1",
+       "wom:biped/combat/ruine_auto_4"
+    ],
+    "two_hand": [
+      "cdmoveset:biped/new/dual_tachi/great_tachi_auto2",
+      "cdmoveset:biped/new/dual_tachi/great_tachi_auto3",
+       "wom:biped/combat/ruine_auto_1",
+       "wom:biped/combat/solar_auto_1",
+       "wom:biped/combat/solar_auto_4",
+	"wom:biped/combat/torment_auto_4",
+        "falchionmoveset:biped/falchion/falchion_auto3",
+        "wom:biped/combat/torment_charged_attack_1",
+
+        "wukong:biped/greatsage/heavy/sweep_jab_style",
+        "wom:biped/combat/torment_airslam"
+    ]
+  },
+  "category": "greatsword",
+  "innate_skills": {
+    "two_hand": "falchionmoveset:falchion_art"
+  },
+  "usable_in_offhand": false
+}

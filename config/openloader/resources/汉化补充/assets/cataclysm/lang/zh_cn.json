@@ -1,0 +1,18 @@
+{
+  "item.cataclysm.blazing_grips.desc": "击中时，有几率对目标施加烈焰印记",
+  "item.cataclysm.wrath_of_the_desert.desc": " 发射三道诅咒沙尘暴",
+  "item.cataclysm.immolator.desc": "对受烈焰印记影响的目标造成致命伤害。",
+  "item.cataclysm.immolator2.desc": "若双手持握，可蓄力2秒召唤火焰冲击。",
+  "item.cataclysm.cursed_bow2.desc": "如果它是特殊箭，则会射出两支箭。",
+  "item.cataclysm.soul_render2.desc": "当潜行时使用，它会在周围一定范围召唤战戟。",
+  "item.cataclysm.netherite_effigy": "下界合金雕像",
+  "item.cataclysm.netherite_effigy.desc": "召唤下界合金巨兽，可通过熔岩能量核心驯服",
+  "item.cataclysm.lava_power_cell": "熔岩能量核心",
+  "item.cataclysm.netherite_ministrosity_bucket": "迷你下界合金巨兽桶",
+  "item.cataclysm.netherite_ministrosity_spawn_egg": "迷你下界合金巨兽",
+  "item.cataclysm.gauntlet_of_maelstrom": "潮汐护手",
+  "item.cataclysm.gauntlet_of_maelstrom.desc": "召唤虚空漩涡",
+  "item.cataclysm.blazing_grips": "炽烈之拳",
+  "item.cataclysm.wrath_of_the_desert": "漠野之怒",
+  "item.cataclysm.the_immolator": "焚身战锤"
+}

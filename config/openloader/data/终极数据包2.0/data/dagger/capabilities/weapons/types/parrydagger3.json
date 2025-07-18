@@ -1,0 +1,79 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.6
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.1
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "wom:biped/living/ruine_boosted_idle",
+      "run": "wom:biped/living/katana_run",
+      "block": "indestructible:guard/guard_greatsword",
+      "walk": "wom:biped/living/ruine_boosted_walk"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/ruine_boosted_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "epicfight:biped/skill/guard_sword",
+      "walk": "wom:biped/living/ruine_boosted_walk"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "s_dagger"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh_small",
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_dagger"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "two_hand": [
+      "cdmoveset:biped/new/dagger/dagger_dual_auto1",
+      "cdmoveset:biped/new/dagger/dagger_dual_auto3",
+      "cdmoveset:biped/new/sword/d_blade_slash",
+      "wom:biped/combat/moonless_auto_2_verso",
+      "wom:biped/combat/moonless_auto_3_verso",
+      "cdmoveset:biped/new/blade_rush_finisher",
+      "cdmoveset:biped/new/dagger/skill/blade_rush_second",
+      "epicfight:biped/combat/dagger_dual_airslash"
+    ],
+    "one_hand": [
+      "epicfight:biped/combat/dagger_auto2",
+      "cdmoveset:biped/new/dagger/dagger_dual_auto3",
+      "epicfight:biped/combat/dagger_auto3",
+      "epicfight:biped/combat/dagger_airslash",
+      "wom:biped/skill/herrscher_trane",
+      "wom:biped/combat/moonless_auto_2",
+      "cdmoveset:biped/new/blade_rush_finisher",
+      "wom:biped/combat/moonless_auto_2_verso"
+    ]
+  },
+  "category": "s_dagger",
+  "innate_skills": {
+    "two_hand": "epicfight:blade_rush",
+    "one_hand": "cdmoveset:spearslash"
+  }
+}

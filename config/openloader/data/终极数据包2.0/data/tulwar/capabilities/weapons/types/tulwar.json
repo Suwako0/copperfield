@@ -1,0 +1,86 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.5,
+      0.5,
+      1.6
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.2
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "wom:biped/living/katana_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "wom:biped/skill/herrscher_guard",
+      "walk": "wom:biped/living/katana_walk"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/ruine_boosted_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "walk": "wom:biped/living/ruine_boosted_walk"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "s_longsword"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+    "two_hand": [
+      "wom:biped/skill/gezets_auto_1",
+      "epicfight:biped/combat/dagger_auto1",                 
+      "wom:biped/skill/gezets_auto_1",
+      "epicfight:biped/combat/dagger_auto2",
+
+      "wom:biped/combat/moonless_auto_2",
+      "epicfight:biped/combat/dagger_airslash"
+    ],
+    "one_hand": [
+      "epicfight:biped/combat/dagger_auto1",
+      "epicfight:biped/combat/dagger_auto2",
+      "epicfight:biped/combat/dagger_auto3",
+      "epicfight:biped/combat/mob_dagger_onehand3",
+
+      "wom:biped/combat/moonless_auto_2",
+      "epicfight:biped/combat/dagger_airslash"
+    ]
+  },
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_longsword"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_longsword"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "sword",
+  "innate_skills": {
+    "two_hand": "cdmoveset:guardparry",
+    "one_hand": "cdmoveset:spearslash"
+  },
+  "usable_in_offhand": false
+}

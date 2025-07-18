@@ -1,0 +1,88 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.8,
+      0.8,
+      1.5
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.7
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "efds:biped/living/greatsword_dual_idle",
+      "run": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_run",
+      "block": "indestructible:guard/guard_dualsword",
+      "walk": "efds:biped/living/greatsword_dual_walk"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/solar_obscuridad_idle",
+      "run": "wom:biped/living/solar_obscuridad_run",
+      "block": "indestructible:guard/guard_greatsword",
+      "walk": "efds:biped/living/greatsword_dual_walk"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "s_greatsword"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "combos": {
+    "two_hand": [
+      "cdmoveset:biped/new/dual_tachi/dual_tachi_auto1",
+      "cdmoveset:biped/new/dual_tachi/dual_tachi_auto2",
+      "cdmoveset:biped/new/dual_tachi/dual_tachi_auto3",
+      "cdmoveset:biped/new/dual_tachi/dual_tachi_auto4",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dual_auto_2",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dual_auto_3",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dual_auto_4",
+      "wom:biped/skill/solar_brasero",
+      "wom:biped/skill/solar_brasero_infierno",
+      "cdmoveset:biped/new/dual_greatsword/skill/greatsword_dual_earthquake",
+
+      "wom:biped/skill/torment_berserk_dash",
+      "wom:biped/combat/solar_obscuridad_dinamita"
+    ],
+    "one_hand": [
+      "wom:biped/combat/solar_obscuridad_auto_1",
+      "wom:biped/combat/solar_obscuridad_auto_2",
+      "wom:biped/combat/solar_auto_2",
+      "wom:biped/skill/solar_auto_2_polvora",
+      "wom:biped/combat/solar_auto_3",
+      "wom:biped/combat/solar_auto_4",
+      "wom:biped/skill/solar_auto_4_polvora",
+      "wom:biped/combat/torment_auto_4",
+
+      "wom:biped/skill/torment_berserk_dash",
+      "wom:biped/skill/torment_berserk_airslam"
+    ]
+  },
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_greatsword"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "s_greatsword",
+  "innate_skills": {
+    "two_hand": "cdmoveset:greatsword_dual_skill",
+    "one_hand": "cdmoveset:wind_slash"
+  },
+  "usable_in_offhand": true
+}

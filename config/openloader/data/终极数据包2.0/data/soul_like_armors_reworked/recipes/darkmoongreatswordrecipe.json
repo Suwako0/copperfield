@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "eab",
+    "aca",
+    "dae"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "minecraft:gold_block"
+    },
+    "c": {
+      "item": "minecraft:diamond_sword"
+    },
+    "d": {
+      "item": "minecraft:blaze_rod"
+    },
+    "e": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "soul_like_armors_reworked:darkmoongreatsword",
+    "count": 1
+  }
+}

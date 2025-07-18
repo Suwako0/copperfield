@@ -1,0 +1,17 @@
+{
+    "type": "axe:axe3",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 4.5,
+                "impact": 1.0,
+            "max_strikes": 1.8,
+            "speed_bonus":0
+        },
+        "two_hand": {
+            "armor_negation": 4.5,
+                "impact": 1.0,
+            "max_strikes": 2.5,
+            "speed_bonus":0
+        }
+    }
+ }

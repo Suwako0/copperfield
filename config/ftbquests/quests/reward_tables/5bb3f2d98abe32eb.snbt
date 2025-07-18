@@ -1,0 +1,49 @@
+{
+	id: "5BB3F2D98ABE32EB"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "alexscaves:frostmint_spear"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 3s
+					}]
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "under_the_moon:quick_stabber"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 2s
+					}]
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:iron_longsword"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 2s
+					}]
+					Unbreakable: 1b
+				}
+			}
+		}
+	]
+	title: "初始武器包"
+}

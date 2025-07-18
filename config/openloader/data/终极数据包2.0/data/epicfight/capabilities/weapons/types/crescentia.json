@@ -1,0 +1,82 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.6
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.1
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "epicfight:biped/living/hold_dual",
+      "run": "wom:biped/living/solar_obscuridad_run",
+      "block": "indestructible:guard/guard_dualsword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/ruine_boosted_idle",
+      "run": "wom:biped/living/staff_run",
+      "block": "wom:biped/skill/agony_guard",
+      "walk": "wom:biped/living/ruine_boosted_walk"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "greatsword"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh_small",
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "greatsword"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "two_hand": [
+      "wom:biped/combat/ruine_auto_1",  
+      "cdmoveset:biped/new/dagger/dagger_dual_auto2",
+      "epicfight:biped/combat/dagger_dual_auto4",
+      "wom:biped/combat/ruine_auto_2",
+      "wom:biped/combat/staff_dash",
+      "wom:biped/combat/moonless_auto_3_verso",
+      "epicfight:biped/skill/dancing_edge",
+      "wom:biped/combat/moonless_fullmoon",
+      "wom:biped/combat/solar_obscuridad_dinamita"
+
+    ],
+    "one_hand": [
+      "epicfight:biped/combat/dagger_auto2", 
+      "wom:biped/combat/ruine_auto_1",                
+      "wom:biped/skill/herrscher_trane",
+      "wom:biped/combat/staff_auto_1",
+      "wom:biped/combat/moonless_auto_2_verso",
+      "wom:biped/combat/moonless_auto_3_verso",
+      "wom:biped/combat/moonless_fullmoon",
+      "wom:biped/combat/moonless_rewinder",
+      "wom:biped/combat/solar_obscuridad_dinamita"
+    ]
+  },
+  "category": "greatsword",
+  "innate_skills": {
+    "two_hand": "celepic:crescentia_combo",
+    "one_hand": "wom:charybdis"
+  }
+}

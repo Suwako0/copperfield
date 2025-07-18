@@ -1,0 +1,114 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      1.0,
+      1.0,
+      1.5
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.5
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+"common":{
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_idle",
+      "run": "cdmoveset:biped/new/dual_greatsword/living/hold_greatsword",
+      "walk": "efds:biped/living/greatsword_dual_walk"
+},
+"ochs":{
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_idle",
+      "run": "cdmoveset:biped/new/dual_greatsword/living/hold_greatsword",
+      "walk": "efds:biped/living/greatsword_dual_walk"
+},
+    "two_hand": {
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_idle",
+      "run": "cdmoveset:biped/new/dual_greatsword/living/hold_greatsword",
+      "walk": "efds:biped/living/greatsword_dual_walk"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "styles": {
+    "default": "two_hand",
+    "cases": [
+      {
+        "style": "ochs",
+        "conditions": [
+          {
+            "predicate": "epicfight:skill_active",
+            "skill": "wom:true_berserk"
+          }
+        ]
+      },
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_greatsword"
+          }
+        ]
+      },
+  {
+        "style": "common",
+        "conditions": [
+          {
+            "predicate": "epicfight:health",
+            "comparator": "less_ratio",
+            "health": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+ "ochs": [
+            "wom:biped/skill/torment_berserk_auto_1",
+            "wom:biped/skill/torment_berserk_auto_2",
+            "wom:biped/skill/torment_berserk_auto_1",
+            "wom:biped/skill/torment_berserk_auto_2",
+            "wom:biped/skill/torment_berserk_dash",
+            "wom:biped/combat/torment_charged_attack_2",
+            "wom:biped/combat/torment_charged_attack_3",
+
+            "wom:biped/combat/torment_charged_attack_1",
+           "wom:biped/skill/torment_berserk_airslam"
+    ],
+ "common": [
+            "wom:biped/skill/torment_berserk_auto_1",
+            "wom:biped/skill/torment_berserk_auto_2",
+            "wom:biped/skill/torment_berserk_auto_1",
+            "wom:biped/skill/torment_berserk_auto_2",
+            "wom:biped/skill/torment_berserk_dash",
+            "wom:biped/combat/torment_charged_attack_2",
+            "wom:biped/combat/torment_charged_attack_3",
+
+            "wom:biped/combat/torment_dash",
+           "wom:biped/skill/torment_berserk_airslam"
+    ],
+    "two_hand": [
+      "wom:biped/combat/torment_auto_1",
+      "wom:biped/combat/torment_auto_2",
+      "wom:biped/combat/solar_auto_1",
+      "wom:biped/combat/ruine_auto_1",
+      "wom:biped/combat/ruine_auto_2",
+      "wom:biped/combat/herrscher_befreiung",
+      "wom:biped/combat/solar_auto_2",
+      "wom:biped/skill/solar_auto_4_polvora",
+
+      "wom:biped/combat/solar_obscuridad_auto_4",
+      "wom:biped/combat/torment_airslam"
+    ]
+  },
+  "category": "s_greatsword",
+  "innate_skills": {
+    "two_hand": "wom:true_berserk",
+    "common":"wom:true_berserk",
+    "ochs":"wom:true_berserk"
+  },
+  "usable_in_offhand": false
+}

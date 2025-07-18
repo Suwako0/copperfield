@@ -1,0 +1,12 @@
+{
+  "item.tactical_imbuements.flask_of_flame": "余烬瓶", 
+  "item.tactical_imbuements.flask":  "瓶子", 
+  "item.tactical_imbuements.fireflaskthrowable": "可投掷火焰瓶", 
+  "item.tactical_imbuements.emptyflaskthrowable": "可投掷空瓶", 
+  "item.tactical_imbuements.flask_of_venom": "毒液瓶", 
+  "item.tactical_imbuements.flask_of_ice": "寒冰瓶",  
+  "item.tactical_imbuements.flask_of_sparks": "火花瓶", 
+  "item.tactical_imbuements.venomflaskthrowable": "可投掷毒液瓶", 
+  "effect.tactical_imbuements.chilled": "冷冻", 
+  "effect.tactical_imbuements.decaying": "腐朽" 
+}

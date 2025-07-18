@@ -1,0 +1,92 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.5,
+      0.5,
+      1.6
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.2
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "wom:biped/skill/herrscher_guard",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "wom:biped/skill/herrscher_guard",
+      "walk": "epicfight:biped/living/walk_spear"
+    },
+    "one_hand": {
+      "idle": "epicfight:biped/living/hold_spear",
+      "block": "epicfight:biped/skill/guard_spear",
+      "run": "epicfight:biped/living/run_spear",
+      "walk": "epicfight:biped/living/walk_spear"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "s_longsword"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+  "mount": [
+      "wom:biped/skill/gezets_auto_1",
+      "cdmoveset:biped/new/spear/spear_onehand_auto",
+      "epicfight:biped/combat/spear_dash"
+    ],
+    "two_hand": [
+      "wom:biped/skill/gezets_auto_1",
+      "epicfight:biped/combat/sword_dual_auto1",
+      "wom:biped/skill/gezets_auto_1",
+      "cdmoveset:biped/new/spear/spear_onehand_auto",
+
+      "cdmoveset:biped/new/spear/spear_dash",
+      "epicfight:biped/combat/spear_twohand_airslash"
+    ],
+    "one_hand": [
+      "epicfight:biped/combat/spear_twohand_auto1",
+      "epicfight:biped/combat/spear_twohand_auto2",
+      "epicfight:biped/combat/mob_spear_twohand3",
+      "epicfight:biped/skill/grasping_spire_second",
+
+      "epicfight:biped/combat/spear_dash",
+      "epicfight:biped/combat/spear_twohand_airslash"
+    ]
+  },
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_longsword"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_longsword"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "spear",
+  "innate_skills": {
+    "two_hand": "cdmoveset:guardparry",
+    "one_hand": "epicfight:grasping_spire"
+  },
+  "usable_in_offhand": false
+}

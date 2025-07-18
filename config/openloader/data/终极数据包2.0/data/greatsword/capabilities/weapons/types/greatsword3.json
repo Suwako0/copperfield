@@ -1,0 +1,57 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.5,
+      0.8,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/hold_greatsword",
+      "run": "cdmoveset:biped/new/dual_greatsword/living/hold_greatsword",
+      "block": "indestructible:guard/guard_greatsword",
+      "walk": "cdmoveset:biped/new/dual_greatsword/living/hold_greatsword"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "styles": {
+    "default": "two_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_greatsword"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "two_hand": [
+      "wom:biped/combat/ruine_auto_1",
+      "wom:biped/combat/solar_auto_1",
+      "wom:biped/combat/solar_auto_2",
+      "wom:biped/combat/solar_auto_3",
+      "wom:biped/combat/torment_auto_4",
+
+      "wom:biped/combat/solar_quemadura",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_airslash"
+    ]
+  },
+  "category": "s_greatsword",
+  "innate_skills": {
+    "two_hand": "cdmoveset:wind_slash"
+  },
+  "usable_in_offhand": false
+}

@@ -1,0 +1,54 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.9
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.35
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade_rush_last",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "refm:biped/living/hold_rapier",
+      "run": "refm:biped/living/run_rapier",
+      "block": "refm:biped/skill/guard_rapier",
+      "walk": "refm:biped/living/walk_rapier"
+    }
+  },
+  "swing_sound": "refm:entity.weapon.rapier_stab",
+  "styles": {
+    "default": "two_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "rapier"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "two_hand": [
+      "refm:biped/combat/rapier_auto1",
+      "refm:biped/combat/rapier_auto2",
+      "refm:biped/combat/rapier_auto3",
+      "refm:biped/combat/rapier_dash",
+      "refm:biped/combat/rapier_airslash"
+    ]
+  },
+  "category": "rapier",
+  "innate_skills": {
+    "two_hand": "refm:deadlybackflip"
+  },
+  "usable_in_offhand": false
+}

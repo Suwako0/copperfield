@@ -1,0 +1,73 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.5,
+      0.5,
+      1.6
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.4
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blunt_hard",
+  "livingmotion_modifier": {
+    "one_hand": {
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_idle",
+      "run": "wom:biped/living/solar_run",
+      "block": "wom:biped/skill/solar_guard",
+      "walk": "epicfight:biped/living/walk_greatsword"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+ "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "one_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "greatsword"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "greatsword"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+"mount": [
+       "wom:biped/combat/ruine_auto_1",
+      "epicacg:biped/battle_scythe/battle_scythe_dash"
+
+    ],
+    "one_hand": [
+      "wom:biped/combat/ruine_auto_1",
+       "wom:biped/combat/ruine_auto_2",
+      "wom:biped/combat/torment_auto_4",
+      "wom:biped/combat/solar_quemadura",
+      "wom:biped/combat/solar_auto_2",
+      "wom:biped/skill/solar_auto_2_polvora",
+      "wom:biped/skill/solar_auto_4_polvora",
+
+      "wom:biped/skill/torment_berserk_dash",
+      "wom:biped/skill/torment_berserk_airslam"
+    ]
+  },
+  "category": "greatsword",
+  "innate_skills": {
+    "one_hand": "test:infernal_forge"
+  },
+  "usable_in_offhand": false
+}

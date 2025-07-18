@@ -1,0 +1,58 @@
+{
+	"loader": "forge:separate_transforms",
+	"base":
+	{
+		"loader": "forge:obj",
+  		"model": "occ:models/item/obj/sheathed.obj",
+		"materialLibraryOverride": "occ:models/item/obj/sheathed.mtl",
+  		"flip-v": true,
+		"display":
+		{
+    	"thirdperson_righthand":
+    	{
+     		"translation": [6.5, -4.5, 6.4],
+     		"rotation": [90, 1, 0],
+     		"scale": [0.83, 0.8, 0.75]
+    	},
+    	"firstperson_righthand":
+    	{
+     		"translation": [10,-1,-5],
+     		"rotation": [ 85, -3, 0 ],
+    		"scale": [0.45, 0.45, 0.45]
+    	}
+		}
+  	},
+	  "overrides":[
+		{"predicate":{"custom_model_data":1},"model":"occ:item/yamato_sheath"},
+		{"predicate":{"custom_model_data":2},"model":"occ:item/yamato_sheath"},
+		{"predicate":{"custom_model_data":3},"model":"occ:item/yamato_blade"}
+	],
+	"perspectives":
+	{
+		"ground":
+		{
+			"parent": "item/generated",
+			"textures":
+			{
+				"layer0": "occ:item/ds_yamato"
+			}
+		},
+		"gui":
+		{
+			"parent": "item/generated",
+			"textures":
+			{
+				"layer0": "occ:item/gui_yamato"
+			},
+			"gui_light": "front"
+		},
+		"fixed":
+		{
+			"parent": "item/generated",
+			"textures":
+			{
+				"layer0": "occ:item/ds_yamato"
+			}
+		}
+	}
+}

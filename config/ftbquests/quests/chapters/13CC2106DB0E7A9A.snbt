@@ -1,0 +1,2832 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "13CC2106DB0E7A9A"
+	group: "36AE75B89CB455C7"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "irons_spellbooks:hither_thither_wand"
+		tag: {
+			ISB_Spells: {
+				data: [{
+					id: "irons_spellbooks:portal"
+					index: 0
+					level: 1
+					locked: 1b
+				}]
+				maxSpells: 1
+				mustEquip: 0b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "13CC2106DB0E7A9A"
+	images: [
+		{
+			height: 3.0d
+			image: "minecraft:block/budding_amethyst"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			height: 3.0d
+			image: "traveloptics:textures/gui/spell_icons/void_eruption.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.5d
+			y: 4.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "658588FDA5AA493E"
+			rewards: [
+				{
+					count: 2
+					id: "299A9DC948FC25CC"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "24D9610C25EFEBE1"
+					item: "irons_spellbooks:uncommon_ink"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "759981F960F25FBC"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+			]
+			subtitle: "铁魔法是一个允许玩家施放多种不同派系法术的模组，默认按X打开施法轮盘，移动鼠标选择要施放的法术，默认按V施放选中发法术"
+			tasks: [{
+				id: "35C58095C03E7396"
+				title: "铁魔法介绍"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["658588FDA5AA493E"]
+			id: "767D87F78F92948A"
+			rewards: [
+				{
+					id: "3714E1A91F8AA404"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+				{
+					id: "61360043C6F782C7"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			subtitle: "墨水是合成卷轴的必要道具，不同品质的墨水可合成对应品质的法术卷轴，可以通过JEI查看墨水合成流程，也可以通过炼金锅分解对应品质法术卷轴获得（50%概率），通过机械动力的一系列流水线可以量产墨水"
+			tasks: [
+				{
+					id: "52C1A545BE2531FB"
+					item: "irons_spellbooks:common_ink"
+					type: "item"
+				}
+				{
+					id: "3BBFCFF11DCFF3E2"
+					item: "irons_spellbooks:uncommon_ink"
+					type: "item"
+				}
+				{
+					id: "14E58927DF0DD94D"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+				{
+					id: "350FF1E3F395823E"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+				{
+					id: "53834482C2368844"
+					item: "irons_spellbooks:legendary_ink"
+					type: "item"
+				}
+			]
+			title: "墨水"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["658588FDA5AA493E"]
+			id: "1D66E66EF4678E90"
+			rewards: [
+				{
+					id: "1E416073AFCCEDCD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:rare_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "299E94B12728252A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:divine_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5F6127AC0642F695"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:hogskin"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "右键法术卷轴可以直接使用该卷轴，但是该方式将使卷轴变为一次性使用，将卷轴抄写入魔法书通过施法键使用可以无限使用该卷轴法术，卷轴可以通过撰写台或铁魔法怪物掉落获得，越高阶的卷轴伤害和范围都越强"
+			tasks: [{
+				id: "4EBB9CE308E9D532"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "irons_spellbooks:scroll"
+					}
+				}
+				title: "法术卷轴"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["658588FDA5AA493E"]
+			id: "6BA76391B259B81B"
+			rewards: [{
+				id: "4C646D9286E98B00"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			subtitle: "放入一本法术书和要抄写的法术卷轴，右边选择要抄写入的格子，可以将该卷轴抄进法术书中，同理可以将法术书中某个法术卸下"
+			tasks: [{
+				id: "26D7421D7B1C88B2"
+				item: "irons_spellbooks:inscription_table"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["658588FDA5AA493E"]
+			dependency_requirement: "one_completed"
+			id: "442369A8D4FF0269"
+			subtitle: "某些装备或武器可以注入法术，通过将该物品和要注入的法术卷轴放到奥术铁砧上来注入，注入后可以通过法术轮盘施法。奥术铁砧同时可以将升级法球附加到装备/法术书上"
+			tasks: [
+				{
+					id: "4CFB24ADF83223D9"
+					item: "irons_spellbooks:arcane_anvil"
+					type: "item"
+				}
+				{
+					id: "18FA31926C2A5E8C"
+					item: "irons_spellbooks:upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "16EB82CE605B837C"
+					item: "irons_spellbooks:fire_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "4577DA8987B8F50B"
+					item: "irons_spellbooks:ice_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "2134D6D4E792B0F2"
+					item: "irons_spellbooks:lightning_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "4FB913DCF75B2CA5"
+					item: "irons_spellbooks:holy_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "661644E501C2E915"
+					item: "irons_spellbooks:ender_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "21FEBBACD00B27FB"
+					item: "irons_spellbooks:blood_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "1A3CFBE9B3D5E9EF"
+					item: "irons_spellbooks:evocation_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "083DB615962D552D"
+					item: "irons_spellbooks:nature_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "0BAADB8F4C3B7767"
+					item: "irons_spellbooks:mana_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "3FFA8BC127F8BF6B"
+					item: "irons_spellbooks:cooldown_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "1F488AA22B2DCCEC"
+					item: "irons_spellbooks:protection_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "5BA785D2309037F7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "traveloptics:aqua_upgrade_orb"
+					}
+					type: "item"
+				}
+				{
+					id: "2BAA533D6AE6C979"
+					item: "traveloptics:eldritch_upgrade_orb"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["658588FDA5AA493E"]
+			id: "1B5727CA837B87D3"
+			rewards: [{
+				id: "1E1323BE911C57E5"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			subtitle: "1.分解法术卷轴:用水桶给炼金锅加满水，将要分解的法术卷轴放入期中等待，卷轴溶解后观察水面是否变色，如果变色则分解成功，用空瓶收集墨水（50%）2.炼制高级墨水:将4瓶某一等级墨水置入炼金锅，放入升级所需矿物（如4瓶平凡墨水+1铜锭合成1瓶卓越墨水），待矿物溶解后用空瓶收集炼制的墨水"
+			tasks: [{
+				id: "6BD81E9217EFD948"
+				item: "irons_spellbooks:alchemist_cauldron"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["658588FDA5AA493E"]
+			id: "1C60FC9C054A6024"
+			rewards: [{
+				id: "49EB5BE1753E559E"
+				item: "irons_spellbooks:epic_ink"
+				type: "item"
+			}]
+			subtitle: "法术书需要装备到饰品栏才能正常使用，合成更高级的法术书可以提高你整体施法的强度以及法力值上限、冷却缩减等"
+			tasks: [{
+				id: "0E0D8AF995F167CB"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "法术书"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["658588FDA5AA493E"]
+			id: "238C9665525E1E05"
+			rewards: [
+				{
+					id: "2D769EAAC653C9A9"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1481816F4C371174"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+				{
+					id: "2FAC1C310232C249"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "依次放入墨水、纸、法术派系信物，可以选择并制造一个法术卷轴，每个派系的信物不同（如自然法术的信物是毒马铃薯），具体信物可以在JEI中通过对应派系卷轴查询到"
+			tasks: [{
+				id: "0453A6C77CAF39DC"
+				item: "irons_spellbooks:scroll_forge"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["658588FDA5AA493E"]
+			id: "652669490D3E3243"
+			subtitle: "铁魔法中有一些法师套装能提高你整体法术强度，甚至提升某个派系法术强度（你并不需要制作这套装备，这只是一个套装演示）"
+			tasks: [
+				{
+					id: "1A52650449C5299A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3261D91640A5C6B9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37E7DC55DE6BC61A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "409A688895AB0A14"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wandering_magician_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "魔法装备"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["658588FDA5AA493E"]
+			id: "4C3F79E352EEE0D9"
+			rewards: [
+				{
+					count: 5
+					id: "3C250F8871A561C8"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77D0EC710A90CA39"
+					table_id: 2322522041484591808L
+					type: "random"
+				}
+			]
+			subtitle: "你可以在远古城市中找到诸如回响碎片和远古知识碎片这些材料，可以合成强力的魔法书-远古典籍，以及可以用远古知识碎片来解锁铁魔法的一个强力法术派系法术-远古巫术中的其中一个法术，远古巫术需要解锁后才能才撰写台中进行撰写"
+			tasks: [
+				{
+					id: "0AD452914F8EEFB4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_spell_book"
+						tag: {
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 12
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ED15BF7C7644606"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "2C7791EB0957BD71"
+					item: "irons_spellbooks:eldritch_manuscript"
+					type: "item"
+				}
+			]
+			title: "远古巫术"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["658588FDA5AA493E"]
+			id: "3AEAC62943F8A152"
+			rewards: [
+				{
+					id: "7B676BAE8F220F26"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "youkaishomecoming:wind_priestesses"
+					}
+					type: "item"
+				}
+				{
+					id: "3216C962BF9ED4DD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "youkaishomecoming:sauce_grilled_fish"
+					}
+					type: "item"
+				}
+				{
+					id: "669BD3AFF7B0CDB3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "youkaishomecoming:peach_tapioca"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "铁魔法附属T.O.Tweaks与灾厄、Alex洞穴联动，添加了诸多基于上述模组的联动法术及一系列武器和装备、饰品，以及一个新的法术派系：源流法术。你可以通过击败这些模组中的BOSS/生物来获得这些新的法术卷轴、武器、装备、饰品或是合成他们的材料，推荐尝试一下这些内容!"
+			tasks: [{
+				id: "5603295303507E19"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:aqua_rune"
+				}
+				type: "item"
+			}]
+			title: "铁魔法 拓展"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "58FBC9D5048E3B5F"
+			rewards: [
+				{
+					id: "3AE629DCAED435DF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "traveloptics:aqua_upgrade_orb"
+					}
+					type: "item"
+				}
+				{
+					id: "11EBA4864B8CCE9A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "traveloptics:aqua_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "1ECA2E140D8DDB11"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:epic_ink"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "686F09671B73BB1D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:guide_to_watery_whispers"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "6DA3D39A6E56A400"
+			rewards: [
+				{
+					id: "4A0F9594D9FA6338"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "traveloptics:aqua_upgrade_orb"
+					}
+					type: "item"
+				}
+				{
+					id: "79EEF0959C288079"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "traveloptics:aqua_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "2B7D66A0E8A50FEF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:legendary_ink"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62143AF625195147"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:codex_of_the_crushing_depths"
+					tag: {
+						ISBEnhance: "traveloptics:vortex_of_the_deep"
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:aqua_missiles"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "42F4A91DBC9B32CF"
+			rewards: [
+				{
+					id: "16FB4710AA69D17C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:ender_upgrade_orb"
+					}
+					type: "item"
+				}
+				{
+					id: "7ED19C7A7B4F18FC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:ender_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "7DB9E7FB57528754"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:legendary_ink"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B8CEBF9956F8CF9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:archive_of_abyssal_secrets"
+					tag: {
+						ISBEnhance: "traveloptics:cursed_minefield"
+						ISB_Spells: {
+							data: [
+								{
+									id: "traveloptics:shadowed_miasma"
+									index: 0
+									level: 3
+									locked: 1b
+								}
+								{
+									id: "traveloptics:orbital_void"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "7AA5A7975F749F57"
+			rewards: [
+				{
+					id: "1280358ED94679A3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:ice_upgrade_orb"
+					}
+					type: "item"
+				}
+				{
+					id: "48022382F922B18C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:ice_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "38E74614862E20FB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:legendary_ink"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63F6BDFD785370B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:the_accused_codex"
+					tag: {
+						ISBEnhance: "traveloptics:cursed_blast"
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:halberd_horizon"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "2B2C88D760A23E05"
+			rewards: [
+				{
+					id: "091D4D749C2E1525"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:fire_upgrade_orb"
+					}
+					type: "item"
+				}
+				{
+					id: "6E5FF776EC95F664"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:fire_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "3FFC7E8A88DA1A14"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:legendary_ink"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13DE49A754D4EC01"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:chronicles_of_the_firelord"
+					tag: {
+						ISBEnhance: "traveloptics:burning_judgment"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:flaming_strike"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "traveloptics:meteor_storm"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "0AF4E6F23DA264FA"
+			rewards: [
+				{
+					id: "3E2A643D248F579C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:nature_upgrade_orb"
+					}
+					type: "item"
+				}
+				{
+					id: "6979583EADC9BF20"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:nature_rune"
+					}
+					type: "item"
+				}
+				{
+					id: "7FAAB055439E3DA2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:legendary_ink"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D0AC9D8FDD9413D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:tome_of_abyssal_flora"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["658588FDA5AA493E"]
+			description: [
+				"{image:kubejs:textures/tsk/tsk10.png width:200 height:100 align:center}"
+				"{image:kubejs:textures/tsk/tsk11.png width:200 height:100 align:center}"
+				"{image:kubejs:textures/tsk/tsk12.png width:200 height:100 align:center}"
+				"{image:kubejs:textures/tsk/tsk13.png width:150 height:150 align:center}"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:mechanical_mixer"
+			}
+			id: "17C4F34608E5F284"
+			rewards: [{
+				id: "44E5BB73CD654BFC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:common_ink"
+				}
+				type: "item"
+			}]
+			subtitle: "本章节介绍该整合包提供的铁魔法墨水产线，需要用到植物魔法和机械动力结合产出"
+			tasks: [{
+				id: "25E4A192A1158204"
+				title: "墨水自动化产线"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "42619CBB14C659C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BE958BCE3CF9354"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "12431A097427235A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:titanlord_scepter"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "0C0E98298248D7A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4577F627D9723FEC"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5AAA9BAF699E72E3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:titanlord_scepter_retro"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "4E9C3C05160213D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62A40F71067F9997"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "094DD50A1EEFCCA2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:titanlord_scepter_tectonic"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "5A9E18DA169CD98F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C4859C7A1B21A84"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B75AC24328A9B4D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:trident_of_the_eternal_maelstrom"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:tidal_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "0764EB00DEFA623B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74905E66325F6266"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0E5A619446906F4B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:gauntlet_of_extinction"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:extinction"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "684481A5723B7928"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "599EDC51F3BEF367"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			subtitle: "该武器附带法术：暗影瘴气 需要学习远古武术手稿来领悟"
+			tasks: [{
+				id: "498082F3A9CD7F06"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:abyssal_tidecaller"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:shadowed_miasma"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "637DA7725A52194E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "093F46E740567B12"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			subtitle: "该武器附带法术：暗影瘴气 需要学习远古武术手稿来领悟"
+			tasks: [{
+				id: "5A99130A8FFF4471"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:the_obliterator"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:shadowed_miasma"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "65F6AB67EB8A3145"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DB80A261C514040"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "47209120F2534C51"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:cursed_wraithblade"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:cursed_blast"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "26835252D756B5FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BE0FEE4D4BDB4DF"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3361A4A377F3A9E0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:mechanized_wraithblade"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:rapid_laser"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "472FA7E7D7A74B6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CCF905DAFADBAA7"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23F09478868769DF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:flames_of_eldritch"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:burning_judgment"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "6711222CAD6F7417"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "110BAE92CB7697D4"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74B211BA07A3A630"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:harbingers_wrath"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:em_pulse"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "4EE29181947826E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F53279C6BF81B12"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1C855F00BA0549AF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:scourge_of_the_sands"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:stele_cascade"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "3F022AD798D2FF9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "634EFE8E06E2352E"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E1578932F4698A1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:thorns_of_oblivion"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "irons_spellbooks:blight"
+								index: 0
+								level: 8
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "29DFB28CFF947752"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78EBBF2770FC46A9"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36E3A1E5748B0926"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:voidstrike_reaper"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:vortex_punch"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "5BB2463D09A053BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "743B5625DECCC97B"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3AE3D0AB41B41EA4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:infernal_devastator"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:gyro_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "25652C00273FB62F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71151F8CF635B9E8"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7DA96E72D007E729"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:aetherial_despair_ring"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "4B0BACF3C77E61EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58AD0B5380EFC4C1"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55367B4BE96DC470"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:firestorm_ring"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "7BD421268E0FD7BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F030F252F0897F3"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F6D2E79918B4BCF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:azure_ignition_bracelet"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "2DE2F5876AF8FD3B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78BF8535DAC140AD"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4DC141E65DA7AD90"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:nightstalkers_band"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "7C308B9C9FB96218"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AB7E49BB1473E7B"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34C55CEEDBA7DA29"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:energy_unbound_necklace"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "7F4665936B7CCEC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01F90E72DC581092"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4058852B1D35BD56"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:sigil_of_the_spider_sorcerer"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "43152360BEA64ACF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55CF2784DB98C457"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48E719E5CC2A45FE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:amulet_of_spectral_shift"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "418A003A6EEC4016"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "711CA880F5B28749"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "58B353146D2325D9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "traveloptics:bottled_raincloud"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["17C4F34608E5F284"]
+			id: "71E7334134A5F63E"
+			rewards: [{
+				id: "3D9AE398649B2BB2"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "生产黑色染料，可以使用以下方案:方案1.树场量产木炭然后分解为黑色染料方案2.神秘花农场-黑色神秘花分解"
+			tasks: [{
+				id: "3CB0AA6F6994195E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:black_dye"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17C4F34608E5F284"]
+			id: "689DD90AF289870F"
+			rewards: [{
+				id: "1BB05D71E4BDF95F"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "修建神秘花农场，产出任意神秘花"
+			tasks: [{
+				id: "2C04EF2C70436C3A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "神秘花"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0E67EB682245FDE0"
+				"71E7334134A5F63E"
+			]
+			id: "61B004E7F8A3885C"
+			rewards: [{
+				id: "036B3CE1BB3C5239"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "使用动力搅拌器加热搅拌黑色染料和神秘花粉末，获得普通墨水"
+			tasks: [{
+				id: "50CAC1E3304186B4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:common_ink"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["61B004E7F8A3885C"]
+			id: "478C39553586C3F8"
+			rewards: [{
+				id: "2621F0308B86EC3C"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "机械手手持铜锭，将普通墨水转化为卓越墨水"
+			tasks: [{
+				id: "7924633CC1A9D71C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:uncommon_ink"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["478C39553586C3F8"]
+			id: "221E1A415E36E286"
+			rewards: [{
+				id: "05CBDE9E56183B05"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "机械手手持铁锭，将卓越墨水转化为高级墨水"
+			tasks: [{
+				id: "14A6F2010B37C58A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:rare_ink"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["221E1A415E36E286"]
+			id: "248D1C7DB8B20B4F"
+			rewards: [{
+				id: "5A9E7D6F6DD4B683"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "机械手手持金锭，将高级墨水转化为史诗墨水"
+			tasks: [{
+				id: "0D6B939C823C6B2D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:epic_ink"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["248D1C7DB8B20B4F"]
+			id: "2AA16D0A27FA5AED"
+			rewards: [{
+				id: "2E2C9F2B65F6036A"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "机械手手持紫水晶碎片，将史诗墨水转化为传说墨水"
+			tasks: [{
+				id: "269F163E2F5EA66B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			id: "222AF3AA4BA60C52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25522471586DF82D"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			subtitle: "实用饰品，使你施法不再会被打断"
+			tasks: [{
+				id: "21B05A5E81C8CFEA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:concentration_amulet"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["658588FDA5AA493E"]
+			description: [
+				"&l魔宠饰品系统使用说明&r：所有饰品需通过右键绑定魔宠 → 装备于项链槽 → 按快捷键召唤/召回。"
+				""
+				"&l魔宠强化&r：所有魔宠可以用传说墨水进行血量强化，生命上限为450。生命宝石可以再次将生命值翻倍，达到900点生命！！！锈蚀头盔可以提升魔宠护甲。破损盾牌给予魔宠可以赋予魔宠格挡概率。"
+			]
+			id: "30877B6009261802"
+			rewards: [{
+				id: "11369969A7A9C1C7"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "使用奥术源质来驯服魔宠，冒爱心说明驯服成功，本整合包已处理魔宠友伤问题(部分DOT除外)，不用担心误伤"
+			tasks: [{
+				id: "197E9A921D849D14"
+				title: "铁魔法魔宠"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["30877B6009261802"]
+			description: [
+				"战斗 (Battle): 精通闪电魔法，能同时施放打击多个目标的法术。"
+				""
+				"能力 (Abilities):"
+				""
+				"为主人充能 (Charge Owner): 拥有为主人暂时充能的能力，可在一段时间内提升主人的速度和力量。"
+				""
+				"为苦力怕充能 (Charge Creeper): 每当发现苦力怕时，会跟随并为其充能。"
+				""
+				"生成 (Spawn): 可在山地 (Mountains) 生物群系中发现其四处游荡，寻找合适的引雷位置。"
+				""
+				"食物 (Food): 可以使用 闪电瓶 (Lightning Bottles) 来治疗它。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:lightning_bottle"
+			}
+			id: "7D49C5D58936D49B"
+			rewards: [{
+				id: "3875C26554872051"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			subtitle: "精通闪电魔法，能同时施放打击多个目标的法术。"
+			tasks: [{
+				id: "444E4F28A423BC8A"
+				title: "雷霆术士魔宠"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["30877B6009261802"]
+			description: [
+				"战斗 (Battle): 精通不同学派的基础魔法。"
+				""
+				"能力 (Abilities):"
+				""
+				"转化 (Transmutation): 拥有转化魔法卷轴的能力。能将放置在基座 (pedestal) 上的法术卷轴转化为同稀有度的其他随机卷轴，并有小概率获得更高稀有度的卷轴。"
+				""
+				"末影人的梦魇 (Enderman's Nightmare): 末影人 (Endermen) 惧怕它，看到它会逃跑。"
+				""
+				"潜影贝防护 (Shulker Protection): 拥有反制潜影贝导弹的能力。"
+				""
+				"生成 (Spawn): 可以在末地 (the End) 中找到它，它正在自己临时搭建的实验室中进行研究。"
+				""
+				"食物 (Food): 可以使用奥术布匹 (arcane cloth) 来治疗它。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:magic_cloth"
+			}
+			id: "012EC7C51CA41F80"
+			rewards: [{
+				id: "6D08B3CA23F06C26"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61FB71A3C876003C"
+				title: "大法师魔宠"
+				type: "checkmark"
+			}]
+			title: "大法师魔宠"
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["30877B6009261802"]
+			description: [
+				"战斗 (Battle): 精通血魔法 (blood magic)，包括召唤亡灵 (undead) 的死灵法术能力。"
+				""
+				"能力 (Abilities):"
+				""
+				"亡灵狂乱 (Undead Chaos): 拥有使周围的亡灵生物陷入狂暴的能力，使其混乱地攻击附近的实体。"
+				""
+				"凋零转化 (Witherify): 拥有将附近的骷髅 (skeletons) 转化为凋灵骷髅 (wither skeletons) 的能力。"
+				""
+				"生成 (Spawn): 可以在遍布灵魂沙峡谷 (Soul Sand Valleys) 的墓地 (graveyards) 中找到它，它正在那里研究死亡 。"
+				""
+				"食物 (Food): 可以使用骨头 (bones) 或猩红精华 (blood vials) 来治疗它。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:blood_vial"
+			}
+			id: "027CB15D7C4680F9"
+			rewards: [{
+				id: "5686E02CC392E5FD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D8CFB0E245F8D5A"
+				title: "死灵法师魔宠"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["30877B6009261802"]
+			description: [
+				"战斗 (Battle): 精通召唤流派 (eldritch magic) 与远古巫术 (unknown arts)，能够召唤诞生于阴影中的生物。"
+				""
+				"能力 (Abilities):"
+				""
+				"真视 (True Vision): 拥有赋予主人夜视 (night vision) 的能力，并使其免疫失明与黑暗效果。"
+				""
+				"黑暗仪式 (Dark Ritual): 拥有停用幽匿尖啸体 (deactivate Sculk Shriekers) 的能力，将主人隐藏于监守者 (Warden) 的感知之外。"
+				""
+				"生成 (Spawn): 可在古城 (Ancient City) 中找到它，它正在自己的实验室中研习黑暗秘术。"
+				""
+				"食物 (Food): 可以使用远古知识碎片 (lost knowledge fragments) 来治疗它。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:ancient_knowledge_fragment"
+			}
+			id: "1BD732CF7B40F340"
+			rewards: [{
+				id: "62424E2B20EE9E3E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FC0FE900B8D752A"
+				title: "唤魔师魔宠"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["30877B6009261802"]
+			description: [
+				"战斗 (Battle): 擅长使用弓箭攻击敌人，并辅以迅捷的身法 (swift moves)。"
+				""
+				"能力 (Abilities):"
+				""
+				"警戒者 (Watcher): 拥有保护主人免受敌人瞄准的能力，即使主人尚未察觉这些威胁。"
+				""
+				"战利品嗅觉 (Smelling Loot): 主人可以对其右键点击任何物品，使其搜索周围能够掉落该物品的实体，并将其标记 出来供主人看见。"
+				""
+				"生成 (Spawn): 可在遍布森林生物群系 (forest biomes) 的露营地 (campsites) 中找到它，它在那里生活。"
+				""
+				"食物 (Food): 可以使用狼的食物（肉食） (wolf food) 来治疗它。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:beef"
+			}
+			id: "144A98EC433E6E1C"
+			rewards: [{
+				id: "2F04BAD99317BD36"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41ACF2D404B9680A"
+				title: "猎人魔宠"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30877B6009261802"]
+			description: [
+				"战斗 (Battle): 擅长运用自然魔法 (nature magic) 来操控敌人。"
+				""
+				"能力 (Abilities):"
+				""
+				"疯狂生长 (Overgrowth): 拥有对附近作物使用骨粉 (bonemeal) 催熟的能力。"
+				""
+				"自然恩赐 (Nature's Blessing): 拥有繁殖附近动物的能力。"
+				""
+				"生成 (Spawn): 可在世界各处的森林中找到它，它在那里守护着森林。"
+				""
+				"食物 (Food): 可以使用树苗 (saplings) 来治疗它。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:oak_sapling"
+			}
+			id: "17457A3B89F71EFD"
+			rewards: [{
+				id: "63C3B91AF71F50D2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FCC63B4EB856EAF"
+				title: "德鲁伊魔宠"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30877B6009261802"]
+			description: [
+				"战斗 (Battle): 精通唤魔系魔法 (evocation magic)，擅长通过迷惑敌人 (confusing them) 来操控战局。"
+				""
+				"能力 (Abilities):"
+				""
+				"魔术戏法 (Magic Trick): 当主人生命值过低时，幻术师会表演一个魔术戏法，使其主人在敌人面前消失。"
+				""
+				"诱饵幻象 (Decoy): 当自身生命值过低时，它会消失并留下一个具有爆炸性的自身幻象，引诱周围的敌人攻击该幻象。"
+				""
+				"妙手空空 (Pickpocket): 当无人察觉时，且地面有金粒 (gold nuggets) 或绿宝石 (emeralds)，这个小戏精会将它们据为己有。"
+				""
+				"生成 (Spawn): 幻术师魔宠生成时会自然地伪装成主世界的其他魔宠。需对其使用真视之镜 (Mirror of Truth) 才能使其现出原形。"
+				""
+				"食物 (Food): 可以使用金粒 (gold nuggets) 来治疗它。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:gold_nugget"
+			}
+			id: "4303079FDD0A32CB"
+			rewards: [{
+				id: "42525B29803EDDE1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "27879703B9130AD4"
+				title: "幻术师魔宠"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30877B6009261802"]
+			description: [
+				"战斗 (Battle): 精通毒系魔法，擅长给敌人施加剧毒，使其在痛苦中缓慢死亡。"
+				""
+				"能力 (Abilities):"
+				""
+				"毒血特性 (Poison Blood): 其主人和瘟疫医生魔宠自身对中毒实体造成的伤害提高。此外，当瘟疫医生魔宠受到攻击时 ，它会作为反制措施投掷一瓶毒药药水。"
+				""
+				"生成 (Spawn): 要获得它，你需要制作一瓶毒药瓶并将其给予一只已被驯服的德鲁伊魔宠。"
+				""
+				"食物 (Food): 可以使用毒蜘蛛牙 (venomous spider fangs) 来治疗它。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alshanex_familiars:spider_fang"
+			}
+			id: "6541F818B9646FC2"
+			rewards: [{
+				id: "53903074E082F99C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35A93D1055735039"
+				title: "瘟疫医生魔宠"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30877B6009261802"]
+			description: [
+				"战斗 (Battle): 精通火焰魔法，擅长将敌人焚烧至死。"
+				""
+				"能力 (Abilities):"
+				""
+				"熔火之心 (Molten Heart): 当受到攻击时，它会使攻击者着火一段时间。"
+				""
+				"火焰免疫 (Heatproof): 赋予其主人和自身免疫火焰伤害的能力。"
+				""
+				"生成 (Spawn): 可在下界的高温区域中找到它四处游荡。"
+				""
+				"食物 (Food): 可以使用烈焰粉 (blaze powder) 来治疗它。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:blaze_powder"
+			}
+			id: "2E151918F34B15CC"
+			rewards: [{
+				id: "08FE248987C9E121"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A5CFC188D61D4E5"
+				title: "炽热魔宠"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["30877B6009261802"]
+			description: [
+				"战斗 (Battle): 精通神圣魔法 (holy magic)，以辅助为主，但也能施展强大的神圣法术净化敌人。"
+				""
+				"能力 (Abilities):"
+				""
+				"救赎 (Salvation): 会自动攻击所见的不死生物，但若发现僵尸村民，则会使用神圣力量治愈并赐予其救赎。"
+				""
+				"生成 (Spawn):"
+				""
+				"需在未驯服的死灵法师魔宠附近施放治疗法阵。"
+				""
+				"食物 (Food): 可使用神圣珍珠 (divine pearls) 治疗它。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:divine_pearl"
+			}
+			id: "16B601D59482D6A6"
+			rewards: [{
+				id: "1FBCF64CB80B9D2F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01DDDB24CD69E286"
+				title: "牧师魔宠"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["30877B6009261802"]
+			description: [
+				"战斗 (Battle): 精通音律魔法，既能用强力战曲攻击敌人，也能用辅助旋律支援友方。"
+				""
+				"能力 (Abilities):"
+				""
+				"音乐天性 (Musical Nature): 会持续演奏旋律，使冒险旅途更加愉悦。"
+				""
+				"生成 (Spawn): 需在未驯服的魔宠附近施放音律法术，使其对音乐产生兴趣。"
+				""
+				"食物 (Food): 可使用音乐唱片治疗它。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:music_disc_13"
+			}
+			id: "204893E1CD915E29"
+			rewards: [{
+				id: "7770576B6EE77A4C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "589B4786CF849237"
+				title: "吟游诗人魔宠"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7D49C5D58936D49B"]
+			id: "202530EF9E0EA280"
+			subtitle: "生成于山地塔楼（雷暴高发区）"
+			tasks: [{
+				id: "270F6FBC877F1730"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alshanex_familiars:mage_trinket"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["16B601D59482D6A6"]
+			id: "5C99EE6273D61598"
+			subtitle: "生成于牧师塔（教堂尖顶）。"
+			tasks: [{
+				id: "68F51EC265B7B396"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alshanex_familiars:cleric_trinket"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2E151918F34B15CC"]
+			id: "3DE865C9157ED4FA"
+			subtitle: "生成于烈焰法师塔（下界堡垒衍生结构）"
+			tasks: [{
+				id: "2789A7687E15FE6B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alshanex_familiars:scorcher_trinket"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4303079FDD0A32CB"]
+			id: "434C27B43686C1AE"
+			subtitle: "生成于林地府邸（密室），需识破幻术师魔宠的伪装。"
+			tasks: [{
+				id: "2CFB99770C2350DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alshanex_familiars:illusionist_trinket"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["17457A3B89F71EFD"]
+			id: "73DB08D28A60323B"
+			subtitle: "生成于丛林神庙（藤蔓覆盖的隐藏宝箱），与自然魔法共鸣，需避开绊线陷阱。"
+			tasks: [{
+				id: "416E00076EC7FCAC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alshanex_familiars:forest_trinket"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6541F818B9646FC2"]
+			id: "4073D3E147D76148"
+			subtitle: "沉船残骸（船首穿刺物内部），携带中毒效果，需解毒后使用。"
+			tasks: [{
+				id: "37A47C121F944F29"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alshanex_familiars:plague_trinket"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["144A98EC433E6E1C"]
+			id: "3D1F70646F42B44C"
+			subtitle: "生成于猎人营地 / 唤魔者堡垒"
+			tasks: [{
+				id: "5A7056B4701F1200"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alshanex_familiars:hunter_trinket"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1BD732CF7B40F340"]
+			id: "4DB336A0A95C4205"
+			subtitle: "生成于古城（实验室废墟），需解除幽匿尖啸体警报机制。"
+			tasks: [{
+				id: "0CD767131F265998"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alshanex_familiars:summoner_trinket"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["027CB15D7C4680F9"]
+			id: "5A5CCFFD8DDDFB34"
+			subtitle: "生成于墓地（灵魂沙河谷墓穴），需抵御亡灵侵扰后获取。"
+			tasks: [{
+				id: "5A75DF7FE2798A9E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alshanex_familiars:necromancer_trinket"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["012EC7C51CA41F80"]
+			id: "313816D71BF9B135"
+			subtitle: "生成于山地塔楼 / 大法师实验室，与奥术基座互动触发生成"
+			tasks: [{
+				id: "27B03E0488D9AFC2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alshanex_familiars:archmage_trinket"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["204893E1CD915E29"]
+			id: "430B3D9C892D9265"
+			subtitle: "神秘法球（特殊掉落物），唯一非固定地点获取的饰品"
+			tasks: [{
+				id: "4B8D7EF235B08E9E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alshanex_familiars:bard_trinket"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["30877B6009261802"]
+			id: "3E60B71C7665CEA1"
+			rewards: [{
+				id: "68FF44412C5AB1F2"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "喂食橘子酿肉可以赋予魔宠一个小时的生命恢复、超负荷的buff"
+			tasks: [{
+				id: "0172C6413FBED2B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:orange_marinated_pork"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["689DD90AF289870F"]
+			id: "0E67EB682245FDE0"
+			rewards: [{
+				id: "46DDEA10A482D731"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "将神秘花碾碎为粉末"
+			tasks: [{
+				id: "175358137ED2117F"
+				item: "kubejs:mystery_pollen"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "2F8CC85C88DEE38A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B4D2CD318417B0E"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "661293EEE691B82D"
+				item: {
+					Count: 1
+					id: "traveloptics:stellothorn"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:shear_of_the_stars"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3AEAC62943F8A152"]
+			id: "42B813917CE56630"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02350E77C433DB1D"
+				table_id: 2322522041484591808L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0CE6292725C6F731"
+				item: {
+					Count: 1
+					id: "traveloptics:wand_of_final_light"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:supernova"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+	]
+	title: "铁魔法咒书"
+}

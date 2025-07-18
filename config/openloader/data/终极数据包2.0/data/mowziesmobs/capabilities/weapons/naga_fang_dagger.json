@@ -1,0 +1,15 @@
+{
+	"type": "dagger:dagger1",
+	"attributes": {
+		"one_hand": {
+			"armor_negation": 3,
+                "impact": 1.0,
+			"max_strikes": 0.2
+		},
+		"two_hand": {
+			"armor_negation": 3,
+                "impact": 1.0,
+			"max_strikes": 0.2
+		}
+	}
+}

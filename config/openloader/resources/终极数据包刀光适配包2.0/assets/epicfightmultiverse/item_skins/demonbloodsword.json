@@ -1,0 +1,11 @@
+{
+    "trail": {
+    	"color": [124, 38, 36],
+    	"begin_pos": [0.0, 0.0, -0.2],
+    	"end_pos": [0.0, -0.02, -2.5],
+    	"lifetime": 29,
+		"interpolations": 5,
+    	"texture_path": "epicfight:textures/particle/s/malikethtrail.png",
+    	"particle_type": "epicfight:swing_trail"
+    }
+}

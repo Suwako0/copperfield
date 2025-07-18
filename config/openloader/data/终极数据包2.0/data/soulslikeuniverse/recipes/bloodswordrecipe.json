@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " bb",
+    " ab",
+    "c "
+  ],
+  "key": {
+    "a": {
+      "item": "soulslikeuniverse:longsword"
+    },
+    "b": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "c": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:bloodsword",
+    "count": 1
+  }
+}

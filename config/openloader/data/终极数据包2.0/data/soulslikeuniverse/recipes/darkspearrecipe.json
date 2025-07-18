@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " bb",
+    " ab",
+    "c  "
+  ],
+  "key": {
+    "a": {
+      "item": "soulslikeuniverse:spear"
+    },
+    "b": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:darkspear",
+    "count": 1
+  }
+}

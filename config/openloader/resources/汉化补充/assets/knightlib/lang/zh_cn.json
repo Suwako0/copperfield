@@ -1,0 +1,9 @@
+{
+  "item.knightlib.great_essence": "大精华",
+  "item.knightlib.small_essence": "小精华",
+  "block.knightlib.great_chalice": "大圣杯",
+
+  "tooltip.item.knightlib.great_essence": "§8§o将四物献于大圣杯。",
+  "tooltip.item.knightlib.small_essence": "§8§o将四个结合，以铸就伟大精华！",
+  "tooltip.item.knightlib.great_chalice": "§8§o将圣杯奉上，敬献其精华。"
+}

@@ -1,0 +1,299 @@
+{
+    "groupOverrides":{
+        "Vanilla Seeds":{
+        "enabled": false
+        },
+        "Vanilla Saplings":{
+        "enabled": false
+        },
+        "Create Fertilizer":{
+        "enabled": false
+        },
+        "Bone Meal":{
+        "enabled": false
+        },
+        "Farmers Delight Seeds":{
+        "enabled": false
+        }
+    },
+    "customCategories":{
+        "keystone":{
+              "name": "keystone",
+              "icon":{
+                "item": "kubejs:dungeons_hearthstone"
+              }
+        },
+        "rewards":{
+              "name": "rewards",
+              "icon":{
+                "item": "kubejs:dungeons_reward_coin"
+              }
+        }
+    },
+    "customEntries":[
+    {
+      "output":{
+        "item": "kubejs:dungeons_reward_coin_stack"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_reward_coin",
+        "count": 10
+      },
+      "category": "rewards"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_reward_coin",
+        "count": 10
+      },
+      "payment":{
+        "item": "kubejs:dungeons_reward_coin_stack"
+      },
+      "category": "rewards"
+    },
+    {
+      "output":{
+        "item": "kubejs:custom_dungeons_ring"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_reward_coin_stack",
+        "count": 12
+      },
+      "category": "rewards"
+    },
+    {
+      "output":{
+        "item": "simplyswords:runic_tablet"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_reward_coin_stack",
+        "count": 10
+      },
+      "category": "rewards"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_boss_shuangxing"
+      },
+      "payment":{
+        "item": "kubejs:boss_remains"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_boss_sizhezhiwang"
+      },
+      "payment":{
+        "item": "kubejs:boss_remains"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_boss_liweitan"
+      },
+      "payment":{
+        "item": "kubejs:boss_remains"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_boss_yanmo"
+      },
+      "payment":{
+        "item": "kubejs:boss_remains"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_boss_xiajiehejinjushou"
+      },
+      "payment":{
+        "item": "kubejs:boss_remains"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_boss_qishijuxiang"
+      },
+      "payment":{
+        "item": "kubejs:boss_remains"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_boss_sikula"
+      },
+      "payment":{
+        "item": "kubejs:boss_remains"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_boss_zhouyilinghai"
+      },
+      "payment":{
+        "item": "kubejs:boss_remains"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_boss_moyingshouwei"
+      },
+      "payment":{
+        "item": "kubejs:boss_remains"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_boss_juxuanshouhuzhe"
+      },
+      "payment":{
+        "item": "kubejs:boss_remains"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_undead_normal"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_charge_coin_normal"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_undead_hero"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_charge_coin_hero"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_undead_epic"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_charge_coin_epic"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_spider_normal"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_charge_coin_normal"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_spider_hero"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_charge_coin_hero"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_spider_epic"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_charge_coin_epic"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_moon_normal"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_charge_coin_normal"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_moon_hero"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_charge_coin_hero"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_key_moon_epic"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_charge_coin_epic"
+      },
+      "category": "keystone"
+    },
+
+    {
+      "output":{
+        "item": "kubejs:dungeons_hearthstone"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_reward_coin",
+        "count": 15
+      },
+      "category": "rewards"
+    },
+
+    {
+      "output":{
+        "item": "kubejs:dungeons_hearthstone_water"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_reward_coin",
+        "count": 20
+      },
+      "category": "rewards"
+    },
+
+    {
+      "output":{
+        "item": "kubejs:dungeons_reward_bag_mine"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_reward_coin",
+        "count": 12
+      },
+      "category": "rewards"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_reward_bag_upgrade_materail"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_reward_coin",
+        "count": 12
+      },
+      "category": "rewards"
+    },
+    {
+      "output":{
+        "item": "kubejs:dungeons_reward_bag_tech"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_reward_coin",
+        "count": 12
+      },
+      "category": "rewards"
+    }
+  ]
+}

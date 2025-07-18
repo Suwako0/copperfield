@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " bb",
+    "cab",
+    "cc "
+  ],
+  "key": {
+    "a": {
+      "item": "soulslikeuniverse:divinesword"
+    },
+    "b": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "c": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:bloodspelllongsword",
+    "count": 1
+  }
+}

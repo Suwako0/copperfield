@@ -1,0 +1,19 @@
+ {
+    "type": "staff:staff2",
+	"attributes": {
+		"one_hand": {
+			"armor_negation": 10,
+                "impact": 1.0,
+			"max_strikes": 1,
+            "damage_bonus":2,
+            "speed_bonus":-1
+		},
+		"two_hand": {
+			"armor_negation": 10,
+                "impact": 1.0,
+			"max_strikes": 3,
+            "damage_bonus":2,
+            "speed_bonus":-1
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+    "type": "wakizashi:wakizashi",
+    "attributes": {
+        "common": {
+            "armor_negation":1,
+                "impact": 0.5,
+            "max_strikes": 3,
+            "speed_bonus": -0.5
+        }
+    }
+ }

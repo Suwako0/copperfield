@@ -1,0 +1,1859 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "05C772909FDCB167"
+	group: "5960C5DF941F3C42"
+	icon: "create:large_cogwheel"
+	id: "05C772909FDCB167"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2BC99BB9ED6AC68D"]
+			id: "6BCFCD349D7CE4AB"
+			rewards: [{
+				id: "6B431A6B08602D68"
+				item: "create:wrench"
+				type: "item"
+			}]
+			subtitle: "没人否认传动杆在机械动力的重要性吧？"
+			tasks: [{
+				id: "1E19C2153C54F53B"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "传动装置"
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"机械动力是一个相当完善的模组，如您有不懂的地方，在各物品栏中用鼠标指针选中有思索情景的物品并长按[W]即可打开，大概率会有所收获。"
+				""
+				"思索是游戏内的机械动力教程，有流畅的动画演示。"
+			]
+			id: "2BC99BB9ED6AC68D"
+			rewards: [{
+				count: 10
+				id: "326E67D0F75B6176"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "本整合包配备了魔改版机械动力，贯彻机械动力与植物魔法相结合的理念，致力于打造一个玩着舒心，用着放心的好整合包。如您有不懂的地方，请对准元件长按W思索。"
+			tasks: [{
+				id: "2452EE632CF0CC43"
+				title: "机械动力"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["063C5E45F8B5C366"]
+			id: "565942738FBE70F4"
+			rewards: [{
+				id: "12D71FD9C554A299"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			subtitle: "如果您觉得一个水车不够，那您可以接两个水车，两个水车不够，那就接三个，以此类推。水车仙人万岁！"
+			tasks: [{
+				id: "20B767BF9B6520F6"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "水力发力"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6BCFCD349D7CE4AB"]
+			id: "063C5E45F8B5C366"
+			rewards: [{
+				id: "2B3C3935BF9251E0"
+				item: "create:goggles"
+				type: "item"
+			}]
+			subtitle: "基本传动原件之一，用于横向传输应力。"
+			tasks: [
+				{
+					id: "149B41DBBF0FFC62"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "6176525C9ADB11DF"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["565942738FBE70F4"]
+			id: "0294AF2410C8605C"
+			rewards: [{
+				count: 10
+				id: "5EAE8E2283F44FD1"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			subtitle: "风车是另一种清洁能源，有比水车更强的动力，也比水车更省空间"
+			tasks: [{
+				id: "2909C1704BE26572"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			title: "风力发力"
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0294AF2410C8605C"]
+			id: "097E806C59EF4D59"
+			rewards: [{
+				count: 2
+				id: "159C9FC37000FFA8"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			subtitle: "蒸汽时代开始啦！蒸汽机能提供大量应力，满足各种机器需求！"
+			tasks: [{
+				id: "646472B6230E27A0"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "蒸汽时代！"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D33992422F30D1E"]
+			description: [
+				"鼓风机产生的气流可以用来推动实体（包括生物、物品等）。"
+				""
+				"当为其提供顺时针旋转力时，会使其产生吹力；逆时针旋转力则会使其产生吸力。风力的大小取决于转速的大小。"
+				""
+				"将 分散网 安装在鼓风机前，可以将鼓风机的气流向四面八方分散，吸引或排斥所有方向上的实体。"
+				""
+				"鼓风机可以与熔岩、水等介质组合使用，对物品进行加工。"
+				""
+				"当鼓风机的气流经过特定的方块时，会转变成对应的加工气流。"
+				""
+				"加工气流可对其中的物品进行对应的加工。"
+			]
+			id: "5D55019E0D5142A6"
+			rewards: [
+				{
+					id: "4F9A192790505398"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "1EE62B3AA152EBE2"
+					item: "minecraft:cherry_leaves"
+					type: "item"
+				}
+			]
+			subtitle: "鼓风机可以配合营火烧制物品，可以配合含水方块水洗物品，配合岩浆可以冶炼矿物，还可以配合其他方块完成更多任务，等待您的探索。"
+			tasks: [{
+				id: "1746B5B7906753E4"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["188691FB88717A6C"]
+			id: "11A636A9BB88BE2D"
+			rewards: [
+				{
+					count: 5
+					id: "5F9ED06D8A66FA99"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66C07B24745984FB"
+					table_id: 4650578356185217694L
+					type: "random"
+				}
+			]
+			subtitle: "动力冲压机可以将铁锭压制成铁板，可以将金锭压制成金板，等等。"
+			tasks: [{
+				id: "2C4FF92D3677DDF4"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "压缩！压缩！"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["188691FB88717A6C"]
+			id: "6CCDC17013D96FB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B1575CD5732D4FD"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "用于磨制材料，但有些产物需要粉碎轮来磨制。"
+			tasks: [{
+				id: "0AC9470DE91FD0B5"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22F9C46D4C18E72D"]
+			id: "656046F58FB16402"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F2BDB420423FFB0"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "制作一对粉碎轮用以粉碎"
+			tasks: [{
+				id: "617573571DE072E2"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0294AF2410C8605C"]
+			description: ["*指指点点"]
+			id: "2DDA64B0502E99DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71F16073ED3607B0"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "机械手可以代替你做一些工作，包括种植等等，当然你也可以给他武器或者工具，让他解锁更多用法"
+			tasks: [{
+				id: "43ACF3D78B9278FC"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "神之手"
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11A636A9BB88BE2D"]
+			id: "0D33992422F30D1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E3987513560F926"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "制作动力搅拌器，用于搅拌一些材料，部分搅拌配方需要加热/超级加热，具体方法是在工作盆下方放置烈焰人燃烧室，喂食烈焰人燃料/烈焰蛋糕"
+			tasks: [
+				{
+					id: "5FB8C50AD1CCE3A3"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "652204DD4567C362"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0294AF2410C8605C"]
+			id: "6BB08921C6C0D2E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7758AA25CD500244"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "动力锯可以毫不费力的切开树木，是砍树的好帮手。当然你也可以将它连接到传送带上进行流水线加工，但别忘了规定产出。"
+			tasks: [{
+				id: "3A35CA730BAC4E79"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["565942738FBE70F4"]
+			id: "188691FB88717A6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CCB55DFAF734109"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "安山机壳是后续工作方块的前提。通常你可以用安山合金右键去皮原木获得。当然你也可以制作一条生产线来生产安山机壳。"
+			tasks: [{
+				id: "365C2E52118F5621"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			id: "0467B00BA5675748"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19E8D0BFAD6177DE"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "列表过滤器可以帮助你过滤掉不需要的物品"
+			tasks: [{
+				id: "0343F92F94CDE54B"
+				item: "create:filter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0294AF2410C8605C"]
+			description: [
+				"当带有移动式存储接口的 动态结构 移动时，移动式存储接口会尝试寻找另一个移动式存储接口按输送方向输出源结构存储的所有物品。"
+				""
+				"为了能让移动式存储接口正常工作，需要满足三个条件："
+				""
+				"两个移动式存储接口之间需要间隔 1~2 格。"
+				""
+				"两个移动式存储接口正面相对。"
+				""
+				"两个移动存储接口需要至少有一个动态结构化。"
+				""
+				"注意！当动态结构移速/转速过快时，移动式存储接口将有较高概率不进行交互。"
+				""
+				"非动态结构的接收端必须接有漏斗、溜槽等具备抽取功能的方块才能与输出端完成物品交接。"
+			]
+			id: "7F15C11A2815DC42"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CABEF25E1D1DE0C"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "可用来交换物品的接口，允许让动态结构上的容器与外界交互。"
+			tasks: [{
+				id: "2E576422F4852597"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7F15C11A2815DC42"
+				"6BB08921C6C0D2E7"
+				"2DDA64B0502E99DF"
+			]
+			id: "653CEFA8DDF7BA2D"
+			rewards: [{
+				count: 20
+				id: "10234153CF3ED171"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			subtitle: "有了这三个前置，就可以量产木头了"
+			tasks: [{
+				id: "11ACEB3505F6F9C4"
+				title: "自动化树场"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"6CCDC17013D96FB8"
+				"5D55019E0D5142A6"
+			]
+			id: "41E4182BC6BB9D6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A509E28757FCB45"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "石磨、鼓风机和动力搅拌器配合神秘花农场可以在前期做出简易刷铁机，如有需要请尝试"
+			tasks: [{
+				id: "295598135AB69E30"
+				title: "石磨与鼓风机可以在前期做出简易刷铁机"
+				type: "checkmark"
+			}]
+			title: "刷铁机！启动！"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D33992422F30D1E"]
+			id: "3440A89E7B20B4DC"
+			rewards: [
+				{
+					count: 2
+					id: "7A59E46AA2A87FDD"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "690732AFBA1BCF67"
+					table_id: 4650578356185217694L
+					type: "random"
+				}
+			]
+			subtitle: "进入黄铜时代，进入全自动时代！"
+			tasks: [{
+				id: "737AED489F86DC72"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "黄铜时代！"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3440A89E7B20B4DC"]
+			id: "22F9C46D4C18E72D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19ECD43F947E1F9B"
+					table_id: 4650578356185217694L
+					type: "random"
+				}
+				{
+					count: 9
+					id: "08C9C0BD5FA8D41F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:crafter_slot_cover"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "494EADE7460BA6E5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "动力合成器可以执行“自动合成”以及“动力合成”配方。“自动合成”配方是自动适配原版工作台中进行的所有配方，“动力合成”配方是机械动力添加的特殊配方。"
+			tasks: [{
+				count: 25L
+				id: "2944D76617B0E412"
+				item: { Count: 25, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			title: "动力合成器"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"656046F58FB16402"
+				"3C4707ACB2285B1F"
+				"31A56469E2A6A788"
+				"255A9B9CC04AF7F0"
+				"0A229E6B5139F11D"
+				"2629F77D615F31BD"
+			]
+			id: "238839CF0E3B4FB9"
+			rewards: [
+				{
+					id: "53430B0BC97C2B41"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cdmoveset:yamato"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BDF34B84C17E2C4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+					}
+					type: "item"
+				}
+				{
+					id: "536A170BE966A295"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "copperfield:assumptions"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "机械动力是一个极具创造力的模组。本任务书只是列出了其元件最基础的用法。机械动力的精髓在于多种元件相互配合。能够产生无数的机器帮助你更好的在mc的世界中生存下去。"
+			tasks: [{
+				id: "5FD325039B50F663"
+				title: "好了！你已经学会机械动力了，现在发挥你的想象力，创造出无尽的机械吧！"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37595BCADD5BB938"]
+			id: "43805D4BFAA3DFF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "554F5AAB514140D6"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "可以储存流体，每个方块可以储存  8 B/8000 Mb/8 桶，由动力泵进行输入输出。"
+			tasks: [{
+				id: "6A70F2C9B54BFACD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:fluid_tank"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0274D02AB3609685"]
+			id: "318542C6A0E123BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "673AC4D43614E053"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "传输流体的基本装置。"
+			tasks: [{
+				id: "0B0D6BD68495ABF7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:fluid_pipe"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["318542C6A0E123BC"]
+			id: "37595BCADD5BB938"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DEF1BA8B8EF3EC2"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "为流体提供压强（动力）的装置。本身需要通过外界的齿轮提供动力。默认情况下动力泵只能传输 16 格距离。之后需要另外接上一个动力泵才能传输更远的距离。"
+			tasks: [{
+				id: "77BAB00FF5CFB8F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:mechanical_pump"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["43805D4BFAA3DFF8"]
+			description: [
+				"加工方式包括："
+				""
+				"使用流体装填容器物品（如桶，玻璃瓶），对于其他模组添加的流体同样有效。"
+				""
+				"由机械动力提供的特殊注液配方（如草方块，烈焰蛋糕的配方等）。"
+				""
+				"注意！需要使用流体元件将流体输入注液器，注液器无法使用桶手动灌装。"
+			]
+			id: "16D78061A86CB4A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1626FD9D64141559"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "注液器可以执行“注液”加工方式。"
+			tasks: [{
+				id: "5FA0922A7878F317"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:spout"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16D78061A86CB4A6"]
+			description: [
+				"如果软管末端所在的流体总体积超过了 10,000 格（配置可修改），那此时它将会将其视为是“巨大的流体”，譬如海洋，河流或下界的岩浆海等。此时准心指向软管滑轮时会显示“无限供应”字样，但如果每tick抽取速度大于流体大小，无论多大的流体都会瞬间被抽干。"
+				""
+				""
+				"注意！！！当人造水体总体积超过 9,900 格，有时也会显示为“无限供应”，但实际上抽取会消耗液体，因此实际使用时启动后应当观察一下液面是否有改变，确认无限后再加大力度。"
+			]
+			id: "3A63AA47A180BF81"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "350FE743EAA5018F"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "软管滑轮是用于抽取或排放大面积流体的装置。"
+			tasks: [{
+				id: "51088578AA047CE5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:hose_pulley"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3A63AA47A180BF81"]
+			description: [
+				"分液池可以由侧面的 传送带、漏斗、工作盆 的开口输入物品。"
+				""
+				"手持装有流体的容器右键点击分液池可以直接倒入流体，手持空的容器右键点击分液池可以提取其中流体。"
+			]
+			id: "3C4707ACB2285B1F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2377E7120D3A82A5"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "用于从装有液体的物品（如水桶，药水瓶等）提取流体。"
+			tasks: [{
+				id: "527FA110CE1899F5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:item_drain"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "0274D02AB3609685"
+			rewards: [{
+				id: "76C472A05C8CB1B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:lava_bucket"
+				}
+				type: "item"
+			}]
+			subtitle: "通过铜质的流体方块，你可以随心所欲的操作你想操作的流体。"
+			tasks: [{
+				id: "7503AE7FDC36B286"
+				title: "流体"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			id: "2528DFC7D10A36A2"
+			tasks: [{
+				id: "0880C277D62E21CA"
+				title: "运输"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2528DFC7D10A36A2"]
+			description: [
+				"要放置传送带，至少需要两个朝向相同方向的传动杆。"
+				""
+				"手持传送带右键单击第一个传动杆，准心与该传动杆之间会出现红色粒子效果。当指向有效的第二个传动杆时，这些粒子将变为绿色，右键单击以放置。粒子持续为红代表该摆放方式无效，粒子消失则代表超出最大长度。"
+				""
+				"传送带可以以水平、竖直、斜45度 3 个方向放置，并且长度（包含两端传动杆）不能超过 20 格（斜45度放置时传送带不能超过 15 格）。"
+			]
+			id: "7095C5502D3A0D92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B339AD072E38447"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "传送带是移动物品和传动应力的工具之一。物品可以在传送带上被加工，加工方式包括序列装配，辊压，注液等。"
+			tasks: [{
+				id: "50A0F9BE45B87F74"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:belt_connector"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["036BD22F6662228D"]
+			id: "16FB8EEE686AF96B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "250DFDB15A118D0A"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "制作动力臂，其可以代替人力完成一些抓取操作，如将材料放置到传送带"
+			tasks: [{
+				id: "0642C21D5AAB5657"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:mechanical_arm"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7095C5502D3A0D92"]
+			description: [
+				"使用弹射置物台前，须设置一个目标。如果没有设置有效目标位置，弹射置物台会直接将其前方一格设为默认目标位置。"
+				""
+				"需要设置目标的话，首先手持弹射置物台按 Shift + 右键 设定目标方块。"
+				""
+				"被选择的方块会出现黄框。"
+				""
+				"此时准心指向的位置到目标方块之间会出现一道绿色的抛物线。随后可以在目标方块同一竖直平面内放置弹射置物台，弹射置物台与目标的距离必须在 32 格以内。"
+				""
+				"如抛物线显示为红色则代表该位置无效。"
+				""
+				""
+				"注意！如果物品还在飞行中时弹射置物台被拆除，物品会立即变为掉落物实体。"
+				"飞行途中击中方块也会变成掉落物。"
+			]
+			id: "036BD22F6662228D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32D7894B4AB5E397"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "相当于带弹射功能的置物台，可用于将实体/物品弹射到某一坐标。"
+			tasks: [{
+				id: "4AB7FEFAF092C1DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:weighted_ejector"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["725DF893EE755CBB"]
+			description: [
+				"{image:kubejs:textures/tsk/tsk1.png width:200 height:112 align:center}"
+				"{image:kubejs:textures/tsk/tsk3.png width:200 height:112 align:center}"
+				"{image:kubejs:textures/tsk/tsk2.png width:200 height:112 align:center}"
+			]
+			id: "31A56469E2A6A788"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "608BA05AE8CD0D49"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "末影传输可以帮助你简化你的机器，流体可以跨界传输，无限岩浆get！但是必须配合区块加载器使用。"
+			tasks: [
+				{
+					id: "40BAF95509446BCB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createendertransmission:energy_transmitter"
+					}
+					type: "item"
+				}
+				{
+					id: "0F9B5FC2F76FED59"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createendertransmission:item_transmitter"
+					}
+					type: "item"
+				}
+				{
+					id: "32626F38B3710283"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createendertransmission:fluid_transmitter"
+					}
+					type: "item"
+				}
+			]
+			title: "末影传输"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["16FB8EEE686AF96B"]
+			id: "725DF893EE755CBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BDF522ADB65DE0A"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "黄铜隧道和黄铜漏斗可以帮助你实现流水线物品分类。请善用黄铜漏斗。"
+			tasks: [
+				{
+					id: "392E84750097A8EE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:brass_tunnel"
+					}
+					type: "item"
+				}
+				{
+					id: "7C24DF8F47302248"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:brass_funnel"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0D33992422F30D1E"]
+			id: "279413D1D3567764"
+			rewards: [
+				{
+					count: 2
+					id: "38FBDC4540663136"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:blaze_cake"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60DF48C463B5AD57"
+					table_id: 4650578356185217694L
+					type: "random"
+				}
+			]
+			subtitle: "烈焰人燃烧室可以给动力搅拌器提供热源。使用空的烈焰人燃烧室右击 烈焰人 或 烈焰人刷怪笼 获得。"
+			tasks: [
+				{
+					id: "391D065E07196CBE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:empty_blaze_burner"
+					}
+					type: "item"
+				}
+				{
+					id: "4853E8E4519476CB"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "烈焰人燃烧室"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["22F9C46D4C18E72D"]
+			id: "1F8E6AA2151E47FA"
+			subtitle: "动力合成器合成"
+			tasks: [{
+				id: "0A3C591B0B4704D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:soulstealer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22F9C46D4C18E72D"]
+			id: "216E541DB328871F"
+			subtitle: "动力合成器合成"
+			tasks: [{
+				id: "2C4F133CDDBF5A1A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:tempest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22F9C46D4C18E72D"]
+			id: "4384889D80C8D822"
+			subtitle: "动力合成器合成"
+			tasks: [{
+				id: "11B81E96A5FAFDF9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:waxweaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"准心指向转速控制器上的转速界面时右键按住拖动来调节输出的转速。"
+				""
+				"当应力从下方输入时，可调节大齿轮的转速。"
+				""
+				"当应力从上方输入时，可调节下方传动杆的转速。"
+			]
+			id: "32DF2E8D17DED415"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71F27A91898DF00F"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "可以维持恒定转速的传动元件，需要在其上方放置一个大齿轮。"
+			tasks: [{
+				id: "20D431667FAE0750"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["063C5E45F8B5C366"]
+			id: "6346E0691C0C53AB"
+			subtitle: "用于对于不同方位的传动杆进行连接。两个十字齿轮箱相连会改变传动杆旋转方向，请合理利用。"
+			tasks: [{
+				id: "7FCBEE9402430CAD"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["063C5E45F8B5C366"]
+			id: "28A0759F1B683306"
+			tasks: [{
+				id: "48288FBD82264318"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["11A636A9BB88BE2D"]
+			description: [
+				"置物台的底部以及侧面可被物流元件输出入物品。"
+				""
+				"玩家手持物品右击置物台可将其存放在上方。"
+				""
+				"置物台属于开放容器，可以与动力辊压机、动力臂等交互。在其上方的物品可直接被加工。"
+			]
+			id: "09C847C133976863"
+			subtitle: "置物台是一种常用的物流元件，主要用于暂存少量物品、存放被加工物品等。如果您的流水线产物无法运输到下一个机器进行加工，不妨试试弹射置物台或者置物台与动力臂的组合。"
+			tasks: [{
+				id: "3C80AF88447EE6CE"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"未安装鼓风机时，溜槽会从从顶部抽取物品（类似于原版漏斗，但其只能吸取紧贴在溜槽表面的掉落物），再向下将物品传输到底部的容器或将物品作为掉落物掉落。"
+				""
+				"当在上/下开口处安装鼓风机并激活时，鼓风机的气流会穿过溜槽，且溜槽内物品传输方向会受鼓风机气流的影响。此时其物品传输速度随鼓风机速度而定，并且无论鼓风机的转速多小，溜槽长度多长都可以垂直运输。"
+			]
+			id: "3A31310B1930AF38"
+			rewards: [{
+				id: "7E2CBD00996B215F"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			subtitle: "溜槽是一种用于垂直/斜向传输物品的容器。"
+			tasks: [{
+				id: "357EF2DAD51F093F"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26C0C5A087C9058C"]
+			id: "255A9B9CC04AF7F0"
+			subtitle: "此节介绍几项基础又常用的机械动力红石结构。用于实现更多机械动力的功能。"
+			tasks: [{
+				id: "51D834ECFA6AF8FA"
+				title: "红石"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11E63210331BFE41"]
+			id: "2629F77D615F31BD"
+			subtitle: "动态结构可以自定义形状，能够自由传递物品，动态结构视为一个整体，其上元件共享同一个库存，公用同一个应力。"
+			tasks: [{
+				id: "2961977EAD3C3265"
+				title: "动态元件"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25A50145ABC30E1D"]
+			id: "0A229E6B5139F11D"
+			subtitle: "本节介绍几种基础的高级物流元件。"
+			tasks: [{
+				id: "373C95B921A47FAA"
+				title: "高级物流"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"辉光管接收到红石信号后会亮起并且显示红石信号强度。使用修改过的命名牌或剪贴板右键会使并排的辉光管显示所有 Minecraft 中可显示的字体。"
+				""
+				"可以用染料改变字体颜色。不消耗染料。"
+			]
+			id: "26C0C5A087C9058C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65C0E7DEDA8C6DE0"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "“花里胡哨的红石信号强度显示器”"
+			tasks: [{
+				id: "216F487625268D21"
+				item: "create:nixie_tube"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26C0C5A087C9058C"]
+			id: "7E6A304B888472AF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CF90558265EA00F"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "一个可以调节红石信号强度的拉杆，可产生 0~15 级的红石信号。右键模拟拉杆可以增强红石信号，潜行右键可以减弱红石信号。"
+			tasks: [{
+				id: "2461AD39956C2B56"
+				item: "create:analog_lever"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"对动力元件右击可以将构件以点击的面为轴心旋转点击的方块。"
+				""
+				"潜行右击本模组的机械元件可以将其直接拆掉并收回使用者的背包。"
+				""
+				"右击装配过的矿车可以将其收入背包。"
+				""
+				"对准 轴向底盘，轴向底盘二号 或 径向底盘 任意面中心并长按右键可以调整其连接的方块数量。按住 Ctrl 键可一并调整所有相连的机壳底盘。"
+				""
+				"可以在正面右击调整 动力合成器 的运动方向，还可以在背面右击调整是否与其他动力合成器相连。"
+				""
+				"可用于调整 机械手、无线红石信号终端 的工作模式。"
+				""
+				"右击可拆除元件上的“附加物”，如传送带上包裹的机壳和齿轮/流体管道上安装的支架。"
+				""
+				"当 工作盆 上有可用的自动输出口时，使用扳手可打开/关闭自动输出口。"
+				""
+				"手持扳手看向 动力臂/弹射置物台 时，可以查看它们的工作目标。"
+				""
+				"右击可打开/关闭装壳齿轮的传动轴连接。"
+				""
+				"右击传送带的前后面会缩短传送带。用扳手在传送带中间右击可消耗两个传动杆将其分段"
+			]
+			id: "5FE4EB63CB7BBD5A"
+			rewards: [{
+				count: 5
+				id: "36D23A24186A1FD4"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "机械动力的标志物品，也是机械动力中的重要工具之一，在机器建设中具有多种用途。手执扳手，即可调节整个世界！"
+			tasks: [{
+				id: "1EBF5E7D2F3F19D4"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26C0C5A087C9058C"]
+			description: [
+				"智能侦测器会检查其面向的容器中是否存有物品/流体，是则持续发出红石信号。"
+				""
+				"玩家可以在侦测器的过滤插槽中放入物品、过滤器 或 属性过滤器 以检测特定内容物的存在。"
+				""
+				"如要检测流体，需要在过滤插槽中放入桶装/瓶装或其他容器装载的流体。"
+				""
+				"智能侦测器也能检测特定的方块。当面向的方块与过滤插槽中的方块匹配时持续发出红石信号。"
+				""
+				"当物品从智能侦测器面向的漏斗进入或离开时时，智能侦测器会发出红石脉冲。"
+			]
+			id: "6BE0EDEBB46585FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FA5441166DE30D5"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "智能侦测器是一种用于检测物品、方块的红石元件。"
+			tasks: [{
+				id: "15C662C8A2E42FEC"
+				item: "create:content_observer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26C0C5A087C9058C"]
+			description: [
+				"右键点击存量转信器以打开GUI。GUI左下角将显示当前目标容器，及容器当前存量及最大存量。在数值处滚动滚轮以改变检测数量，也可以改变存量单位（个、组）。"
+				""
+				"上行数值为上阈值，存量 等于或高于 此数值时，更改红石信号输出状态（默认为激活）。"
+				""
+				"下行数值为下阈值，存量 等于或低于 此数值时，更改红石信号输出状态（默认为熄灭）。"
+				""
+				"黄框所框选的红石火把，表示当前的存量转信器状态为激活还是熄灭，此状态将保持到下一次条件触发。"
+				""
+				"存量转信器只会在侧面材质显示目标容器的存量，信号状态及阈值不会在其外观显示。"
+				""
+				"点击界面中的“反转信号”按钮可以将输出的红石信号反转。"
+				""
+				"例如：设定上阈值为128，下阈值为64。当箱子内的物品超过128时信号转为激活状态并持续激活状态直至箱子内物品少于64个，信号转为熄灭。"
+			]
+			id: "6629860364FCE840"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C429D5EC4C189C5"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "存量转信器是用于检测容器内容物存量的红石元件。可与辉光管联动显示具体百分比。"
+			tasks: [{
+				id: "0D887746454960A2"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26C0C5A087C9058C"]
+			id: "7FA74A992A59C8EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E020655E61B4AF6"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "一种红石设备，需要成对使用。当一对接触式红石信号发生器的正面相接时，输出红石信号。被安装在 动态结构 上的接触式红石信号发生器也能够与方块状态的生效。"
+			tasks: [{
+				id: "1F955D8A91AC1FED"
+				item: "create:redstone_contact"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26C0C5A087C9058C"]
+			id: "16D6F3BECA552BF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6810C69701A79E62"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "延长红石脉冲的时长，最大可设置 30 分钟的时长。使用鼠标滚轮来设置延迟时间。"
+			tasks: [{
+				id: "7FDEFCA00B035068"
+				item: "create:pulse_extender"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26C0C5A087C9058C"]
+			id: "5A50143359C51177"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71E5969452AA608E"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "高级的红石中继器，对界面使用滑动滚轮以设置延迟，可以设置最高30分钟最低 2 tick 的延迟。"
+			tasks: [{
+				id: "654EA339588EB303"
+				item: "create:pulse_repeater"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26C0C5A087C9058C"]
+			id: "0112DC8487A2FA9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7412079937B73973"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "可以每隔一定的时间发出一次红石脉冲。在控制面板长按右键可以调整间隔时间。输入红石信号后会暂停发出脉冲，直到不再有红石信号输入时重新开始输出脉冲。"
+			tasks: [{
+				id: "43D3049CAADBA4E3"
+				item: "create:pulse_timer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "11E63210331BFE41"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A1478518B2C7FE6"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "非常强力的胶水，可以黏住你看到的任何东西。基岩除外。动态结构元件可以将强力胶粘连起来的所有方块组装成为动态结构。"
+			tasks: [{
+				id: "1D2DEE16D2961A40"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["11E63210331BFE41"]
+			description: [
+				"当带有移动式存储接口的 动态结构 移动时，移动式接口会尝试寻找另一个移动式接口按输送方向输出源结构存储的所有物品。"
+				""
+				"为了能让移动式接口正常工作，需要满足几个条件："
+				""
+				"两个移动式接口之间需要间隔 1~2 格。"
+				""
+				"两个移动式接口正面相对。"
+				""
+				"两个移动接口需要至少有一个动态结构化。"
+			]
+			id: "6722B830D62FB2FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DC143DD2637BF2B"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "可用来交换物品和液体的接口，允许让动态结构上的容器与外界交互。"
+			tasks: [
+				{
+					id: "281839E99AB2DBBB"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+				{
+					id: "7BA79B31D752C312"
+					item: "create:portable_fluid_interface"
+					type: "item"
+				}
+			]
+			title: "移动式接口"
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11E63210331BFE41"]
+			description: [
+				"动力活塞运作期间会将前方粘连的结构变为动态结构并移动，并且会将带连途中的方块一并移动。动态结构包含的作业元件会在移动时运作，其工作面不会带动中途遇到的方块。动力活塞收回时不会拉动结构。动力活塞、活塞臂以及活塞杆粘连的方块结构会被视为整体。当动力活塞成为动态结构时，会带动活塞杆以及其粘连的结构。"
+				""
+				"黏性动力活塞与动力活塞使用方法相同，但黏性动力活塞可以拉回活塞头前方所有粘连的方块（类似于原版的黏性活塞）。"
+			]
+			id: "4915CAD2B0DBBCB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14B13F784D5E9A02"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "动力活塞属于动态结构，用于在直线上移动方块。"
+			tasks: [
+				{
+					id: "0970C768E801255D"
+					item: "create:mechanical_piston"
+					type: "item"
+				}
+				{
+					id: "583C953B0D3B2E60"
+					item: "create:sticky_mechanical_piston"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11E63210331BFE41"]
+			description: ["其较于其他动态元件的优势是，动力轴承能够于一个圆形范围内不断运作，而毋须事先规划移动路线。"]
+			id: "04A4B78E6AECCD5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "150565A1F5E47452"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "动力轴承是动态元件的一种，它可以将连接的方块结构化为旋转的动态结构并移动和运作。其创建的动态结构以圆周运动方式移动。旋转动态结构包括的作业元件也会在移动时运作。最多带动2048个方块。"
+			tasks: [{
+				id: "2A8BF221D0D5BCEE"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11E63210331BFE41"]
+			description: ["右键可以将起重机取物器放置在起重机杆上，此时若起重机取物器的朝向垂直于起重机杆则会在起重机杆上水平或垂直移动，移动方向和速度受起重机杆的旋转方向和转速影响。若起重机杆中的任意一节被红石激活或起重机取物器已经移动到尽头则起重机取物器将停止移动（被红石激活时动力将从起重机取物器的侧面输出）。——机械动力电梯的基本原理，应用及其广泛。"]
+			id: "27E9E5C80AAA106F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B39CD6EC13859C9"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "起重机杆可以像传动杆那样放置，用于传输应力。也可以配合起重机取物器使用来移动方块。"
+			tasks: [
+				{
+					id: "70EDA5A91CE7B6D9"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+				{
+					id: "3D1DCC7408B09412"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11E63210331BFE41"]
+			description: [
+				"轴向底盘是一种用于在动态结构中粘连结构的一种重要的方块。轴向底盘会互相相连，当其中一个轴向底盘成为动态结构时，会带动所有相连的轴向底盘。"
+				""
+				"使用黏液球（不消耗）或强力胶对轴向底盘的面右击，可将该面变为黏性面。再次右击则会将两面都变为黏性面。黏性面会粘连方块，每面最多可粘连16格。使用扳手指向轴向底盘会高亮该底盘粘连的方块，滑动滚轮可调整。"
+				""
+				"黏性轴向底盘没有物品形态，破坏其仍会掉落普通轴向底盘。"
+				""
+				"轴向底盘2号拥有与轴向底盘相同的功能，但彼此不会相连，用于区分结构。"
+			]
+			id: "77716CA3E14C6A4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "068C5F0554744D37"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			tasks: [{
+				id: "751CCB1C7F19EF3B"
+				item: "create:linear_chassis"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11E63210331BFE41"]
+			description: [
+				"在方块模式下标记指定作业元件，可在实体化状态下控制指定类型的作业元件工作状态。"
+				""
+				"实体状态下动态结构控制器若收到红石信号则改变动态结构的作业元件工作状态。"
+			]
+			id: "1AC7792DF0E86E3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0215672446D9726B"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "可控制动态结构的作业元件的工作状态；在升降梯结构中作为选层装置。"
+			tasks: [{
+				id: "0CA2C6D49D834326"
+				item: "create:contraption_controls"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["11E63210331BFE41"]
+			description: [
+				"类似于 动力活塞 或 动力轴承，它可以将连接的方块结构化为 动态结构 并移动和运作。"
+				""
+				"相比其他动态元件，矿车装配站更加自由，它可以用于将结构装载在矿车上。"
+				""
+				"装配动态结构后，矿车依然可以在铁轨上移动，结构所包含的作业元件也可以在移动时运作。"
+				""
+				"利用此特性，玩家可以搭建出大型的收割机、盾构机，或是可以自由在上方自由走动的火车。"
+				""
+				"矿车装配站必须放置在铁轨上（包括原版所有铁轨以及控制铁轨），上方的箭头代表结构对于矿车的方向。"
+				""
+				"矿车装配站支持使用：矿车、动力矿车 和 运输矿车。"
+				""
+				"当内部存在矿车时被红石激活，会将上方连接的结构实体化并安装到矿车上。"
+				""
+				"带有结构的矿车经过未激活的矿车装配站时会将经过的矿车结构卸载并方块化。"
+				""
+				"手持其他铁轨右击矿车装配站可以直接替换装配站所附着的铁轨。"
+			]
+			id: "4D5AB0E0990DB9F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43AC391DFE3DC7F5"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "一种动态元件，可用于在矿车上装配动态结构。装配后矿车结构的物品形式：装配过的矿车"
+			tasks: [{
+				id: "4D29E45237D9E7AD"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"打包机需要依附在容器上工作。当接收到红石信号时，从容器内抽取最多 9 组物品封装成包裹，封装包裹不需要消耗额外材料。若容器内为包裹，则取出包裹可以通过 漏斗、溜槽 等物流元件输出或输入打包机。"
+				""
+				"打包机无法对带有包裹性质的物品进行嵌套打包。"
+				""
+				"当打包机被输入包裹时，打包机会将其拆解并储存其内物品到所依附的容器当中。如果容器内的空间不足以容纳包裹内所有物品，包裹无法进入打包机。"
+				""
+				"在打包机上放置带文字的 告示牌 或 悬挂式告示牌 或其他模组中的告示牌，告示牌上的文字便会成为所封装的包裹的地址。地址是包裹的标识，可以用于供其他高级物流元件识别。"
+				""
+				"使用 黄铜隧道 配合 包裹过滤器 可以分配传送带上的包裹。"
+			]
+			id: "6417EAD3B2C884C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57BE2D6014C7A790"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "打包机是一种高级物流元件，可以把物品封装为包裹，或者拆解包裹。"
+			tasks: [{
+				id: "4F8B0CA1CAF612D7"
+				item: "create:packager"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6417EAD3B2C884C1"]
+			description: [
+				"使用锁链对相互距离在两格以上的锁链传动轮进行连接，可使其正常运作。"
+				""
+				"锁链的连接不会受方块阻挡影响，进而玩家可以隔墙连接锁链传动轮。"
+				""
+				"最长绑定距离为32格半径，两者之间最大角度不能超过垂直45°角，1个锁链传动轮至多连接4个锁链传动轮。"
+				""
+				"需要的锁链数量由两者之间的距离决定。"
+			]
+			id: "4E723C8ED34A5643"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49FF148DAA613302"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "比传送带有更大的带宽，用于长距离传动和运输玩家，也可与货物蛙港组合运送纸壳包裹。"
+			tasks: [{
+				id: "46EC192197C3F208"
+				item: "create:chain_conveyor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6417EAD3B2C884C1"]
+			description: [
+				"手持货物蛙港，对着已经建立的锁链传动结构时，锁链上会出现一个白色粒子，右键即可绑定货物蛙港到该点。"
+				""
+				"放置后会自动打开货物蛙港的面板，最上方可以编辑货物蛙港的地址（支持 glob），中间可以手动放入和取出包裹，左下角可以编辑货物蛙港的工作形式。"
+				""
+				"货物蛙港可以从其下方的箱子、木桶、打包机等容器中输入包裹，如果包裹的地址与货物蛙港的地址不符，货物蛙港就会将其挂在已绑定的锁链上。"
+				""
+				"如果有和货物蛙港地址相同的包裹经过绑定点，货物蛙港会将其从锁链上提取。如果下方有容器，会自动将包裹存入容器中，否则会存入自身的物品栏中。"
+			]
+			id: "081AB7BC682A9915"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "683E31A19A88D26A"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "进行货物转运的蛙型港口，可以实现各种复杂的包裹传输。运输的神！"
+			tasks: [{
+				id: "1F206379F6384E54"
+				item: "create:package_frogport"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6417EAD3B2C884C1"]
+			description: [
+				"首先手持红石请求器右键点击仓储链接站绑定至其网络，放置后即连接至该网络。右键点击打开 GUI，可以选择请求提取的物品以及设定包裹地址。"
+				""
+				"如果该网络含有仓储发报机，也可以手持红石请求器右键点击仓库管理员，在放置之前直接完成配置。"
+				""
+				"当红石请求器接收到红石信号时，会发送一次请求。如果库存网络中缺少一部分请求的物品，默认情况下所有物品都不会输出。可以在GUI中切换“允许一部分物品先行输出”和“必须一次性发送所有物品”模式。"
+			]
+			id: "10C6D18AE5E57800"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24653A0DA813C1B9"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "红石请求器是用于向物流网络发送请求的高级物流元件。"
+			tasks: [{
+				id: "1465543FD97EDFC3"
+				item: "create:redstone_requester"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6417EAD3B2C884C1"]
+			description: [
+				"仓储链接站需要放置在打包机上。"
+				"当放置后，一个网络被创建。"
+				"再手持仓储链接站右键点击已放置的仓储链接站，手上的仓储链接站会绑定到该仓储链接站的网络，随后放置的链接站会连接到该网络。"
+				""
+				"手持已绑定网络的仓储链接站时，所有该网络的仓储链接站会被蓝色框高亮。"
+				""
+				"一些元件可以向仓储链接站发送请求，从网络中的库存调取特定物品。请求提交后，网络中能够满足请求的打包机会从库存抽取物品封装成包裹。"
+				""
+				"假如一次请求中的物品分散在多个库存中，会分为多个包裹发出。理包机可以将多个同一次请求的包裹合并为一个包裹。"
+				""
+				"在发送请求的元件中，可以为包裹设定地址（工厂仪表则是必须设置）。"
+				""
+				"向仓储链接站输入15级以下的不同强度的红石信号可以改变仓储链接站的优先级，信号强度越低优先级越高。当有多个打包机能够满足请求时，优先级高的打包机优先发出包裹。"
+				""
+				"输入15级红石信号时，仓储链接站会被锁定，停止响应。"
+			]
+			id: "74E25CF996ACEE6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7314968BD90B225B"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "仓储链接站是用于将库存并入网络的高级物流元件，配合打包机使用。"
+			tasks: [{
+				id: "13A2AA85209649EC"
+				item: "create:stock_link"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6417EAD3B2C884C1"]
+			description: [
+				"理包机需要依附在容器上工作。当理包机接收到红石信号时，如果同一次请求的所有包裹都在目标容器中，理包机会将它们合并成一个包裹。随后可以以物流手段将包裹输出。"
+				""
+				"可用于工厂仪表控制的自动合成中，以防止不同请求的包裹互相掺杂。"
+				""
+				"当容器里的包裹中 &l仅存在配方请求&r 时，理包机将会把原包裹按配方分离整理为 &l仅含单次配方的、按序排列内容的&r 包裹。"
+				""
+				"经由理包机整理后的单次配方请求包裹，在解包入动力合成器时，物品会按序输入到合成栏中。但合成空位是无法输入的，需要手动禁用对应的合成槽位。"
+			]
+			id: "25A50145ABC30E1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EC4ED1F1E1EACB3"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "理包机是用于将同一次请求的多个包裹合并为一个的高级物流元件。理包机是自动化合成不可或缺的重要组件。"
+			tasks: [{
+				id: "2C454ADC217F2B95"
+				item: "create:repackager"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6417EAD3B2C884C1"]
+			description: [
+				"手持仓储发报机右键点击库存链接器以绑定到其网络，放置后即连接至网络，然后需要在邻近放坐着有生物或玩家的坐垫或烈焰人燃烧室作为仓库管理员。"
+				""
+				"注意：附着在同一仓储发报机的仓库管理员会同步任何设置（包括包裹地址）。"
+				""
+				"右键点击仓库管理员以打开仓库管理员GUI。在管理员GUI中玩家可以选择所需的物品，然后点击“发送”键，随后仓储发报机会发送一次请求，将指定的物品封装为包裹。"
+				""
+				"在“包裹地址”输入栏中可以设置包裹的地址。"
+				""
+				"右键点击仓储发报机以打开仓储发报机GUI。在其中放入&l列表过滤器或属性过滤器&r并输入类别名称可以添加类别，在仓库管理员GUI中，符合过滤器的物品会被分至对应类别。"
+				""
+				"如果添加了多于一种类别，可以点击类别旁边的箭头来调整层级。当一种物品同时符合多种类别时，优先分至层级高的类别。"
+			]
+			id: "26B0878CBCFBAC68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D1FAC05131CF31E"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "仓储发报机是用于供玩家访问物流网络的高级物流元件，玩家可以下单并提取所需的物品。但需要一个发报员（劳模烈焰人。。。）"
+			tasks: [{
+				id: "08350B176DB3B98B"
+				item: "create:stock_ticker"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7095C5502D3A0D92"]
+			description: [
+				"单个物品保险库最多可以储存20组物品。多个物品保险库的结构总容量为(保险库数量*20)如81个保险库结构为81*20=1620组物品。"
+				""
+				"当物品保险库的底部被2*2或3*3放置时会自动合并成一个结构。物品保险库结构的长度上限是宽度的3倍，超出上限后会被当作一个新的物品保险库结构。"
+			]
+			id: "36B55C93ECFEB75B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A784470AA3348EA"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "储存物品的容器，无 GUI。"
+			tasks: [{
+				id: "5FF43CBF2FD2A8EE"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.5d
+		}
+	]
+	title: "机↑械↓动力↑"
+}

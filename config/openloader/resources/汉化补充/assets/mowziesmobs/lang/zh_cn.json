@@ -1,0 +1,48 @@
+{
+  "entity.mowziesmobs.umvuthana_follower_raptor": "乌姆武塔纳",
+  "entity.mowziesmobs.umvuthana_follower_player": "乌姆武塔纳",
+  "entity.mowziesmobs.umvuthana_raptor": "乌姆武塔纳 猛禽",
+  "entity.mowziesmobs.umvuthana": "乌姆武塔纳",
+  "entity.mowziesmobs.umvuthana_crane": "乌姆武塔纳 鹤",
+  "entity.mowziesmobs.umvuthana_crane_player": "乌姆武塔纳 鹤",
+  "entity.mowziesmobs.umvuthi": "乌姆武塔纳, 太阳鸟",
+ 
+  "item.mowziesmobs.umvuthana_mask_fury": "复仇面具",
+  "item.mowziesmobs.umvuthana_mask_fear": "恐惧面具",
+  "item.mowziesmobs.umvuthana_mask_rage": "狂暴面具",
+  "item.mowziesmobs.umvuthana_mask_bliss": "极乐面具",
+  "item.mowziesmobs.umvuthana_mask_misery": "痛苦面具",
+  "item.mowziesmobs.umvuthana_mask_faith": "信念面具",
+
+  "item.mowziesmobs.umvuthana_mask_fear.text.0": "穿戴后获得 速度",
+  "item.mowziesmobs.umvuthana_mask_fear.text.1": "或许还有什么用......?",
+  "item.mowziesmobs.umvuthana_mask_rage.text.0": "穿戴后获得 急迫",
+  "item.mowziesmobs.umvuthana_mask_rage.text.1": "或许还有什么用......?",
+  "item.mowziesmobs.umvuthana_mask_misery.text.0": "穿戴后获得 抗性提升",
+  "item.mowziesmobs.umvuthana_mask_misery.text.1": "或许还有什么用......?",
+  "item.mowziesmobs.umvuthana_mask_bliss.text.0": "穿戴后获得 跳跃提升",
+  "item.mowziesmobs.umvuthana_mask_bliss.text.1": "或许还有什么用......?",
+  "item.mowziesmobs.umvuthana_mask_fury.text.0": "穿戴后获得 力量",
+  "item.mowziesmobs.umvuthana_mask_fury.text.1": "或许还有什么用......?",
+  "item.mowziesmobs.umvuthana_mask_faith.text.0": "穿戴后获得 生命提升",
+  "item.mowziesmobs.umvuthana_mask_faith.text.1": "或许还有什么用......?",
+
+  "item.mowziesmobs.grant_suns_blessing.text.0": "授予太阳祝福",
+  "item.mowziesmobs.grant_suns_blessing.text.1": "分钟",
+  "item.mowziesmobs.grant_suns_blessing.text.2": "空手右键以召唤太阳打击",
+  "item.mowziesmobs.grant_suns_blessing.text.3": "空手潜行右键以发射太阳光束 (消耗",
+  "item.mowziesmobs.grant_suns_blessing.text.4": "分钟)",
+
+  "item.mowziesmobs.sol_visage": "太阳面具",
+  "item.mowziesmobs.sol_visage.text.0": "不可破坏",
+  "item.mowziesmobs.sol_visage.text.1": "装备上，然后持有另一个面具的同时右键点击以召唤仆从",
+  "item.mowziesmobs.sol_visage.text.2": "右键一个仆从可以将其收回至面具中",
+
+
+  "item.mowziesmobs.umvuthana_spawn_egg": "乌姆武塔纳刷怪蛋",
+  "item.mowziesmobs.umvuthana_raptor_spawn_egg": "乌姆武塔纳 猛禽刷怪蛋",
+  "item.mowziesmobs.umvuthana_crane_spawn_egg": "乌姆武塔纳 鹤刷怪蛋",
+  "item.mowziesmobs.umvuthi_spawn_egg": "乌姆武塔纳, 太阳鸟刷怪蛋",
+
+  "block.mowziesmobs.clawed_log": "抓痕原木"
+}

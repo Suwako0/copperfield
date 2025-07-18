@@ -1,0 +1,17 @@
+{
+    "type": "sword:sword4",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 4.0,
+                "impact": 1.0,
+            "max_strikes": 2.0,
+            "speed_bonus":0.6
+        },
+        "two_hand": {
+            "armor_negation": 4.0,
+                "impact": 1.0,
+            "max_strikes": 3.0,
+            "speed_bonus":0.6
+        }
+    }
+ }

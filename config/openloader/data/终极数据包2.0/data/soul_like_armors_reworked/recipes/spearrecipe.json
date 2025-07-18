@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " da",
+    "dbd",
+    "cd "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald"
+    },
+    "b": {
+      "item": "soul_like_armors_reworked:soldiertrident"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "d": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "result": {
+    "item": "soul_like_armors_reworked:spear",
+    "count": 1
+  }
+}

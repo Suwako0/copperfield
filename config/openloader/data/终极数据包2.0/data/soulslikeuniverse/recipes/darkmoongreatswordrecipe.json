@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    "aaa",
+    "ba "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:echo_shard"
+    },
+    "b": {
+      "item": "soulslikeuniverse:longsword"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:darkmoongreatsword",
+    "count": 1
+  }
+}

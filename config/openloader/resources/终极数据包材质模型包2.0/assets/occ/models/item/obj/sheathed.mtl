@@ -1,0 +1,92 @@
+# Blender 3.4.0 MTL File: 'None'
+# www.blender.org
+
+newmtl back
+Ns 250.000000
+Ka 0 0 0
+Ks 0.5 0.500000 5.5
+Ke 0.8 0.8 0.8
+Ni 1
+d 1
+illum 2
+map_Kd occ:item/back
+
+newmtl blade
+Ns 250.000000
+Ka 0 0 0
+Ks 0.5 0.500000 5.5
+Ke 0.8 0.8 0.8
+Ni 1
+d 1
+illum 2
+map_Kd occ:item/blade
+
+newmtl bottem
+Ns 250.000000
+Ka 0 0 0
+Ks 0.5 0.500000 5.5
+Ke 0.8 0.8 0.8
+Ni 1
+d 1
+illum 2
+map_Kd occ:item/bottem
+
+newmtl cover
+Ns 250.000000
+Ka 0 0 0
+Ks 0.5 0.500000 5.5
+Ke 0.8 0.8 0.8
+Ni 1
+d 1
+illum 2
+map_Kd occ:item/cover
+
+newmtl handle
+Ns 250.000000
+Ka 0 0 0
+Ks 0.5 0.500000 5.5
+Ke 0.8 0.8 0.8
+Ni 1
+d 1
+illum 2
+map_Kd occ:item/handle
+
+newmtl inside
+Ns 250.000000
+Ka 0 0 0
+Ks 0.5 0.500000 5.5
+Ke 0.8 0.8 0.8
+Ni 1
+d 1
+illum 2
+map_Kd occ:item/inside
+
+newmtl rope
+Ns 250.000000
+Ka 0 0 0
+Ks 0.5 0.500000 5.5
+Ke 0.8 0.8 0.8
+Ni 1
+d 1
+illum 2
+map_Kd occ:item/rope
+
+newmtl sheath
+Ns 250.000000
+Ka 0 0 0
+Ks 0.5 0.500000 5.5
+Ke 0.8 0.8 0.8
+Ni 1
+d 1
+illum 2
+map_Kd occ:item/sheath
+
+newmtl surface
+Ns 250.000000
+Ka 0 0 0
+Ks 0.5 0.500000 5.5
+Ke 0.8 0.8 0.8
+Ni 1
+d 1
+illum 2
+map_Kd occ:item/surface

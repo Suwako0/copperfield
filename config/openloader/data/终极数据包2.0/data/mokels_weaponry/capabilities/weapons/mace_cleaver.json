@@ -1,0 +1,17 @@
+{
+    "type": "greatscythe:greatscythe5",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 14.0,
+                "impact": 1.0,
+            "max_strikes": 4.0,
+            "speed_bonus":0.5
+        },
+        "two_hand": {
+            "armor_negation":16.0,
+                "impact": 1.0,
+            "max_strikes": 6.0,
+            "speed_bonus":0.5
+        }
+    }
+ }

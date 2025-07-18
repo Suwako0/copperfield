@@ -1,0 +1,1361 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "046A4AA8CF11B152"
+	group: "36AE75B89CB455C7"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "refm:diamond_rapier"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "046A4AA8CF11B152"
+	images: [{
+		height: 15.0d
+		image: "simplyswords:item/mythicmetals_compat/longsword/longsword_metallurgium"
+		rotation: 0.0d
+		width: 15.0d
+		x: -6.5d
+		y: 2.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "43ACD70113D89917"
+			rewards: [{
+				id: "7E6455CDC2AB6010"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "史诗战斗默认切换键为“Y”键，锁定目标键为键盘左上角“~”键，武器技能键为“鼠标右键”，闪避键为“Alt”键，行动技能键为“空格键”。所有键位支持自定义，本整合包添加了Visual keybinder模组，点击按键绑定旁边的小键盘可以查看快捷键分配。方便玩家自定义按键。"
+			tasks: [{
+				id: "67F53B0983CF7249"
+				title: "史诗战斗快捷键"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			id: "14806DC15CCD157F"
+			rewards: [{
+				id: "012AE28BDC842F28"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "整合包添加了史诗战斗悟空。黑mc悟空启动！要游玩史诗战斗悟空需要拥有史诗战斗悟空武器。左键轻击右键重击，如果玩家学习了法术，则可以通过方向键进行释放，史诗战斗悟空同样支持自定义键位。"
+			tasks: [{
+				id: "1D379827BA43FFE0"
+				title: "史诗战斗悟空"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			description: ["技能需要使用对应技能书习得，这些技能书可以在地牢战利品中获取，也可以在此处使用刀鞘指定兑换"]
+			id: "17B0E022BABD8B5D"
+			rewards: [{
+				id: "5F4D36461E582E61"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "玩家可以通过按下“J”键打开技能编辑器选择需要的技能。"
+			tasks: [{
+				id: "7FCFEA03AC3FF384"
+				title: "技能选择"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "44B1CD3BBABAEA21"
+			rewards: [{
+				id: "751370817E2BAC5F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:berserker"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "43E1564C495A58C3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书:狂战士"
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "40D1786F48A11D71"
+			rewards: [{
+				id: "3D1DC40485CAEDC8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:death_harvest"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "01A531BD4AD8EEC8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：死亡收割"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "207CA64C105185EE"
+			rewards: [{
+				id: "2A5F17796B35E630"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:demolition_leap"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6BEE690627F946D1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：毁坏跳跃"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "320DFF345339EDA8"
+			rewards: [{
+				id: "5106DA8569F33039"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:emergency_escape"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "502166FAAE2ABB42"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：紧急逃生"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "777CB4A77BC2E30A"
+			rewards: [{
+				id: "41ED1DA42B857BB5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:endurance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "701CE7E95C621826"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：耐力"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "3959A9B3186AF326"
+			rewards: [{
+				id: "43C8AFA15A05896D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:forbidden_strength"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "60EDAE03564AE58E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：禁忌之力"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			id: "3B5687EFC1EE1921"
+			rewards: [{
+				id: "1BA5CD81CBE7439C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:guard"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "207FDD28DDF0895B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：防守"
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			id: "33A0CA71636794EA"
+			rewards: [{
+				id: "5BFF381A3237A8EA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:hypervitality"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1E1992B3F4760457"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：超强活力"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			id: "136A9517FBA7F5F2"
+			rewards: [{
+				id: "44D183CFBFF0E2F8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:impact_guard"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1B587E5C426D233B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：冲击防御"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			id: "11A4487900CB99B6"
+			rewards: [{
+				id: "6CC1B4EF8A47D234"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:meteor_slam"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "19A9E47195D48D8C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：流星猛击"
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			id: "265736D1686C00AE"
+			rewards: [{
+				id: "19F7BB7336AB8CA4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:parrying"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7F58CF2292B2C19B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：招架"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			id: "6EB894E3D78E9BF1"
+			rewards: [{
+				id: "1CF0D2820470C100"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:phantom_ascent"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0031531598D7D695"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：幻影跳跃"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			id: "4A5B08D69FC38A1E"
+			rewards: [{
+				id: "06E873781BE938F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:revelation"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "753299446A65832F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：天启"
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "482FFE43B3EE0566"
+			rewards: [{
+				id: "1F4EE8291F2FCF67"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:roll"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "43739781C67C9514"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：翻滚"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "0639F984376D675A"
+			rewards: [{
+				id: "49A69C5DC293013A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:stamina_pillager"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3699E80EFE9E47B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：耐力掠夺者"
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "0E2E3593358582E7"
+			rewards: [{
+				id: "482632A307C05A8D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:step"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3115FCDB6E271A53"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：跨步"
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "1037556D545D7505"
+			rewards: [{
+				id: "60E9C93043451706"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:swordmaster"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "43DF84FBA30F41B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：剑圣"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "50E69A329471B306"
+			rewards: [{
+				id: "63E3A0BE225FCC17"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "epicfight:technician"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7E69E4EFAF69C628"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：技巧大师"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "3C34D2E18C497CCE"
+			rewards: [{
+				id: "5E78B19D87C59A4F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "cdmoveset:bloodwolf"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "26DA2FB13DDD4DE1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：狼魂"
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "37BA0F8C60A695A5"
+			rewards: [{
+				id: "6DB6A28DE0ED844F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "cdmoveset:bstep"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "76311786025061A0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：更好的跨步"
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "60A8728FD922B50E"
+			rewards: [{
+				id: "49540B3057211D71"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "cdmoveset:fatalfalsh"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0AD8C772CFD11F9B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：一闪"
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "54AD3A0C79DFC278"
+			rewards: [{
+				id: "6FDB092859B19D14"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "cdmoveset:wolf_dodge"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1DC826C3CDBDAE1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：狼神之跃"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "7A00F1607A4BF3B6"
+			rewards: [{
+				id: "7529C6F4A374C660"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "cdmoveset:yamato_step"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "180352F30FE35ACD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：幻影"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "35FE79607CAE000D"
+			rewards: [{
+				id: "59003F2207E7B8B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wukong:dodge"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4A7CCFA9F99554A6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：悟空闪避"
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "7B5668C8604BB711"
+			rewards: [{
+				id: "0998E92EC5099EE9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wukong:dzsf_style"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6F514059F39F9459"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：斗战胜佛"
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			id: "734F19C3D12DBCDC"
+			rewards: [{
+				id: "67067513F46CDE74"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wukong:greatsage_style"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3F1DF997EE98AF79"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：大圣式"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			id: "0013F0C96B718084"
+			rewards: [{
+				id: "19A368F9D78D4B21"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wukong:pillar_style"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "204DCB479A03A994"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：立棍式"
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			id: "63A9316FFFC1A495"
+			rewards: [{
+				id: "7228F338071D5DA9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wukong:smash_style"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2743DA39AD7CBC87"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：劈棍式"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			id: "63CD9CDB0F1904C8"
+			rewards: [{
+				id: "23CDA47F289D2229"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wukong:spell_asf"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3BC0E6E1012801CA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：安身法"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			id: "1CEF15D2D94B8784"
+			rewards: [{
+				id: "2142BFFD35F4EF7C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wukong:spell_dsf"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "76384ECC06ACE9B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：定身法"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			id: "22BE620E8F0128A8"
+			rewards: [{
+				id: "1A0666943D38CF81"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wukong:spell_jxsq"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "07477CCA7A6CE19E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：聚形散气"
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "71C60075C45B7737"
+			rewards: [{
+				id: "51F140E82513FBC1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:skillbook"
+					tag: {
+						skill: "wukong:spell_swsf"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5F944F65504F4EAB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "epicfight:bokken"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "兑换技能书：身外身法"
+			x: -5.5d
+			y: 6.0d
+		}
+	]
+	title: "史诗战斗"
+}

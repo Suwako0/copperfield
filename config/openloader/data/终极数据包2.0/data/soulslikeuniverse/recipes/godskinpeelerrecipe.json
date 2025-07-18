@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ca",
+    " bc",
+    "c  "
+  ],
+  "key": {
+    "a": {
+      "item": "soulslikeuniverse:sickle"
+    },
+    "b": {
+      "item": "soulslikeuniverse:spear"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:godskinpeeler",
+    "count": 1
+  }
+}

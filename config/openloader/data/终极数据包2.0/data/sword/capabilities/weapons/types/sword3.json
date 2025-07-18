@@ -1,0 +1,97 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      0.9
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "wom:biped/living/katana_idle",
+      "run": "wom:biped/living/solar_obscuridad_run",
+      "block": "indestructible:guard/guard_dualsword",
+      "walk": "wom:biped/living/katana_walk"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/katana_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "epicfight:biped/skill/guard_sword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "sword"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh_rod",
+  "combos": {
+    "mount": [
+      "wom:biped/combat/ruine_auto_4"
+    ],
+    "two_hand": [
+      "epicfight:biped/combat/sword_dual_auto1",
+      "epicfight:biped/combat/sword_dual_auto2",
+      "epicfight:biped/combat/sword_dual_auto3",
+      "wom:biped/skill/herrscher_trane",
+      "wom:biped/skill/gezets_krummen",
+      "wom:biped/skill/gezets_auto_3",
+      "wom:biped/combat/moonless_auto_3_verso",
+      "wom:biped/combat/moonless_auto_2_verso",
+
+      "epicfight:biped/combat/sword_dual_dash",
+      "epicfight:biped/combat/sword_dual_airslash"
+    ],
+    "one_hand": [
+      "cdmoveset:biped/new/sword/sword_onehand_auto_1",
+      "wom:biped/combat/katana_auto_1",
+      "wom:biped/combat/katana_auto_2",
+      "wom:biped/combat/solar_obscuridad_auto_2",
+      "wom:biped/combat/herrscher_auto_1",
+      "wom:biped/combat/herrscher_auto_3",
+
+      "epicfight:biped/combat/axe_dash",
+      "epicfight:biped/combat/sword_airslash"
+    ]
+  },
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "sword"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "sword"
+          }
+        ]
+      }
+    ]
+  },
+
+  "category": "sword",
+  "innate_skills": {
+    "two_hand": "epicfight:dancing_edge",
+    "one_hand": "cdmoveset:sword_slash"
+  },
+  "usable_in_offhand": true
+}

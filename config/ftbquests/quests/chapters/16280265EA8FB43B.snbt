@@ -1,0 +1,1561 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "16280265EA8FB43B"
+	group: "36AE75B89CB455C7"
+	icon: {
+		Count: 1
+		id: "apotheosis:gem"
+		tag: {
+			affix_data: {
+				rarity: "apotheosis:ancient"
+			}
+			gem: "apotheosis:the_end/endersurge"
+		}
+	}
+	id: "16280265EA8FB43B"
+	images: [
+		{
+			height: 5.0d
+			image: "storagedrawers:block/drawers_oak_front_1"
+			rotation: 0.0d
+			width: 11.0d
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			height: 3.0d
+			image: "wom:item/iron_dagger"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			height: 3.0d
+			image: "epicfight:item/iron_dagger"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: 6.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:overworld/royalty"
+				}
+			}
+			id: "75083785C06BCF5E"
+			rewards: [{
+				id: "6248BF2C64AFC69C"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			subtitle: "神话主要包含各个强化模块：宝石、词缀装备、附魔、刷挂笼"
+			tasks: [{
+				id: "46BC67FB4CF39162"
+				title: "神化"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75083785C06BCF5E"]
+			hide_details_until_startable: false
+			id: "4811E4C47C56BACF"
+			rewards: [{
+				id: "650B8D1F67DD2834"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			subtitle: "提高了原有附魔等级上限以及添加了一些新的附魔魔咒，一些新的附魔书架"
+			tasks: [{
+				id: "7956246DAB05E767"
+				title: "神话附魔"
+				type: "checkmark"
+			}]
+			title: "神化附魔"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75083785C06BCF5E"]
+			id: "64223D1ABA131B50"
+			rewards: [{
+				id: "5A4A887547B7FE30"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			subtitle: "为武器/装备/工具提供了诸多新词缀，以提高这些物品性能"
+			tasks: [{
+				id: "452BC30920FCD9D2"
+				title: "神化词缀"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75083785C06BCF5E"]
+			id: "4E27EFA88404FEE7"
+			rewards: [{
+				id: "116AC21184766A93"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			subtitle: "添加了各种功能性宝石，可以先用锻造台使用镶孔符石为你的武器/装备/工具添加空宝石插槽，再用锻造台镶嵌宝石"
+			tasks: [{
+				id: "5DE59847097970A3"
+				title: "神化宝石"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			description: ["{image:kubejs:textures/tsk/tsk8.png width:200 height:180 align:center}"]
+			id: "304F0D484A70261B"
+			rewards: [{
+				id: "3F15E643450956AC"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			subtitle: "回收分解带词缀的装备，这些词缀装备可以在击杀怪物后获取，分解出来的材料可用于强化装备词缀/宝石，也可以分解宝石，获得宝石粉"
+			tasks: [{
+				id: "0C1B3BDD55DFD76A"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			description: ["{image:kubejs:textures/tsk/tsk9.png width:200 height:140 align:right}"]
+			id: "4221D458BFEB6F12"
+			rewards: [{
+				count: 16
+				id: "1DFABA9595904C17"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			subtitle: "使用宝石切割台来强化宝石，在中间放置宝石，左侧放置宝石粉，右侧放置珍宝材料，下方会输出强化后的宝石"
+			tasks: [{
+				id: "1A66718B0AE0461D"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			description: ["{image:kubejs:textures/tsk/tsk7.png width:200 height:160 align:center}"]
+			id: "361C137502755099"
+			rewards: [{
+				id: "234D403D8A6AC511"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			subtitle: "使用强化台，左侧放入词缀装备和强化符石，右侧选择一个要强化的词缀来进行强化"
+			tasks: [{
+				id: "0F8013884924D067"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			description: ["{image:kubejs:textures/tsk/tsk5.png width:200 height:170 align:center}"]
+			id: "787A67F167563D35"
+			rewards: [{
+				count: 3
+				id: "535275D26B85430E"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			subtitle: "要使用重铸台，你需要将一件词缀/非词缀装备置于重铸台中间，在左上方放置珍宝材料，在右下方放置新生符石，然后在下方会生成3个词缀方案，选择一个附到装备上"
+			tasks: [{
+				id: "31045BC2EE46799C"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: ["{image:kubejs:textures/tsk/tsk6.png width:200 height:160 align:center}"]
+			id: "712046591433BDD0"
+			rewards: [
+				{
+					id: "68460D2DFDC8AE5D"
+					item: "apotheosis:epic_material"
+					type: "item"
+				}
+				{
+					id: "5B377F37E398A2D6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "apotheosis:rare_material"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "简易重铸台使用方法和重铸台一样，但是最多只能重铸\"珍贵\"等级词缀"
+			tasks: [{
+				id: "17287CFF58784EFB"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75083785C06BCF5E"]
+			id: "300C44EAAFC2E524"
+			rewards: [{
+				id: "37E914BDCDFD6C06"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			subtitle: "神化模组允许用各种材料对刷怪笼延迟、最大实体数量、最大刷怪数量等进行修改调整，详见JEI，搜索“刷怪笼”，查看“刷怪笼调节器”"
+			tasks: [{
+				id: "30D440D35805D7EC"
+				title: "神化刷怪笼"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4E27EFA88404FEE7"]
+			icon: {
+				Count: 1
+				id: "nethersdelight:iron_machete"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "389B994B0DA0FFD9"
+			rewards: [{
+				count: 2
+				id: "7D2932221BF03ADD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "kubejs:gem_origin"
+				}
+				type: "item"
+			}]
+			subtitle: "使用生产线制作对应颜色的宝石胚，就可以在此处加工得到对应颜色的宝石！"
+			tasks: [{
+				id: "1434CB94CB251F29"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "kubejs:gem_origin"
+				}
+				type: "item"
+			}]
+			title: "珠宝加工"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:rare"
+					}
+					gem: "irons_spellbooks:blood"
+				}
+			}
+			id: "518C29DB29CB3B04"
+			rewards: [{
+				id: "1B200B6DF88BA0E7"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:blood"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "525578E1DB483998"
+				item: "kubejs:gem_origin_red"
+				type: "item"
+			}]
+			title: "红色宝石加工"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:rare"
+					}
+					gem: "irons_spellbooks:fire"
+				}
+			}
+			id: "59129E148D707ADD"
+			rewards: [{
+				id: "1064F85D1701E057"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:fire"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "00C7A28ED1CB3975"
+				item: "kubejs:gem_origin_red"
+				type: "item"
+			}]
+			title: "红色宝石加工"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:the_nether/inferno"
+				}
+			}
+			id: "2D168557624B1146"
+			rewards: [{
+				id: "5DE2D9FC30ECFFC4"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:the_nether/inferno"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1B83144E6EA3AD78"
+				item: "kubejs:gem_origin_red"
+				type: "item"
+			}]
+			title: "红色宝石加工"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			description: ["可怜的魔导师..."]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:the_end/mageslayer"
+				}
+			}
+			id: "1AB0BAADF8B5B611"
+			rewards: [{
+				id: "0163C84238BC5073"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:the_end/mageslayer"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "29456BE174A89C8D"
+				item: "kubejs:gem_origin_red"
+				type: "item"
+			}]
+			title: "红色宝石加工"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:rare"
+					}
+					gem: "apotheosis:core/brawlers"
+				}
+			}
+			id: "40B8E7D0E2B0E70E"
+			rewards: [{
+				id: "2F880626D682396C"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:core/brawlers"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6F19D9932482B8F7"
+				item: "kubejs:gem_origin_red"
+				type: "item"
+			}]
+			title: "红色宝石加工"
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "irons_spellbooks:ender"
+				}
+			}
+			id: "7CD96CFCD88A9068"
+			rewards: [{
+				id: "7AB6A0EB85A0DB86"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:ender"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6323E5DE2BFEF8F4"
+				item: "kubejs:gem_origin_red"
+				type: "item"
+			}]
+			title: "红色宝石加工"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:rare"
+					}
+					gem: "apotheosis:core/tyrannical"
+				}
+			}
+			id: "356AD171A472AC01"
+			rewards: [{
+				id: "14598FACD38C9F1F"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:core/tyrannical"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "111A5E3D7BB3D5E2"
+				item: "kubejs:gem_origin_red"
+				type: "item"
+			}]
+			title: "红色宝石加工"
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			description: ["战斗，爽!"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/combatant"
+				}
+			}
+			id: "676D7DD300A7B402"
+			rewards: [{
+				id: "1333D229A2AB7FB6"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:core/combatant"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "64972692ADA4FD00"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "kubejs:gem_origin_red"
+				}
+				type: "item"
+			}]
+			title: "红色宝石加工"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			description: ["一波拉到老一，嗜血，A掉!"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:the_nether/blood_lord"
+				}
+			}
+			id: "6D59A8E9A22159CD"
+			rewards: [{
+				id: "4EDB62BC9A254E90"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:the_nether/blood_lord"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7C444F6F7026E268"
+				item: "kubejs:gem_origin_red"
+				type: "item"
+			}]
+			title: "红色宝石加工"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "irons_spellbooks:cast_time"
+				}
+			}
+			id: "1F57846D0AFF973B"
+			rewards: [{
+				id: "23954981F8D0C7AC"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:cast_time"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "74F7C62B6844DC06"
+				item: "kubejs:gem_origin_green"
+				type: "item"
+			}]
+			title: "绿色宝石加工"
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/breach"
+				}
+			}
+			id: "104DA4E50B28D52A"
+			rewards: [{
+				id: "287321664FEDCE61"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:core/breach"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2408DE3AEC22577D"
+				item: "kubejs:gem_origin_green"
+				type: "item"
+			}]
+			title: "绿色宝石加工"
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/guardian"
+				}
+			}
+			id: "52441E46A54439E1"
+			rewards: [{
+				id: "28A94D7C8DBEC8A9"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:core/guardian"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "11A81D3738B51C04"
+				item: "kubejs:gem_origin_green"
+				type: "item"
+			}]
+			title: "绿色宝石加工"
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/slipstream"
+				}
+			}
+			id: "59D3FC266B8D41D6"
+			rewards: [{
+				id: "48700B01F539E025"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:core/slipstream"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "01D0ABE2494F6FA4"
+				item: "kubejs:gem_origin_green"
+				type: "item"
+			}]
+			title: "绿色宝石加工"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/splendor"
+				}
+			}
+			id: "47C7D9F07D4F312F"
+			rewards: [{
+				id: "00B510D4F12D7AD4"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:core/splendor"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "00B39D3D9046829D"
+				item: "kubejs:gem_origin_green"
+				type: "item"
+			}]
+			title: "绿色宝石加工"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "irons_spellbooks:evocation"
+				}
+			}
+			id: "27E5003066396046"
+			rewards: [{
+				id: "54FB82B1E9D4171B"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:evocation"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "67E3BF0ECB748A98"
+				item: "kubejs:gem_origin_green"
+				type: "item"
+			}]
+			title: "绿色宝石加工"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			description: ["你无法抵挡大自然的力量"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "irons_spellbooks:nature"
+				}
+			}
+			id: "5DA5E51382CF2874"
+			rewards: [{
+				id: "00D1EF23FB2BCA51"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:nature"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "50064E3EDB6F947D"
+				item: "kubejs:gem_origin_green"
+				type: "item"
+			}]
+			title: "绿色宝石加工"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:overworld/earth"
+				}
+			}
+			id: "6B7CA401B8FA706D"
+			rewards: [{
+				id: "09144D5A021188D8"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:overworld/earth"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5B4EB03197778104"
+				item: "kubejs:gem_origin_green"
+				type: "item"
+			}]
+			title: "绿色宝石加工"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:the_end/endersurge"
+				}
+			}
+			id: "3BA302A36069B635"
+			rewards: [{
+				id: "1B6B6F6F4876BB7C"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:the_end/endersurge"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "444522924417E0BE"
+				item: "kubejs:gem_origin_green"
+				type: "item"
+			}]
+			title: "绿色宝石加工"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/lightning"
+				}
+			}
+			id: "30FD4011F19F8273"
+			rewards: [{
+				id: "1A55A7DC31254EC8"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:core/lightning"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "224579813DC9F345"
+				item: "kubejs:gem_origin_blue"
+				type: "item"
+			}]
+			title: "蓝色宝石加工"
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/lunar"
+				}
+			}
+			id: "15AB21F25B74D5EF"
+			rewards: [{
+				id: "2B49EBD85B71B509"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:core/lunar"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4E3252D59D065281"
+				item: "kubejs:gem_origin_blue"
+				type: "item"
+			}]
+			title: "蓝色宝石加工"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/samurai"
+				}
+			}
+			id: "0446EADB353A3843"
+			rewards: [{
+				id: "1D251D448B068083"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:core/samurai"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1074EACFE21BD29A"
+				item: "kubejs:gem_origin_blue"
+				type: "item"
+			}]
+			title: "蓝色宝石加工"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			description: ["必须要有一位...巫妖王..."]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "irons_spellbooks:ice"
+				}
+			}
+			id: "304A6C454FA3561D"
+			rewards: [{
+				id: "2F346A4CADA34271"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:ice"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "389DF6C7089A0236"
+				item: "kubejs:gem_origin_blue"
+				type: "item"
+			}]
+			title: "蓝色宝石加工"
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "irons_spellbooks:intelligent"
+				}
+			}
+			id: "7CA73E96790FFB5F"
+			rewards: [{
+				id: "432356E1A4F4A034"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:intelligent"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1F9A6D25F9B85E6A"
+				item: "kubejs:gem_origin_blue"
+				type: "item"
+			}]
+			title: "蓝色宝石加工"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "irons_spellbooks:lightning"
+				}
+			}
+			id: "18149D5F6D7AF552"
+			rewards: [{
+				id: "22C9940F578890FD"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:lightning"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "11EE30A5BA4FA47D"
+				item: "kubejs:gem_origin_blue"
+				type: "item"
+			}]
+			title: "蓝色宝石加工"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "irons_spellbooks:spell_resist"
+				}
+			}
+			id: "08BE15CFFA7EB51B"
+			rewards: [{
+				id: "1D5550C5908A1AA0"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:spell_resist"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "299926EC706FCAA5"
+				item: "kubejs:gem_origin_blue"
+				type: "item"
+			}]
+			title: "蓝色宝石加工"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/ballast"
+				}
+			}
+			id: "5DBE31563BA739C0"
+			rewards: [{
+				id: "09E9D7DD611AEFB3"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:core/ballast"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4B64371CF43B9DFF"
+				item: "kubejs:gem_origin_yellow"
+				type: "item"
+			}]
+			title: "黄色宝石加工"
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "irons_spellbooks:cooldown"
+				}
+			}
+			id: "5100A7150C987367"
+			rewards: [{
+				id: "6FFED3DC5AACD8B3"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:cooldown"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5A75F5551B1D5097"
+				item: "kubejs:gem_origin_yellow"
+				type: "item"
+			}]
+			title: "黄色宝石加工"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/solar"
+				}
+			}
+			id: "03A8B0D5FEE6DCDE"
+			rewards: [{
+				id: "1B3757CE9214F198"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:core/solar"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6678C7B3D80E3A35"
+				item: "kubejs:gem_origin_yellow"
+				type: "item"
+			}]
+			title: "黄色宝石加工"
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			description: ["信仰圣光吧"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "irons_spellbooks:holy"
+				}
+			}
+			id: "7554A3AD4F71393F"
+			rewards: [{
+				id: "7E8B533E94B34ADC"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:holy"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "68B64296CCD2AE78"
+				item: "kubejs:gem_origin_yellow"
+				type: "item"
+			}]
+			title: "黄色宝石加工"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:overworld/royalty"
+				}
+			}
+			id: "77025D2B09ADD877"
+			rewards: [{
+				id: "2FC5511051A34610"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:overworld/royalty"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1D24D3B96A9B6EC7"
+				item: "kubejs:gem_origin_yellow"
+				type: "item"
+			}]
+			title: "黄色宝石加工"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			description: ["霜之哀伤饿了"]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "irons_spellbooks:summoning"
+				}
+			}
+			id: "576643B2EE87D98D"
+			rewards: [{
+				id: "6BD8FABD1C65EB2E"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "irons_spellbooks:summoning"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4F7993B562887784"
+				item: "kubejs:gem_origin_yellow"
+				type: "item"
+			}]
+			title: "黄色宝石加工"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:epic"
+					}
+					gem: "apotheosis:core/warlord"
+				}
+			}
+			id: "157EF7CC155D16D1"
+			rewards: [{
+				id: "07F3FFE64C129A78"
+				item: {
+					Count: 1
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:epic"
+						}
+						gem: "apotheosis:core/warlord"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0B38D436E691137F"
+				item: "kubejs:gem_origin_yellow"
+				type: "item"
+			}]
+			title: "黄色宝石加工"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			id: "502C044660C6C5E5"
+			tasks: [{
+				id: "41426012BA4E211C"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			title: "-----"
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			id: "2E4A990CB9C786D5"
+			tasks: [{
+				id: "625D5E372774AF30"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			title: "-----"
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			id: "250D853E00ED91EC"
+			tasks: [{
+				id: "55540CAC311608E1"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			title: "-----"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "34298AF9ACFF1B47"
+			tasks: [{
+				id: "5F78FAD477BFF173"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			title: "-----"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["300C44EAAFC2E524"]
+			id: "4C8F72EECD60E859"
+			rewards: [{
+				id: "600C9BA43D046B10"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:capturing"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "532633E6AB661BF3"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+	]
+	title: "神化"
+}

@@ -1,0 +1,12 @@
+{
+    "type": "book:book2",
+    "attributes": {
+        "common": {
+            "armor_negation":5,
+                "impact": 1.0,
+            "max_strikes": 3,
+            "damage_bonus": 5.0,
+            "speed_bonus": -1.2
+        }
+    }
+ }

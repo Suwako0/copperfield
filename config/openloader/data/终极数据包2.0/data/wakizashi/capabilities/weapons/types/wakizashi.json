@@ -1,0 +1,53 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.4,
+      0.4,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -0.75
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "one_hand": {
+      "idle": "wom:biped/living/ruine_boosted_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "epicfight:biped/skill/guard_sword",
+      "walk": "wom:biped/living/ruine_boosted_walk"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "one_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "katana"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "one_hand": [
+      "epicfight:biped/combat/longsword_auto1",
+      "epicfight:biped/combat/longsword_auto2",
+     "epicfight:biped/combat/tachi_dash",
+      "epicfight:biped/combat/axe_airslash"
+    ]
+  },
+  "category": "katana",
+  "innate_skills": {
+    "one_hand": "cdmoveset:blade_rush_finisher"
+  },
+  "usable_in_offhand": true
+}

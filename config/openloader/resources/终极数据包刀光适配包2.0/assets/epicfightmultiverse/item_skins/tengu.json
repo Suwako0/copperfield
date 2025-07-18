@@ -1,0 +1,11 @@
+{
+    "trail": {
+    	"color": [206, 211, 212],
+    	"begin_pos": [0.0, -0.15, -0.35],
+    	"end_pos": [0.0, -0.05, -1.7],
+    	"lifetime": 15,
+		"interpolations": 14,
+    	"texture_path": "epicfight:textures/particle/s/shreddertrail.png",
+    	"particle_type": "epicfight:swing_trail"
+    }
+}

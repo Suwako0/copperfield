@@ -1,0 +1,180 @@
+{
+	icon: "sophisticatedbackpacks:backpack"
+	id: "1EF00EED59B2CFA4"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "sophisticatedbackpacks:backpack" }
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 16383998
+					clothColor: 16383998
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 16351261
+					clothColor: 16351261
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 13061821
+					clothColor: 13061821
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 3847130
+					clothColor: 3847130
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 16701501
+					clothColor: 16701501
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 8439583
+					clothColor: 8439583
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 15961002
+					clothColor: 15961002
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 4673362
+					clothColor: 4673362
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 10329495
+					clothColor: 10329495
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 1481884
+					clothColor: 1481884
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 8991416
+					clothColor: 8991416
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 8606770
+					clothColor: 8606770
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 3949738
+					clothColor: 3949738
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 6192150
+					clothColor: 6192150
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 11546150
+					clothColor: 11546150
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 1908001
+					clothColor: 1908001
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					borderColor: 2895973
+					clothColor: 12439408
+				}
+			}
+		}
+	]
+	title: "背包"
+}

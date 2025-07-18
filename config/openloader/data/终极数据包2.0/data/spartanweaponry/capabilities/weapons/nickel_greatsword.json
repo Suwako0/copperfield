@@ -1,0 +1,17 @@
+{
+    "type": "greatsword:greatsword1",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 5.0,
+                "impact": 1.0,
+            "max_strikes": 4.0,
+            "speed_bonus":0
+        },
+        "two_hand": {
+            "armor_negation": 5.0,
+                "impact": 1.0,
+            "max_strikes": 4.5,
+            "speed_bonus":0
+        }
+    }
+ }

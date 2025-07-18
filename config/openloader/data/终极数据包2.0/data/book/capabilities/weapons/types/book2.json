@@ -1,0 +1,74 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.5,
+      0.8,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "one_hand": {
+      "idle": "wom:biped/living/katana_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    }
+  },
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+   "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "one_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "enderblaster"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "enderblaster"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "mount": [
+      "wom:biped/skill/enderblaster_onehand_shoot",
+      "wom:biped/skill/enderblaster_onehand_shoot_1",
+      "wom:biped/skill/enderblaster_onehand_shoot_2",
+      "wom:biped/skill/solar_auto_4_polvora"
+    ],
+    "one_hand": [
+      "wom:biped/skill/enderblaster_onehand_shoot",
+      "wom:biped/skill/enderblaster_onehand_shoot",
+      "wom:biped/skill/enderblaster_onehand_shoot",
+      "wom:biped/skill/enderblaster_onehand_shoot_1",
+      "wom:biped/skill/enderblaster_onehand_shoot_2",
+      "wom:biped/skill/solar_auto_1_polvora",
+      "wom:biped/skill/solar_auto_4_polvora",
+      "wom:biped/skill/solar_brasero_obscuridad",
+
+      "wom:biped/combat/solar_obscuridad_impacto",
+      "wom:biped/combat/enderblaster_twohand_tishnaw"
+    ]
+  },
+  "category": "enderblaster",
+  "innate_skills": {
+    "one_hand": "epicfight:wrathful_lighting"
+  },
+  "usable_in_offhand": false
+}

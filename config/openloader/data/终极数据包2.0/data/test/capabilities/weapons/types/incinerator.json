@@ -1,0 +1,325 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      1.0,
+      1.0,
+      1.5
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.5
+    ]
+  },
+	"category": "greatsword",
+        "usable_in_offhand": false,
+	"hit_particle": "wom:solar_hit",
+	"hit_sound": "epicfight:entity.hit.blade_rush_last",
+	"swing_sound": "epicfight:entity.weapon.whoosh_hard",	
+"styles":
+	{
+		"cases":
+		[
+{
+                                "conditions": [
+          {
+            "predicate": "epicfight:health",
+            "comparator": "less_absolute",
+            "health": 4.0
+       }
+],
+                               "style":"common"
+},
+{
+				 "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_longsword"
+          },
+          {
+            "predicate": "epicfight:health",
+            "comparator": "less_ratio",
+            "health": 0.6
+       }
+        ],
+				"style": "ranged"
+			},
+                        {
+				 "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_longsword"
+          },
+          {
+            "predicate": "epicfight:skill_active",
+            "skill": "cdmoveset:guardparry"
+          }
+        ],
+				"style": "sheath"
+			},
+			{
+				 "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_longsword"
+          }
+        ],
+				"style": "two_hand"
+			},
+			{
+				 "conditions": [
+          {
+            "predicate": "epicfight:skill_active",
+            "skill": "wom:true_berserk"
+          }
+        ],
+				"style": "ochs"
+			}
+		],
+		"default": "one_hand"
+	},
+	  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "s_longsword"
+    }
+  ],
+    "combos": {
+ "ochs": [
+            "wom:biped/combat/torment_auto_1",
+            "wom:biped/combat/torment_auto_2",
+            "wom:biped/skill/torment_berserk_auto_1",
+            "wom:biped/skill/torment_berserk_auto_2",
+            "wom:biped/skill/torment_berserk_auto_1",
+            "wom:biped/skill/torment_berserk_auto_2",
+            "wom:biped/skill/torment_berserk_auto_1",
+            "wom:biped/skill/torment_berserk_dash",
+            "wom:biped/skill/torment_berserk_auto_2",
+            "wom:biped/skill/torment_berserk_auto_1",
+            "wom:biped/skill/torment_berserk_auto_2",
+            "wom:biped/skill/torment_berserk_auto_1",
+            "wom:biped/skill/torment_berserk_auto_2",
+            "wom:biped/skill/torment_berserk_dash",
+            "wom:biped/combat/torment_charged_attack_2",
+            "wom:biped/combat/torment_charged_attack_3",
+
+            "wom:biped/combat/torment_dash",
+           "wom:biped/skill/torment_berserk_airslam"
+    ],
+"common":
+    	[
+            "wom:biped/skill/solar_brasero",
+            "wom:biped/skill/solar_brasero_obscuridad",
+           "wom:biped/combat/solar_obscuridad_auto_1",
+           "wom:biped/combat/solar_obscuridad_auto_2",
+           "wom:biped/combat/solar_obscuridad_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_4",
+           "wom:biped/combat/solar_obscuridad_auto_1",
+           "wom:biped/combat/solar_obscuridad_auto_2",
+           "wom:biped/combat/solar_obscuridad_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_4",
+            "wom:biped/skill/solar_brasero_infierno",
+            "wom:biped/skill/solar_brasero_obscuridad",
+	    "wom:biped/skill/torment_berserk_auto_2",
+	    "wom:biped/skill/torment_berserk_auto_1",
+	    "wom:biped/skill/torment_berserk_auto_2",
+	    "wom:biped/skill/torment_berserk_auto_1",
+            "wom:biped/skill/torment_berserk_dash",
+	    "wom:biped/skill/torment_berserk_auto_1",
+	    "wom:biped/skill/torment_berserk_auto_2",
+	    "wom:biped/skill/torment_berserk_auto_1",
+            "wom:biped/skill/torment_berserk_dash",
+            "wom:biped/combat/torment_charged_attack_1",
+            "wom:biped/combat/torment_charged_attack_2",
+            "wom:biped/skill/agony_rising_eagle",
+            "wom:biped/combat/torment_charged_attack_3",
+
+            "wom:biped/skill/torment_berserk_dash",
+           "wom:biped/combat/solar_obscuridad_dinamita"
+    	],
+    	"one_hand":
+    	[
+            "wom:biped/combat/solar_auto_1",
+            "wom:biped/combat/solar_auto_2",
+            "wom:biped/combat/solar_auto_3",
+            "wom:biped/combat/solar_auto_4",
+            "wom:biped/combat/solar_auto_1",
+            "wom:biped/skill/solar_auto_1_polvora",
+            "wom:biped/combat/solar_auto_2",
+            "wom:biped/skill/solar_auto_2_polvora",
+            "wom:biped/combat/solar_auto_3",
+            "wom:biped/skill/solar_auto_3_polvora",
+            "wom:biped/combat/solar_auto_4",
+            "wom:biped/skill/solar_auto_4_polvora",
+            "wom:biped/combat/ruine_auto_1",
+            "wom:biped/combat/ruine_auto_2",
+            "wom:biped/combat/ruine_auto_3",
+            "wom:biped/combat/torment_charged_attack_1",
+
+            "wom:biped/combat/solar_quemadura",
+            "wom:biped/combat/solar_horno"
+    	],
+    	"two_hand":
+    	[
+           "wom:biped/combat/solar_obscuridad_auto_1",
+           "wom:biped/skill/gezets_auto_1",
+           "wom:biped/combat/herrscher_auto_1",
+           "wom:biped/skill/gezets_auto_2",
+           "wom:biped/combat/herrscher_auto_2",
+           "wom:biped/skill/gezets_auto_3",
+           "wom:biped/combat/herrscher_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_1",
+            "wom:biped/skill/gezets_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_2",
+           "wom:biped/combat/solar_obscuridad_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_4",
+            "wom:biped/skill/gezets_auto_3",
+            "wom:biped/skill/torment_berserk_convert",
+            "wom:biped/skill/solar_brasero_infierno",
+            "wom:biped/skill/solar_brasero_crematorio",
+           "wom:biped/combat/agony_clawstrike",
+            "wom:biped/skill/torment_berserk_dash",
+           "wom:biped/combat/agony_clawstrike",
+            "wom:biped/skill/agony_rising_eagle",
+            "wom:biped/combat/agony_airslash",
+
+           "wom:biped/skill/gezets_sprengkopf",
+           "wom:biped/skill/gezets_widerstand"
+    	],
+"sheath":
+    	[
+           "wom:biped/skill/gezets_auto_1",
+           "wom:biped/combat/herrscher_auto_1",
+           "wom:biped/skill/gezets_auto_2",
+           "wom:biped/combat/herrscher_auto_2",
+           "wom:biped/skill/gezets_auto_3",
+           "wom:biped/combat/herrscher_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_1",
+           "wom:biped/skill/gezets_auto_1",
+           "wom:biped/combat/herrscher_auto_1",
+           "wom:biped/skill/gezets_auto_2",
+           "wom:biped/combat/herrscher_auto_2",
+           "wom:biped/skill/gezets_auto_3",
+           "wom:biped/combat/herrscher_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_1",
+            "wom:biped/skill/gezets_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_2",
+           "wom:biped/combat/solar_obscuridad_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_4",
+            "wom:biped/skill/gezets_auto_3",
+            "wom:biped/skill/torment_berserk_convert",
+            "wom:biped/skill/solar_brasero_infierno",
+            "wom:biped/skill/solar_brasero_crematorio",
+	    "wom:biped/skill/torment_berserk_auto_1",
+	    "wom:biped/skill/torment_berserk_auto_2",
+	    "wom:biped/skill/torment_berserk_auto_1",
+	    "wom:biped/skill/torment_berserk_auto_2",
+           "wom:biped/combat/agony_clawstrike",
+            "wom:biped/skill/torment_berserk_dash",
+            "wom:biped/skill/torment_berserk_dash",
+           "wom:biped/combat/agony_clawstrike",
+            "wom:biped/skill/agony_rising_eagle",
+            "wom:biped/combat/agony_airslash",
+
+           "wom:biped/skill/gezets_sprengkopf",
+           "wom:biped/skill/gezets_widerstand"
+    	],
+
+    	"mount":[
+            "wom:biped/combat/solar_auto_1",
+            "wom:biped/combat/solar_auto_4",
+            "wom:biped/combat/solar_auto_2",
+           "wom:biped/combat/agony_clawstrike"
+    	],
+    	"ranged":[
+            "wom:biped/skill/solar_brasero",
+            "wom:biped/skill/solar_brasero_obscuridad",
+           "wom:biped/combat/solar_obscuridad_auto_1",
+           "wom:biped/skill/gezets_auto_1",
+           "wom:biped/combat/solar_obscuridad_auto_2",
+           "wom:biped/skill/gezets_auto_2",
+           "wom:biped/combat/solar_obscuridad_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_3_a",
+           "wom:biped/skill/gezets_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_4",
+           "wom:biped/combat/solar_obscuridad_auto_1",
+           "wom:biped/skill/gezets_auto_1",
+           "wom:biped/combat/solar_obscuridad_auto_2",
+           "wom:biped/skill/gezets_auto_2",
+           "wom:biped/combat/solar_obscuridad_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_3_a",
+           "wom:biped/combat/solar_obscuridad_auto_3_a",
+           "wom:biped/skill/gezets_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_4",
+           "wom:biped/combat/solar_obscuridad_auto_1",
+           "wom:biped/skill/gezets_auto_1",
+           "wom:biped/combat/solar_obscuridad_auto_2",
+           "wom:biped/skill/gezets_auto_2",
+           "wom:biped/combat/solar_obscuridad_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_3_a",
+           "wom:biped/combat/solar_obscuridad_auto_3_a",
+           "wom:biped/combat/solar_obscuridad_auto_3_a",
+           "wom:biped/skill/gezets_auto_3",
+           "wom:biped/combat/solar_obscuridad_auto_4",
+           "wom:biped/combat/agony_clawstrike",
+            "wom:biped/skill/agony_rising_eagle",
+            "wom:biped/combat/agony_airslash",
+           "wom:biped/combat/agony_clawstrike",
+            "wom:biped/skill/agony_rising_eagle",
+            "wom:biped/combat/agony_airslash",
+
+            "wom:biped/combat/torment_dash",
+           "wom:biped/combat/agony_clawstrike"
+    	]
+    },
+    "innate_skills":
+    {
+    	"two_hand": "cdmoveset:guardparry",
+        "common":"wom:solar_arcano",
+        "ranged":"wom:solar_arcano",
+    	"one_hand": "wom:true_berserk",
+    	"sheath": "cdmoveset:guardparry",
+        "ochs":"wom:solar_arcano"
+    },
+    "livingmotion_modifier": {
+"sheath":{
+    		"block": "wom:biped/skill/herrscher_guard",
+    		"idle": "wom:biped/skill/herrscher_guard",
+    		"walk": "wom:biped/skill/herrscher_guard",
+ 		"run":"wom:biped/living/katana_run"
+},
+"ranged":{
+            "block": "wom:biped/skill/herrscher_guard",
+            "idle": "wom:biped/living/torment_berserk_idle",
+            "walk": "wom:biped/living/torment_berserk_idle",
+            "run": "wom:biped/living/torment_run"
+},
+"common":{
+            "aim": "wom:biped/living/torment_charge",
+           "idle": "wom:biped/living/torment_berserk_idle",
+            "walk": "wom:biped/living/torment_berserk_idle",
+            "run": "wom:biped/living/torment_run"
+},
+"ochs":{
+            "idle": "wom:biped/living/torment_berserk_idle",
+            "aim": "wom:biped/living/torment_charge",
+            "walk": "wom:biped/living/solar_walk",
+            "run": "wom:biped/living/torment_run"
+},
+    	"one_hand":
+    	{
+            "aim": "wom:biped/living/torment_charge",
+            "idle": "wom:biped/living/solar_idle",
+            "walk": "wom:biped/living/solar_walk",
+            "run": "wom:biped/living/solar_run"
+    	},
+    	"two_hand":
+    	{
+    		"block": "wom:biped/skill/herrscher_guard",
+    		"idle": "wom:biped/living/herrscher_idle",
+    		"walk": "wom:biped/living/herrscher_walk",
+                "run": "wom:biped/living/solar_run"
+    	}
+    }
+}

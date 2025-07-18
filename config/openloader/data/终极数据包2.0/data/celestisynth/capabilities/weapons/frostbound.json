@@ -1,0 +1,11 @@
+{
+    "type": "epicfight:frostbound",
+    "attributes": {
+        "common": {
+            "armor_negation": 10,
+                "impact": 1.0,
+            "max_strikes": 7,
+            "speed_bonus": 0.2
+      }
+    }
+ }

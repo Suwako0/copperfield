@@ -1,0 +1,12 @@
+{
+	"type": "chakram:chakram2",
+	"attributes": {
+		"one_hand": {
+			"armor_negation": 10,
+  			"impact": 1.0,
+			"max_strikes": 1,
+                        "speed_bonus":-2.0,
+                        "damage_bonus":3
+		}
+	}
+}

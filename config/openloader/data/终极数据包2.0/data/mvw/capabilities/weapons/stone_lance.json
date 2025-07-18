@@ -1,0 +1,11 @@
+{
+    "type": "lance:lance",
+    "attributes": {
+        "common": {
+            "armor_negation":5,
+                "impact": 1.0,
+            "max_strikes": 3,
+            "speed_bonus": 1
+        }
+    }
+ }

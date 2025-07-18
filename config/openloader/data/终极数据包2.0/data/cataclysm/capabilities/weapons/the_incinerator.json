@@ -1,0 +1,35 @@
+ {
+    "type": "test:incinerator",
+    "attributes": {
+        "ranged": {
+            "armor_negation": 8.0,
+                "impact": 5.9,
+            "max_strikes": 4.0,
+            "speed_bonus":0
+        },
+        "ochs": {
+            "armor_negation": 8.0,
+                "impact": 5.9,
+            "max_strikes": 4.0,
+            "speed_bonus":1.0
+        },
+        "common": {
+            "armor_negation": 8.0,
+                "impact": 5.9,
+            "max_strikes": 4.0,
+            "speed_bonus":0.5
+        },
+        "one_hand": {
+            "armor_negation": 8.0,
+                "impact": 5.9,
+            "max_strikes": 4.0,
+            "speed_bonus":0
+        },
+        "two_hand": {
+            "armor_negation": 8.0,
+                "impact": 6.3,
+            "max_strikes": 4.0,
+            "speed_bonus":0
+        }
+    }
+ }

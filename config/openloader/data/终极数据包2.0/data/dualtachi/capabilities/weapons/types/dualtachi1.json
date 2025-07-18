@@ -1,0 +1,82 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.5,
+      0.5,
+      1.8
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.55
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blade",
+  "livingmotion_modifier": {
+    "two_hand": {
+   "idle": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_idle",
+      "run": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_run",
+      "block": "indestructible:guard/guard_dualsword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    },
+    "one_hand": {
+      "idle": "wom:biped/living/katana_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "epicfight:biped/skill/guard_sword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "s_tachi"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh",
+  "combos": {
+    "two_hand": [
+      "cdmoveset:biped/new/dual_tachi/dual_tachi_auto1",
+      "cdmoveset:biped/new/dual_tachi/dual_tachi_auto3",
+      "cdmoveset:biped/new/dual_tachi/dual_tachi_auto4",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dual_auto_4",
+      "wom:biped/combat/solar_obscuridad_auto_2",
+      "cdmoveset:biped/new/sword/d_blade_slash",
+
+      "cdmoveset:biped/new/dual_tachi/dual_tachi_dash",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dual_airslash"
+    ],
+    "one_hand": [
+      "cdmoveset:biped/new/dual_tachi/great_tachi_auto1",
+      "cdmoveset:biped/new/dual_tachi/great_tachi_auto2",
+      "cdmoveset:biped/new/dual_tachi/great_tachi_auto3",
+      "cdmoveset:biped/new/dual_tachi/great_tachi_auto4",
+      "wom:biped/combat/solar_obscuridad_auto_2",
+      "wom:biped/skill/katana_fatal_draw",
+
+      "cdmoveset:biped/new/katana/skill/fatal_draw_dash",
+      "cdmoveset:biped/new/yamato/skill/yamato_dawn"
+    ]
+  },
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "s_tachi"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "s_tachi",
+  "innate_skills": {
+    "two_hand": "efds:spinning_death",
+    "one_hand":  "cdmoveset:greeat_tachiskill"
+  },
+  "usable_in_offhand": true
+}

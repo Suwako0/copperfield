@@ -1,0 +1,53 @@
+{
+  "loader": "forge:separate_transforms",
+  "base": 
+  {
+  	"flip-v": true,
+  	"loader": "forge:obj",
+    "model": "occ:models/item/obj/rebellion.obj",
+    "materialLibraryOverride": "occ:models/item/obj/rebellion.mtl",
+    "display":
+  	{
+    		"thirdperson_righthand":
+    		{
+      			"translation": [6.6, -8.5, 6.725],
+      			"rotation": [90, 0, 0],
+      			"scale": [0.8, 0.8, 0.8]
+    		},
+    		"firstperson_righthand":
+    		{
+      			"translation": [13,-6,-0],
+      			"rotation": [75,0,0],
+      			"scale": [0.7, 0.7, 0.7]
+    		}
+  		}
+  },
+    "perspectives":
+      {
+        "ground":
+      	{
+          "parent": "item/generated",
+          "textures":
+        	{
+            	"layer0": "occ:item/rebellion"
+        	}
+        },
+        "gui":
+        {
+          "parent": "item/generated",
+          "textures":
+        	{
+            	"layer0": "occ:item/rebellion"
+        	},
+          "gui_light": "front"
+        },
+        "fixed":
+        {
+          "parent": "item/generated",
+          "textures":
+        	{
+            	"layer0": "occ:item/rebellion"
+        	}
+        }
+      }
+}

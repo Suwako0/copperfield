@@ -1,0 +1,11 @@
+{
+    "type": "epicfight:keres",
+    "attributes": {
+        "common": {
+            "armor_negation":16.0,
+                "impact": 1.0,
+            "max_strikes": 3,
+            "speed_bonus": 0
+        }
+    }
+ }

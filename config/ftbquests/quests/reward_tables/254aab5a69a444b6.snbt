@@ -1,0 +1,11 @@
+{
+	id: "254AAB5A69A444B6"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "kubejs:dungeons_key_undead_normal" }
+		{ item: "kubejs:dungeons_key_spider_normal" }
+		{ item: "kubejs:dungeons_key_moon_normal" }
+	]
+	title: "普通难度秘境钥匙"
+}

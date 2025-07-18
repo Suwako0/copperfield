@@ -1,0 +1,643 @@
+ {
+  // 注册的id，要跟第一个文件夹同名，到时候在武器里要填的就是mod_id:name一定注意别忘记注册
+  "mod_id": "test",
+  // 注册的name，要跟json文件同名，到时候在武器里要填的就是mod_id:name一定注意别忘记注册
+  "name": "wither_assault_shoulder_weapon",
+  "consumption": 100,
+  "max_stacks": 1,
+  // 是否在屏幕上画技能图标。若为true则请将贴图放至assets/${mod_id}/textures/gui/skills/${name}
+  "drawSkillIcon": true,
+  // 连段数据
+  "combos": [
+    {
+      // 按键编号，备选有KEY_1, KEY_2, KEY_3, KEY_4, KEY_1_2, KEY_1_3, KEY_1_4, KEY_2_3, KEY_2_4, KEY_3_4; KEY_1_2代表KEY_1和KEY_2同时按下
+      // A
+      "key": "KEY_1",
+      "condition_animations": [
+        {
+          "priority": 4,
+          "impact_multiplier": 3.0,
+          "stun_type": "LONG",
+          "speed_multiplier": 0.7,
+          "conditions": [
+            {
+              "predicate": "invincible:jumping" // 跳跃状态下才能使用
+            }
+          ],
+          "animation": "",
+          "time_command_list": [ // 指令
+           {
+              "time": 0.5,
+              "command": "",
+              "execute_at_target": false
+            }
+          ],
+          "hit_command_list": [
+            {
+              "command": "",
+              "execute_at_target": true
+            }
+          ],
+          "combos": [
+            {
+              // 跳跃攻击接重击
+              "impact_multiplier": 0.5,
+              "stun_type": "LONG",
+              "speed_multiplier": 0.5,
+              "key": "KEY_3",
+              "can_be_interrupt": true,
+              "animation": "",
+         "time_command_list": [ // 指令
+                        {
+                          "time": 1.0,
+  	   	      	  "command": "",
+                          "execute_at_target": false
+                  }
+               ]
+            }
+          ],
+          "can_be_interrupt": true
+        },
+        {
+          "priority": 5,
+          "impact_multiplier": 3.0,
+          "stun_type": "LONG",
+          "conditions": [
+            {
+              "predicate": "invincible:sprinting" // 冲刺状态下才能使用
+            }
+          ],
+          "animation": "wom:biped/combat/enderblaster_onehand_dash",
+          "speed_multiplier": 1.0,
+          "can_be_interrupt": true,
+          "time_command_list": [ // 指令
+            {
+              "time": 0.3,
+              "command": "",
+              "execute_at_target": false
+            },
+            {
+              "time": 0.4,
+              "command": "",
+              "execute_at_target": false
+            }
+          ],
+          "hit_command_list": [
+            {
+              "command": "",
+              "execute_at_target": true
+            }
+          ],
+          "combos": [
+            {
+              // 冲刺攻击接重击A
+              "impact_multiplier": 0.5,
+              "stun_type": "LONG",
+              "key": "KEY_1",
+              "can_be_interrupt": true,
+              "animation": "wom:biped/combat/enderblaster_twohand_tishnaw",
+         "time_command_list": [ // 指令
+                        {
+                          "time": 0.5,
+                          "command": "cast @s irons_spellbooks:burning_dash 5",
+                          "execute_at_target": false
+                        },
+                        {
+                          "time": 0.2,
+                          "command": "",
+                          "execute_at_target": false
+                        },
+                        {
+                          "time": 0.19,	
+  	   	      	  "command": "",
+                          "execute_at_target": false
+                        }
+                      ]
+            }
+          ]
+        },
+        { // A
+          "priority": 0,
+          "impact_multiplier": 1.0,
+          "stun_type": "LONG",
+          "animation": "wom:biped/skill/enderblaster_onehand_shoot",
+          "time_command_list": [ // 指令
+           {
+              "time": 0.1,
+              "command": "cast @s irons_spellbooks:firebolt 5",
+              "execute_at_target": false
+            },
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            }
+          ]
+        }
+      ],
+      "combos": [
+        {
+          // AA
+          "key": "KEY_1",
+          "impact_multiplier": 1.0,
+          "stun_type": "LONG",
+          "animation": "wom:biped/skill/enderblaster_onehand_shoot",
+          "can_be_interrupt": true,
+          "time_command_list": [ // 指令
+            {
+              "time": 0.1,
+              "command": "cast @s irons_spellbooks:firebolt 5",
+              "execute_at_target": false
+            }
+          ],
+          "combos": [
+            {
+              // AAA
+              "impact_multiplier": 0.5,
+              "stun_type": "LONG",
+              "key": "KEY_1",
+              "can_be_interrupt": true,
+              "animation": "wom:biped/skill/enderblaster_onehand_shoot",
+              "time_command_list": [ // 指令
+                {
+                  "time": 0.1,
+                  "command": "cast @s irons_spellbooks:firebolt 5",
+                  "execute_at_target": false
+                }
+              ],
+              "combos": [
+                {
+                  // AAAA
+                  "impact_multiplier": 0.5,
+                  "speed_multiplier": 0.75,
+                  "stun_type": "FALL",
+                  "key": "KEY_1",
+                  "animation": "wom:biped/skill/enderblaster_twohand_shoot_2",
+                  "can_be_interrupt": true,
+                  "time_command_list": [ // 指令
+                    {
+                      "time": 0.5,
+                      "command": "cast @s irons_spellbooks:blaze_storm 1",
+                      "execute_at_target": false
+                    }
+                  ],
+              "combos": [
+                {
+                  // AAAAA
+                  "impact_multiplier": 0.5,
+                  "speed_multiplier": 0.75,
+                  "stun_type": "FALL",
+                  "key": "KEY_1",
+                  "animation": "wom:biped/skill/enderblaster_twohand_shoot_2",
+                  "can_be_interrupt": true,
+                  "time_command_list": [ // 指令
+                    {
+                      "time": 0,
+                      "command": "",
+                      "execute_at_target": false
+                    }
+                  ],
+                  "combos": [
+                    {
+                      // AAAAAD
+                      "impact_multiplier": 0.5,
+                      "speed_multiplier": 0.4,
+                      "stun_type": "FALL",
+                      "key": "KEY_4",
+                      "can_be_interrupt": true,
+                      "animation": "wom:biped/skill/enderblaster_twohand_shoot_4",
+                      "time_command_list": [ // 指令
+                        {
+                          "time": 0.1,
+                          "command": "",
+                          "execute_at_target": false
+                        },
+                        {
+                          "time": 0.1,
+                          "command": "",
+                          "execute_at_target": false
+                        },
+                        {
+                          "time": 0.1,
+  	   	      	  "command": "cast @s irons_spellbooks:magma_bomb 1",
+                          "execute_at_target": false
+                        }
+                      ],
+              "hit_command_list": [
+                {
+                  "command": "",
+                  "execute_at_target": true
+                        }
+                       ]
+                      }
+                     ]
+                    }
+                  ]
+                },
+               {
+                  // AAAC
+                  "key": "KEY_3",
+                  "impact_multiplier": 7.0,
+                  "speed_multiplier": 0.6,
+                  "stun_type": "LONG",
+                  "animation": "wom:biped/skill/enderblaster_onehand_shoot_3",
+                  "can_be_interrupt": true,
+                  "time_command_list": [ // 指令
+                    {
+                      "time": 0.2,
+                      "command": "cast @s irons_spellbooks:magma_bomb 1",
+                      "execute_at_target": false
+                    },
+                    {
+                      "time": 0.1,
+                      "command": "",
+                      "execute_at_target": false
+                    }
+                  ],
+                  "set_phase": 1
+                }
+              ]
+            },
+           {
+              // AAC
+              "key": "KEY_3",
+              "impact_multiplier": 7.0,
+              "stun_type": "LONG",
+              "can_be_interrupt": true,
+              "animation": "",
+              "time_command_list": [ // 指令
+                {
+                  "time": 0.1,
+                  "command": "",
+                  "execute_at_target": false
+                },
+                {
+                  "time": 0.1,
+                  "command": "",
+                  "execute_at_target": false
+                }
+              ],
+              "hit_command_list": [
+                {
+                  "command": "",
+                  "execute_at_target": true
+                }
+              ],
+              "set_phase": 2
+            }
+          ]
+        },
+        {
+          // AC
+          "key": "KEY_3",
+          "impact_multiplier": 7.0,
+          "stun_type": "LONG",
+          "animation": "",
+          "can_be_interrupt": true,
+          "time_command_list": [ // 指令
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            },
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            }
+          ],
+          "set_phase": 1
+        }
+      ]
+    },
+    {
+      // C
+      "key": "KEY_3",
+      // 多重触发条件，一个键在不同的条件下可触发不同动画
+      // 对于每一个元素，你也可以使用speed_multiplier和各个事件之类的参数
+      "condition_animations": [
+        {
+          "priority": 2,
+          "speed_multiplier": 0.5,
+          "conditions": [
+            {
+              // 冲刺状态下才能使用
+              "predicate": "invincible:sprinting"
+            }
+          ],
+          "animation": "wom:biped/skill/enderblaster_twohand_airshoot",
+          "combos": [
+            {
+              // CC
+              "key": "KEY_3",
+              "animation": "",
+              "combos": [
+                {
+                  // CCC
+                  "key": "KEY_3",
+                  "animation": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "priority": 5,
+          "conditions": [
+            {
+              // 跳跃则播此动作
+              "predicate": "invincible:jumping"
+            }
+          ],
+          "animation": "wom:biped/skill/enderblaster_twohand_shoot_dash"
+        },
+        {
+          "priority": 0,
+          // 默认则播以下动作
+          "animation": "wom:biped/skill/enderblaster_twohand_shoot_2",
+          "time_command_list": [ // 特效
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            },
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            }
+          ]
+        }
+      ],
+      "combos": [
+        {
+          // CC
+          "key": "KEY_3",
+          "speed_multiplier": 1.5,
+          "animation": "wom:biped/skill/enderblaster_twohand_shoot_2",
+          "time_command_list": [ // 指令
+            {
+              "time": 0.1,
+              "command": "cast @s irons_spellbooks:blaze_storm 1",
+              "execute_at_target": false
+            },
+            {
+              "time": 0.1,
+              "command": "",
+              "execute_at_target": false
+            }
+          ],
+          "combos": [
+            {
+              // CCC
+              "key": "KEY_3",
+              "speed_multiplier": 1.5,
+              "animation": "wom:biped/skill/enderblaster_twohand_shoot_2",
+              "time_command_list": [ // 指令
+                {
+                  "time": 0.1,
+                  "command": "",
+                  "execute_at_target": false
+                },
+                {
+                  "time": 0.1,
+                  "command": "",
+                  "execute_at_target": false
+                }
+              ],
+              "combos": [
+                {
+                  // CCCC
+                  "key": "KEY_3",
+                  "speed_multiplier": 1.5,
+                  "animation": "wom:biped/skill/enderblaster_twohand_shoot_2",
+                  "time_command_list": [ // 指令
+                    {
+                      "time": 0.1,
+                      "command": "cast @s irons_spellbooks:blaze_storm 1",
+                      "execute_at_target": false
+                    },
+                    {
+                      "time": 0.1,
+                      "command": "",
+                      "execute_at_target": false
+                    }
+                  ],
+                  "combos": [
+                    {
+                      // CCCCC
+                      "key": "KEY_3",
+                      "animation": "",
+                      "time_command_list": [ // 指令
+                    {
+                          "time": 0.1,
+                          "command": "",
+                          "execute_at_target": false
+                        }
+                      ],
+                      "hit_command_list": [
+                        {
+                          "command": "",
+                          "execute_at_target": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      // D
+      "key": "KEY_4",
+      "speed_multiplier": 0.6,
+      "animation": "wom:biped/skill/solar_brasero",
+      "combos": [
+        {
+          // DD
+          "key": "KEY_4",
+          "animation": "wom:biped/skill/ruine_plunder",
+          "can_be_interrupt": true,
+          "speed_multiplier": 0.6,
+          "damage_multiplier": {
+            // 共有"adder", "multiplier"和"setter"可选。字面意思
+            "multiplier": 1.2
+          },
+          "time_command_list": [ // 指令
+                       {
+                          "time": 0.5,
+                          "command": "/summon irons_spellbooks:sunbeam",
+                          "execute_at_target": false
+                        },
+                       {
+                          "time": 0.6,
+                          "command": "/summon irons_spellbooks:sunbeam",
+                          "execute_at_target": false
+                        },
+                       {
+                          "time": 0.7,
+                          "command": "/summon irons_spellbooks:sunbeam",
+                          "execute_at_target": false
+                        },
+                        {
+                          "time": 1.0,
+                          "command": "effect give @s minecraft:strength 30 3",
+                          "execute_at_target": false
+                        },
+
+           {
+              "time": 0.8,
+              "command": "summon irons_spellbooks:sunbeam",
+              "execute_at_target": false
+            }
+          ],
+          "hit_command_list": [
+            {
+              "command": "",
+              "execute_at_target": true
+            }
+          ]
+        },
+        {
+          // DC
+          "key": "KEY_3",
+          "impact_multiplier": 1.0,
+          "speed_multiplier": 0.5,
+          "stun_type": "LONG",
+          "animation": "wom:biped/skill/solar_brasero_infierno",
+          "damage_multiplier": {
+            // 共有"adder", "multiplier"和"setter"可选。字面意思
+            "setter": 2.5
+          },
+          "can_be_interrupt": true,
+          "time_command_list": [ // 指令
+            {
+            "time": 1.2,
+            "command": "",
+            "execute_at_target": false
+             },
+            {
+              "time": 0,
+              "command": "",
+              "execute_at_target": false
+              }
+           ],
+           "combos": [
+            {
+            // DCC
+           "key": "KEY_3",
+           "impact_multiplier": 1.0,
+          "speed_multiplier": 1.0,
+           "stun_type": "LONG",
+          "animation": "cdmoveset:biped/new/dual_greatsword/skill/greatsword_dual_earthquake",
+          // 使用后进入冷却，单位是tick
+           "damage_multiplier": {
+           // 共有"adder", "multiplier"和"setter"可选。字面意思
+           "multiplier": 2.0
+           },
+          "can_be_interrupt": true,
+          "time_command_list": [ // 指令
+            {
+            "time": 0.1,
+            "command": "cast @s irons_spellbooks:scorch 10",
+            "execute_at_target": false
+             },
+            {
+            "time": 1.4,
+            "command": "/summon cataclysm:flare_bomb ^ ^ ^-3",
+            "execute_at_target": false
+             },
+            {
+            "time": 1.4,
+            "command": "/summon cataclysm:flare_bomb ^ ^ ^3",
+            "execute_at_target": false
+             },
+            {
+            "time": 1.4,
+            "command": "/summon cataclysm:flare_bomb ^ ^ ^",
+            "execute_at_target": false
+             },
+            {
+            "time": 1.4,
+            "command": "/summon cataclysm:flare_bomb ^3 ^ ^",
+            "execute_at_target": false
+             },
+            {
+            "time": 1.4,
+            "command": "/summon cataclysm:flare_bomb ^-3 ^ ^",
+            "execute_at_target": false
+             },
+            {
+            "time": 1.5,
+            "command": "summon irons_spellbooks:fireball ^ ^1 ^-5",
+            "execute_at_target": false
+             },
+            {
+            "time": 1.5,
+            "command": "summon irons_spellbooks:fireball ^5 ^1 ^",
+            "execute_at_target": false
+             },
+            {
+            "time": 1.5,
+            "command": "summon irons_spellbooks:fireball ^-5 ^1 ^",
+            "execute_at_target": false
+             },
+            {
+            "time": 1.5,
+            "command": "summon irons_spellbooks:fireball ^ ^1 ^5",
+            "execute_at_target": false
+             },
+            {
+              "time": 1.5,
+              "command": "summon irons_spellbooks:fireball ^ ^2 ^",
+              "execute_at_target": false
+            }
+          ],
+          "hit_command_list": [
+            {
+              "command": "",
+              "execute_at_target": true
+            }
+            ]
+            }
+            ]
+            }
+            ]
+    },
+    {
+      // A+C
+      "key": "KEY_1_3",
+      "impact_multiplier": 3.0,
+      "stun_type": "LONG",
+      "animation": "",
+      // 表示本动画不进行充能
+      "not_charge": true,
+      // 使用后进入冷却，单位是tick
+      "conditions": [
+        {
+          // 能量层数判断，满一层才能释放
+          "predicate": "invincible:stack_count",
+          "min": 1.0,
+          "max": 1.0
+        }
+      ],
+      "time_command_list": [ // 指令
+        {
+          "time": 0.2,
+          "command": "",
+          "execute_at_target": false
+        }
+      ]
+    }
+  ],
+  "damage_multiplier": {
+    // 共有"adder", "multiplier"和"setter"可选。字面意思
+    "multiplier": 20.0
+  },
+  "stun_type": "FALL",
+  "can_be_interrupt": true
+}

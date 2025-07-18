@@ -1,0 +1,11 @@
+{
+  "__comment1": "Allows you to enable a Global Resourcepack folder ..Does not support .zip.., this will act as an extension of the main or scr of this mod",
+  "AllowResourcepackFolder": true,
+  "__comment2": "Allows you to enable a Global Datapacks folder ...Support .zip..., this will act as an extension of the main or scr of this mod",
+  "AllowDatapackFolder": true,
+  "__comment3": "Only allow the server side Datapack folder",
+  "OnlyDatapacksFolderForServerSide": false,
+  "__comment4": " ",
+  "__comment5": "This mod requires a datapacks folder to exist in order to add the final path of the indexer, in case you do not need the datapacks folder, do not disable it and use OnlyDatapacksFolderForServerSide to disable the client.",
+  "__comment6": "If you also want to disable the resourcepack folder, remember that you must also disable if you have active the replaceResourcepackFolder, turn it false option in the standard configuration file of this mod, lazy_utilities-common.toml"
+}

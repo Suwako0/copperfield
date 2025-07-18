@@ -1,0 +1,17 @@
+{
+    "type": "epicfight:aquaflora",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 10.0,
+                "impact": 1.0,
+            "max_strikes": 4.0,
+            "speed_bonus":-0.8
+        },
+        "two_hand": {
+            "armor_negation": 10.0,
+                "impact": 1.0,
+            "max_strikes": 6.0,
+            "speed_bonus":-0.8
+        }
+    }
+ }

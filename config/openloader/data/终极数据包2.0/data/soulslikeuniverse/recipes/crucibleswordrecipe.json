@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+     "item": "minecraft:blaze_powder"
+    },
+    "b": {
+      "item": "soulslikeuniverse:knightsoul"
+    },
+    "c": {
+      "item": "soulslikeuniverse:longsword"
+    },
+    "d": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:cruciblesword",
+    "count": 1
+  }
+}

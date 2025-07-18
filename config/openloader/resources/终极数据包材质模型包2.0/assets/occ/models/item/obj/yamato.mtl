@@ -1,0 +1,56 @@
+newmtl back
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+map_Kd occ:item/back
+Ns 250.0
+d 1.0
+newmtl blade
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+map_Kd occ:item/blade
+Ns 250.0
+d 1.0
+newmtl bottem
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+map_Kd occ:item/bottem
+Ns 250.0
+d 1.0
+newmtl cover
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+map_Kd occ:item/cover
+Ns 250.0
+d 1.0
+newmtl handle
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+map_Kd occ:item/handle
+Ns 250.0
+d 1.0
+newmtl inside
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+map_Kd occ:item/inside
+Ns 250.0
+d 1.0
+newmtl rope
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+map_Kd occ:item/rope
+Ns 250.0
+d 1.0
+newmtl surface
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+map_Kd occ:item/surface
+Ns 250.0
+d 1.0

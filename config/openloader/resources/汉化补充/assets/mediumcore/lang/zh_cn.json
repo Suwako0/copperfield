@@ -1,0 +1,5 @@
+{
+  "selectWorld.gameMode.mediumcore": "§e中核§r",
+  "selectWorld.gameMode.mediumcore.info": "中核模式中，每死亡一次会损失一定的最大生命值",
+  "gamerule.mediumcoreMode": "中核模式"
+}

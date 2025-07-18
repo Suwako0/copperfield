@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "eca",
+    "cbd",
+    "adf"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "soul_like_armors_reworked:kata_sword"
+    },
+    "c": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "d": {
+      "item": "minecraft:echo_shard"
+    },
+    "e": {
+      "item": "minecraft:emerald"
+    },
+    "f": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "soul_like_armors_reworked:lightningsword",
+    "count": 1
+  }
+}

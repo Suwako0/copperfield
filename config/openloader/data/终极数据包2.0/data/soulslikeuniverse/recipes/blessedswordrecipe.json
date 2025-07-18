@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "soulslikeuniverse:longsword"
+    },
+    "b": {
+      "item": "soulslikeuniverse:estusflask"
+    }
+  },
+  "result": {
+    "item": "soulslikeuniverse:blessedsword",
+    "count": 1
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "center": [
+      -1.0,
+      0.0,
+      -1.1
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blunt",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "efds:biped/living/axe_dual_idle",
+      "run": "wom:biped/living/solar_obscuridad_run",
+      "walk": "epicfight:biped/living/walk_longsword"
+    },
+    "one_hand": {
+      "idle": "efds:biped/living/axe_dual_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "walk": "epicfight:biped/living/walk_longsword"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "sanji"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh_small",
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "sanji"
+          }
+        ]
+      }
+    ]
+  },
+  "combos": {
+    "two_hand": [
+      "epicfight:biped/combat/fist_auto1",
+      "epicfight:biped/combat/fist_auto2",
+      "epicfight:biped/combat/fist_auto1",
+      "epicfight:biped/combat/fist_auto2",
+      "cdmoveset:biped/new/yamato/yamato_airslash",
+
+      "epicfight:biped/combat/fist_dash",
+      "wom:biped/combat/enderblaster_onehand_jumpkick"
+    ],
+    "one_hand": [
+      "epicfight:biped/combat/fist_auto1",
+      "epicfight:biped/combat/fist_auto2",
+      "epicfight:biped/combat/fist_auto1",
+      "epicfight:biped/combat/fist_auto2",
+      "cdmoveset:biped/new/yamato/yamato_airslash",
+
+      "epicfight:biped/combat/fist_dash",
+      "wom:biped/combat/enderblaster_onehand_jumpkick"
+    ]
+  },
+  "category": "sanji",
+  "innate_skills": {
+    "two_hand": "epicfight:relentless_combo",
+    "one_hand": "epicfight:relentless_combo"
+  }
+}

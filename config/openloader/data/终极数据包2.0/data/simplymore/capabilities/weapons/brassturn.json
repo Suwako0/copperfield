@@ -1,0 +1,19 @@
+{
+    "type": "glove:glove4",
+    "attributes": {
+        "one_hand": {
+            "armor_negation": 4.0,
+                "impact": 1.0,
+            "max_strikes": 1.0,
+            "damage_bonus":3.0,
+            "speed_bonus":1.7
+        },
+        "two_hand": {
+            "armor_negation": 4.0,
+                "impact": 1.0,
+            "max_strikes": 1.5,
+            "damage_bonus":3.0,
+            "speed_bonus":1.7
+        }
+    }
+ }

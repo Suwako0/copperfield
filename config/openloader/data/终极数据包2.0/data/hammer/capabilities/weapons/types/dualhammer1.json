@@ -1,0 +1,92 @@
+{
+  "collider": {
+    "number": 3,
+    "size": [
+      0.5,
+      0.8,
+      1.0
+    ],
+    "center": [
+      0.0,
+      0.0,
+      -1.0
+    ]
+  },
+  "hit_particle": "epicfight:hit_blade",
+  "hit_sound": "epicfight:entity.hit.blunt_hard",
+  "livingmotion_modifier": {
+    "two_hand": {
+      "idle": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_idle",
+      "run": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_run",
+      "aim": "indestructible:guard/guard_dualsword",
+      "walk": "cdmoveset:biped/new/dual_greatsword/living/greatsword_dual_walk"
+    },
+    "one_hand": {
+      "idle": "efds:biped/living/axe_dual_idle",
+      "run": "epicfight:biped/living/run_longsword",
+      "block": "wom:biped/skill/agony_guard",
+      "walk": "epicfight:biped/living/walk_longsword"
+    }
+  },
+  "offhand_item_compatible_predicate": [
+    {
+      "predicate": "epicfight:offhand_item_category",
+      "category": "greatsword"
+    }
+  ],
+  "swing_sound": "epicfight:entity.weapon.whoosh_hard",
+  "combos": {
+"mount": [
+       "wom:biped/skill/agony_guard",
+     "wom:biped/combat/herrscher_befreiung"
+    ],
+    "two_hand": [
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dual_auto_1",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dual_auto_2",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dual_auto_3",
+      "wom:biped/skill/gezets_auto_3",
+     "wom:biped/combat/herrscher_befreiung",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dual_auto_4",
+      "wom:biped/combat/solar_obscuridad_auto_4",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_dual_airslash"
+    ],
+    "one_hand": [
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_twohand_auto_2",
+      "cdmoveset:biped/new/dual_greatsword/combat/greatsword_twohand_auto_3",
+      "wom:biped/combat/herrscher_auto_3",
+      "wom:biped/combat/herrscher_befreiung",
+      "wom:biped/combat/solar_auto_2",
+     "epicfight:biped/combat/greatsword_dash",
+      "wom:biped/combat/solar_obscuridad_auto_4"
+    ]
+  },
+  "styles": {
+    "default": "one_hand",
+    "cases": [
+      {
+        "style": "two_hand",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "greatsword"
+          }
+        ]
+      },
+  {
+        "style": "mount",
+        "conditions": [
+          {
+            "predicate": "epicfight:offhand_item_category",
+            "category": "greatsword"
+          }
+        ]
+      }
+    ]
+  },
+  "category": "greatsword",
+  "innate_skills": {
+    "two_hand": "cdmoveset:greatsword_dual_skill",
+    "one_hand": "epicfight:steel_whirlwind"
+  },
+  "usable_in_offhand": true
+}

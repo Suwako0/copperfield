@@ -1,0 +1,10 @@
+{
+    "music.assumptions":{
+        "sounds":[
+            {
+                "name": "copperfield:assumptions",
+                "stream": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,389 @@
+{
+	"size": "small",
+	"color": "#EC2E2E",
+	"leash_range": 128,
+	"fail_on_out_of_bounds": true,
+	"player_damage_only": true,
+	"waves": [
+		{
+			"entities": [
+			{
+				"entity": "minecraft:spider",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:70}],Health:70}",
+				"count": 7
+			},
+			{
+				"entity": "minecraft:cave_spider",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:oakskin\",Amplifier:2,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:80}],Health:80}",
+				"count": 1
+			},
+			{
+				"entity": "graveyard:acolyte",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:1,Duration:72000,ShowParticles:0b},{\"forge:id\":\"minecraft:regeneration\",Amplifier:1,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:120}],Health:120}",
+				"count": 1
+			}
+		],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.6
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 4
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.65
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.01
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.2
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 750,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_epic",
+					"rolls": 1,
+					"desc": "史诗难度波次奖励"
+				}
+			],
+			"max_wave_time": 1300,
+			"setup_time": 340
+		},
+		{
+			"entities": [
+			{
+				"entity": "minecraft:spider",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:70}],Health:75}",
+				"count": 6
+			},
+			{
+				"entity": "minecraft:cave_spider",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:oakskin\",Amplifier:2,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:90}],Health:90}",
+				"count": 6
+			},
+			{
+				"entity": "graveyard:acolyte",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:1,Duration:72000,ShowParticles:0b},{\"forge:id\":\"minecraft:regeneration\",Amplifier:1,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:120}],Health:120}",
+				"count": 1
+			}
+		],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.65
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.7
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.01
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.2
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 750,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_epic",
+					"rolls": 1,
+					"desc": "史诗难度波次奖励"
+				}
+			],
+			"max_wave_time": 1900,
+			"setup_time": 340
+		},
+		{
+			"entities": [
+			{
+				"entity": "minecraft:warden",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:350}],Health:350}",
+				"count": 1
+			},
+			{
+				"entity": "graveyard:acolyte",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:1,Duration:72000,ShowParticles:0b},{\"forge:id\":\"minecraft:regeneration\",Amplifier:1,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:120}],Health:120}",
+				"count": 1
+			}
+		],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.5
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 3
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.35
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.01
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.2
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 750,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_epic",
+					"rolls": 1,
+					"desc": "史诗难度波次奖励"
+				}
+			],
+			"max_wave_time": 1900,
+			"setup_time": 340
+		},
+		{
+			"entities": [
+			{
+				"entity": "minecraft:spider",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:75}],Health:75}",
+				"count": 6
+			},
+			{
+				"entity": "minecraft:cave_spider",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:oakskin\",Amplifier:2,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:85}],Health:85}",
+				"count": 6
+			},
+			{
+				"entity": "minecraft:guardian",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:oakskin\",Amplifier:2,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:45}],Health:45}",
+				"count": 2
+			},
+			{
+				"entity": "graveyard:acolyte",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:1,Duration:72000,ShowParticles:0b},{\"forge:id\":\"minecraft:regeneration\",Amplifier:1,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:120}],Health:120}",
+				"count": 2
+			}
+		],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.65
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.9
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.01
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.2
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 750,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_epic",
+					"rolls": 1,
+					"desc": "史诗难度波次奖励"
+				}
+			],
+			"max_wave_time": 1900,
+			"setup_time": 340
+		},
+		{
+			"entities": [
+			{
+				"entity": "minecraft:spider",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:80}],Health:80}",
+				"count": 6
+			},
+			{
+				"entity": "minecraft:cave_spider",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:oakskin\",Amplifier:2,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:85}],Health:85}",
+				"count": 6
+			},
+			{
+				"entity": "minecraft:guardian",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:oakskin\",Amplifier:2,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:45}],Health:45}",
+				"count": 3
+			},
+			{
+				"entity": "graveyard:acolyte",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:1,Duration:72000,ShowParticles:0b},{\"forge:id\":\"minecraft:regeneration\",Amplifier:1,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:120}],Health:120}",
+				"count": 2
+			}
+		],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.7
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.95
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.01
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.2
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 750,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_epic",
+					"rolls": 1,
+					"desc": "史诗难度波次奖励"
+				}
+			],
+			"max_wave_time": 1900,
+			"setup_time": 340
+		},
+		{
+			"entities": [
+			{
+				"entity": "illageandspillage:magispeller",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:oakskin\",Amplifier:1,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:350},{\"forge:id\":\"alexscaves:rage\",Amplifier:0,Duration:72000,ShowParticles:0b}],Health:350}",
+				"count": 1
+			},
+			{
+				"entity": "graveyard:acolyte",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:1,Duration:72000,ShowParticles:0b},{\"forge:id\":\"minecraft:regeneration\",Amplifier:1,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:120}],Health:120}",
+				"count": 2
+			}
+		],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.55
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 4
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.45
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.01
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.15
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 750,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_epic",
+					"rolls": 1,
+					"desc": "史诗难度波次奖励"
+				}
+			],
+			"max_wave_time": 1900,
+			"setup_time": 340
+		}
+	],
+    "rewards": [
+		{
+			"type": "gateways:loot_table",
+			"loot_table": "kubejs:dungeons/loot_reward_final_epic_spider",
+			"rolls": 1,
+			"desc": "史诗难度通关奖励"
+		},
+		{
+			"type": "gateways:command",
+			"command": "/give @p kubejs:dungeons_charge_coin_epic",
+			"desc": "秘境兑币"
+		}
+    ],
+    "failures": [
+		{
+			"type": "gateways:command",
+			"command": "/give @p kubejs:dungeons_charge_coin_hero",
+			"desc": "秘境兑币"
+		}
+    ]
+}

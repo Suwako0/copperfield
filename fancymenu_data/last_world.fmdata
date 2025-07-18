@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = E:/HMCL-3.6.12/.minecraft/versions/copperfield/saves/T
+}
+

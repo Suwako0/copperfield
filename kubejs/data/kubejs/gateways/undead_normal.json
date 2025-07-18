@@ -1,0 +1,340 @@
+{
+	"size": "small",
+	"color": "#71379B",
+	"leash_range": 128,
+	"fail_on_out_of_bounds": true,
+	"player_damage_only": true,
+	"waves": [
+		{
+			"entities": [{
+				"entity": "minecraft:zombie",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{Id:1,Amplifier:2,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"minecraft:iron_sword\",Count:1b,tag:{Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}},{}],ArmorItems:[{id:\"minecraft:chainmail_boots\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:chainmail_leggings\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:chainmail_chestplate\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:chainmail_helmet\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}}]}",
+				"count": 5
+			},
+			{
+				"entity": "quark:wraith",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",Attributes:[{Name:\"generic.max_health\",Base:50}],Health:50}",
+				"count": 3
+			}
+		],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.1
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 1
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.1
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.01
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.15
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 500,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_normal",
+					"rolls": 1,
+					"desc": "普通难度波次奖励"
+				}
+			],
+			"max_wave_time": 1200,
+			"setup_time": 340
+		},
+		{
+			"entities": [{
+					"entity": "minecraft:zombie",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{Id:1,Amplifier:2,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"minecraft:iron_sword\",Count:1b,tag:{Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}},{}],ArmorItems:[{id:\"minecraft:chainmail_boots\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:chainmail_leggings\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:chainmail_chestplate\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:chainmail_helmet\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}}]}",
+					"count": 6
+				},
+				{
+					"entity": "quark:wraith",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",Attributes:[{Name:\"generic.max_health\",Base:50}],Health:50}",
+					"count": 4
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 2
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.1
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.01
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.15
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 500,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_normal",
+					"rolls": 1,
+					"desc": "普通难度波次奖励"
+				}
+			],
+			"max_wave_time": 1800,
+			"setup_time": 340
+		},
+		{
+			"entities": [{
+					"entity": "irons_spellbooks:archevoker",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",Attributes:[{Name:\"generic.max_health\",Base:200}],Health:200}",
+					"count": 1
+				}
+			],
+			"modifiers": [
+				{
+					"attribute": "irons_spellbooks:spell_resist",
+					"operation": "MULTIPLY_BASE", 
+					"value": 0.5
+				},
+				{
+					"attribute": "spellbooks_attribute:magic_damage",
+					"operation": "MULTIPLY_BASE", 
+					"value": 0.5
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 3
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.50
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.01
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.3
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 500,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_normal",
+					"rolls": 1,
+					"desc": "普通难度波次奖励"
+				}
+			],
+			"max_wave_time": 1800,
+			"setup_time": 340
+		},
+		{
+			"entities": [{
+					"entity": "minecraft:drowned",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{Id:1,Amplifier:2,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"epicfight:golden_tachi\",Count:1b,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:3s}]}},{}],ArmorItems:[{id:\"minecraft:golden_boots\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:golden_leggings\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:golden_chestplate\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:golden_helmet\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}}],Attributes:[{Name:\"generic.max_health\",Base:30}],Health:30}",
+					"count": 6
+				},
+				{
+					"entity": "minecraft:wither_skeleton",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{Id:1,Amplifier:2,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"epicfight:golden_greatsword\",Count:1b,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:3s}]}},{}],ArmorItems:[{id:\"minecraft:golden_boots\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:golden_leggings\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:golden_chestplate\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:golden_helmet\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}}],Attributes:[{Name:\"generic.max_health\",Base:30}],Health:30}",
+					"count": 2
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.15
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 2
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.1
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.02
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.2
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 500,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_normal",
+					"rolls": 1,
+					"desc": "普通难度波次奖励"
+				}
+			],
+			"max_wave_time": 1800,
+			"setup_time": 340
+		},
+		{
+			"entities": [{
+					"entity": "minecraft:husk",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{Id:1,Amplifier:2,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"epicfight:golden_spear\",Count:1b,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:3s}]}},{}],ArmorItems:[{id:\"minecraft:golden_boots\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:golden_leggings\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:golden_chestplate\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:golden_helmet\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}}],Attributes:[{Name:\"generic.max_health\",Base:35}],Health:35}",
+					"count": 5
+				},
+				{
+					"entity": "minecraft:zombified_piglin",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{Id:1,Amplifier:2,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"wom:golden_staff\",Count:1b,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:3s}]}},{}],ArmorItems:[{id:\"minecraft:stray_pants\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:stray_robe\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:stray_hat\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}}],Attributes:[{Name:\"generic.max_health\",Base:50}],Health:50}",
+					"count": 5
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.2
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 4
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.1
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.02
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.2
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 500,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_normal",
+					"rolls": 1,
+					"desc": "普通难度波次奖励"
+				}
+			],
+			"max_wave_time": 1800,
+			"setup_time": 340
+		},
+		{
+		"entities": [{
+					"entity": "under_the_moon:wendigo",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"minecraft:regeneration\",Amplifier:0,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:350}],Health:350}",
+					"count": 1
+				}
+			],
+			"modifiers": [
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 4
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.50
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.01
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.3
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 500,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_normal",
+					"rolls": 1,
+					"desc": "普通难度波次奖励"
+				}
+			],
+			"max_wave_time": 1800,
+			"setup_time": 340
+		}
+	],
+    "rewards": [
+		{
+			"type": "gateways:loot_table",
+			"loot_table": "kubejs:dungeons/loot_reward_normal",
+			"rolls": 3,
+			"desc": "普通难度通关奖励"
+		},
+		{
+			"type": "gateways:command",
+			"command": "/give @p kubejs:dungeons_charge_coin_hero",
+			"desc": "秘境兑币"
+		}
+    ],
+    "failures": [
+    ]
+}

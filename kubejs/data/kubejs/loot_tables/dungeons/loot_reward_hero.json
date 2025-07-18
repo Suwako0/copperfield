@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "name": "kubejs:pool_reward_hero",
+      "entries": [
+        {
+          "type": "item",
+          "name": "kubejs:dungeons_reward_coin",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

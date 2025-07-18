@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:the_end",
+  "bed_works": false,
+  "piglin_safe": false,
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:the_void",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "height": 1,
+          "block": "minecraft:sea_lantern"
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

@@ -1,0 +1,385 @@
+{
+	"size": "small",
+	"color": "#71379B",
+	"leash_range": 128,
+	"fail_on_out_of_bounds": true,
+	"player_damage_only": true,
+	"waves": [
+		{
+			"entities": [{
+				"entity": "minecraft:zombie",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{Id:1,Amplifier:2,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"minecraft:diamond_sword\",Count:1b,tag:{Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}},{}],ArmorItems:[{id:\"minecraft:diamond_boots\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:diamond_leggings\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:diamond_chestplate\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:diamond_helmet\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}}]}",
+				"count": 7
+			},
+			{
+				"entity": "quark:wraith",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:50}],Health:50}",
+				"count": 5
+			},
+			{
+				"entity": "minecraft:zombie_villager",
+				"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"minecraft:speed\",Amplifier:1,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:oakskin\",Amplifier:2,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"wom:diamond_staff\",Count:1b,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}},{}],Attributes:[{Name:\"generic.max_health\",Base:110}],Health:110}",
+				"count": 1
+			}
+		],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.55
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 4
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.55
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.01
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.2
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 750,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_epic",
+					"rolls": 1,
+					"desc": "史诗难度波次奖励"
+				}
+			],
+			"max_wave_time": 1300,
+			"setup_time": 340
+		},
+		{
+			"entities": [{
+					"entity": "minecraft:zombie",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{Id:1,Amplifier:2,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"minecraft:diamond_sword\",Count:1b,tag:{Enchantments:[{id:\"minecraft:knockback\",lvl:1s}]}},{}],ArmorItems:[{id:\"minecraft:diamond_boots\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:diamond_leggings\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:diamond_chestplate\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:diamond_helmet\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}}]}",
+					"count": 8
+				},
+				{
+					"entity": "quark:wraith",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:50}],Health:50}",
+					"count": 6
+				},
+				{
+					"entity": "minecraft:zombie_villager",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"minecraft:speed\",Amplifier:1,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:oakskin\",Amplifier:2,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"wom:diamond_staff\",Count:1b,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}},{}],Attributes:[{Name:\"generic.max_health\",Base:110}],Health:110}",
+					"count": 1
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.6
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 5
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.55
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.01
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.2
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 750,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_epic",
+					"rolls": 1,
+					"desc": "史诗难度波次奖励"
+				}
+			],
+			"max_wave_time": 1900,
+			"setup_time": 340
+		},
+		{
+			"entities": [{
+					"entity": "irons_spellbooks:archevoker",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:400}],Health:400}",
+					"count": 1
+				},
+				{
+					"entity": "under_the_moon:pupset",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{Id:1,Amplifier:3,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:75}],Health:75}",
+					"count": 2
+				},
+				{
+					"entity": "minecraft:zombie_villager",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"minecraft:speed\",Amplifier:1,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:oakskin\",Amplifier:2,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"wom:diamond_staff\",Count:1b,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}},{}],Attributes:[{Name:\"generic.max_health\",Base:110}],Health:110}",
+					"count": 1
+				}
+			],
+			"modifiers": [
+				{
+					"attribute": "irons_spellbooks:spell_resist",
+					"operation": "MULTIPLY_BASE", 
+					"value": 0.9
+				},
+				{
+					"attribute": "spellbooks_attribute:magic_damage",
+					"operation": "MULTIPLY_BASE", 
+					"value": 1.25
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 6
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.85
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.05
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.35
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 750,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_epic",
+					"rolls": 1,
+					"desc": "史诗难度波次奖励"
+				}
+			],
+			"max_wave_time": 1900,
+			"setup_time": 340
+		},
+		{
+			"entities": [{
+					"entity": "minecraft:drowned",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{Id:1,Amplifier:2,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"epicfight:netherite_tachi\",Count:1b,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:3s}]}},{}],ArmorItems:[{id:\"minecraft:netherite_boots\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:netherite_leggings\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:netherite_chestplate\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:netherite_helmet\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}}],Attributes:[{Name:\"generic.max_health\",Base:65}],Health:65}",
+					"count": 7
+				},
+				{
+					"entity": "minecraft:wither_skeleton",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{Id:1,Amplifier:2,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"epicfight:netherite_greatsword\",Count:1b,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:3s}]}},{}],ArmorItems:[{id:\"minecraft:netherite_boots\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:netherite_leggings\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:netherite_chestplate\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:netherite_helmet\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}}],Attributes:[{Name:\"generic.max_health\",Base:50}],Health:50}",
+					"count": 3
+				},
+				{
+					"entity": "minecraft:zombie_villager",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"minecraft:speed\",Amplifier:1,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:oakskin\",Amplifier:2,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"wom:diamond_staff\",Count:1b,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}},{}],Attributes:[{Name:\"generic.max_health\",Base:110}],Health:110}",
+					"count": 2
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.5
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 4
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.4
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.02
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.3
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 750,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_epic",
+					"rolls": 1,
+					"desc": "史诗难度波次奖励"
+				}
+			],
+			"max_wave_time": 1900,
+			"setup_time": 340
+		},
+		{
+			"entities": [{
+					"entity": "minecraft:husk",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{Id:1,Amplifier:2,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"epicfight:netherite_spear\",Count:1b,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:3s}]}},{}],ArmorItems:[{id:\"minecraft:netherite_boots\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:netherite_leggings\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:netherite_chestplate\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:netherite_helmet\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}}],Attributes:[{Name:\"generic.max_health\",Base:80}],Health:80}",
+					"count": 6
+				},
+				{
+					"entity": "minecraft:zombified_piglin",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{Id:1,Amplifier:2,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"wom:netherite_staff\",Count:1b,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:3s}]}},{}],ArmorItems:[{id:\"minecraft:stray_pants\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:stray_robe\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}},{id:\"minecraft:stray_hat\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:4s}]}}],Attributes:[{Name:\"generic.max_health\",Base:80}],Health:80}",
+					"count": 6
+				},
+				{
+					"entity": "minecraft:zombie_villager",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"minecraft:speed\",Amplifier:1,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:oakskin\",Amplifier:2,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"wom:diamond_staff\",Count:1b,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}},{}],Attributes:[{Name:\"generic.max_health\",Base:110}],Health:110}",
+					"count": 2
+				}
+			],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.5
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 6
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.4
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.02
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.25
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 750,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_epic",
+					"rolls": 1,
+					"desc": "史诗难度波次奖励"
+				}
+			],
+			"max_wave_time": 1900,
+			"setup_time": 340
+		},
+		{
+		"entities": [{
+					"entity": "under_the_moon:wendigo",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"minecraft:regeneration\",Amplifier:0,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],Attributes:[{Name:\"generic.max_health\",Base:700},{\"forge:id\":\"alexscaves:rage\",Amplifier:1,Duration:72000,ShowParticles:0b}],Health:700}",
+					"count": 1
+				},
+				{
+					"entity": "minecraft:zombie_villager",
+					"nbt": "{Tags:[\"dungeons_mob\"],DeathLootTable:\"entities/empty\",ActiveEffects:[{\"forge:id\":\"minecraft:speed\",Amplifier:1,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:oakskin\",Amplifier:2,Duration:72000,ShowParticles:0b},{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:0,Duration:72000,ShowParticles:0b}],HandItems:[{id:\"wom:diamond_staff\",Count:1b,tag:{Enchantments:[{id:\"minecraft:sharpness\",lvl:2s}]}},{}],Attributes:[{Name:\"generic.max_health\",Base:110}],Health:110}",
+					"count": 2
+				}
+			],
+			"modifiers": [
+				{
+					"attribute": "generic.max_health",
+					"operation": "ADDITION",
+					"value": 100
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 7
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.85
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.02
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.35
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 750,
+                    "orb_size": 25
+				},
+				{
+					"type": "gateways:loot_table",
+					"loot_table": "kubejs:dungeons/loot_reward_epic",
+					"rolls": 1,
+					"desc": "史诗难度波次奖励"
+				}
+			],
+			"max_wave_time": 1900,
+			"setup_time": 340
+		}
+	],
+    "rewards": [
+		{
+			"type": "gateways:loot_table",
+			"loot_table": "kubejs:dungeons/loot_reward_final_epic_undead",
+			"rolls": 1,
+			"desc": "史诗难度通关奖励"
+		},
+		{
+			"type": "gateways:command",
+			"command": "/give @p kubejs:dungeons_charge_coin_epic",
+			"desc": "秘境兑币"
+		}
+    ],
+    "failures": [
+		{
+			"type": "gateways:command",
+			"command": "/give @p kubejs:dungeons_charge_coin_hero",
+			"desc": "秘境兑币"
+		}
+    ]
+}

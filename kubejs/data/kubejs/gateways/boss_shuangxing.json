@@ -1,0 +1,67 @@
+{
+	"size": "small",
+	"color": "#FFFFFF",
+	"leash_range": 128,
+	"fail_on_out_of_bounds": true,
+	"player_damage_only": true,
+	"waves": [
+		{
+			"entities": [{
+				"entity": "torchesbecomesunlight:frost_nova",
+				"nbt": "{Tags:[\"dungeons_mob\"],ActiveEffects:[{\"forge:id\":\"irons_spellbooks:charged\",Amplifier:4,Duration:72000,ShowParticles:11b},{\"forge:id\":\"alexscaves:rage\",Amplifier:1,Duration:72000,ShowParticles:0b}]}",
+				"count": 1
+			}
+		],
+			"modifiers": [{
+					"attribute": "generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 3
+				},
+				{
+					"attribute": "generic.armor",
+					"operation": "ADDITION",
+					"value": 8
+				},
+				{
+					"attribute": "generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.6
+				},
+				{
+					"attribute": "generic.knockback_resistance",
+					"operation": "ADDITION",
+					"value": 0.1
+				},
+				{
+					"attribute": "generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"value": 0.01
+				}
+			],
+			"rewards": [
+				{
+					"type": "gateways:experience",
+					"experience": 2500,
+                    "orb_size": 25
+				}
+			],
+			"max_wave_time": 12000,
+			"setup_time": 340
+		}
+	],
+    "rewards": [
+		{
+			"type": "gateways:loot_table",
+			"loot_table": "kubejs:dungeons/loot_reward_boss_challenge",
+			"rolls": 1,
+			"desc": "列王之殇通关奖励"
+		},
+		{
+			"type": "gateways:command",
+			"command": "/give @p simplyswords:slumbering_lichblade",
+			"desc": "秘境兑币"
+		}
+    ],
+    "failures": [
+    ]
+}

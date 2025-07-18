@@ -91,8 +91,15 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["/give @p minecraft:written_book{title:\"异界启程\",author:\"佚名\",pages:[\"[{\\\"text\\\":\\\"你本是一个来自边缘小山村的孩子，无疑没有资格跟着大魔导师科波菲尔学习。但一次魔兽入侵摧毁了你所在的小村子，在危急关头，你体内的魔力突然爆发，将魔兽焚烧殆尽后昏厥。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"恰逢科波菲尔导师在林铎王国搜寻关于污秽教会滥用暗影魔法的线索，感受到巨大的魔力爆发波动，赶来查看将你救下。\\\\n看着无家可归的你，导师轻叹一声：\\\\n\\\\\\\"孩子，跟我走吧。”\\\\n从此，你成为了科波菲尔的关门弟子。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"自知无处可去的你日夜苦修，短短几年就成为导师的得力助手。你们穿梭在王国的阴影中，追查污秽教会的踪迹。\\\\n\\\\\\\"暗影魔法正在腐蚀大地”\\\\n导师的警告日夜萦绕在你心头。\\\\n\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"直到有一天，你和导师搜寻到了一处遗迹，还没等到你们进入遗迹，变看到身着污秽教会服饰的教徒从遗迹中四散奔逃，随后遗迹里爆发出了惊人的魔力，黑暗像一只无形的大手蔓延而来，你和导师随即展开魔法阵抵挡暗影入侵。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"暗影之力像一座大山般吞噬而来，随着你展开的魔法阵碎裂，暗影逐渐的吞噬着你的身躯，这时科波菲尔导师突然腾出了一只手，唤醒了手上的戒指法器，随着蓝色法阵的亮起。\\\\n“活下去”\\\\n导师话音刚落，你眼前一黑，便出现在了一个方块构成的世界。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\"]} 1"]
+			description: [""]
 			id: "51E5273DFA4D1175"
+			rewards: [{
+				command: "/give @p minecraft:written_book{title:\"异界启程\",author:\"佚名\",pages:[\"[{\\\"text\\\":\\\"你本是一个来自边缘小山村的孩子，无疑没有资格跟着大魔导师科波菲尔学习。但一次魔兽入侵摧毁了你所在的小村子，在危急关头，你体内的魔力突然爆发，将魔兽焚烧殆尽后昏厥。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"恰逢科波菲尔导师在林铎王国搜寻关于污秽教会滥用暗影魔法的线索，感受到巨大的魔力爆发波动，赶来查看将你救下。看着无家可归的你，导师轻叹一声：\\\\\\\"孩子，跟我走吧。”从此，你成为了科波菲尔的弟子。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"你日夜苦修，短短几年就成为导师的得力助手。\\\\n“暗影魔法正在腐蚀大地”\\\\n导师的警告日夜萦绕在你心头。\\\\n有一天，你和导师搜寻到了一处遗迹，还没等到你们进入遗迹，遗迹里爆发出了惊人的魔力，黑暗像一只无形的大手蔓延而来，你和导师随即展开魔法阵抵挡暗影入侵。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",\"[{\\\"text\\\":\\\"暗影之力像一座大山般吞噬而来，随着你展开的魔法阵碎裂，暗影逐渐的吞噬着你的身躯，这时科波菲尔导师突然腾出了一只手，随着蓝色法阵的亮起。“活下去”导师话音刚落，你便出现在了一个方块构成的世界。\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\"]} 1"
+				icon: "minecraft:writable_book"
+				id: "52A7FF8F8CC9CA9D"
+				title: "异界启程"
+				type: "command"
+			}]
 			tasks: [{
 				id: "5FA57BF17392E454"
 				title: "开端"

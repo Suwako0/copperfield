@@ -13,5 +13,6 @@ ItemEvents.tooltip(event =>{
     event.add("kubejs:mana_diamond_sheet","灌注了魔力的钻石拥有耐压的特性，可被压成片板")
     event.add("kubejs:custom_dungeons_ring","秘境挑战者的专属奖赏戒指")
     event.add("kubejs:botanicreator_ring","一位优秀的植物魔法机械师的认证")
+    event.add("kubejs:ender_ring","§5导师吸收了暗影之力，在他意识弥留之际，他将污秽送去了虚空，并将自己的意识封印在了终末教堂之中。在无尽的痛苦中，等待着有人能将他解脱...")
     event.add("item.kubejs.final_key.desc","§6使用终焉之钥移除出生点传送阵的屏障封印")
 })

@@ -2847,6 +2847,11 @@
 		{
 			dependencies: ["3460713AE7CF38EB"]
 			id: "3EAE266A231437F0"
+			rewards: [{
+				id: "0C8E44E0EDFF3786"
+				item: "kubejs:ender_ring"
+				type: "item"
+			}]
 			subtitle: "结束了？应该是结束了。你已经无敌于世间，开始你的新征程吧。"
 			tasks: [{
 				id: "5A56836A977E536D"

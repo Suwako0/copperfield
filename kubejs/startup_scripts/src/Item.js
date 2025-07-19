@@ -249,6 +249,40 @@ StartupEvents.registry('item',e=>{
         )
         .maxStackSize(1)
         .tag("curios:ring")
+
+    e.create('ender_ring')
+        .attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .curioTick((slotContext, stack) => { })
+                .onEquip((slotContext, oldStack, newStack) => { })
+                .onUnequip((slotContext, oldStack, newStack) => { })
+                .canEquip((slotContext, stack) => true)
+                .canUnequip((slotContext, stack) => true)
+                .modifySlotsTooltip((tooltips, stack) => tooltips)
+                .addAttribute(
+                    "irons_spellbooks:max_mana",
+                    UUID,
+                    125,
+                    'addition'
+                )
+                .addAttribute(
+                    "irons_spellbooks:ender_spell_power",
+                    UUID,
+                    1.0,
+                    'multiply_total'
+                )
+                .canDrop((slotContext, source, lootingLevel, recentlyHit, stack) => {
+                    return false;
+                })
+                .modifyAttributesTooltip((tooltips, stack) => tooltips)
+                .modifyFortuneLevel((slotContext, lootContext, stack) => 0)
+                .modifyLootingLevel((slotContext, source, target, baseLooting, stack) => 0)
+                .makesPiglinsNeutral((slotContext, stack) => false)
+                .canWalkOnPowderedSnow((slotContext, stack) => false)
+                .isEnderMask((slotContext, enderMan, stack) => false)
+        )
+        .maxStackSize(1)
+        .tag("curios:ring")
 })
 
 ItemEvents.modification(e => {

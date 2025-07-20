@@ -1854,6 +1854,76 @@
 			x: -10.5d
 			y: 5.5d
 		}
+		{
+			dependencies: ["43805D4BFAA3DFF8"]
+			description: [
+				"祛魔池每 10 tick 都会尝试从上方的玩家或经验球吸取经验，并将其转入自己的内部流体存储。"
+				""
+				"祛魔池每次最多从玩家身上吸取 100 点经验值。"
+			]
+			id: "352A1BE202C30328"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41FC86AB14ECAF26"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "用于祛除附魔物品的非诅咒魔咒和从各种来源获得液态经验。液态经验可以为之后的附魔工艺提供原材料。"
+			tasks: [{
+				id: "19991ECA4F75B189"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43805D4BFAA3DFF8"]
+			description: [
+				"使用动力泵等流体元件，向打印机内泵入墨水，同时手执成书右击打印机，为其提供复印母版，这时打印机就能对其下方的书进行复印。"
+				""
+				"使用动力泵等流体元件，向打印机内泵入液态经验，同时手执附魔书右击，可为下方的书复印与母版相同的附魔。"
+				""
+				"请注意，如果母版上任意附魔的等级超过了其最高等级，那么你需要向打印机内泵入液态超经验来完成复印。"
+				""
+				"使用动力泵等流体元件，向打印机内泵入墨水，同时手执列车时刻表书右击，可为下方的列车时刻表复印与母版相同的安排。"
+				""
+				"使用动力泵等流体元件，向打印机内泵入液态超经验，同时手执古卷右击，可为任意附魔书升级为与母版相同的古卷。"
+			]
+			id: "2605577CAEECD7B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "562F6521B1D566CD"
+				table_id: 4650578356185217694L
+				type: "random"
+			}]
+			subtitle: "打印机是用于复印成书或附魔书的作业元件"
+			tasks: [{
+				id: "109D0BCBEB879033"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43805D4BFAA3DFF8"]
+			id: "43F563ECB200DB8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50DF808D7C610ACE"
+				table_id: 4650578356185217694L
+				type: "choice"
+			}]
+			subtitle: "液态超经验主要用于供给烈焰人附魔室进行超越附魔的消耗。"
+			tasks: [{
+				id: "434779E126723C14"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
 	]
 	title: "机↑械↓动力↑"
 }

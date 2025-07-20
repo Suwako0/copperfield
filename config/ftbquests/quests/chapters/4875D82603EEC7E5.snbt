@@ -39,24 +39,6 @@
 			y: -3.0d
 		}
 		{
-			id: "6028966A9E74E33E"
-			tasks: [{
-				id: "1FA1C386BF91FC83"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "fruitsdelight:wild_pineapple"
-				}
-				type: "item"
-			}]
-			x: -3.5d
-			y: -4.0d
-		}
-		{
 			id: "2655A0D777513A89"
 			tasks: [{
 				id: "02A81231D17A599C"
@@ -1978,6 +1960,23 @@
 			}]
 			x: -8.0d
 			y: -0.5d
+		}
+		{
+			id: "59D8D95BFE2D87F2"
+			rewards: [{
+				count: 10
+				id: "321EC8B075CF326D"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			subtitle: "整合包加入了静谧四季模组，给作物搭建玻璃房能够使需要季节生长的作物无视季节生长。"
+			tasks: [{
+				id: "7DA9182279D8D845"
+				title: "这都是大棚的瓜"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.0d
 		}
 	]
 	title: "果园乐事"

@@ -1962,6 +1962,7 @@
 			y: -0.5d
 		}
 		{
+			icon: "minecraft:glass"
 			id: "59D8D95BFE2D87F2"
 			rewards: [{
 				count: 10

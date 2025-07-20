@@ -260,6 +260,8 @@ ServerEvents.recipes(e =>{
     e.blasting('kubejs:gem_origin_red', 'kubejs:gem_origin')
     //神秘花粉末
     create.milling(['kubejs:mystery_pollen', Item.of('kubejs:mystery_pollen', 1).withChance(0.5)], '#botania:mystical_flowers');
+    //玫瑰石英分解
+    create.milling([Item.of('biomesoplenty:rose_quartz_chunk', 4)], 'biomesoplenty:rose_quartz_block');
     //宝石粉
     create.milling([Item.of("apotheosis:gem_dust", 1).withChance(0.05), Item.of("irons_spellbooks:arcane_essence", 1).withChance(0.1)], 'botania:mana_powder');
     //下界合金碎片产线
@@ -428,7 +430,9 @@ ServerEvents.recipes(e =>{
     //魔力转化 回响碎片
     botania.mana_infusion("minecraft:echo_shard", ["irons_spellbooks:arcane_salvage"], 10000)
     //魔力转化 紫水晶母岩
-    botania.mana_infusion("minecraft:budding_amethyst", ["minecraft:amethyst_block"], 50000)
+    botania.mana_infusion("minecraft:budding_amethyst", ["minecraft:amethyst_block"], 50000, "botania:alchemy_catalyst")
+    //玫瑰石英转化
+    botania.mana_infusion("create:rose_quartz", ["biomesoplenty:rose_quartz_chunk"], 5000, "botania:alchemy_catalyst")
     //凝矿兰 锌矿石
     botania.orechid("create:zinc_ore", "minecraft:stone", 3500)
     //泰拉凝聚板 终焉之钥

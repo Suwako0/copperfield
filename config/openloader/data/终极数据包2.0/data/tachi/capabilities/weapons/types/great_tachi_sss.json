@@ -49,14 +49,14 @@
       "falchionmoveset:biped/falchion/falchion_backward",
       "cdmoveset:biped/new/dual_tachi/great_tachi_auto4",
       "wom:biped/combat/ruine_auto_4",
-      "wukong:biped/smash/smash_heavy3",
-      "wukong:biped/pillar/charged_heavy4",
+      "wukong:biped/smash/smash_heavy1",
+      "wukong:biped/smash/smash_heavy0",
       "wom:biped/combat/ruine_auto_4",
-      "wukong:biped/smash/smash_heavy3",
-      "wukong:biped/pillar/charged_heavy4",
+      "wukong:biped/smash/smash_heavy1",
+      "wukong:biped/smash/smash_heavy0",
 
       "wom:biped/skill/katana_fatal_draw_dash",
-      "wukong:biped/smash/smash_heavy4"
+      "wukong:biped/smash/smash_heavy0"
     ]
   },
   "category": "tachi",

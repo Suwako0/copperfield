@@ -120,7 +120,7 @@ ItemEvents.rightClicked(event => {
 ItemEvents.rightClicked('kubejs:dungeons_hearthstone', event => {
     event.server.runCommandSilent(`execute in kubejs:custom_dungeons run forceload add 1 1`)
     event.server.runCommandSilent(`execute in kubejs:custom_dungeons run tp ${event.player.name.getString()} 24 24 24`)
-    event.server.runCommandSilent(`execute in kubejs:custom_dungeons run effect give @a minecraft:slow_falling 5`)
+    event.server.runCommandSilent(`execute in kubejs:custom_dungeons run effect give ${event.player.name.getString()} minecraft:slow_falling 5`)
     event.server.runCommandSilent(`execute in kubejs:custom_dungeons run weather clear`)
     ClearCustomDungeon(event)
     event.server.runCommandSilent(`execute in kubejs:custom_dungeons run place template dungeons_arise:custom_dungeons/custom_dungeons 0 5 0`)
@@ -129,7 +129,7 @@ ItemEvents.rightClicked('kubejs:dungeons_hearthstone', event => {
 ItemEvents.rightClicked('kubejs:dungeons_hearthstone_water', event => {
     event.server.runCommandSilent(`execute in kubejs:custom_dungeons run forceload add 1 1`)
     event.server.runCommandSilent(`execute in kubejs:custom_dungeons run tp ${event.player.name.getString()} 24 22 24`)
-    event.server.runCommandSilent(`execute in kubejs:custom_dungeons run effect give @a minecraft:slow_falling 5`)
+    event.server.runCommandSilent(`execute in kubejs:custom_dungeons run effect give ${event.player.name.getString()} minecraft:slow_falling 5`)
     event.server.runCommandSilent(`execute in kubejs:custom_dungeons run weather clear`)
     ClearCustomDungeon(event)
     event.server.runCommandSilent(`execute in kubejs:custom_dungeons run place template dungeons_arise:custom_dungeons/custom_dungeons 0 5 0`)

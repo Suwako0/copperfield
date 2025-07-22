@@ -1520,14 +1520,14 @@
 		{
 			dependencies: ["5CC9A87BC0327FDE"]
 			description: [
-				"v0.9.6"
-				"1.任务书调整"
-				"2.修复了机械动力附魔工业W思索等导致的崩溃"
-				"3.移除多余贴图"
+				"v0.9.6Patch"
+				"1.添加夸克玫瑰石英转化为机械动力石英"
+				"2.添加战利品箱MOD"
+				"3.部分武器数据包修复"
 			]
 			icon: "botania:animated_torch"
 			id: "66360AE777260DAF"
-			subtitle: "当前:V0.9.6 Beta"
+			subtitle: "当前:V0.9.6Patch Beta"
 			tasks: [{
 				id: "791CD92AA6197EA8"
 				title: "更新日志"

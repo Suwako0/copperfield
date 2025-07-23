@@ -5,15 +5,15 @@
 			"armor_negation": 2,
                 "impact": 2.0,
 			"max_strikes": 5,
-                        "damage_bonus":-3.0,
-			"speed_bonus":0.5
+			"damage_bonus":-6,
+			"speed_bonus":0.35
 		},
 		"two_hand": {
 			"armor_negation": 2,
                 "impact": 2.0,
 			"max_strikes": 5,
-                        "damage_bonus":-3.0,
-			"speed_bonus":0.5
+         	"damage_bonus":-6,
+			"speed_bonus":0.35
 		}
 	}
 }

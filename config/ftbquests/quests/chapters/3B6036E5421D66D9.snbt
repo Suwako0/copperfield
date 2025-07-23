@@ -1168,7 +1168,7 @@
 		{
 			dependencies: ["206AFDBF3592720B"]
 			description: [
-				"可以使用结构指南针来快速寻找要塞位置,无需使用末影之眼寻找"
+				"可以使用结构指南针来快速寻找要塞位置,无需使用末影之眼寻找，搜索minecraft:stronghold"
 				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"39C4B4A3D081227F\" } }"
 			]
 			id: "0FA13E430699E5CD"
@@ -1592,6 +1592,31 @@
 			}]
 			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3D42F7BF585D19E2"]
+			id: "0FEA7DAF95A9AF87"
+			rewards: [
+				{
+					id: "0E49114DE236376B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00C8A6C1D2DBFA2F"
+					table_id: 1448189378427347383L
+					type: "random"
+				}
+			]
+			subtitle: "如果你对史诗战斗修改后的第一人称感到不习惯,可以切换回原始第一人称视角,具体操作：ESC→模组→搜索\"Epic Fight\"→找到\"Epic Fight\"→配置→图像设置→第一人称玩家模型渲染：关 即可"
+			tasks: [{
+				id: "3E05098031DC8217"
+				title: "第一人称"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 3.0d
 		}
 	]
 	title: "旅途之始"

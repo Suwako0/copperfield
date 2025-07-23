@@ -2,16 +2,16 @@
     "type": "twinblade:twinblade4",
     "attributes": {
         "one_hand": {
-            "armor_negation": 8.0,
+            "armor_negation": 6.0,
             "impact": 1.0,
             "max_strikes": 1,
-            "speed_bonus":0.55
+            "speed_bonus":0.4
         },
         "two_hand": {
-            "armor_negation": 10,
+            "armor_negation": 8,
             "impact": 1.0,
             "max_strikes": 1,
-            "speed_bonus":0.55
+            "speed_bonus":0.4
         }
     }
  }

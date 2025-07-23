@@ -2,16 +2,16 @@
     "type": "test:the_immolator",
     "attributes": {
         "one_hand": {
-            "armor_negation": 8.0,
+            "armor_negation": 6.0,
                 "impact": 2.0,
             "max_strikes": 4.0,
-            "speed_bonus":0
+            "speed_bonus":-0.1
         },
         "two_hand": {
-            "armor_negation": 8.0,
+            "armor_negation": 6.0,
                 "impact": 2.0,
             "max_strikes": 4.0,
-            "speed_bonus":0.5
+            "speed_bonus":0.35
         }
     }
  }

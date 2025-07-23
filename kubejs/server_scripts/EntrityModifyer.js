@@ -134,7 +134,7 @@ EntityEvents.spawned(event => {
     }
     //盖亚
     if (event.entity.type === 'botania:doppleganger') {
-        event.entity.maxHealth *= 2.2
+        event.entity.maxHealth *= 2.3
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             const tagStr = event.entity.getUuid().toString()
@@ -145,7 +145,7 @@ EntityEvents.spawned(event => {
     }
     //怪人
     if (event.entity.type === 'illageandspillage:freakager') {
-        event.entity.maxHealth = 250
+        event.entity.maxHealth = 350
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             const tagStr = event.entity.getUuid().toString()
@@ -156,7 +156,7 @@ EntityEvents.spawned(event => {
     }
     //腐败蜘蛛
     if (event.entity.type === 'illageandspillage:ragno') {
-        event.entity.maxHealth = 200
+        event.entity.maxHealth = 300
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -169,7 +169,7 @@ EntityEvents.spawned(event => {
     }
     //死者之王
     if (event.entity.type === 'irons_spellbooks:dead_king') {
-        event.entity.maxHealth = 1500
+        event.entity.maxHealth = 2000
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -182,7 +182,7 @@ EntityEvents.spawned(event => {
     }
     //末影守卫
     if (event.entity.type === 'cataclysm:ender_guardian') {
-        event.entity.maxHealth = 1350
+        event.entity.maxHealth = 1850
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -195,7 +195,7 @@ EntityEvents.spawned(event => {
     }
     //咒翼灵
     if (event.entity.type === 'cataclysm:maledictus') {
-        event.entity.maxHealth = 1300
+        event.entity.maxHealth = 1800
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -208,7 +208,7 @@ EntityEvents.spawned(event => {
     }
     //瞑煌龙
     if (event.entity.type === 'alexscaves:luxtructosaurus') {
-        event.entity.maxHealth = 1400
+        event.entity.maxHealth = 1350
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -236,7 +236,7 @@ EntityEvents.spawned(event => {
     }
     //远古遗魂
     if (event.entity.type === 'cataclysm:ancient_remnant') {
-        event.entity.maxHealth = 2750
+        event.entity.maxHealth = 2850
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -249,7 +249,7 @@ EntityEvents.spawned(event => {
     }
     //先驱者
     if (event.entity.type === 'cataclysm:the_harbinger') {
-        event.entity.maxHealth = 2300
+        event.entity.maxHealth = 2650
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -265,7 +265,7 @@ EntityEvents.spawned(event => {
     }
     //下界合金巨兽
     if (event.entity.type === 'cataclysm:netherite_monstrosity') {
-        event.entity.maxHealth = 2400
+        event.entity.maxHealth = 2650
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -280,7 +280,7 @@ EntityEvents.spawned(event => {
     }
     //焰魔
     if (event.entity.type === 'cataclysm:ignis') {
-        event.entity.maxHealth = 2200
+        event.entity.maxHealth = 2650
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -295,7 +295,7 @@ EntityEvents.spawned(event => {
     }
     //震怒的死者之王
     if (event.entity.type === 'traveloptics:enraged_dead_king') {
-        event.entity.maxHealth = 2800
+        event.entity.maxHealth = 2850
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -309,7 +309,7 @@ EntityEvents.spawned(event => {
     }
     //利维坦
     if (event.entity.type === 'cataclysm:the_leviathan') {
-        event.entity.maxHealth = 2900
+        event.entity.maxHealth = 3100
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -323,7 +323,7 @@ EntityEvents.spawned(event => {
     }
     //斯库拉
     if (event.entity.type === 'cataclysm:scylla') {
-        event.entity.maxHealth = 2900
+        event.entity.maxHealth = 3100
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             const tagStr = event.entity.getUuid().toString()

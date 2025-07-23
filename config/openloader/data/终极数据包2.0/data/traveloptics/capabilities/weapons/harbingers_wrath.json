@@ -2,16 +2,16 @@
     "type": "tachi:great_tachi_sss",
     "attributes": {
         "one_hand": {
-            "armor_negation": 8.0,
+            "armor_negation": 5.0,
                 "impact": 2.0,
-            "max_strikes": 5.0,
-            "speed_bonus":0.5
+            "max_strikes": 3.0,
+            "speed_bonus":0.35
         },
         "two_hand": {
-            "armor_negation": 8.0,
+            "armor_negation": 5.0,
                 "impact": 2.0,
-            "max_strikes": 5.0,
-            "speed_bonus":0.5
+            "max_strikes": 3.0,
+            "speed_bonus":0.35
         }
     }
  }

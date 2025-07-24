@@ -1520,14 +1520,14 @@
 		{
 			dependencies: ["5CC9A87BC0327FDE"]
 			description: [
-				"v0.9.6Patch"
-				"1.添加夸克玫瑰石英转化为机械动力石英"
-				"2.添加战利品箱MOD"
-				"3.部分武器数据包修复"
+				"v0.9.7"
+				"1.修复数据包中TOTweaks武器升星后模板错误问题"
+				"2.添加机素防护模组"
+				"3.修复了部分生物行为史诗战斗导致的崩溃"
 			]
 			icon: "botania:animated_torch"
 			id: "66360AE777260DAF"
-			subtitle: "当前:V0.9.6Patch Beta"
+			subtitle: "当前:V0.9.7 Beta"
 			tasks: [{
 				id: "791CD92AA6197EA8"
 				title: "更新日志"

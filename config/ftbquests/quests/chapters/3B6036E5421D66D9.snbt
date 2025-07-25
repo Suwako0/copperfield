@@ -1053,6 +1053,7 @@
 		}
 		{
 			dependencies: ["65D8635816E764A2"]
+			description: ["刷铁请制作神秘花磨粉刷铁机！"]
 			id: "0B91CDDAA4449CF3"
 			rewards: [
 				{

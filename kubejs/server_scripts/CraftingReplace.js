@@ -28,8 +28,8 @@ ServerEvents.recipes(e =>{
         ['botania:livingwood_planks','minecraft:stone','']
     ]);
     //结构指南针
-    e.remove({output: 'structurecompass:structure_compass'})
-    e.shaped('structurecompass:structure_compass',[
+    e.remove({output: 'explorerscompass:explorerscompass'})
+    e.shaped('explorerscompass:explorerscompass',[
         ['botania:livingrock','create:iron_sheet','botania:livingrock'],
         ['create:iron_sheet','minecraft:compass','create:iron_sheet'],
         ['botania:livingrock','create:iron_sheet','botania:livingrock']

@@ -90,8 +90,12 @@
 			id: "39C4B4A3D081227F"
 			subtitle: "制作结构指南针，可以帮你快速查找你附近范围内某个目标结构"
 			tasks: [{
-				id: "3CF1C79FCAE0D511"
-				item: "structurecompass:structure_compass"
+				id: "066EF5B0D253AC1E"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.0d

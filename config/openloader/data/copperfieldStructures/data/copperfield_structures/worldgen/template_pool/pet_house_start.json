@@ -12,6 +12,15 @@
       }
     },
     {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "copperfield_structures:train_station",
+        "projection": "rigid",
+        "processors": "copperfield_structures:train_station_corrosion"
+      }
+    },
+    {
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",

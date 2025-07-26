@@ -5,13 +5,17 @@
       "weight": 2
     },
     {
+      "structure": "copperfield_structures:train_station",
+      "weight": 2
+    },
+    {
       "structure": "copperfield_structures:botanicreate_house",
       "weight": 1
     }
   ],
   "placement": {
     "salt": 98321721,
-    "spacing": 40,
+    "spacing": 36,
     "separation": 20,
     "type": "minecraft:random_spread"
   }

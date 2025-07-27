@@ -1924,6 +1924,832 @@
 			x: -5.5d
 			y: 4.0d
 		}
+		{
+			id: "03D3750559D34D74"
+			subtitle: "机素防护是基于机械动力提供的一套多功能护甲，可以通过不同的组合来实现不同的功能。"
+			tasks: [{
+				id: "22BE2DF7A94F0FA5"
+				title: "机素防护"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["03D3750559D34D74"]
+			id: "66E76D050576C55B"
+			subtitle: "护甲拆卸台需要通过其他模组的管道输入岩浆才能工作。每次拆解插板和装接插板都会分别消耗100Mb岩浆。平台自身可以存储200Mb岩浆，并在有存储时转动底部的齿轮。玩家使用时只需身穿护甲，站在平台上并点击右Shift键即可。"
+			tasks: [{
+				id: "0368684D73E3DE34"
+				item: "protection_pixel:armorloadplatform"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["66E76D050576C55B"]
+			description: [
+				"燃烧动力反应堆可以右键打开容器界面。如果其内部含有水罐和至少一根燃烧棒，那么燃烧动力反应堆会在被放入饰品栏中的动力槽后激活。在激活状态下，内部的燃烧棒和水罐会减少耐久并为玩家消除穿戴模组中护甲的减速效果和实现护甲功能，并遵循以下机制："
+				""
+				"每经过x（x=20-容器内燃烧棒的数量）游戏刻，容器内部任意一个燃烧棒会减少一点耐久。"
+				""
+				"每经过y（y=60x）游戏刻，容器内部的水罐会减少一点耐久。"
+				""
+				"激活状态下的燃烧动力反应堆还会为玩家抵消护甲上插板带来的z(z=6+容器内燃烧棒的数量)点配重。"
+			]
+			id: "5D7AD93A3CC45BC0"
+			subtitle: "燃烧动力反应堆是穿带模组中所有护甲和实现护甲功能的必不可少的物品。"
+			tasks: [
+				{
+					id: "7ACDA742DFF281E9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 9
+							}
+						}
+						id: "protection_pixel:powerengine"
+					}
+					type: "item"
+				}
+				{
+					id: "36511C5415465F8D"
+					item: "protection_pixel:emptywatertank"
+					type: "item"
+				}
+				{
+					id: "2C20D093B39AD332"
+					item: {
+						Count: 1
+						id: "protection_pixel:flarerod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "机素动力"
+			x: -8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5D7AD93A3CC45BC0"]
+			id: "11BBC2638A94F83C"
+			subtitle: "机素防护拥有功能各异的护甲，每件护甲的功能独立计算，你可以通过搭配来完成不同功能的结合。每种护甲有两种等级，黄铜和合金。合金护甲在数值上要比黄铜护甲更强。"
+			tasks: [
+				{
+					id: "340912EB4966204A"
+					item: "protection_pixel:chestplatelining"
+					type: "item"
+				}
+				{
+					id: "0FBC18843AB2FD4F"
+					item: "protection_pixel:leggingslining"
+					type: "item"
+				}
+				{
+					id: "7459D41820ECF26E"
+					item: {
+						Count: 1
+						id: "protection_pixel:socks_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "机素护甲"
+			x: -6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "023DB3FAA87B8599"
+			subtitle: "玩家可以使用不同数值的插板，能够灵活地适应周目发展线上的任何一个阶段，而无需更换护甲。"
+			tasks: [
+				{
+					id: "32AB131C057434E1"
+					item: {
+						Count: 1
+						id: "protection_pixel:ironarmorplate"
+						tag: {
+							Damage: 0
+							armor: 1.0d
+							toughness: 0.0d
+							weight: 1.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38E4F0978C3F454D"
+					item: {
+						Count: 1
+						id: "protection_pixel:brassarmorplate"
+						tag: {
+							Damage: 0
+							armor: 2.0d
+							toughness: 1.0d
+							weight: 2.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3533502F10AC217B"
+					item: {
+						Count: 1
+						id: "protection_pixel:alloyarmorplate"
+						tag: {
+							Damage: 0
+							armor: 2.0d
+							toughness: 1.0d
+							weight: 1.5d
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "插板"
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["023DB3FAA87B8599"]
+			id: "2ACDBFDAE51A35E0"
+			subtitle: "机素防护还提供了驱动接口，能够附加更多的功能。"
+			tasks: [{
+				id: "123D7DAD902C94E6"
+				title: "功能接口"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "1E0D9F13B8B92784"
+			subtitle: "可以周期性驱散负面buff。"
+			tasks: [
+				{
+					id: "6D3BF7B9CBC33CF3"
+					item: {
+						Count: 1
+						id: "protection_pixel:plague_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A91FDACCE50670A"
+					item: {
+						Count: 1
+						id: "protection_pixel:plagueas_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "7483B0B9005CDF9F"
+			subtitle: "速度越快，伤害越高。"
+			tasks: [
+				{
+					id: "57CAD760301C4463"
+					item: {
+						Count: 1
+						id: "protection_pixel:lancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35F3D70207C33B3E"
+					item: {
+						Count: 1
+						id: "protection_pixel:lanceras_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "2A39A5EF3840F6BC"
+			subtitle: "更好的头部防御"
+			tasks: [
+				{
+					id: "29BC161E1BC3C91D"
+					item: {
+						Count: 1
+						id: "protection_pixel:hammer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50A26003FC7185CC"
+					item: {
+						Count: 1
+						id: "protection_pixel:hammeras_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "5EAB33F822E0907C"
+			subtitle: "在激活状态下，通过玩家潜行高亮标记出边长为40格的正方体范围内的移动实体。玩家可以通过箭矢给目标施加50秒高亮效果和50秒挖掘疲劳效果。"
+			tasks: [
+				{
+					id: "19E4F8B3DF652315"
+					item: {
+						Count: 1
+						id: "protection_pixel:hunter_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3401ABCBC52CF58D"
+					item: {
+						Count: 1
+						id: "protection_pixel:hunteras_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "52E6C52BEC396A89"
+			subtitle: "在激活状态下，玩家可以通过游泳每1.5秒恢复氧气值，但并不会影响氧气值消耗；在玩家受到燃烧或魔法伤害时，有30%的概率消除伤害。"
+			tasks: [
+				{
+					id: "00BB7ED1E3934B8E"
+					item: {
+						Count: 1
+						id: "protection_pixel:closed_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48D2D32F8ED46075"
+					item: {
+						Count: 1
+						id: "protection_pixel:closedas_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "4A1A47AD4EEDDAAB"
+			subtitle: "暴击时有概率将生命值转化为临时生命值。"
+			tasks: [
+				{
+					id: "77F3D20B3652C614"
+					item: {
+						Count: 1
+						id: "protection_pixel:bloodprisoner_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "135DA52C23533597"
+					item: {
+						Count: 1
+						id: "protection_pixel:bloodprisoneras_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "79203E2EB1B346C6"
+			subtitle: "提升伤害和攻速。"
+			tasks: [
+				{
+					id: "6CBCCA26E3481CD8"
+					item: {
+						Count: 1
+						id: "protection_pixel:breaker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6028122E236AFB17"
+					item: {
+						Count: 1
+						id: "protection_pixel:breakeras_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "4A4C7723A4C322D1"
+			subtitle: "为玩家增加0.5点攻击速度和10%的游泳速度。在激活状态下，给予边长为7的正方体范围内的敌对实体等级1的虚弱效果，额外给予亡灵生物等级1的挖掘疲劳效果。"
+			tasks: [
+				{
+					id: "3D694D2BF217E756"
+					item: {
+						Count: 1
+						id: "protection_pixel:wingsofprism_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5482A2A5C3201787"
+					item: {
+						Count: 1
+						id: "protection_pixel:wingsofprismas_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "45FDFF0067E7CB1B"
+			subtitle: "为玩家增加2点方块触及距离和1点击退。在激活状态下，每游戏刻有5%的概率对以边长为4的正方体范围内的敌对实体造成1点伤害。"
+			tasks: [
+				{
+					id: "69A1338E357601E0"
+					item: {
+						Count: 1
+						id: "protection_pixel:workerhornet_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4744D2B9A95F79A3"
+					item: {
+						Count: 1
+						id: "protection_pixel:workerhornetas_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "5234FC5FC3B8CD3E"
+			subtitle: "受到一定伤害进行大范围反击，可以将远程怪物拉到身边。"
+			tasks: [
+				{
+					id: "2AE3A945FB715100"
+					item: {
+						Count: 1
+						id: "protection_pixel:magneticstorm_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63FA4B7FAB400AA3"
+					item: {
+						Count: 1
+						id: "protection_pixel:magneticstormas_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "2E3252C9BF446905"
+			subtitle: "挖矿的，黄金矿工。"
+			tasks: [
+				{
+					id: "182BE92FFA35A45A"
+					item: {
+						Count: 1
+						id: "protection_pixel:pioneer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DDAB4A28A297894"
+					item: {
+						Count: 1
+						id: "protection_pixel:pioneeras_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "3DF4EC28869AA1AC"
+			subtitle: "攻击有概率点燃敌方，增加攻速，可以进行一次有CD的空中喷射。"
+			tasks: [
+				{
+					id: "683606C05FBE8BCC"
+					item: {
+						Count: 1
+						id: "protection_pixel:hellsnake_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0369DBC42C850D87"
+					item: {
+						Count: 1
+						id: "protection_pixel:hellsnakeas_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "157514ED1F0A9608"
+			subtitle: "战斗时释放一个无人机，无人机攻击可以为你提供吸血。"
+			tasks: [
+				{
+					id: "3CFFA04F36CF493A"
+					item: {
+						Count: 1
+						id: "protection_pixel:falconnest_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EA3E15C9FF46897"
+					item: {
+						Count: 1
+						id: "protection_pixel:falconnestas_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "673BD84A9B6943B2"
+			subtitle: "提升移速。"
+			tasks: [
+				{
+					id: "53E6DD8F243F8DCE"
+					item: {
+						Count: 1
+						id: "protection_pixel:slingshot_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16C4A10F1586C3D8"
+					item: {
+						Count: 1
+						id: "protection_pixel:slingshotas_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "43B6AF73AFC7F072"
+			subtitle: "提供摔落抗性，击退抗性。"
+			tasks: [
+				{
+					id: "2B0BDCBC58E722FB"
+					item: {
+						Count: 1
+						id: "protection_pixel:anchorpoint_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "024B620D2E08E98F"
+					item: {
+						Count: 1
+						id: "protection_pixel:anchorpointas_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "1FFA9A41311B961D"
+			subtitle: "水上行走。"
+			tasks: [
+				{
+					id: "290883AE05592879"
+					item: {
+						Count: 1
+						id: "protection_pixel:buoyancy_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14737B716DDCCF4C"
+					item: {
+						Count: 1
+						id: "protection_pixel:buoyancyas_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "281CDDAABAED6D93"
+			subtitle: "在激活状态下，每1.2秒为玩家增加1点护盾值，上限为25点护盾值；玩家在受伤时会自动消耗与伤害同等数值的护盾值来抵消伤害，如果伤害超过护盾值，那么玩家受到的伤害是溢出部分的伤害（是源自伤害来源的理论伤害，非经过护甲值等机制计算过后的实际伤害）。无法安装插板。"
+			tasks: [{
+				id: "4261C5FACA13BC2E"
+				item: {
+					Count: 1
+					id: "protection_pixel:floatshield_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["11BBC2638A94F83C"]
+			id: "10F5A4A760FF5193"
+			subtitle: "托萨奇套为地狱套，可以提供抗火，可以在岩浆中游泳，提供岩浆下的清晰视野。"
+			tasks: [
+				{
+					id: "7DB5B5425DF20DE3"
+					item: {
+						Count: 1
+						id: "protection_pixel:tosaki_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1941DE05E027299F"
+					item: {
+						Count: 1
+						id: "protection_pixel:tosaki_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FF8F80CD30B8F3A"
+					item: {
+						Count: 1
+						id: "protection_pixel:tosaki_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "托萨奇套"
+			x: -6.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2ACDBFDAE51A35E0"]
+			id: "00121F0683F0F068"
+			subtitle: "提供更快的飞行能力。"
+			tasks: [{
+				id: "2EFA5AD52114B9C4"
+				item: {
+					Count: 1
+					id: "protection_pixel:maneuveringwing"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2ACDBFDAE51A35E0"]
+			id: "44DCC74E7607514A"
+			subtitle: "提供水下呼吸。"
+			tasks: [{
+				id: "38789984FE07DAFB"
+				item: {
+					Count: 1
+					id: "protection_pixel:tacticaloxygensupplydevice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2ACDBFDAE51A35E0"]
+			id: "5B3B546B09CAD26B"
+			subtitle: "喷气背包，推进器。"
+			tasks: [{
+				id: "2AC9344E03CAA445"
+				item: {
+					Count: 1
+					id: "protection_pixel:heatpulsethruster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2ACDBFDAE51A35E0"]
+			id: "4A9F0D29BE2DA974"
+			subtitle: "给盔甲提供更多的配重。"
+			tasks: [{
+				id: "39E1942B0AE52339"
+				item: {
+					Count: 1
+					id: "protection_pixel:steambooster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2ACDBFDAE51A35E0"]
+			id: "121B88AD09B12116"
+			subtitle: "进攻性武器，可以发射榴弹。"
+			tasks: [{
+				id: "62554FC9005C6F77"
+				item: "protection_pixel:pneumaticgrenadelauncharm"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2ACDBFDAE51A35E0"]
+			id: "4BAA01E4C6783156"
+			subtitle: "抓钩枪，快速攀登和抓取猎物。"
+			tasks: [{
+				id: "4F51D1FD74A5E6B8"
+				item: {
+					Count: 1
+					id: "protection_pixel:hookcannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
 	]
 	title: "机↑械↓动力↑"
 }

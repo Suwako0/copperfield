@@ -3,6 +3,8 @@ StartupEvents.registry('item',e=>{
     e.create('mystery_pollen','basic'),
     //神秘沙质
     e.create('mystery_sand','basic'),
+    //亚尔夫海姆晶体
+    e.create('alfheim_crystal','basic'),
     //随机魔宠袋
     e.create('random_pet_bag','basic'),
     //魔力下界合金锭

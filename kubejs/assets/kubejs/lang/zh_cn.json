@@ -1,6 +1,7 @@
 {
     "item.kubejs.mystery_pollen":"神秘花粉末",
     "item.kubejs.mystery_sand":"神秘沙质",
+    "item.kubejs.alfheim_crystal":"亚尔夫海姆晶体",
     "item.kubejs.random_pet_bag":"§d随机魔宠袋子",
     "item.kubejs.mana_netherite_ingot":"魔力下界合金锭",
     "item.kubejs.mana_diamond_sheet":"魔力钻石板",
@@ -98,5 +99,7 @@
     "item.kubejs.final_key.desc":"§6使用终焉之钥移除出生点传送阵的屏障封印",
 
     "attribute.name.:generic.damage_rate":"伤害倍率",
-    "attribute.name.:generic.damage_rate.desc":"结算伤害时，乘以总伤害倍率"
+    "attribute.name.:generic.damage_rate.desc":"结算伤害时，乘以总伤害倍率",
+
+    "block.kubejs.alfheim_crystal_block":"亚尔夫海姆晶块"
 }

@@ -217,7 +217,7 @@
 				title: "死亡不掉落"
 				type: "checkmark"
 			}]
-			x: -3.5d
+			x: -2.5d
 			y: -3.5d
 		}
 		{
@@ -231,6 +231,26 @@
 			}]
 			x: -3.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["7D98B3F45464BBB3"]
+			id: "43AC4D496C9C349F"
+			subtitle: "灯笼/灵魂灯笼可以穿戴在饰品栏腰部，提供动态光源"
+			tasks: [
+				{
+					id: "23CCDC70363EF0E6"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					id: "01A4B5F941D794DC"
+					item: "minecraft:soul_lantern"
+					type: "item"
+				}
+			]
+			title: "腰挂灯笼"
+			x: -4.5d
+			y: -3.5d
 		}
 	]
 	title: "实用小功能"

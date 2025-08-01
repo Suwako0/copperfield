@@ -1,4 +1,5 @@
 ItemEvents.tooltip(event =>{
+    event.add("ends_delight:non_hatchable_dragon_egg","用农夫乐事刀类击杀末影龙掉落")
     event.add("cataclysm:mechanical_fusion_anvil","可以在精灵界亚尔夫海姆的腐化圣泉结构中找到，用于合成高阶武器和增强饰品")
     event.add("kubejs:random_pet_bag","§d在玩家位置生成一只随机的魔宠，使用奥术源质来驯服!")
     event.add("kubejs:dungeons_hearthstone","使用秘境炉石来返回试炼秘境维度")
@@ -15,4 +16,5 @@ ItemEvents.tooltip(event =>{
     event.add("kubejs:botanicreator_ring","一位优秀的植物魔法机械师的认证")
     event.add("kubejs:ender_ring","§5导师吸收了暗影之力，在他意识弥留之际，他将污秽送去了虚空，并将自己的意识封印在了终末教堂之中。在无尽的痛苦中，等待着有人能将他解脱...")
     event.add("item.kubejs.final_key.desc","§6使用终焉之钥移除出生点传送阵的屏障封印")
+    event.add("kubejs:alfheim_crystal_block","随机生成于亚尔夫海姆地表")
 })

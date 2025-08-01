@@ -5,6 +5,8 @@ StartupEvents.registry('item',e=>{
     e.create('mystery_sand','basic'),
     //亚尔夫海姆晶体
     e.create('alfheim_crystal','basic'),
+    //龙心容器
+    e.create('dragon_heart','basic'),
     //随机魔宠袋
     e.create('random_pet_bag','basic'),
     //魔力下界合金锭
@@ -49,6 +51,8 @@ StartupEvents.registry('item',e=>{
     e.create('boss_remains','basic').tag('kubejs:dungenos_key').maxStackSize(1)
     //列王之殇钥石 霜星
     e.create('dungeons_key_boss_shuangxing','basic').texture('kubejs:item/dungeons_key_boss').tag('kubejs:dungenos_key').maxStackSize(1)
+    //列王之殇钥石 迷迭香
+    e.create('dungeons_key_boss_midiexiang','basic').texture('kubejs:item/dungeons_key_boss').tag('kubejs:dungenos_key').maxStackSize(1)
     //列王之殇钥石 震怒的死者之王
     e.create('dungeons_key_boss_sizhezhiwang','basic').texture('kubejs:item/dungeons_key_boss').tag('kubejs:dungenos_key').maxStackSize(1)
     //列王之殇钥石 利维坦

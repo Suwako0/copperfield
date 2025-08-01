@@ -221,6 +221,8 @@ ServerEvents.recipes(e =>{
     //搅拌机 花肥
     e.remove({output:'botania:fertilizer'})
     create.mixing('botania:fertilizer',['minecraft:bone_meal', '#forge:dyes'])
+    //搅拌机 龙心容器
+    create.mixing('kubejs:dragon_heart',['apotheosis:infused_breath', 'minecraft:nether_star', 'ends_delight:non_hatchable_dragon_egg']).superheated()
     //奥术源质
     create.mixing('irons_spellbooks:arcane_essence',['under_the_moon:sweptwood_leaves', '#botania:petals']).heated()
     //普通墨水
@@ -262,6 +264,13 @@ ServerEvents.recipes(e =>{
     create.milling(['kubejs:mystery_pollen', Item.of('kubejs:mystery_pollen', 1).withChance(0.5)], '#botania:mystical_flowers');
     //玫瑰石英分解
     create.milling([Item.of('biomesoplenty:rose_quartz_chunk', 4)], 'biomesoplenty:rose_quartz_block');
+    //亚尔夫海姆晶体分解
+    create.milling([Item.of('kubejs:alfheim_crystal', 2), Item.of("kubejs:alfheim_crystal", 1).withChance(0.25), Item.of("kubejs:alfheim_crystal", 1).withChance(0.15)], 'kubejs:alfheim_crystal_block');
+    //合成亚尔夫海姆晶体
+    e.shaped('kubejs:alfheim_crystal_block',[
+        ['kubejs:alfheim_crystal','kubejs:alfheim_crystal'],
+        ['kubejs:alfheim_crystal','kubejs:alfheim_crystal']
+    ]);
     //宝石粉
     create.milling([Item.of("apotheosis:gem_dust", 1).withChance(0.05), Item.of("irons_spellbooks:arcane_essence", 1).withChance(0.1)], 'botania:mana_powder');
     //下界合金碎片产线
@@ -436,7 +445,9 @@ ServerEvents.recipes(e =>{
     //凝矿兰 锌矿石
     botania.orechid("create:zinc_ore", "minecraft:stone", 3500)
     //泰拉凝聚板 终焉之钥
-    botania.terra_plate("kubejs:final_key", ["cataclysm:essence_of_the_storm", "cataclysm:cursium_ingot", "cataclysm:tidal_claws", "alexscaves:tectonic_shard", "alexscaves:immortal_embryo", "legendary_monsters:withered_bone", "legendary_monsters:nature_crystal", "botania:golden_grass", "mythicbotany:dream_cherry"], 1000000)
+    botania.terra_plate("kubejs:final_key", ["cataclysm:essence_of_the_storm", "cataclysm:cursium_ingot", "cataclysm:tidal_claws", "alexscaves:tectonic_shard", "alexscaves:immortal_embryo", "legendary_monsters:withered_bone", "legendary_monsters:nature_crystal", "kubejs:alfheim_crystal", "mythicbotany:dream_cherry"], 1000000)
+    //泰拉凝聚板 龙蛋
+    botania.terra_plate("minecraft:dragon_egg", ["kubejs:dragon_heart", "kubejs:alfheim_crystal", "kubejs:alfheim_crystal", "kubejs:alfheim_crystal", "kubejs:alfheim_crystal", "kubejs:alfheim_crystal"], 750000)
     //<---------- KubeJs ---------->
     //秘境兑币-普通难度
     e.shaped('kubejs:dungeons_charge_coin_normal',[

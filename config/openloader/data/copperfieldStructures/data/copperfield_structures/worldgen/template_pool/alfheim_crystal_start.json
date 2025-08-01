@@ -1,0 +1,33 @@
+{
+  "name": "copperfield_structures:alfheim_crystal_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "copperfield_structures:alfheim_crystals_1",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "copperfield_structures:alfheim_crystals_2",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "copperfield_structures:alfheim_crystals_3",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

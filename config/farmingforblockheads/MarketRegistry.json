@@ -82,6 +82,15 @@
     },
     {
       "output":{
+        "item": "kubejs:dungeons_key_boss_midiexiang"
+      },
+      "payment":{
+        "item": "kubejs:boss_remains"
+      },
+      "category": "keystone"
+    },
+    {
+      "output":{
         "item": "kubejs:dungeons_key_boss_sizhezhiwang"
       },
       "payment":{

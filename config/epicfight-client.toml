@@ -16,7 +16,7 @@
 	camera_auto_switch = true
 	filter_animation = false
 	aiming_correction = true
-	first_person_model = true
+	first_person_model = false
 	#Range: 0 ~ 30
 	max_hit_projectiles = 30
 	no_mining_in_combat = true

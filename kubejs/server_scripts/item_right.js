@@ -42,6 +42,9 @@ ItemEvents.rightClicked(event => {
     if (event.item.id == ('kubejs:dungeons_key_boss_shuangxing')) {
         event.server.runCommandSilent(`execute in kubejs:custom_dungeons run open_gateway 24 24 24 kubejs:boss_shuangxing`)
     }
+    if (event.item.id == ('kubejs:dungeons_key_boss_midiexiang')) {
+        event.server.runCommandSilent(`execute in kubejs:custom_dungeons run open_gateway 24 24 24 kubejs:boss_midiexiang`)
+    }
     if (event.item.id == ('kubejs:dungeons_key_boss_sizhezhiwang')) {
         event.server.runCommandSilent(`execute in kubejs:custom_dungeons run open_gateway 24 24 24 kubejs:boss_sizhezhiwang`)
     }

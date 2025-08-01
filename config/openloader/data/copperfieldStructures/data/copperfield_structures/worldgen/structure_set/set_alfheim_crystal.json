@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "copperfield_structures:alfheim_crystals_1",
+      "weight": 1
+    },
+    {
+      "structure": "copperfield_structures:alfheim_crystals_2",
+      "weight": 1
+    },
+    {
+      "structure": "copperfield_structures:alfheim_crystals_3",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 68231749,
+    "spacing": 12,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

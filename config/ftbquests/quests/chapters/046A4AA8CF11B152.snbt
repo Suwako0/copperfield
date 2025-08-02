@@ -95,6 +95,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "被动技能。每损失1%的生命值，攻击力加成0.3%，攻击速度加成0.5%。攻速提升不能超过5.0。"
 			tasks: [{
 				consume_items: true
 				id: "43E1564C495A58C3"
@@ -135,6 +136,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "被动技能。使用武器技能杀死敌人根据击杀人数可给武器充能。"
 			tasks: [{
 				consume_items: true
 				id: "01A531BD4AD8EEC8"
@@ -175,6 +177,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "移动技能。聚集能量将自己发射到目标方向，减少50%的摔落伤害。"
 			tasks: [{
 				consume_items: true
 				id: "6BEE690627F946D1"
@@ -215,6 +218,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "被动技能。允许玩家在耐力不足时闪避。允许玩家取消攻击动作和闪避"
 			tasks: [{
 				consume_items: true
 				id: "502166FAAE2ABB42"
@@ -255,6 +259,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "被动技能。如果玩家在准备攻击时被击中，则给予眩晕抗性，即在%秒内消耗的耐力。"
 			tasks: [{
 				consume_items: true
 				id: "701CE7E95C621826"
@@ -295,6 +300,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "被动技能。耐力不足时消耗生命值。"
 			tasks: [{
 				consume_items: true
 				id: "60EDAE03564AE58E"
@@ -335,6 +341,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "防御技能。防守来自正面的攻击。持续性的防守会消耗更多耐力。"
 			tasks: [{
 				consume_items: true
 				id: "207FDD28DDF0895B"
@@ -375,6 +382,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "被动技能。允许玩家通过消耗耐力来释放武器技能。"
 			tasks: [{
 				consume_items: true
 				id: "1E1992B3F4760457"
@@ -415,6 +423,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "防御技能。减少守卫的耐力消耗。玩家现在可以防守来自爆炸，火焰，魔法和弹射物的伤害。"
 			tasks: [{
 				consume_items: true
 				id: "1B587E5C426D233B"
@@ -455,6 +464,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "猛烈地撞击地面。高度会增加造成的伤害和消耗的耐力。如果坠落伤害超过耐力上限，就会受到伤害。(耐力：摔落伤害)"
 			tasks: [{
 				consume_items: true
 				id: "19A9E47195D48D8C"
@@ -495,6 +505,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "允许玩家随时防守，以防止耐力消耗。能够防御远程攻击。"
 			tasks: [{
 				consume_items: true
 				id: "7F58CF2292B2C19B"
@@ -535,6 +546,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "移动技能。允许玩家在空中跳跃%d倍以上。"
 			tasks: [{
 				consume_items: true
 				id: "0031531598D7D695"
@@ -575,6 +587,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "鹰之眼捕捉敌人的弱点。格挡、招架和闪避会消耗天启点数。天启点数消耗殆尽后将能够惊人地发动反击。"
 			tasks: [{
 				consume_items: true
 				id: "753299446A65832F"
@@ -615,6 +628,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "向玩家移动的方向滚动。躲避所有来袭攻击。"
 			tasks: [{
 				consume_items: true
 				id: "43739781C67C9514"
@@ -655,6 +669,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "被动技能。杀死目标时恢复30%消耗的体力。"
 			tasks: [{
 				consume_items: true
 				id: "3699E80EFE9E47B2"
@@ -695,6 +710,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "向玩家移动的方向滑动一小段距离。躲避所有来袭攻击。"
 			tasks: [{
 				consume_items: true
 				id: "3115FCDB6E271A53"
@@ -735,6 +751,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "被动技能。获得30%额外攻速加成"
 			tasks: [{
 				consume_items: true
 				id: "43DF84FBA30F41B9"
@@ -775,6 +792,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "在敌人攻击击中玩家之前闪避时恢复耐力。"
 			tasks: [{
 				consume_items: true
 				id: "7E69E4EFAF69C628"
@@ -815,6 +833,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "狼嚎之时，即是反击时刻,通过闪避和击败敌人来获得狼神的庇护，当技能层数达到10之时，即会获得狼神的庇护，强化自身攻击，并且有概率中断敌人的攻击"
 			tasks: [{
 				consume_items: true
 				id: "26DA2FB13DDD4DE1"
@@ -855,6 +874,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "更好的跨步"
 			tasks: [{
 				consume_items: true
 				id: "76311786025061A0"
@@ -895,6 +915,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "锁定低血量的敌人并进行斩杀，斩杀期间不可被打断(可用武器:打刀，武士刀，太刀，长剑"
 			tasks: [{
 				consume_items: true
 				id: "0AD8C772CFD11F9B"
@@ -935,6 +956,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "允许你使用不同的动作进行闪避，闪避成功可以触发特效.并恢复武器充能."
 			tasks: [{
 				consume_items: true
 				id: "1DC826C3CDBDAE1B"
@@ -975,6 +997,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "向指定方向闪现。闪避所有可以闪避的攻击。(耐力:4)"
 			tasks: [{
 				consume_items: true
 				id: "180352F30FE35ACD"
@@ -1033,8 +1056,8 @@
 				type: "item"
 			}]
 			title: "兑换技能书：悟空闪避"
-			x: -3.5d
-			y: 4.0d
+			x: -2.5d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1074,7 +1097,7 @@
 			}]
 			title: "兑换技能书：斗战胜佛"
 			x: -8.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1114,7 +1137,7 @@
 			}]
 			title: "兑换技能书：大圣式"
 			x: -7.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1153,8 +1176,8 @@
 				type: "item"
 			}]
 			title: "兑换技能书：立棍式"
-			x: -6.5d
-			y: 5.0d
+			x: -6.0d
+			y: 7.0d
 		}
 		{
 			can_repeat: true
@@ -1193,8 +1216,8 @@
 				type: "item"
 			}]
 			title: "兑换技能书：劈棍式"
-			x: -5.5d
-			y: 5.0d
+			x: -9.5d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1234,7 +1257,7 @@
 			}]
 			title: "兑换技能书：安身法"
 			x: -4.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1274,7 +1297,7 @@
 			}]
 			title: "兑换技能书：定身法"
 			x: -3.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1355,6 +1378,17 @@
 			title: "兑换技能书：身外身法"
 			x: -5.5d
 			y: 6.0d
+		}
+		{
+			id: "57A7FB5F95E9D566"
+			subtitle: "悟空系列技能已与棍子绑定。需如意金箍棒才能使用。"
+			tasks: [{
+				id: "5D8E30379A81018E"
+				title: "悟空系列技能"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 5.0d
 		}
 	]
 	title: "史诗战斗"

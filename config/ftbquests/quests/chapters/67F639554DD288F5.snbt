@@ -978,6 +978,49 @@
 			x: 1.5d
 			y: -5.0d
 		}
+		{
+			dependencies: ["50BE3A07B9D577A3"]
+			id: "3055C9B012348C54"
+			rewards: [
+				{
+					id: "0DB40A879488EA58"
+					item: "simplyswords:runic_tablet"
+					type: "item"
+				}
+				{
+					id: "61A75E0EF2BD223A"
+					item: {
+						Count: 1
+						id: "simplyswords:runefused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3580C22C1787897C"
+					item: {
+						Count: 1
+						id: "simplyswords:netherfused_gem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "在帝王之殇挑战中击败迷迭香获得"
+			tasks: [{
+				id: "3F84DBC31E8A0B83"
+				item: {
+					Count: 1
+					id: "simplyswords:storms_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
 	]
 	title: "试炼秘境"
 }

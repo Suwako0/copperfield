@@ -159,6 +159,7 @@ ItemEvents.rightClicked('kubejs:dungeons_reward_bag_tech', event => {
 BlockEvents.rightClicked('ftbquests:barrier', event => {
   const { server, player, block } = event;
   if (player && player.getHeldItem(event.hand) == 'kubejs:final_key') {
+    server.runCommandSilent('/execute in kubejs:the_past run forceload add 1 1')
     server.runCommandSilent(`/setblock ${block.x} ${block.y} ${block.z} air`)
     server.runCommandSilent('/playsound minecraft:block.anvil.break ambient @a')
   }

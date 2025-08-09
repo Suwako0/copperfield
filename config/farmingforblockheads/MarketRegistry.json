@@ -63,6 +63,16 @@
     },
     {
       "output":{
+        "item": "kubejs:custom_dungeons_hairpin"
+      },
+      "payment":{
+        "item": "kubejs:dungeons_reward_coin_stack",
+        "count": 16
+      },
+      "category": "rewards"
+    },
+    {
+      "output":{
         "item": "simplyswords:runic_tablet"
       },
       "payment":{

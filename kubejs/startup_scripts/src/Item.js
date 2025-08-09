@@ -194,6 +194,62 @@ StartupEvents.registry('item',e=>{
         )
         .maxStackSize(1)
         .tag("curios:ring")
+    
+    e.create('custom_dungeons_hairpin')
+        .attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .curioTick((slotContext, stack) => { })
+                .onEquip((slotContext, oldStack, newStack) => { })
+                .onUnequip((slotContext, oldStack, newStack) => { })
+                .canEquip((slotContext, stack) => true)
+                .canUnequip((slotContext, stack) => true)
+                .modifySlotsTooltip((tooltips, stack) => tooltips)
+                .addAttribute(
+                    "attributeslib:experience_gained",
+                    '123b4567-c89b-12d3-a456-423670004126',
+                    0.75,
+                    'multiply_total'
+                )
+                .canDrop((slotContext, source, lootingLevel, recentlyHit, stack) => {
+                    return false;
+                })
+                .modifyAttributesTooltip((tooltips, stack) => tooltips)
+                .modifyFortuneLevel((slotContext, lootContext, stack) => 0)
+                .modifyLootingLevel((slotContext, source, target, baseLooting, stack) => 0)
+                .makesPiglinsNeutral((slotContext, stack) => false)
+                .canWalkOnPowderedSnow((slotContext, stack) => false)
+                .isEnderMask((slotContext, enderMan, stack) => false)
+        )
+        .maxStackSize(1)
+        .tag("curios:head")
+
+    e.create('alfheim_hairpin')
+        .attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .curioTick((slotContext, stack) => { })
+                .onEquip((slotContext, oldStack, newStack) => { })
+                .onUnequip((slotContext, oldStack, newStack) => { })
+                .canEquip((slotContext, stack) => true)
+                .canUnequip((slotContext, stack) => true)
+                .modifySlotsTooltip((tooltips, stack) => tooltips)
+                .addAttribute(
+                    "attributeslib:experience_gained",
+                    '391b4567-c824-12d3-a456-423670104127',
+                    1.5,
+                    'multiply_total'
+                )
+                .canDrop((slotContext, source, lootingLevel, recentlyHit, stack) => {
+                    return false;
+                })
+                .modifyAttributesTooltip((tooltips, stack) => tooltips)
+                .modifyFortuneLevel((slotContext, lootContext, stack) => 0)
+                .modifyLootingLevel((slotContext, source, target, baseLooting, stack) => 0)
+                .makesPiglinsNeutral((slotContext, stack) => false)
+                .canWalkOnPowderedSnow((slotContext, stack) => false)
+                .isEnderMask((slotContext, enderMan, stack) => false)
+        )
+        .maxStackSize(1)
+        .tag("curios:head")
 
      e.create('botanicreator_ring')
         .attachCuriosCapability(

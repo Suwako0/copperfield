@@ -271,6 +271,11 @@ ServerEvents.recipes(e =>{
         ['kubejs:alfheim_crystal','kubejs:alfheim_crystal'],
         ['kubejs:alfheim_crystal','kubejs:alfheim_crystal']
     ]);
+    e.shaped('kubejs:alfheim_hairpin',[
+        ['','kubejs:alfheim_crystal',''],
+        ['kubejs:alfheim_crystal','kubejs:custom_dungeons_hairpin','kubejs:alfheim_crystal']
+        ['','kubejs:alfheim_crystal',''],
+    ]);
     //宝石粉
     create.milling([Item.of("apotheosis:gem_dust", 1).withChance(0.05), Item.of("irons_spellbooks:arcane_essence", 1).withChance(0.1)], 'botania:mana_powder');
     //下界合金碎片产线

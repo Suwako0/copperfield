@@ -435,7 +435,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: -3.0d
 		}
 		{
@@ -1020,6 +1020,23 @@
 			}]
 			x: -2.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["66997B739192DE0B"]
+			id: "0F9B69B7B0BC0014"
+			rewards: [{
+				id: "78A5949233991A53"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "在秘境商人处兑换获取"
+			tasks: [{
+				id: "7364845A5D595298"
+				item: "kubejs:custom_dungeons_hairpin"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
 		}
 	]
 	title: "试炼秘境"

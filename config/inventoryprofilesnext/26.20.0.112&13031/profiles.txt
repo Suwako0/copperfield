@@ -1,0 +1,50 @@
+
+
+
+
+profile Saved activate HOT2
+	HOT1
+		"botania:star_sword" -> "Enchantments" : [{id:"minecraft:smite",lvl:4},{id:"minecraft:looting",lvl:2},{id:"minecraft:fire_aspect",lvl:2},{id:"apotheosis:capturing",lvl:4},{id:"minecraft:sharpness",lvl:8}]
+	HOT2
+		"minecraft:diamond_pickaxe" -> "Enchantments" : [{id:"minecraft:efficiency",lvl:2},{id:"minecraft:silk_touch",lvl:1},{id:"minecraft:mending",lvl:1}]
+	HOT3
+		"botania:twig_wand"
+	HOT4
+		"minecraft:netherite_pickaxe" -> "Enchantments" : [{id:"minecraft:unbreaking",lvl:4},{id:"minecraft:efficiency",lvl:4},{id:"minecraft:mending",lvl:1}]
+	HOT5
+		"minecraft:shulker_shell"
+	HOT8
+		"minecraft:stone_button"
+	HEAD
+		"botania:elementium_helmet" -> "Enchantments" : [{id:"minecraft:protection",lvl:3},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:respiration",lvl:2}]
+	CHEST
+		"botania:elementium_chestplate" -> "Enchantments" : [{id:"minecraft:protection",lvl:3},{id:"wom:invigoration",lvl:2},{id:"minecraft:fire_protection",lvl:3},{id:"minecraft:unbreaking",lvl:3},{id:"apotheosis:rebounding",lvl:1},{id:"apotheosis:berserkers_fury",lvl:2}]
+	LEGS
+		"botania:elementium_leggings" -> "Enchantments" : [{id:"minecraft:projectile_protection",lvl:4},{id:"minecraft:thorns",lvl:3}]
+	FEET
+		"botania:elementium_boots" -> "Enchantments" : [{id:"minecraft:blast_protection",lvl:3},{id:"minecraft:protection",lvl:3}]
+
+profile Saved activate HOT8
+	HOT1
+		"botania:star_sword" -> "Enchantments" : [{id:"minecraft:smite",lvl:4},{id:"minecraft:looting",lvl:2},{id:"minecraft:fire_aspect",lvl:2},{id:"apotheosis:capturing",lvl:4},{id:"minecraft:sharpness",lvl:8}]
+	HOT2
+		"minecraft:diamond_pickaxe" -> "Enchantments" : [{id:"minecraft:efficiency",lvl:2},{id:"minecraft:silk_touch",lvl:1},{id:"minecraft:mending",lvl:1}]
+	HOT3
+		"botania:twig_wand"
+	HOT4
+		"minecraft:netherite_pickaxe" -> "Enchantments" : [{id:"minecraft:unbreaking",lvl:4},{id:"minecraft:efficiency",lvl:4},{id:"minecraft:mending",lvl:1}]
+	HOT8
+		"kubejs:dungeons_hearthstone"
+	HOT9
+		"minecraft:coal"
+	OFFHAND
+		"botania:thunder_sword" -> "Enchantments" : [{id:"apotheosis:bane_of_illagers",lvl:4},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:sweeping",lvl:3},{id:"apotheosis:capturing",lvl:4}]
+	HEAD
+		"botania:terrasteel_helmet" -> "Enchantments" : [{id:"wom:invigoration",lvl:2},{id:"minecraft:projectile_protection",lvl:4},{id:"minecraft:protection",lvl:3}]
+	CHEST
+		"botania:terrasteel_chestplate" -> "Enchantments" : [{id:"minecraft:projectile_protection",lvl:4},{id:"minecraft:protection",lvl:3}]
+	LEGS
+		"botania:terrasteel_leggings" -> "Enchantments" : [{id:"minecraft:protection",lvl:3}]
+	FEET
+		"botania:terrasteel_boots" -> "Enchantments" : [{id:"minecraft:fire_protection",lvl:3},{id:"minecraft:feather_falling",lvl:4}]
+

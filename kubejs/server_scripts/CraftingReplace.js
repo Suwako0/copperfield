@@ -271,6 +271,13 @@ ServerEvents.recipes(e =>{
         ['kubejs:alfheim_crystal','kubejs:alfheim_crystal'],
         ['kubejs:alfheim_crystal','kubejs:alfheim_crystal']
     ]);
+    //精灵秘境之戒
+    e.shaped('kubejs:alfheim_custom_dungeons_ring',[
+        ['','kubejs:alfheim_crystal',''],
+        ['kubejs:alfheim_crystal','kubejs:custom_dungeons_ring','kubejs:alfheim_crystal'],
+        ['','kubejs:alfheim_crystal','']
+    ]);
+    //亚尔夫海姆发簪
     e.shaped('kubejs:alfheim_hairpin',[
         ['','kubejs:alfheim_crystal',''],
         ['kubejs:alfheim_crystal','kubejs:custom_dungeons_hairpin','kubejs:alfheim_crystal'],
@@ -447,6 +454,10 @@ ServerEvents.recipes(e =>{
     botania.mana_infusion("minecraft:budding_amethyst", ["minecraft:amethyst_block"], 50000, "botania:alchemy_catalyst")
     //玫瑰石英转化
     botania.mana_infusion("create:rose_quartz", ["biomesoplenty:rose_quartz_chunk"], 5000, "botania:alchemy_catalyst")
+    //魔力转化 黑莲花
+    botania.mana_infusion("botania:black_lotus", ["#botania:mystical_flowers"], 7999, "kubejs:alfheim_crystal_block")
+    //魔力转化 暗黑莲花
+    botania.mana_infusion("botania:blacker_lotus", ["botania:black_lotus"], 91999, "kubejs:alfheim_crystal_block")
     //凝矿兰 锌矿石
     botania.orechid("create:zinc_ore", "minecraft:stone", 3500)
     //泰拉凝聚板 终焉之钥

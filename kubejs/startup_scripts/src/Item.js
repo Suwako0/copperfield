@@ -194,7 +194,62 @@ StartupEvents.registry('item',e=>{
         )
         .maxStackSize(1)
         .tag("curios:ring")
-    
+
+    e.create('alfheim_custom_dungeons_ring')
+        .attachCuriosCapability(
+            CuriosJSCapabilityBuilder.create()
+                .curioTick((slotContext, stack) => { })
+                .onEquip((slotContext, oldStack, newStack) => { })
+                .onUnequip((slotContext, oldStack, newStack) => { })
+                .canEquip((slotContext, stack) => true)
+                .canUnequip((slotContext, stack) => true)
+                .modifySlotsTooltip((tooltips, stack) => tooltips)
+                .addAttribute(
+                    "kubejs:generic.damage_rate",
+                    '123e4567-e89b-12d3-a456-426614174000',
+                    0.3,
+                    'addition'
+                )
+                .modifyAttribute(attributeModificationContext => {
+                    let { slotContext, UUID, stack, modifiers } = attributeModificationContext
+                    attributeModificationContext.modify(
+                        "minecraft:generic.luck",
+                        "identifier",
+                        1.5,
+                        'addition'
+                    );
+                    attributeModificationContext.modify(
+                        "minecraft:generic.attack_speed",
+                        "identifier",
+                        0.2,
+                        'addition'
+                    );
+                    attributeModificationContext.modify(
+                        "minecraft:generic.movement_speed",
+                        "identifier",
+                        0.15,
+                        'multiply_total'
+                    );
+                    attributeModificationContext.modify(
+                        "minecraft:generic.knockback_resistance",
+                        "identifier",
+                        0.1,
+                        'addition'
+                    );
+                })
+                .canDrop((slotContext, source, lootingLevel, recentlyHit, stack) => {
+                    return false;
+                })
+                .modifyAttributesTooltip((tooltips, stack) => tooltips)
+                .modifyFortuneLevel((slotContext, lootContext, stack) => 0)
+                .modifyLootingLevel((slotContext, source, target, baseLooting, stack) => 0)
+                .makesPiglinsNeutral((slotContext, stack) => false)
+                .canWalkOnPowderedSnow((slotContext, stack) => false)
+                .isEnderMask((slotContext, enderMan, stack) => false)
+        )
+        .maxStackSize(1)
+        .tag("curios:ring")
+
     e.create('custom_dungeons_hairpin')
         .attachCuriosCapability(
             CuriosJSCapabilityBuilder.create()

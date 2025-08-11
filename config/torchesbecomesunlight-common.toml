@@ -38,6 +38,13 @@
 				#Range: > 0
 				spawn_rate = 1
 
+			[server.mobs.gun_knight.neutral_protection_config]
+				#Can take unsourced damage without an attack target
+				"can damage" = false
+				#How far of sourced damage can be ignored when there is no target to attack
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"can damage distance" = 16.0
+
 		[server.mobs.patriot]
 			#If 'true' disable frontal attack
 			"nullify a frontal attack" = true
@@ -63,6 +70,21 @@
 				#Range: > 0
 				spawn_rate = 1
 
+			[server.mobs.patriot.partner_attribute_config]
+				#Regulate partner mob health by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Health multiplier" = 1.0
+				#Regulate partner mob attack damage by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Attack multiplier" = 1.0
+
+			[server.mobs.patriot.neutral_protection_config]
+				#Can take unsourced damage without an attack target
+				"can damage" = false
+				#How far of sourced damage can be ignored when there is no target to attack
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"can damage distance" = 16.0
+
 		[server.mobs.frost_nova]
 			#Set damage limit percentage (based on max health)
 			#Range: 0.01 ~ 1.0
@@ -85,6 +107,21 @@
 				#Regulate spawn rate, 0 to disable spawning
 				#Range: > 0
 				spawn_rate = 1
+
+			[server.mobs.frost_nova.partner_attribute_config]
+				#Regulate partner mob health by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Health multiplier" = 1.0
+				#Regulate partner mob attack damage by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Attack multiplier" = 1.0
+
+			[server.mobs.frost_nova.neutral_protection_config]
+				#Can take unsourced damage without an attack target
+				"can damage" = false
+				#How far of sourced damage can be ignored when there is no target to attack
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"can damage distance" = 16.0
 
 		[server.mobs.pursuer]
 			#Set damage limit percentage (based on max health)
@@ -109,14 +146,168 @@
 				#Range: > 0
 				spawn_rate = 1
 
+		[server.mobs.patrol_captain]
+
+			#Regulate mob spawning
+			[server.mobs.patrol_captain.spawn_config]
+				#Regulate spawn rate, 0 to disable spawning
+				#Range: > 0
+				spawn_rate = 2
+
+		[server.mobs.mangler]
+
+			#Regulate mob spawning
+			[server.mobs.mangler.spawn_config]
+				#Regulate spawn rate, 0 to disable spawning
+				#Range: > 0
+				spawn_rate = 2
+
+		[server.mobs.burdenbeast]
+
+			#Regulate mob spawning
+			[server.mobs.burdenbeast.spawn_config]
+				#Regulate spawn rate, 0 to disable spawning
+				#Range: > 0
+				spawn_rate = 2
+
+		[server.mobs.rosmontis]
+			#Set damage limit percentage (based on max health)
+			#Range: 0.01 ~ 1.0
+			"damage limit percentage" = 0.1
+
+			[server.mobs.rosmontis.attribute_config]
+				#Regulate mob health by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Health multiplier" = 1.0
+				#Regulate mob attack damage by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Attack multiplier" = 1.0
+
+			[server.mobs.rosmontis.partner_attribute_config]
+				#Regulate partner mob health by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Health multiplier" = 1.0
+				#Regulate partner mob attack damage by this value
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"Attack multiplier" = 1.0
+
+			[server.mobs.rosmontis.neutral_protection_config]
+				#Can take unsourced damage without an attack target
+				"can damage" = false
+				#How far of sourced damage can be ignored when there is no target to attack
+				#Range: 0.0 ~ 1.7976931348623157E308
+				"can damage distance" = 16.0
+
+			[server.mobs.rosmontis.bossbar]
+				#Enable custom bossbar
+				"Enable or not" = true
+
+			#Regulate mob spawning
+			[server.mobs.rosmontis.spawn_config]
+				#Regulate spawn rate, 0 to disable spawning
+				#Range: > 0
+				spawn_rate = 1
+
 	[server.global_setting]
-		#Whether living can talk(experiment)
+		#Whether living can talk
 		"Enable living can talk" = false
+		#Whether attack living when dialogue
+		"Enable attack living when dialogue" = false
+		#Whether boss show healthBar
+		"Enable bossBar can show" = false
+		#The number of times a player can summon a boss each day
+		#Range: > 0
+		"Can summon number" = 1
 
-		[server.global_setting.ursus_village]
+		#Regulate spawning structure
+		[server.global_setting.structure_generation_config]
+			#Maximum height for generation placement. -65 to ignore
+			#Range: -65.0 ~ 256.0
+			height_max = 150.0
+			#Minimum height for generation placement. -65 to ignore
+			#Range: -65.0 ~ 256.0
+			height_min = 20.0
 
-			#Controls for spawning structure/mob with world generation
-			[server.global_setting.ursus_village.generation_config]
-				#false causes disable generate
-				avoid_structures = false
+	[server.tools]
+
+		[server.tools.halberd]
+			#tool attack damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_damage = 20.0
+			#skill 1 numerical requirements
+			#Range: 0 ~ 100
+			requirements_1 = 10
+			#skill 2 numerical requirements
+			#Range: 0 ~ 100
+			requirements_2 = 50
+
+		[server.tools.shield]
+			#skill 1 numerical requirements
+			#Range: 0 ~ 100
+			requirements_1 = 10
+
+		[server.tools.scratch]
+			#skill 1 numerical requirements
+			#Range: 0 ~ 100
+			requirements_1 = 60
+
+		[server.tools.winter_pass]
+			#tool attack damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_damage = 6.0
+			#skill1 numerical requirements
+			#Range: 0 ~ 100
+			requirements1 = 50
+
+		[server.tools.ice_broadsword]
+			#tool attack damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_damage = 10.0
+			#skill 1 numerical requirements
+			#Range: 0 ~ 100
+			requirements_1 = 35
+
+		[server.tools.sankta_ring]
+			#skill 1 numerical requirements
+			#Range: 0 ~ 100
+			requirements_1 = 5
+
+		[server.tools.phantom_grasp]
+			#tool attack damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_damage = 4.0
+			#skill1 numerical requirements
+			#Range: 0 ~ 100
+			requirements1 = 20
+
+		[server.tools.sacred_halberd]
+			#tool attack damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_damage = 24.0
+			#skill light numerical requirements
+			#Range: 0 ~ 100
+			light_requirements = 10
+			#skill wind numerical requirements
+			#Range: 0 ~ 100
+			wind_requirements = 70
+
+		[server.tools.sacred_gun]
+			#tool attack damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_damage = 10.0
+			#skill numerical requirements
+			#Range: 0 ~ 100
+			requirements = 60
+
+		[server.tools.machete]
+			#tool attack damage
+			#Range: 0.0 ~ 1.7976931348623157E308
+			attack_damage = 14.0
+			#skill numerical requirements
+			#Range: 0 ~ 100
+			requirements = 45
+
+	[server.story_setting]
+		#Do you need to have seen rosmontis before you can summon she by the Preparation Op
+		"false represents being able to summon without seeing" = false
 

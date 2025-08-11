@@ -1,0 +1,34 @@
+
+["Elements Settings (GI Reactions and Element Port)"]
+	#Insolates the environment's ability to add elements to entities, normally activated (normally true), 
+	#that is, the environment is isolated from entities.
+	insolatedEnvironmentFromElements = true
+	#Insolates the ability of elements to react with each other, preventing them from accessing the reaction matrix. 
+	#When normally activated (normally true), this means that the elements do not interact with each other.
+	insolatedReactionsMatrix = true
+	#Debugged Reactions, allows the reaction matrix to provide debugging to the console or log
+	depuratedReactions = false
+	#Debugs the ICD (Internal Cooldown Dealer) system allowing its effects to be visible in the console or log
+	depuratedICD = false
+	#Debugs the damage handler class system allowing its effects to be visible in the console or log
+	depuratedDMGHandler = false
+	#Visually provides the player with what item he has on his person.
+	showElementalOverlay = true
+	#Renders the weapon attributes related to the 'Elements' mod, its characteristics, advantages and disadvantages; and type.
+	showElementalAttributes = true
+	#Prevents text particles from being visible, which may indicate damage, status, element, reaction, or any other relevant function.
+	showTextParticle = true
+
+["Epic Fight Utilities Settings"]
+	#Determines the final animation folder, in this case setting this to true will replace the Minecraft system with the one added by this mod.
+	replaceResourcepackFolder = true
+	#Allows you to replace the base moveset of Epic Fight with another one
+	replaceMoveset = false
+	#Prevents the mod from forcing reloads of Epic Fight repositories and data, this can break interactions with some datapacks so if you notice it mysteriously stops working, 
+	#this is the culprit, disabling it should fix the problem
+	disableForceRepositories = false
+	#Disables this mod's ability to apply particles to a weapon, armor, or the bones of an entity performing an animation.
+	offParticleFeatures = false
+	#Disables this mod's ability to generate particles when a specific skill or animation is executed, usually due to factors such as the weapon's enchantment or its logical characteristics.
+	offParticleFeaturesSkill = false
+

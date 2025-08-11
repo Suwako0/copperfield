@@ -64,6 +64,9 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

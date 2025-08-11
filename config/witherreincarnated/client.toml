@@ -1,0 +1,8 @@
+"Max Distant Fire (default: 256)" = 256
+"Max Smoke Columns (default: 256)" = 256
+"Falling Ash Near Smoke Columns (default: true)" = true
+"Music Volume (default: 1.0)" = 1.0
+"Music Obeys Music Volume Slider (default: false)" = false
+"Camera Shake Intensity (default: 1.0)" = 1.0
+"Distant Fire Opacity (default: 0.1)" = 0.1
+

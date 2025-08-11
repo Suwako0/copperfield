@@ -1091,6 +1091,31 @@
 			x: -5.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["6583798AECC26B42"]
+			id: "45CE97224984FB28"
+			rewards: [
+				{
+					count: 2
+					id: "01D180FA1FC0D16F"
+					item: "kubejs:alfheim_crystal"
+					type: "item"
+				}
+				{
+					id: "7779CEFB48110F82"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "一种神奇的魔力晶块，可充当魔力转化催化剂完成一些神奇的转化，也可以分解后作为合成材料"
+			tasks: [{
+				id: "0C3B416F4A3AA124"
+				item: "kubejs:alfheim_crystal_block"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
 	]
 	title: "植物魔法"
 }

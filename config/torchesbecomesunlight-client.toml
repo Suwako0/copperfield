@@ -1,5 +1,9 @@
 
 [client]
-	#close demonRender, which may look bad with certain shaders.
-	demonRender = false
+	#demonRender
+	"true enables the demonRender" = false
+	#choose whether to enable first player-customized animations
+	"true enables the first animation to be played" = true
+	#choose whether to enable Third player-customized animations
+	"true enables the third animation to be played" = true
 

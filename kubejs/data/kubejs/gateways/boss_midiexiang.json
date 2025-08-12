@@ -15,17 +15,17 @@
 			"modifiers": [{
 					"attribute": "generic.max_health",
 					"operation": "MULTIPLY_TOTAL",
-					"value": 3
+					"value": 4
 				},
 				{
 					"attribute": "generic.armor",
 					"operation": "ADDITION",
-					"value": 8
+					"value": 10
 				},
 				{
 					"attribute": "generic.attack_damage",
 					"operation": "MULTIPLY_TOTAL",
-					"value": 0.6
+					"value": 0.85
 				},
 				{
 					"attribute": "generic.knockback_resistance",

@@ -169,7 +169,7 @@ EntityEvents.spawned(event => {
     }
     //死者之王
     if (event.entity.type === 'irons_spellbooks:dead_king') {
-        event.entity.maxHealth = 2000
+        event.entity.maxHealth = 2100
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -182,7 +182,7 @@ EntityEvents.spawned(event => {
     }
     //末影守卫
     if (event.entity.type === 'cataclysm:ender_guardian') {
-        event.entity.maxHealth = 1850
+        event.entity.maxHealth = 1950
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -222,7 +222,7 @@ EntityEvents.spawned(event => {
     }
     //口香糖蠕虫
     if (event.entity.type === 'alexscaves:gum_worm') {
-        event.entity.maxHealth = 600
+        event.entity.maxHealth = 620
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -249,7 +249,7 @@ EntityEvents.spawned(event => {
     }
     //先驱者
     if (event.entity.type === 'cataclysm:the_harbinger') {
-        event.entity.maxHealth = 2650
+        event.entity.maxHealth = 2700
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -265,7 +265,7 @@ EntityEvents.spawned(event => {
     }
     //下界合金巨兽
     if (event.entity.type === 'cataclysm:netherite_monstrosity') {
-        event.entity.maxHealth = 2650
+        event.entity.maxHealth = 2700
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -280,7 +280,7 @@ EntityEvents.spawned(event => {
     }
     //焰魔
     if (event.entity.type === 'cataclysm:ignis') {
-        event.entity.maxHealth = 2650
+        event.entity.maxHealth = 2700
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -295,7 +295,7 @@ EntityEvents.spawned(event => {
     }
     //震怒的死者之王
     if (event.entity.type === 'traveloptics:enraged_dead_king') {
-        event.entity.maxHealth = 2850
+        event.entity.maxHealth = 2950
         event.entity.health = event.entity.maxHealth
         event.server.scheduleInTicks(5, callback =>{
             if (event.entity && event.entity.isAlive()) {
@@ -634,7 +634,7 @@ function NightGuardTickLoop(server, entity, level) {
                         break;
                 }
             }
-            server.runCommandSilent('/effect give @e[type=traveloptics:the_nightwarden] minecraft:absorption 20 1')
+            server.runCommandSilent('/effect give @e[type=traveloptics:the_nightwarden] minecraft:absorption 20 2')
             server.runCommandSilent('/effect give @e[tag=spawn_by_nightguard] minecraft:absorption 20 1')
             server.runCommandSilent('/effect give @e[tag=spawn_by_nightguard] irons_spellbooks:charged infinite 9')
             server.runCommandSilent('/effect give @e[tag=spawn_by_nightguard] minecraft:glowing infinite 0')
@@ -648,7 +648,7 @@ function NightGuardTickLoop(server, entity, level) {
 function NightGuardSpawnEntityTickLoop(server, entity, level) {
     server.scheduleInTicks(30, task => {
         if (entity && entity.isAlive()) {
-             server.runCommandSilent(`/effect give @e[type=traveloptics:the_nightwarden] minecraft:instant_health 1 0`)
+             server.runCommandSilent(`/effect give @e[type=traveloptics:the_nightwarden] minecraft:instant_health 1 1`)
              NightGuardSpawnEntityTickLoop(server, entity, level)
         }
     })
@@ -707,7 +707,7 @@ function SpawnEntity(server, boss, level, id, name) {
     entity.x = boss.x
     entity.y = boss.y
     entity.z = boss.z
-    entity.maxHealth = 350
+    entity.maxHealth = 400
     entity.health = entity.maxHealth
     let nbt = entity.getNbt()
     nbt.putByte("IsBaby", 0)

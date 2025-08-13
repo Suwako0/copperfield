@@ -3612,6 +3612,18 @@
 			x: 16.5d
 			y: -6.0d
 		}
+		{
+			dependencies: ["380B4C15A1B54D8C"]
+			id: "56D01E2057BD687F"
+			subtitle: "食用幻昙花羹可以增加1个头饰栏位,最多为3"
+			tasks: [{
+				id: "0128FF1733E0BE08"
+				item: "youkaishomecoming:udumbara_cake"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
 	]
 	title: "妖怪们的归家"
 }

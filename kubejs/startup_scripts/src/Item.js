@@ -94,6 +94,9 @@ StartupEvents.registry('item',e=>{
     e.create('gem_origin_green', 'basic').texture('kubejs:item/gem_origin_green').maxStackSize(64)
     e.create('gem_origin_blue', 'basic').texture('kubejs:item/gem_origin_blue').maxStackSize(64)
     e.create('gem_origin_yellow', 'basic').texture('kubejs:item/gem_origin_yellow').maxStackSize(64)
+    //隙间
+    e.create('gap_theend', 'basic').maxStackSize(64)
+    e.create('gap_alfheim', 'basic').maxStackSize(64)
     //终焉之钥
     e.create('final_key', 'basic').maxStackSize(1)
 

@@ -104,6 +104,10 @@
     "item.kubejs.final_key":"§6终焉之钥",
     "item.kubejs.final_key.desc":"§6使用终焉之钥移除出生点传送阵的屏障封印",
 
+    "item.kubejs.gap_theend":"§6末影隙间",
+    "item.kubejs.gap_alfheim":"§6精灵隙间",
+    "item.kubejs.gap_alfheim.desc":"§6随机召唤一个亚尔夫海姆的神化BOSS",
+
     "attribute.name.:generic.damage_rate":"伤害倍率",
     "attribute.name.:generic.damage_rate.desc":"结算伤害时，乘以总伤害倍率",
 

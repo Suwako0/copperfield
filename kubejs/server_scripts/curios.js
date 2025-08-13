@@ -20,6 +20,14 @@ ItemEvents.foodEaten(event => {
             player.tell(Text.red('[CopperfieldCore]项链栏位已经上限了...'));
         }
     }
+    if (foodId === 'youkaishomecoming:udumbara_cake') {
+        if ($CuriosApi.getSlotHelper().getSlotsForType(player, 'head') < 3) {
+            $CuriosApi.getSlotHelper().growSlotType('head', 1, player)
+            player.tell(Text.gold('[CopperfieldCore]你已经增加了一个头部栏位!'));
+        } else {
+            player.tell(Text.red('[CopperfieldCore]头部栏位已经上限了...'));
+        }
+    }
 });
 
 ServerEvents.loaded(event => {

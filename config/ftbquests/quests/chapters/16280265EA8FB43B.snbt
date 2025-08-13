@@ -1556,6 +1556,40 @@
 			x: -4.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["75083785C06BCF5E"]
+			id: "0FFACD3A47EBE7F0"
+			rewards: [{
+				id: "6FADA73F08874648"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			subtitle: "末影隙间可以随机召唤一个生成于末地的神化BOSS"
+			tasks: [{
+				id: "58A175BB3EB35B40"
+				item: "kubejs:gap_theend"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75083785C06BCF5E"]
+			id: "013586B8211919FD"
+			rewards: [{
+				id: "2B8807004D30D554"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			subtitle: "末影隙间可以随机召唤一个生成于亚尔夫海姆的神化BOSS"
+			tasks: [{
+				id: "16C215ABBB549239"
+				item: "kubejs:gap_alfheim"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
 	]
 	title: "神化"
 }

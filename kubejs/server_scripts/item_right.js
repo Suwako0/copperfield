@@ -5,6 +5,58 @@ function ClearCustomDungeon(event) {
 }
 
 ItemEvents.rightClicked(event => {
+    const player = event.player
+    if (event.item.id == 'kubejs:gap_theend') {
+        const random = Math.floor(Math.random() * 8) + 1
+        switch(random) {
+        case 1:
+            event.server.runCommandSilent(`/apoth spawn_boss ${player.x} ${player.y} ${player.z} apotheosis:the_end/aquamancer`)
+            break
+        case 2:
+            event.server.runCommandSilent(`/apoth spawn_boss ${player.x} ${player.y} ${player.z} apotheosis:the_end/archevoker`)
+            break
+        case 3:
+            event.server.runCommandSilent(`/apoth spawn_boss ${player.x} ${player.y} ${player.z} apotheosis:the_end/cryomancer`)
+            break
+        case 4:
+            event.server.runCommandSilent(`/apoth spawn_boss ${player.x} ${player.y} ${player.z} apotheosis:the_end/endergolem`)
+            break
+        case 5:
+            event.server.runCommandSilent(`/apoth spawn_boss ${player.x} ${player.y} ${player.z}  apotheosis:the_end/enderman`)
+            break
+        case 6:
+            event.server.runCommandSilent(`/apoth spawn_boss ${player.x} ${player.y} ${player.z} apotheosis:the_end/endermite`)
+            break
+        case 7:
+            event.server.runCommandSilent(`/apoth spawn_boss ${player.x} ${player.y} ${player.z} apotheosis:the_end/phantom`)
+            break
+        case 8:
+            event.server.runCommandSilent(`/apoth spawn_boss ${player.x} ${player.y} ${player.z} apotheosis:the_end/shulker`)
+            break
+        }
+        event.item.shrink(1)
+    }
+    if (event.item.id == 'kubejs:gap_alfheim') {
+        const random = Math.floor(Math.random() * 4) + 1
+        switch(random) {
+            case 1:
+                event.server.runCommandSilent(`/apoth spawn_boss ${player.x} ${player.y} ${player.z} apotheosis:alfheim/aptrgangr`)
+                break
+            case 2:
+                event.server.runCommandSilent(`/apoth spawn_boss ${player.x} ${player.y} ${player.z} apotheosis:alfheim/haunted_knight`)
+                break
+            case 3:
+                event.server.runCommandSilent(`/apoth spawn_boss ${player.x} ${player.y} ${player.z} apotheosis:alfheim/koboleton`)
+                break
+            case 4:
+                event.server.runCommandSilent(`/apoth spawn_boss ${player.x} ${player.y} ${player.z} apotheosis:alfheim/royal_draugr`)
+                break
+                }
+        }
+        event.item.shrink(1)
+})
+
+ItemEvents.rightClicked(event => {
     if (!event.item.hasTag('kubejs:dungenos_key'))  return;
     event.server.runCommandSilent(`execute in kubejs:custom_dungeons run forceload add 1 1`)
     event.server.runCommandSilent(`execute in kubejs:custom_dungeons run tp @a 24 22 24`)

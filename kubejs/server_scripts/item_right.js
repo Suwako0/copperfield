@@ -52,8 +52,8 @@ ItemEvents.rightClicked(event => {
                 event.server.runCommandSilent(`/apoth spawn_boss ${player.x} ${player.y} ${player.z} apotheosis:alfheim/royal_draugr`)
                 break
                 }
+            event.item.shrink(1)
         }
-        event.item.shrink(1)
 })
 
 ItemEvents.rightClicked(event => {

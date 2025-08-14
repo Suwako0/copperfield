@@ -680,7 +680,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "大容量的魔力池，适合做魔力缓存池"
+			subtitle: "高级魔力池（？）实际上只是外观上更好看"
 			tasks: [{
 				id: "32756AF9E4BA9AB1"
 				item: {
@@ -906,6 +906,19 @@
 		{
 			dependencies: ["64E3D7A850827705"]
 			id: "1B92F9E7CEABE4F7"
+			rewards: [
+				{
+					id: "31D6F1B44C2EC432"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F7654A4AE6DF8C5"
+					table_id: 1448189378427347383L
+					type: "choice"
+				}
+			]
 			subtitle: "在腐化圣泉中收集机械融合站"
 			tasks: [{
 				id: "7E2FECA841449D49"

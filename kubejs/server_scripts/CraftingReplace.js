@@ -240,7 +240,9 @@ ServerEvents.recipes(e =>{
     //活石
     create.deploying('botania:livingrock',['minecraft:stone','botania:pure_daisy']).keepHeldItem()
     //下界岩
-    create.deploying('minecraft:netherrack',['minecraft:gravel','botania:pure_daisy']).keepHeldItem()
+    create.deploying('botania:livingrock',['minecraft:stone','botania:pure_daisy']).keepHeldItem()
+    //精灵玻璃
+    create.deploying('botania:bifrost_perm',['botania:elf_glass','botania:rainbow_rod']).keepHeldItem()
     //列王遗物
     create.deploying('kubejs:boss_remains',['mythicbotany:alfsteel_ingot','irons_spellbooks:blood_vial'])
     e.remove({output:'apotheosis:gem_fused_slate'})
@@ -470,6 +472,8 @@ ServerEvents.recipes(e =>{
     botania.mana_infusion("botania:black_lotus", ["#botania:mystical_flowers"], 7999, "kubejs:alfheim_crystal_block")
     //魔力转化 暗黑莲花
     botania.mana_infusion("botania:blacker_lotus", ["botania:black_lotus"], 91999, "kubejs:alfheim_crystal_block")
+    //魔力转化 亚尔夫海姆晶体
+    botania.mana_infusion(Item.of("kubejs:alfheim_crystal", 2), ["kubejs:alfheim_crystal"], 10000, "kubejs:alfheim_crystal_block")
     //凝矿兰 锌矿石
     botania.orechid("create:zinc_ore", "minecraft:stone", 3500)
     //泰拉凝聚板 终焉之钥

@@ -1581,7 +1581,7 @@
 				item: "apotheosis:mythic_material"
 				type: "item"
 			}]
-			subtitle: "末影隙间可以随机召唤一个生成于亚尔夫海姆的神化BOSS"
+			subtitle: "精灵隙间可以随机召唤一个生成于亚尔夫海姆的神化BOSS"
 			tasks: [{
 				id: "16C215ABBB549239"
 				item: "kubejs:gap_alfheim"

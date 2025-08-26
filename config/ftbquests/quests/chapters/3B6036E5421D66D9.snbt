@@ -196,6 +196,12 @@
 					}
 					type: "item"
 				}
+				{
+					count: 4
+					id: "64EEBC0C003115CD"
+					item: "under_the_moon:moon_lamp"
+					type: "item"
+				}
 			]
 			subtitle: "使用简易存储的终端连接任意容器可以使存储物品更加便捷（使用炉石可以返回你记录的床的位置，甚至可以跨越维度，如果你的炉石损坏或遗失，可以用符文祭坛再合成一个）"
 			tasks: [

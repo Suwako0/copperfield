@@ -223,6 +223,10 @@ ServerEvents.recipes(e =>{
     create.mixing('botania:fertilizer',['minecraft:bone_meal', '#forge:dyes'])
     //搅拌机 龙心容器
     create.mixing('kubejs:dragon_heart',['apotheosis:infused_breath', 'minecraft:nether_star', 'ends_delight:non_hatchable_dragon_egg']).superheated()
+    //搅拌机 袋装黑洞
+    create.mixing('traveloptics:pocket_black_hole',['traveloptics:end_eruption_bomb', 'kubejs:quartz_refining_body']).superheated()
+    //搅拌机 末地喷发炸弹
+    create.mixing('traveloptics:end_eruption_bomb',['minecraft:crying_obsidian', 'create:powdered_obsidian', 'minecraft:ender_eye']).superheated()
     //奥术源质
     create.mixing('irons_spellbooks:arcane_essence',['under_the_moon:sweptwood_leaves', '#botania:petals']).heated()
     //普通墨水

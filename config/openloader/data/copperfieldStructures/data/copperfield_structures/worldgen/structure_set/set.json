@@ -9,14 +9,18 @@
       "weight": 2
     },
     {
+      "structure": "copperfield_structures:airplane_crash_place",
+      "weight": 2
+    },
+    {
       "structure": "copperfield_structures:botanicreate_house",
       "weight": 1
     }
   ],
   "placement": {
     "salt": 98321721,
-    "spacing": 36,
-    "separation": 20,
+    "spacing": 24,
+    "separation": 12,
     "type": "minecraft:random_spread"
   }
 }

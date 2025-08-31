@@ -243,6 +243,14 @@ ServerEvents.recipes(e =>{
     create.deploying('botania:livingwood_log',['#minecraft:logs','botania:pure_daisy']).keepHeldItem()
     //活石
     create.deploying('botania:livingrock',['minecraft:stone','botania:pure_daisy']).keepHeldItem()
+    //其他白雏菊
+    create.deploying("minecraft:netherrack", ["minecraft:gravel",'botania:pure_daisy']).keepHeldItem()
+    create.deploying("minecraft:blue_ice", ["minecraft:packed_ice",'botania:pure_daisy']).keepHeldItem()
+    create.deploying("minecraft:cobblestone", ["minecraft:netherrack",'botania:pure_daisy']).keepHeldItem()
+    create.deploying("minecraft:cobbled_deepslate", ["minecraft:end_stone",'botania:pure_daisy']).keepHeldItem()
+    create.deploying("minecraft:obsidian", ["botania:blaze_block",'botania:pure_daisy']).keepHeldItem()
+    create.deploying("minecraft:packed_ice", ["minecraft:ice",'botania:pure_daisy']).keepHeldItem()
+    create.deploying("minecraft:sand", ["minecraft:soul_sand",'botania:pure_daisy']).keepHeldItem()
     //下界岩
     create.deploying('botania:livingrock',['minecraft:stone','botania:pure_daisy']).keepHeldItem()
     //精灵玻璃

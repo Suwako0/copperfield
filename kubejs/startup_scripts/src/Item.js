@@ -21,6 +21,11 @@ StartupEvents.registry('item',e=>{
     e.create('elecmentium_sheet','basic'),
     //泰拉钢板
     e.create('terrasteel_sheet','basic')
+    //天气控制器
+    e.create('season_controler_spring','basic').maxStackSize(1)
+    e.create('season_controler_summer','basic').maxStackSize(1)
+    e.create('season_controler_autumn','basic').maxStackSize(1)
+    e.create('season_controler_winter','basic').maxStackSize(1)
     //秘境炉石
     e.create('dungeons_hearthstone','basic').maxStackSize(1)
     e.create('dungeons_hearthstone_water','basic').maxStackSize(1)

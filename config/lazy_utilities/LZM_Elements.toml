@@ -1,0 +1,17 @@
+
+["Lazy Utilities (Element Module -/- System)"]
+	#Disables reactions; that is, elements can no longer interact with other elements
+	allowReactions = false
+	#Prevents the environment from adding elements to living entities
+	allowElementsInEnvironment = false
+
+["Lazy Utilities (Element Module -/- Debugging)"]
+	#Allows debugging of data supplied by the elementary reaction matrix
+	depurateReactions = false
+	#Allows debugging of data supplied by ICD (Internal Cooldown Dealer) System, allows obtaining the weapon element, the causing entity and the target and transferring data to the target entity
+	depurateICD = false
+	#Allows debugging of data supplied by ERCS (Elemental Reactions Cooldown System), provides the re-addition time for each elementary reaction, both for forward and reverse
+	depurateERCS = false
+	#Allows debugging of data supplied by EDS (Elemental Damage System), shows how the characteristics apply to damage caused by the player or as a result of the player
+	depurateDamage = false
+

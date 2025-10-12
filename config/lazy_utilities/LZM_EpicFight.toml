@@ -1,0 +1,5 @@
+
+["Lazy Utilities (EpicFight Module -/- Debugging)"]
+	#Displays redirected entries in the redirection system for the .minecraft/lazy_utilities/epicfight/*.zip folder
+	depurateRedirectorZip = false
+

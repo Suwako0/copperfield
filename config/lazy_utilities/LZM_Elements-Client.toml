@@ -1,0 +1,9 @@
+
+["Lazy Utilities (Element Module -/- Client)"]
+	#Allows rendering of the elemental damage type or physical damage type on the item's tooltip
+	allowAttributes = true
+	#renders physical damage type on the item's tooltip
+	allowPhysicalAttributes = false
+	#renders physical impact damage type on the item's tooltip
+	allowPhysicalImpactAttributes = false
+

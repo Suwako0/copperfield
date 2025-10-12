@@ -1527,16 +1527,14 @@
 		{
 			dependencies: ["5CC9A87BC0327FDE"]
 			description: [
-				"v0.9.8Patch"
-				"1.新增饰品：精灵秘境之戒"
-				"2.新增食用幻昙花羹可以增加头饰栏位"
-				"3.新增道具：末影隙间、精灵隙间（可召唤末地/精灵界的神化BOSS）"
-				"4.尝试解决了一个数据包导致客户端被服务器踢出的问题"
-				"5.亚尔夫海姆晶体现在可以用魔力催化复制"
+				"v0.9.9Path"
+				"1.部分模组更新、添加铁魔法附属模组-魔女的诅咒"
+				"2.任务书更新"
+				"3.试炼秘境结构更新"
 			]
 			icon: "botania:animated_torch"
 			id: "66360AE777260DAF"
-			subtitle: "当前:V0.9.8Patch Beta"
+			subtitle: "当前:V0.9.9Patch Beta"
 			tasks: [{
 				id: "791CD92AA6197EA8"
 				title: "更新日志"

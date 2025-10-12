@@ -5,6 +5,29 @@ function ClearCustomDungeon(event) {
 }
 
 ItemEvents.rightClicked(event => {
+    if (event.item.id == 'kubejs:season_controler_spring') {
+        event.server.runCommandSilent(`/season set early_spring`)
+        event.player.tell(Component.green('季节已调整为孟春'))
+        event.item.shrink(1)
+    }
+    if (event.item.id == 'kubejs:season_controler_summer') {
+        event.server.runCommandSilent(`/season set early_summer`)
+        event.player.tell(Component.green('季节已调整为孟夏'))
+        event.item.shrink(1)
+    }
+    if (event.item.id == 'kubejs:season_controler_autumn') {
+        event.server.runCommandSilent(`/season set early_autumn`)
+        event.player.tell(Component.green('季节已调整为孟秋'))
+        event.item.shrink(1)
+    }
+    if (event.item.id == 'kubejs:season_controler_winter') {
+        event.server.runCommandSilent(`/season set early_winter`)
+        event.player.tell(Component.green('季节已调整为孟冬'))
+        event.item.shrink(1)
+    }
+})
+
+ItemEvents.rightClicked(event => {
     const player = event.player
     if (event.item.id == 'kubejs:gap_theend') {
         const random = Math.floor(Math.random() * 8) + 1

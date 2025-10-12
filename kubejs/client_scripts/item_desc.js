@@ -19,4 +19,8 @@ ItemEvents.tooltip(event =>{
     event.add("kubejs:alfheim_crystal_block","随机生成于亚尔夫海姆地表")
     event.add("kubejs:gap_theend","§6随机召唤一个末地的神化BOSS")
     event.add("kubejs:gap_alfheim","§6随机召唤一个亚尔夫海姆的神化BOSS")
+    event.add("kubejs:season_controler_spring","将时间设置为孟春")
+    event.add("kubejs:season_controler_summer","将时间设置为孟夏")
+    event.add("kubejs:season_controler_autumn","将时间设置为孟秋")
+    event.add("kubejs:season_controler_winter","将时间设置为孟冬")
 })

@@ -1,0 +1,15 @@
+
+["Lazy Utilities (Better Combat Module -/- Render)"]
+	#X position of the UltimateSkill bar if it is of Charge Type
+	#Range: > -2147483648
+	ultimateSkillBarX = 0
+	#Y position of the UltimateSkill bar if it is of Charge Type
+	#Range: > -2147483648
+	ultimateSkillBarY = -65
+	#X position of the UltimateSkill name if it is of Charge Type
+	#Range: > -2147483648
+	ultimateSkillNameX = 50
+	#Y position of the UltimateSkill name if it is of Charge Type
+	#Range: > -2147483648
+	ultimateSkillNameY = -10
+

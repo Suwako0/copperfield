@@ -1,0 +1,14 @@
+{
+  "normal": {
+    "minecraft:fire_aspect": {
+      "particle": "epic_fight_potb:fire_particle",
+      "particle_alt": "epic_fight_potb:soul_fire_particle"
+    }
+  },
+  "innate_skill": {
+    "minecraft:fire_aspect": {
+      "particle": "epic_fight_potb:fire_particle_wind",
+      "particle_alt": "epic_fight_potb:soul_fire_particle_wind"
+    }
+  }
+}

@@ -48,6 +48,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["本整合包添加了大量铁魔法增效的附魔书，可提高法术效率"]
 			id: "658588FDA5AA493E"
 			rewards: [
 				{

@@ -280,35 +280,6 @@ ServerEvents.recipes(e =>{
     create.milling([Item.of('biomesoplenty:rose_quartz_chunk', 4)], 'biomesoplenty:rose_quartz_block');
     //亚尔夫海姆晶体分解
     create.milling([Item.of('kubejs:alfheim_crystal', 2), Item.of("kubejs:alfheim_crystal", 1).withChance(0.25), Item.of("kubejs:alfheim_crystal", 1).withChance(0.15)], 'kubejs:alfheim_crystal_block');
-    //合成亚尔夫海姆晶体
-    e.shaped('kubejs:alfheim_crystal_block',[
-        ['kubejs:alfheim_crystal','kubejs:alfheim_crystal'],
-        ['kubejs:alfheim_crystal','kubejs:alfheim_crystal']
-    ]);
-    //精灵秘境之戒
-    e.shaped('kubejs:alfheim_custom_dungeons_ring',[
-        ['','kubejs:alfheim_crystal',''],
-        ['kubejs:alfheim_crystal','kubejs:custom_dungeons_ring','kubejs:alfheim_crystal'],
-        ['','kubejs:alfheim_crystal','']
-    ]);
-    //亚尔夫海姆发簪
-    e.shaped('kubejs:alfheim_hairpin',[
-        ['','kubejs:alfheim_crystal',''],
-        ['kubejs:alfheim_crystal','kubejs:custom_dungeons_hairpin','kubejs:alfheim_crystal'],
-        ['','kubejs:alfheim_crystal','']
-    ]);
-    //末影隙间
-    e.shaped('kubejs:gap_theend',[
-        ['','minecraft:chorus_fruit',''],
-        ['kubejs:mana_diamond_sheet','apotheosis:common_material','kubejs:mana_diamond_sheet'],
-        ['','minecraft:shulker_shell','']
-    ]);
-    //末影隙间
-    e.shaped('kubejs:gap_alfheim',[
-        ['','kubejs:alfheim_crystal',''],
-        ['kubejs:mana_diamond_sheet','apotheosis:common_material','kubejs:mana_diamond_sheet'],
-        ['','kubejs:alfheim_crystal','']
-    ]);
     //宝石粉
     create.milling([Item.of("apotheosis:gem_dust", 1).withChance(0.05), Item.of("irons_spellbooks:arcane_essence", 1).withChance(0.1)], 'botania:mana_powder');
     //下界合金碎片产线
@@ -504,5 +475,47 @@ ServerEvents.recipes(e =>{
         ['','under_the_moon:moonstone',''],
         ['minecraft:crying_obsidian','kubejs:terrasteel_sheet','minecraft:crying_obsidian'],
         ['','under_the_moon:moonstone','']
+    ]);
+    //合成亚尔夫海姆晶体
+    e.shaped('kubejs:alfheim_crystal_block',[
+        ['kubejs:alfheim_crystal','kubejs:alfheim_crystal'],
+        ['kubejs:alfheim_crystal','kubejs:alfheim_crystal']
+    ]);
+    //精灵秘境之戒
+    e.shaped('kubejs:alfheim_custom_dungeons_ring',[
+        ['','kubejs:alfheim_crystal',''],
+        ['kubejs:alfheim_crystal','kubejs:custom_dungeons_ring','kubejs:alfheim_crystal'],
+        ['','kubejs:alfheim_crystal','']
+    ]);
+    //亚尔夫海姆发簪
+    e.shaped('kubejs:alfheim_hairpin',[
+        ['','kubejs:alfheim_crystal',''],
+        ['kubejs:alfheim_crystal','kubejs:custom_dungeons_hairpin','kubejs:alfheim_crystal'],
+        ['','kubejs:alfheim_crystal','']
+    ]);
+    //末影隙间
+    e.shaped('kubejs:gap_theend',[
+        ['','minecraft:chorus_fruit',''],
+        ['kubejs:mana_diamond_sheet','apotheosis:common_material','kubejs:mana_diamond_sheet'],
+        ['','minecraft:shulker_shell','']
+    ]);
+    //末影隙间
+    e.shaped('kubejs:gap_alfheim',[
+        ['','kubejs:alfheim_crystal',''],
+        ['kubejs:mana_diamond_sheet','apotheosis:common_material','kubejs:mana_diamond_sheet'],
+        ['','kubejs:alfheim_crystal','']
+    ]);
+    //合成季节控制器
+    e.shaped('kubejs:season_controler_spring',[
+        ['botania:rainbow_rod','botania:rune_spring'],
+    ]);
+    e.shaped('kubejs:season_controler_summer',[
+        ['botania:rainbow_rod','botania:rune_summer'],
+    ]);
+    e.shaped('kubejs:season_controler_autumn',[
+        ['botania:rainbow_rod','botania:rune_autumn'],
+    ]);
+    e.shaped('kubejs:season_controler_winter',[
+        ['botania:rainbow_rod','botania:rune_winter'],
     ]);
 })

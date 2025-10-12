@@ -229,7 +229,7 @@
 				title: "FTB队伍"
 				type: "checkmark"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: 3.5d
 		}
 		{
@@ -251,6 +251,36 @@
 			title: "腰挂灯笼"
 			x: -4.5d
 			y: -3.5d
+		}
+		{
+			dependencies: ["7D98B3F45464BBB3"]
+			id: "7E10027F5A7AC4AC"
+			subtitle: "使用季节控制器来调整季节"
+			tasks: [
+				{
+					id: "78EA432747ED6A9A"
+					item: "kubejs:season_controler_spring"
+					type: "item"
+				}
+				{
+					id: "289321A4A09A4907"
+					item: "kubejs:season_controler_summer"
+					type: "item"
+				}
+				{
+					id: "6DFC7648D62FDD52"
+					item: "kubejs:season_controler_autumn"
+					type: "item"
+				}
+				{
+					id: "16FBCB46E2333580"
+					item: "kubejs:season_controler_winter"
+					type: "item"
+				}
+			]
+			title: "季节控制器"
+			x: -2.5d
+			y: 3.5d
 		}
 	]
 	title: "实用小功能"

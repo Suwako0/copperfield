@@ -1,0 +1,30 @@
+[
+  {
+    "enchantment": "minecraft:sharpness",
+    "particle": "minecraft:crit"
+  },
+  {
+    "enchantment": "minecraft:smite",
+    "particle": "minecraft:enchanted_hit"
+  },
+  {
+    "enchantment": "minecraft:bane_of_arthropods",
+    "particle": "minecraft:ash"
+  },
+  {
+    "enchantment": "minecraft:knockback",
+    "particle": "epic_fight_potb:knockback_particle"
+  },
+  {
+    "enchantment": "minecraft:looting",
+    "particle": "epic_fight_potb:looting_particle"
+  },
+  {
+    "enchantment": "minecraft:unbreaking",
+    "particle": "epic_fight_potb:unbreaking_particle"
+  },
+  {
+    "enchantment": "minecraft:vanishing_curse",
+    "particle": "minecraft:mycelium"
+  }
+]

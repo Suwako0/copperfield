@@ -1,0 +1,5 @@
+
+["Lazy Utilities -/- Codex"]
+	#Allows you to render the Armor Stand carried by the armor, when an Armor Code details  is opened.
+	renderArmorStand = true
+

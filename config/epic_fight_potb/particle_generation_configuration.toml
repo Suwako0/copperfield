@@ -1,0 +1,43 @@
+
+["Particle Config"]
+	#Base State Particle Ratio, this setting allows you to control the amount of particles generated on a compatible weapon or item when it is base enchanted.
+	# Standard and recommended value 0.5
+	#Range: 0.1 ~ 1.0
+	baseParticleValue = 0.5
+	#Ratio of particles generated when the player executes an Innate Skill
+	# Standard and recommended value 0.35
+	#Range: 0.1 ~ 1.0
+	innateParticleValue = 0.35
+	#Base value of percentage type, on which the particle system iterates, this value will be distributed based on the loss factor.
+	#The recommended value is '1.0' which represents 100% when you have a single enchantment
+	#Range: 0.1 ~ 2.0
+	winParticleRate = 1.0
+	#The particle loss factor determines how much the particles are reduced for each enchantment.
+	#The recommended value 0.85 (15%) reduction for each enchantment
+	#Range: 0.1 ~ 1.0
+	loseParticleRate = 0.85
+	#Minimum achievable value based on mapped enchantments.
+	#The recommended value 0.3 (70%)
+	#Range: 0.1 ~ 1.0
+	minParticleRate = 0.3
+	#Percentage generated when there are no enchantments but the weapon is set to generate particles
+	#The recommended value 1.0 (100%)
+	#Range: 0.1 ~ 1.0
+	noEnchantParticleRate = 1.0
+	#Determines the final proportion of particles generated at the end of the process, this applies to the 'Enchant' and 'Flame' particles.
+	#The recommended value 0.43 (57%)
+	#Range: 0.1 ~ 1.0
+	finalParticleRate = 0.43
+	#Determines the final proportion of particles generated at the end of the process, this applies only to the 'Enchant' particle
+	#The recommended value 0.3 (70%)
+	#Range: 0.1 ~ 1.0
+	finalEnchantParticleRate = 0.3
+	#Determines the final proportion of particles generated at the end of the process, this applies only to the 'Flame' particle
+	#The recommended value 0.5 (50%)
+	#Range: 0.1 ~ 1.0
+	finalFireParticleRate = 0.5
+	#Determines the final proportion of particles generated at the end of the process, this applies only to the 'Flame Wind' particle
+	#The recommended value 0.4 (60%)
+	#Range: 0.1 ~ 1.0
+	finalInnateFireParticleRate = 0.4
+

@@ -2829,6 +2829,7 @@
 		}
 		{
 			dependencies: ["43F51C6E3777AFBA"]
+			description: ["已知生成虚空大教堂存在bug，若进入传送门维度后没有生成虚空大教堂，请打开作弊手动执行"]
 			id: "4B7E8EFDDC860FED"
 			rewards: [{
 				id: "79D9F25B7507AE7E"
@@ -2883,6 +2884,23 @@
 			title: "击杀夜巡者"
 			x: -2.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["4B7E8EFDDC860FED"]
+			id: "4D980C5CDFA4DFCD"
+			rewards: [{
+				command: "/execute in kubejs:the_past run place template traveloptics:void_cathedral 0 30 0"
+				id: "00EE15E7A21748DD"
+				type: "command"
+			}]
+			subtitle: "目前已知进入传送门维度后，可能出现结构加载不成功的BUG，若出现，请确保有人在该维度，然后点击奖励执行该指令"
+			tasks: [{
+				id: "3AE0C5B368EB6F0A"
+				title: "生成BUG"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 2.0d
 		}
 	]
 	title: "旅途"

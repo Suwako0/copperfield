@@ -1,4 +1,6 @@
 ServerEvents.recipes(e =>{
+    //<---------- 机械动力弱肉强食 ---------->
+    e.remove({output: '@create_peaceful'})
     //<---------- 永恒之门 ---------->
     e.remove({output: '@gateways'})
     //<---------- 铁魔法 ---------->
@@ -274,6 +276,9 @@ ServerEvents.recipes(e =>{
     create.haunting('kubejs:gem_origin_green', 'kubejs:gem_origin')
     e.smoking('kubejs:gem_origin_yellow', 'kubejs:gem_origin')
     e.blasting('kubejs:gem_origin_red', 'kubejs:gem_origin')
+    //动物 怪物 BOSS精华
+    create.mixing([Item.of('create_peaceful:monster_essence', 1).withChance(0.15)], ['create_peaceful:animal_essence', 'kubejs:mystery_pollen']).heated();
+    create.mixing([Item.of('create_peaceful:boss_essence', 1).withChance(0.15)], ['create_peaceful:monster_essence', 'kubejs:mystery_pollen']).heated();
     //神秘花粉末
     create.milling(['kubejs:mystery_pollen', Item.of('kubejs:mystery_pollen', 1).withChance(0.5)], '#botania:mystical_flowers');
     //玫瑰石英分解

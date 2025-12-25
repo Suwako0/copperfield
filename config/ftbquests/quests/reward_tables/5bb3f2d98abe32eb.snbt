@@ -6,7 +6,7 @@
 		{
 			item: {
 				Count: 1
-				id: "alexscaves:frostmint_spear"
+				id: "wukong:staff"
 				tag: {
 					Enchantments: [{
 						id: "minecraft:sharpness"

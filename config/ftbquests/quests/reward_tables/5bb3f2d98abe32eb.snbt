@@ -8,6 +8,7 @@
 				Count: 1
 				id: "wukong:staff"
 				tag: {
+					Damage: 0
 					Enchantments: [{
 						id: "minecraft:sharpness"
 						lvl: 3s

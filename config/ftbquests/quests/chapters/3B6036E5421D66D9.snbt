@@ -1527,14 +1527,15 @@
 		{
 			dependencies: ["5CC9A87BC0327FDE"]
 			description: [
-				"v0.9.9Path"
-				"1.部分模组更新、添加铁魔法附属模组-魔女的诅咒"
-				"2.任务书更新"
-				"3.试炼秘境结构更新"
+				"v1.0.0"
+				"1.添加了新的试炼秘境-无尽试炼，挑战你能打到多少层吧！"
+				"2.诸多模组更新、Forge更新，解决一些bug"
+				"3.添加机械动力附属-弱肉强食"
+				"4.妖怪们的归家的发带现在可以在饰品栏佩戴，而不需要再占用头盔"
 			]
 			icon: "botania:animated_torch"
 			id: "66360AE777260DAF"
-			subtitle: "当前:V0.9.9Patch Beta"
+			subtitle: "当前:V1.0.0"
 			tasks: [{
 				id: "791CD92AA6197EA8"
 				title: "更新日志"
